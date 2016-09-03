@@ -4,8 +4,8 @@ Repozytorium Mrucznik-RP-obiekty zostało stworzone, aby ułatwić wgrywanie obi
 #Pliki, foldery
 W głównym folderze repozytorium znajdziesz pliki nowe_obiekty.pwn oraz stare_obiekty.pwn.
 
-*W pliku stare_obiekty.pwn załączone są pliki z folderu stare_obiekty. Pliki te nie zostały jeszcze przekonwertowane na nowy system, nastąpi to niebawem.
-*W pliku nowe_obiekty.pwn załączone są z folderu nowe_obiekty. Wszelkie nowe prace powinny być załączane do tego pliku i umieszczane w tym folderze.
+* W pliku stare_obiekty.pwn załączone są pliki z folderu stare_obiekty. Pliki te nie zostały jeszcze przekonwertowane na nowy system, nastąpi to niebawem.
+*  pliku nowe_obiekty.pwn załączone są z folderu nowe_obiekty. Wszelkie nowe prace powinny być załączane do tego pliku i umieszczane w tym folderze.
 
 #Nazewnictwo
 Nazewnictwo, które powinno być stosowane przy wgrywaniu obiektów jest przedstawione na przykładzie obiektów "exampleObjects".
