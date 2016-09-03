@@ -11,6 +11,7 @@ Nazewnictwo, które powinno być stosowane przy wgrywaniu obiektów jest przedst
 
 #Jak przygotować obiekty do wgrania?
 Aby poprawnie wgrać obiekty na nasze repozytorium postępuj według określonych kroków:
+ 
 1. Wejdź na swojego branch'a lub stwórz nowego (nazwij go swoim nickiem) na github'ie
 2. Stwórz folder o nazwie określającej twoją pracę. Nazwa nie powinna zawierać spacji a każde słowo powinno być rozpoczynane wielką literą (PascalCase). Staraj się używać krótkich nazw, a opis obiektów załączać w osobnym pliku.
 3. Stwórz plik o takiej samej nazwie, jak folder, z tym, że nazwa powinna zaczynać się z małej litery (camelCase)
