@@ -18,7 +18,8 @@ Aby poprawnie wgrać obiekty na nasze repozytorium postępuj według określonyc
 3. Stwórz plik o takiej samej nazwie, jak folder, z tym, że nazwa powinna zaczynać się z małej litery (camelCase)
 4. Dodaj swoje obiekty zgodnie z formatem, jaki jest podany w pliku: /nowe_obiekty/ExampleObjects/exampleObjects.pwn.
  * W razie, gdy posiadasz obiekty, które nie zgadzają się z formatem podanym w exampleObjects.pwn, skorzystaj z [konwertera obiektów](http://convertffs.com/). Jako output wybierz "Icognito's Streamer Plugin".
-5. Stwórz pull-request'a do brancha master
+5. Dodaj swój plik projektu za pomocą dyrektywy #include oraz wywołania funkcji swojego projektu w odpowiednikach w pliku nowe_obiekty.pwn
+6. Stwórz pull-request'a do brancha master
 
 #Nie umiem przygotować obiektów do wgrania, co teraz?
 Jeżeli nie udało ci się przygotować obiektów do wgrania, ponieważ nie jesteś w stanie ogarnąć, jak zrobić to poprawnie lub masz pewne wątpliwości czy też napotkałeś pewne komplikacje, nie wszystko stracone.
