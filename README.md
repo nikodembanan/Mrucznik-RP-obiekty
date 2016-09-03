@@ -3,6 +3,7 @@ Repozytorium Mrucznik-RP-obiekty zostało stworzone, aby ułatwić wgrywanie obi
 
 #Pliki, foldery
 W głównym folderze repozytorium znajdziesz pliki nowe_obiekty.pwn oraz stare_obiekty.pwn.
+
 *W pliku stare_obiekty.pwn załączone są pliki z folderu stare_obiekty. Pliki te nie zostały jeszcze przekonwertowane na nowy system, nastąpi to niebawem.
 *W pliku nowe_obiekty.pwn załączone są z folderu nowe_obiekty. Wszelkie nowe prace powinny być załączane do tego pliku i umieszczane w tym folderze.
 
@@ -16,7 +17,6 @@ Aby poprawnie wgrać obiekty na nasze repozytorium postępuj według określonyc
 2. Stwórz folder o nazwie określającej twoją pracę. Nazwa nie powinna zawierać spacji a każde słowo powinno być rozpoczynane wielką literą (PascalCase). Staraj się używać krótkich nazw, a opis obiektów załączać w osobnym pliku.
 3. Stwórz plik o takiej samej nazwie, jak folder, z tym, że nazwa powinna zaczynać się z małej litery (camelCase)
 4. Dodaj swoje obiekty zgodnie z formatem, jaki jest podany w pliku: /nowe_obiekty/ExampleObjects/exampleObjects.pwn.
-
 * W razie, gdy posiadasz obiekty, które nie zgadzają się z formatem podanym w exampleObjects.pwn, skorzystaj z [konwertera obiektów](http://convertffs.com/). Jako output wybierz "Icognito's Streamer Plugin".
 5. Stwórz pull-request'a do brancha master
 
