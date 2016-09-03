@@ -1,1 +1,0 @@
-# Mrucznik-RP-obiekty
