@@ -131,6 +131,15 @@ exampleObjects_StworzObiekty()
 	CreateDynamicObject(1231,2791.6701700,-1599.5133100,12.6862300,0.0000000,0.0000000,0.0000000); //
 	CreateDynamicObject(1231,2765.5170900,-1611.0910600,13.7419900,90.0000000,0.0000000,91.6799900); //
 	CreateDynamicObject(1231,2797.4604500,-1624.2647700,13.1922000,90.0000000,0.0000000,-103.3200100); //
+	CreateDynamicObject(1215,2832.3071300,-1584.7076400,10.5549100,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2832.9968300,-1583.5382100,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2833.6281700,-1582.4017300,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2834.3217800,-1581.1939700,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2834.9370100,-1580.1361100,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2835.5520000,-1579.0831300,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2836.2619600,-1577.8981900,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2831.5964400,-1585.9635000,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
+	CreateDynamicObject(1215,2836.9028300,-1576.8031000,10.5549000,0.0000000,0.0000000,0.0000000); //Lampa przed "Statuą"
 
 	//Tutaj wstawiamy obiekty/pickupy/3dtexty/ikonki w nastepuj1cym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
@@ -172,7 +181,7 @@ exampleObjects_UsunObiekty()
 	RemoveBuildingForPlayer(playerid, 620, 2809.2734, -1556.3125, 9.5469, 0.25);
 	RemoveBuildingForPlayer(playerid, 1290, 2808.7109, -1562.2578, 15.9844, 0.25);
 	RemoveBuildingForPlayer(playerid, 1294, 2848.3516, -1567.9531, 14.6797, 0.25);
-	//Tutaj wstawiamy usuwanie obiekt�w z mapy GTA w formacie:
+	//Tutaj wstawiamy usuwanie obiektów z mapy GTA w formacie:
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
 	return 1;
 }
