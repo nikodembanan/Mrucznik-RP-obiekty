@@ -4,7 +4,7 @@
 //-----------------------------------------[ Modu3: nowe_obiekty.pwn ]--------------------------------------------//
 //Opis: By SzYm3k
 /*
-	Do tego pliku zamieszczamy wszelkie funkcje, które musz1 zostaa wywo3ane, aby dodane zosta3y nowe obiekty
+	Do tego pliku zamieszczamy wszelkie funkcje, ktÃ³re musz1 zostaa wywo3ane, aby dodane zosta3y nowe obiekty
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -28,7 +28,7 @@
 //-----------------<[ Include: ]>-------------------
 #include "modules\obiekty\nowe_obiekty\Example Objects\example_object.pwn"
 
-//-----------------<[ G3ówne funkcje: ]>-------------------
+//-----------------<[ G3Ã³wne funkcje: ]>-------------------
 StworzObiekty()
 {
 	exampleObjects_StworzObiekty();
@@ -134,27 +134,9 @@ StworzObiekty()
 	CreateDynamicObject(1229,1980.8964800,-2159.9040500,13.7475700,0.0000000,0.0000000,87.9599800); //
 	CreateDynamicObject(1248,1935.3665800,-2212.7358400,17.9337200,0.0000000,0.0000000,176.8200400); //
 	
-	new obiektid =	CreateDynamicObject(7901, 1959.42285, -2191.14697, 22.04817,   0.00000, 0.00000, -179.45990);
- 	SetObjectMaterialText(obiektid, "Lotnisko Los Santos\nDuma i Chwa³a", 0, OBJECT_MATERIAL_SIZE_256x128,
- 	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //Bilbord
-
-/*
-Objects converted: 100
-Vehicles converted: 0
-Vehicle models found: 0
-----------------------
-In the time this conversion took to finish a hummingbird could have flapped it's wings 0.86 times!
-*/
-
-
-
-
-
-
-
 
 	new obiektid =	CreateDynamicObject(7901,1959.4228500,-2191.1469700,22.0481700,0.0000000,0.0000000,-179.4599000);
- 	SetObjectMaterialText(obiektid, "Lotnisko Los Santos\nDuma i Chwa³a", 0, OBJECT_MATERIAL_SIZE_256x128,
+ 	SetObjectMaterialText(obiektid, "Lotnisko Los Santos\nDuma i ChwaÅ‚a", 0, OBJECT_MATERIAL_SIZE_256x128,
  	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //Bilbord
  	
 	printf("Stworzono obiekty");
@@ -164,16 +146,17 @@ In the time this conversion took to finish a hummingbird could have flapped it's
 StworzBramy()
 {
 	exampleObjects_StworzBramy();
-//Proszê o uzupe³nienie s¹ 2 bramy:
-//CreateDynamicObject(980,1961.1519800,-2189.7443800,13.2786000,0.0000000,0.0000000,0.0000000);// Zamkniêta PODPIÊTE POD KT
-//CreateDynamicObject(980,1961.1519800,-2189.7443800,9.8168800,0.0000000,0.0000000,0.0000000);// Otwarta PODPIÊTE POD KT
+//ProszÄ™ o uzupeÅ‚nienie sÅ¡ 3 bramy:
+//CreateDynamicObject(980,1961.1519800,-2189.7443800,13.2786000,0.0000000,0.0000000,0.0000000);// ZamkniÄ™ta PODPIÄ˜TE POD KT
+//CreateDynamicObject(980,1961.1519800,-2189.7443800,9.8168800,0.0000000,0.0000000,0.0000000);// Otwarta PODPIÄ˜TE POD KT
 
-//CreateDynamicObject(8378,2018.7738000,-2371.9118700,22.3711000,0.0000000,0.0000000,-90.0000000); //Zamniêta PODPIÊTE POD KT
-//CreateDynamicObject(8378,2018.7738000,-2371.9118700,3.2627900,0.0000000,0.0000000,-90.0000000); // Otwarta PODPIÊTE POD KT
+//CreateDynamicObject(8378,2018.7738000,-2371.9118700,22.3711000,0.0000000,0.0000000,-90.0000000); //ZamniÄ™ta PODPIÄ˜TE POD KT
+//CreateDynamicObject(8378,2018.7738000,-2371.9118700,3.2627900,0.0000000,0.0000000,-90.0000000); // Otwarta PODPIÄ˜TE POD KT
 
 
-//CreateDynamicObject(3663,1939.4255400,-2278.2922400,14.4712900,0.0000000,0.0000000,-180.9600800); // Zamkniêta PODPIÊTE POD KT
-//CreateDynamicObject(3663,1922.9428700,-2279.6201200,14.5875800,0.0000000,0.0000000,-180.9600800); // Otwarta PODPIÊTE POD KT
+//CreateDynamicObject(3663,1939.4255400,-2278.2922400,14.4712900,0.0000000,0.0000000,-180.9600800); // ZamkniÄ™ta PODPIÄ˜TE POD KT
+//CreateDynamicObject(3663,1922.9428700,-2279.6201200,14.5875800,0.0000000,0.0000000,-180.9600800); // Otwarta PODPIÄ˜TE POD KT
+	
 	printf("Stworzono bramy");
 	return 1;
 }
