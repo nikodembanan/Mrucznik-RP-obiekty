@@ -145,16 +145,6 @@ public OnFilterScriptInit()
 	CreateObject(19893, 1238.13220, -1446.75769, 13.05247,   0.00000, 0.00000, 92.69997);
 	CreateObject(4988, 1232.95642, -1433.01941, 26.71527,   0.00000, 0.00000, -80.04002);
 	CreateObject(1281, 1255.55786, -1430.29163, 13.34531,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1254.48596, -1425.26208, 13.28527,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1254.86267, -1435.87683, 13.40036,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1236.22131, -1435.09143, 13.42328,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1236.94299, -1430.51404, 13.32799,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1234.46472, -1424.27686, 13.32513,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1240.77698, -1425.14001, 13.33611,   0.00000, 0.00000, 0.00000);
-	CreateObject(1281, 1249.33020, -1425.07104, 13.25790,   0.00000, 0.00000, 0.00000);
-
-
-
 
 
 
@@ -162,8 +152,8 @@ public OnFilterScriptInit()
 //__________________________________________Podmiany obiektow spod sceny________________________________________
 
 	new obiektid =	CreateObject(19327, 1496.98389, -1667.28784, 18.32660,   0.00000, 0.00000, 0.00000);
- 	SetObjectMaterialText(obiektid, "Lista kandydat體\nna funkcje Gubernatora", 0, OBJECT_MATERIAL_SIZE_256x128,
- 	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //tablica g丑wna
+ 	SetObjectMaterialText(obiektid, "Lista kandydat贸w\nna funkcje Gubernatora", 0, OBJECT_MATERIAL_SIZE_256x128,
+ 	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //tablica g艂贸wna
  	
 	obiektid =	CreateObject(19328, 1496.00830, -1667.31421, 15.88310,   0.00000, 0.00000, 0.00000);
  	SetObjectMaterialText(obiektid, "1. Miles Doutcher\n2. Joe Tyler\n3. Andrew Leppere\n4.Miroslaw Spruta\n5.Morgan Johnson", 0, OBJECT_MATERIAL_SIZE_256x128,
@@ -177,11 +167,11 @@ public OnFilterScriptInit()
 	SetObjectMaterialText(obiektid, "11. Armin Verwest\n12. Wiktor McKain\n13. Adil Arrif Azzam", 0, OBJECT_MATERIAL_SIZE_256x128,
  	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //tablica wyborcza2
  	
-//__________________________________________Podmiany obiekt體 spod punktu wyborczego______________________________
+//__________________________________________Podmiany obiekt贸w spod punktu wyborczego______________________________
 
 
 	obiektid =  CreateObject(19327, 1240.71619, -1448.57080, 15.13830,   0.00000, 0.00000, -180.66000);
-	SetObjectMaterialText(obiektid, "Strefa kandydat體", 0, OBJECT_MATERIAL_SIZE_256x128,
+	SetObjectMaterialText(obiektid, "Strefa kandydat贸w", 0, OBJECT_MATERIAL_SIZE_256x128,
  	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //strefa
  	
  	obiektid =  CreateObject(19327, 1253.05005, -1448.62268, 15.13548,   0.00000, 0.00000, 180.00020);
@@ -197,7 +187,7 @@ public OnFilterScriptInit()
  	"Georgia", 28, 0, 0xFFFF8200, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //wybor3
  	
  	obiektid =  CreateObject(4988, 1232.95642, -1433.01941, 26.71527,   0.00000, 0.00000, -80.04002);
-	SetObjectMaterialText(obiektid, "1 tura wybor體\n30-10-2016 ", 0, OBJECT_MATERIAL_SIZE_256x128,
+	SetObjectMaterialText(obiektid, "1 tura wybor贸w\n30-10-2016 ", 0, OBJECT_MATERIAL_SIZE_256x128,
  	"Arial Black", 28, 0, 0xFFFFFFFF, 0xFF000000,  OBJECT_MATERIAL_TEXT_ALIGN_CENTER); //wybor3
  	
  	
@@ -233,7 +223,7 @@ public OnFilterScriptInit()
 
 public OnPlayerConnect(playerid)
 {
-//__________________________Usuni阾e obiekty pod scena___________________________________
+//__________________________Usuni臋te obiekty pod scena___________________________________
 
 	RemoveBuildingForPlayer(playerid, 1280, 1468.9844, -1694.0469, 13.4531, 0.25);
 	RemoveBuildingForPlayer(playerid, 1280, 1468.9844, -1682.7188, 13.4531, 0.25);
@@ -243,7 +233,7 @@ public OnPlayerConnect(playerid)
 	RemoveBuildingForPlayer(playerid, 712, 1480.6094, -1666.1797, 22.2578, 0.25);
 	RemoveBuildingForPlayer(playerid, 712, 1488.2266, -1666.1797, 22.2578, 0.25);
 	
-//__________________________Obiekty usuni阾e spod punktu wyborczego_____________________
+//__________________________Obiekty usuni臋te spod punktu wyborczego_____________________
 
 	RemoveBuildingForPlayer(playerid, 6068, 1247.9141, -1429.9688, 15.1250, 0.25);
 	RemoveBuildingForPlayer(playerid, 792, 1236.2813, -1443.0313, 12.7188, 0.25);
