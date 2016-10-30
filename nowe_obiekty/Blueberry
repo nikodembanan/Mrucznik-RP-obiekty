@@ -1,5 +1,6 @@
 #include <a_samp>
 
+//UWAGA! PROSZĘ O OSKRYPTOWANIE TEGO! SZCZEGÓŁY ZNAJDZIECIE TUTAJ http://imgur.com/a/Q2vpJ
 
 public OnFilterScriptInit()
 {
