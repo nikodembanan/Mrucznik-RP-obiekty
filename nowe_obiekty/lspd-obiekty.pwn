@@ -41,7 +41,7 @@ public OnFilterScriptInit()
 	CreateDynamicObject(1535, 1568.62146, -1634.25244, 12.39020,   0.00000, 0.00000, 10.00000);//drzwi wejœciowe
 
 	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1576.48, -1649.20, 8.00, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
-	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1554.66687, -1637.68762, 13.32, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
+	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1560.1811, -1637.0171, 13.5678, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
 
     SetObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1662.81982, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
 	SetObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1653.18640, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
@@ -386,9 +386,11 @@ public OnFilterScriptInit()
     SetObjectMaterialText(niewidzialne2, " ", 1, 100, "Arial Black", 45, 1, 0xFFFFFFFF, 0, 1);//niewidzialne
 
 	//winda - góra
-	CreateDynamicObject(18755, 1554.73315, -1639.85657, 14.29870,   0.00000, 0.00000, -90.00000);
-	CreateDynamicObject(18757, 1554.69482, -1636.01208, 14.31620,   0.00000, 0.00000, 90.00000);
-	CreateDynamicObject(18756, 1554.68396, -1636.01208, 14.31620,   0.00000, 0.00000, 90.00000);
+	CreateDynamicObject(18755, 1560.1971, -1639.1947, 14.2987,   0.00000, 0.00000, -90.00000);
+	CreateDynamicObject(18757, 1560.1442, -1635.3511, 14.3162,   0.00000, 0.00000, 90.00000);
+	CreateDynamicObject(18756, 1560.1372, -1635.3523, 14.3162,   0.00000, 0.00000, 90.00000);
+	CreateDynamicObject(19435, 1558.09875, -1637.94885, 11.46790,   0.00000, 0.00000, 0.00000);
+	CreateDynamicObject(19435, 1562.28333, -1637.94885, 11.46790,   0.00000, 0.00000, 0.00000);
 
 			//na dach - niewidzialne
 
