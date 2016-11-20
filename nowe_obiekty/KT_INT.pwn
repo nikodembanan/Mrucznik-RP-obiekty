@@ -22,6 +22,9 @@
 //----------------------------------------------------*------------------------------------------------------//
 
 //
+//UWAGA
+//Należy oskryptować wejdź w interiorze, ponieważ dobudowane zostały nowe pomieszczenia. NIE INTERIOR
+//Proszę o oskryptowanie tutaj /wejdz do kordów ---> 2539.41602, -2124.29907, 20.66727,   
 
 //-----------------<[ Funkcje: ]>-------------------
 exampleObjects_StworzObiekty()
@@ -474,9 +477,9 @@ exampleObjects_StworzObiekty()
 //______________________________Textdrawy________________________________________________________________________
 
 
-    CreateDynamic3DTextLabel(const text[Biura Prezes�w], 0xFFFFFFFF, 2491.75049, -2121.19360, 32.34750, 10, attachedplayer = INVALID_PLAYER_ID, attachedvehicle = INVALID_VEHICLE_ID, testlos = 0, worldid = 3, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_3D_TEXT_LABEL_SD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
+    CreateDynamic3DTextLabel(const text[Biura Prezesów], 0xFFFFFFFF, 2491.75049, -2121.19360, 32.34750, 10, attachedplayer = INVALID_PLAYER_ID, attachedvehicle = INVALID_VEHICLE_ID, testlos = 0, worldid = 3, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_3D_TEXT_LABEL_SD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
 
-//Prosz� o oskryptowanie tutaj /wejdz do kord�w ---> 2539.41602, -2124.29907, 20.66727,   
+
 	return 1;
 }
 
