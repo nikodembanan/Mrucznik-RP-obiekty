@@ -47,7 +47,6 @@ kordy /duty: 1572.1919,-1631.5922,13.3991
 StworzObiekty()
 {
 	exampleObjects_StworzObiekty(); 
-	printf("Stworzono obiekty");
 	
 	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1576.48, -1649.20, 8.00, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
 	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1560.1811, -1637.0171, 13.5678, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
@@ -472,13 +471,15 @@ StworzObiekty()
 	CreateDynamicObject(1893, 1575.27222, -1668.24316, 12.12000,   0.00000, 0.00000, 89.00000);
 	CreateDynamicObject(1893, 1575.27222, -1652.41492, 12.12000,   0.00000, 0.00000, 89.00000);
 	
+	printf("Stworzono obiekty");
+	
 	return 1;
 }
 
 StworzBramy()
 {
 	exampleObjects_StworzBramy();
-	printf("Stworzono bramy");
+
 	/*
 	CreateObject(980, 1539.6946, -1628.6476, 9.5946, 0.0000, 0.0000, 90.0000); //otwarta brama
 	CreateObject(980, 1539.6946, -1628.6476, 15.1434, 0.0000, 0.0000, 90.0000); //zamknieta brama
@@ -489,6 +490,8 @@ StworzBramy()
 	CreateObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 10.0000); //otwarte drzwi
 	CreateObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 90.0000); //zamkniete drzwi
 	*/
+	
+	printf("Stworzono bramy");
 	return 1;
 }
 
