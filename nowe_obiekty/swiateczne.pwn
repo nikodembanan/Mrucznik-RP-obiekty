@@ -1,3 +1,5 @@
+//obiekty byÅ‚y przetestowane nie zawierajÄ… Å¼adnych bugÃ³w/bÅ‚Ä™dÃ³w wystarczy je tylko wgraÄ‡ na serwer.
+
 #include <a_samp>
 
 
@@ -316,7 +318,7 @@ public OnFilterScriptInit()
 	CreateObject(3472, 1912.03479, -2156.44580, 12.52741,   0.00000, 0.00000, 0.00000);
 	CreateObject(3472, 954.57843, -954.15088, 39.02036,   0.00000, 0.00000, 0.00000);
 	
-	//w intku Urzêdu Miasta - DMV
+	//w intku UrzÄ™du Miasta - DMV
 	CreateObject(19066, -1813.04541, 513.21527, -19.52700,   0.00000, 40.00000, 130.13780);
 	CreateObject(19076, 1111.58374, 1067.86768, -3.95530,   0.00000, 180.00000, 90.00000);
 	CreateObject(19089, 1111.49402, 1083.20007, -15.59510,   0.00000, 90.00000, 90.00000);
@@ -332,7 +334,7 @@ public OnFilterScriptInit()
 
 
 
-	//ba³wan
+	//baÅ‚wan
 	    //dmv
 	SetObjectMaterial(CreateObject(19060, 1484.93555, -1711.16235, 14.93300,   180.00000, 0.00000, 0.00000), 1, 3914, "snow", "mp_snow", 0xFFFFFFFF);
 	SetObjectMaterial(CreateObject(19061, 1484.93555, -1711.16235, 13.36700,   180.00000, 0.00000, 0.00000), 1, 3914, "snow", "mp_snow", 0xFFFFFFFF);
@@ -359,10 +361,6 @@ public OnFilterScriptInit()
 	SetObjectMaterial(CreateObject(19576, 2809.36279, -1558.54272, 12.17980,   0.00000, 0.00000, 0.00000), 0, 11631, "mp_ranchcut", "mpCJ_Black_metal", 0xFFFFFFFF);
 	SetObjectMaterial(CreateObject(19631, 2809.30273, -1558.69507, 12.09320,   0.00000, 0.00000, 248.70050), 0, 11631, "mp_ranchcut", "mpCJ_Black_metal", 0xFFFFFFFF);
 	CreateObject(18961, 2809.22461, -1558.65027, 11.92390,   180.00000, 0.00000, 337.64639);
-
-
-	//napisy SetObjectMaterialText(CreateObject(19864, 2128.6633, -1763.4248, 19.1782,   0.00000, 0.00000, -90.00000), "Weso³ych Œwi¹t \ni Szczêœliwego Nowego Roku!", 0, 140, "Arial Black", 35, 1, 0xFF0000FF, 0, 1);
-
 
 	return 1;
 }
