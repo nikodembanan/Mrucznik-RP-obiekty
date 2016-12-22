@@ -1,3 +1,5 @@
+//AUTOR: KilsOn
+
 //obiekty były przetestowane nie zawierają żadnych bugów/błędów wystarczy je tylko wgrać na serwer.
 
 #include <a_samp>
