@@ -1,49 +1,58 @@
+//nowe_obiekty.pwn
+
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>AUTOR: KilsOn (Louis Cardenas)
 //|--------------------------------------------------------------------------------------------------------------------------------------------|
-//|            Obiekty zosta³y stworzone na potrzeby serwera Mrucznik Role Play. Zabrania siê rozpowszechniania ich bez zgody autora.
+//|            Obiekty zostaÅ‚y stworzone na potrzeby serwera Mrucznik Role Play. Zabrania siÄ™ rozpowszechniania ich bez zgody autora.
 //|--------------------------------------------------------------------------------------------------------------------------------------------|
 
 
-//>>>>>Drobne UWAGI:
-//Potrzeba zagl¹dn¹æ do skryptu LSPD i zmieniæ im respa na ten co poda³em poni¿ej, oraz zmiana /duty. Dodatkowo trzeba...
-//...oskryptowaæ te windy, wystarczy wzi¹œæ gotowce z kodu intku DMV, trzeba równie¿ usun¹æ ca³e OP przed komi i na...
-//...parkingu, zostawiæ tylko obiekty które znajduj¹ siê na dachu budynku (winda, miejsce na ladowanie heli, flagi).
+//----------------------------------------------<< Source >>-------------------------------------------------//
+//-----------------------------------------[ ModuÂ³: nowe_obiekty.pwn ]--------------------------------------------//
+//Opis:
+/*
+	>>>>>Drobne UWAGI:
+	Potrzeba zaglÄ…dnÄ…Ä‡ do skryptu LSPD i zmieniÄ‡ im respa na ten co podaÅ‚em poniÅ¼ej, oraz zmiana /duty. Dodatkowo trzeba...
+	...oskryptowaÄ‡ te windy, wystarczy wziÄ…Å›Ä‡ gotowce z kodu intku DMV, trzeba rÃ³wnieÅ¼ usunÄ…Ä‡ caÅ‚e OP przed komi i na...
+	...parkingu, zostawiÄ‡ tylko obiekty ktÃ³re znajdujÄ… siÄ™ na dachu budynku (winda, miejsce na ladowanie heli, flagi).
 
-//>>>koordynacje na /duty i SPAWN
-//kordy RESPAWN: 1600.1997,-1636.1149,13.3968
+>>>koordynacje na /duty i SPAWN
+kordy RESPAWN: 1600.1997,-1636.1149,13.3968
 //
-//kordy /duty: 1572.1919,-1631.5922,13.3991
+kordy /duty: 1572.1919,-1631.5922,13.3991
 
 
-//>>>koordynacje na otwieranie/zamykanie siê bram
-//
-//CreateObject(980, 1539.6946, -1628.6476, 9.5946, 0.0000, 0.0000, 90.0000); //otwarta brama
-//CreateObject(980, 1539.6946, -1628.6476, 15.1434, 0.0000, 0.0000, 90.0000); //zamknieta brama
-//
-//CreateObject(19880, 1588.4932, -1638.2795, 12.3959, 0.0000, 0.0000, 0.0000); //otwarta brama
-//CreateObject(19880, 1588.4932, -1638.2795, 17.0965, 0.0000, 0.0000, 0.0000); //zamknieta brama
-//
-//CreateObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 10.0000); //otwarte drzwi
-//CreateObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 90.0000); //zamkniete drzwi
+*/
+//----------------------------------------------------*------------------------------------------------------//
+//----[                                                                                                 ]----//
+//----[         |||||             |||||                       ||||||||||       ||||||||||               ]----//
+//----[        ||| |||           ||| |||                      |||     ||||     |||     ||||             ]----//
+//----[       |||   |||         |||   |||                     |||       |||    |||       |||            ]----//
+//----[       ||     ||         ||     ||                     |||       |||    |||       |||            ]----//
+//----[      |||     |||       |||     |||                    |||     ||||     |||     ||||             ]----//
+//----[      ||       ||       ||       ||     __________     ||||||||||       ||||||||||               ]----//
+//----[     |||       |||     |||       |||                   |||    |||       |||                      ]----//
+//----[     ||         ||     ||         ||                   |||     ||       |||                      ]----//
+//----[    |||         |||   |||         |||                  |||     |||      |||                      ]----//
+//----[    ||           ||   ||           ||                  |||      ||      |||                      ]----//
+//----[   |||           ||| |||           |||                 |||      |||     |||                      ]----//
+//----[  |||             |||||             |||                |||       |||    |||                      ]----//
+//----[                                                                                                 ]----//
+//----------------------------------------------------*------------------------------------------------------//
 
 
+//-----------------<[ Include: ]>-------------------
+#include "modules\obiekty\nowe_obiekty\Example Objects\example_object.pwn"
 
-#include <a_samp>
-#include <streamer>
-
-
-
-public OnFilterScriptInit()
+//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
+StworzObiekty()
 {
-	//do oskryptowania
-	CreateDynamicObject(19880, 1588.49316, -1638.27954, 13.65790,   0.00000, 0.00000, 0.00000);//brama2 na auta
-	CreateDynamicObject(980, 1539.69458, -1628.64758, 11.85898,   0.00000, 0.00000, 90.00000);//brama na auta
-	CreateDynamicObject(1535, 1568.62146, -1634.25244, 12.39020,   0.00000, 0.00000, 10.00000);//drzwi wejœciowe
-
+	exampleObjects_StworzObiekty(); 
+	printf("Stworzono obiekty");
+	
 	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1576.48, -1649.20, 8.00, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
 	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1560.1811, -1637.0171, 13.5678, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
-
-    SetObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1662.81982, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
+	
+	SetObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1662.81982, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
 	SetObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1653.18640, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
 
 	//podstawa
@@ -275,7 +284,7 @@ public OnFilterScriptInit()
 	SetObjectMaterial(CreateDynamicObject(19377, 1579.30261, -1635.19666, 15.79790,   0.00000, 90.00000, 0.00000), 0, 4981, "wiresetc2_las", "lasunion7", 0xFFFFFFFF);
 
 
-	//sciany wewn¹trz
+	//sciany wewnÄ…trz
     SetObjectMaterial(CreateDynamicObject(19433, 1582.11475, -1637.83972, 14.14170,   0.00000, 0.00000, 0.00000), 0, 4821, "union_las", "easykerb", 0xFFFFFFFF);
 	SetObjectMaterial(CreateDynamicObject(19452, 1577.36145, -1637.12488, 14.13570,   0.00000, 0.00000, 90.00000), 0, 4821, "union_las", "easykerb", 0xFFFFFFFF);
 	SetObjectMaterial(CreateDynamicObject(19452, 1568.63538, -1639.92627, 14.13570,   0.00000, 0.00000, 0.00000), 0, 4821, "union_las", "easykerb", 0xFFFFFFFF);
@@ -385,7 +394,7 @@ public OnFilterScriptInit()
     SetObjectMaterialText(niewidzialne, " ", 1, 100, "Arial Black", 45, 1, 0xFFFFFFFF, 0, 1);//niewidzialne
     SetObjectMaterialText(niewidzialne2, " ", 1, 100, "Arial Black", 45, 1, 0xFFFFFFFF, 0, 1);//niewidzialne
 
-	//winda - góra
+	//winda - gÃ³ra
 	CreateDynamicObject(18755, 1560.1971, -1639.1947, 14.2987,   0.00000, 0.00000, -90.00000);
 	CreateDynamicObject(18757, 1560.1442, -1635.3511, 14.3162,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(18756, 1560.1372, -1635.3523, 14.3162,   0.00000, 0.00000, 90.00000);
@@ -441,7 +450,7 @@ public OnFilterScriptInit()
 	CreateDynamicObject(632, 1552.92786, -1679.65881, 12.96160,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(632, 1552.92786, -1671.87878, 12.96160,   0.00000, 0.00000, 0.00000);
 
-	//pozosta³e obiekty na parking dolny
+	//pozostaÅ‚e obiekty na parking dolny
 	CreateDynamicObject(18766, 1603.29175, -1643.35791, 10.24820,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(18766, 1548.21265, -1638.33325, 13.51210,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(18766, 1598.79260, -1638.31995, 10.24820,   0.00000, 0.00000, 0.00000);
@@ -462,19 +471,37 @@ public OnFilterScriptInit()
 	CreateDynamicObject(14487, 1585.53125, -1689.71448, 11.87000,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(1893, 1575.27222, -1668.24316, 12.12000,   0.00000, 0.00000, 89.00000);
 	CreateDynamicObject(1893, 1575.27222, -1652.41492, 12.12000,   0.00000, 0.00000, 89.00000);
+	
 	return 1;
 }
 
-public OnFilterScriptExit()
+StworzBramy()
 {
+	exampleObjects_StworzBramy();
+	printf("Stworzono bramy");
+	/*
+	CreateObject(980, 1539.6946, -1628.6476, 9.5946, 0.0000, 0.0000, 90.0000); //otwarta brama
+	CreateObject(980, 1539.6946, -1628.6476, 15.1434, 0.0000, 0.0000, 90.0000); //zamknieta brama
+
+	CreateObject(19880, 1588.4932, -1638.2795, 12.3959, 0.0000, 0.0000, 0.0000); //otwarta brama
+	CreateObject(19880, 1588.4932, -1638.2795, 17.0965, 0.0000, 0.0000, 0.0000); //zamknieta brama
+
+	CreateObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 10.0000); //otwarte drzwi
+	CreateObject(1535, 1568.6215, -1634.2524, 12.3902, 0.0000, 0.0000, 90.0000); //zamkniete drzwi
+	*/
 	return 1;
 }
 
-
-public OnPlayerConnect(playerid)
+StworzBudynki()
 {
+	exampleObjects_StworzBudynki();
+	printf("Stworzono budynki");
+	return 1;
+}
 
-
+UsunObiekty(playerid)
+{
+	exampleObjects_UsunObiekty();
 	RemoveBuildingForPlayer(playerid, 4063, 1578.4688, -1676.4219, 13.0703, 0.25);
 	RemoveBuildingForPlayer(playerid, 1525, 1549.8906, -1714.5234, 15.1016, 0.25);
 	RemoveBuildingForPlayer(playerid, 4228, 1568.2891, -1677.7813, 10.8203, 0.25);
@@ -496,4 +523,23 @@ public OnPlayerConnect(playerid)
 	return 1;
 }
 
+//-----------------<[ Funkcje do callback'Ã³w: ]>-------------------
+obiekty_OnGameModeInit()
+{
+	StworzObiekty();
+	StworzBramy();
+	StworzBudynki();
+	return 1;
+}
+
+obiekty_OnPlayerConnect(playerid)
+{
+	UsunObiekty(playerid);
+	return 1;
+}
+
+/*obiekty_OnPlayerDisconnect(playerid, reason)
+{
+	return 1;
+}*/
 
