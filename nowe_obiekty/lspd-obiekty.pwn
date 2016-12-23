@@ -48,17 +48,17 @@ StworzObiekty()
 {
 	exampleObjects_StworzObiekty(); 
 	
-	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1576.48, -1649.20, 8.00, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
-	Create3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1560.1811, -1637.0171, 13.5678, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
+	CreateDynamic3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1576.48, -1649.20, 8.00, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
+	CreateDynamic3DTextLabel("{0080FF}WINDA", 0xFFFFFFFF, 1560.1811, -1637.0171, 13.5678, 15, 0, 1);//winda do oskryptowania (skopiowanie gotowego skryptu)
 	
 	SetDynamicObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1662.81982, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19381, 1583.90247, -1653.18640, 6.81460,   0.00000, 90.00000, 0.00000), 0, 8390, "vegasemulticar", "ws_carpark3", 0xFFFFFFFF);
 
 	//podstawa
-	SetDynamicObjectMaterial(CreateObject(19545, 1611.21680, -1629.80457, 12.54870,   0.00000, 0.00000, 0.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateObject(19545, 1547.03455, -1679.64758, 12.55150,   0.00000, 0.00000, 0.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateObject(19545, 1570.76135, -1714.80066, 12.54870,   0.00000, 0.00000, 90.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateObject(19545, 1605.59937, -1691.62256, 12.54670,   0.00000, 0.00000, 0.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
+	SetObjectMaterial(CreateObject(19545, 1611.21680, -1629.80457, 12.54870,   0.00000, 0.00000, 0.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
+	SetObjectMaterial(CreateObject(19545, 1547.03455, -1679.64758, 12.55150,   0.00000, 0.00000, 0.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
+	SetObjectMaterial(CreateObject(19545, 1570.76135, -1714.80066, 12.54870,   0.00000, 0.00000, 90.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
+	SetObjectMaterial(CreateObject(19545, 1605.59937, -1691.62256, 12.54670,   0.00000, 0.00000, 0.00000), 0, 10023, "bigwhitesfe", "ws_carpark2", 0xFFFFFFFF);
 	    //przedkomi
 	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1555.24170, -1654.79492, 12.46550,   0.00000, 90.00000, 0.00000), 0, 6340, "rodeo05_law2", "badmarb1_LAn", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1555.23962, -1664.42627, 12.46550,   0.00000, 90.00000, 0.00000), 0, 6340, "rodeo05_law2", "badmarb1_LAn", 0xFFFFFFFF);
