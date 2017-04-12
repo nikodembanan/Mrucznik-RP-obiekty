@@ -773,7 +773,7 @@ exampleObjects_StworzBudynki()
 
 exampleObjects_UsunObiekty()
 {
-	//Tutaj wstawiamy usuwanie obiektów z mapy GTA w formacie:
-	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
+	RemoveBuildingForPlayer(playerid, 17910, 2916.7656, -1877.6484, 0.0703, 0.25);
+   	RemoveBuildingForPlayer(playerid, 17953, 2916.7656, -1877.6484, 0.0703, 0.25);
 	return 1;
 }
