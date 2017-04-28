@@ -905,7 +905,61 @@ exampleObjects_StworzObiekty()
 	CreateDynamicObject(872, 1436.3984400, -1495.6833500, 20.5062900, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 35
 	CreateDynamicObject(872, 1435.3299600, -1499.1502700, 20.5062900, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 36
 	CreateDynamicObject(872, 1434.4759500, -1502.5286900, 20.5062900, 0.0000000, 0.0000000, 0.0000000, 0, 0, -1, 250); // 37
+	
+	//______________________________________CENTRUM_ROZRYWKI________________________________________________________________
+	
+	CreateDynamicObject(19376, 1427.7320600, -1485.8079800, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 0
+	CreateDynamicObject(19376, 1438.2347400, -1485.8129900, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 1
+	CreateDynamicObject(19376, 1427.7253400, -1476.1877400, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 2
+	CreateDynamicObject(19376, 1438.2135000, -1476.1910400, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 3
+	CreateDynamicObject(19376, 1438.2347400, -1495.4273700, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 4
+	CreateDynamicObject(19376, 1427.7358400, -1495.4289600, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 5
+	CreateDynamicObject(19376, 1417.2430400, -1495.4355500, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 6
+	CreateDynamicObject(19376, 1417.2465800, -1485.8358200, 114.2923000, 0.0000000, 90.0000000, 0.0000000, 3, 0, -1, 250); //Object number 7
+	CreateDynamicObject(19456, 1418.3800000, -1495.7137500, 116.0663600, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 8
+	CreateDynamicObject(19456, 1422.9559300, -1500.1126700, 116.0664000, 0.0000000, 0.0000000, 90.0000000, 3, 0, -1, 250); //Object number 9
+	CreateDynamicObject(19456, 1432.5560300, -1500.1210900, 116.0664000, 0.0000000, 0.0000000, 90.0000000, 3, 0, -1, 250); //Object number 10
+	CreateDynamicObject(19456, 1439.5518800, -1498.2921100, 116.0664000, 0.0000000, 0.0000000, 119.5800100, 3, 0, -1, 250); //Object number 11
+	CreateDynamicObject(19456, 1443.5214800, -1491.7613500, 116.0664000, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 12
+	CreateDynamicObject(19456, 1443.5150100, -1482.1745600, 116.0664000, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 13
+	CreateDynamicObject(19456, 1440.0200200, -1474.2965100, 116.0664000, 0.0000000, 0.0000000, 47.9399900, 3, 0, -1, 250); //Object number 14
+	CreateDynamicObject(19456, 1433.6945800, -1474.9892600, 116.0664000, 0.0000000, 0.0000000, 136.0200300, 3, 0, -1, 250); //Object number 15
+	CreateDynamicObject(19456, 1427.7126500, -1481.3869600, 116.0664000, 0.0000000, 0.0000000, 137.7599600, 3, 0, -1, 250); //Object number 16
+	CreateDynamicObject(19456, 1421.2763700, -1488.4718000, 116.0664000, 0.0000000, 0.0000000, 137.7599900, 3, 0, -1, 250); //Object number 17
+	CreateDynamicObject(19129, 1428.2450000, -1490.1755400, 114.3727400, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 18
+	CreateDynamicObject(19129, 1434.4421400, -1470.2100800, 114.3727400, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 19
+	CreateDynamicObject(19129, 1448.1228000, -1490.2161900, 114.3770000, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 20
+	CreateDynamicObject(19608, 1423.1651600, -1494.8441200, 114.4198500, 0.0000000, 0.0000000, 130.0800800, 3, 0, -1, 250); //Object number 21
+	CreateDynamicObject(2169, 1424.6760300, -1496.9386000, 114.4632300, 0.0000000, 0.0000000, -49.4400000, 3, 0, -1, 250); //Object number 22
+	CreateDynamicObject(14820, 1425.0715300, -1497.2922400, 115.2782700, 0.0000000, 0.0000000, -49.6800000, 3, 0, -1, 250); //Object number 23
+	CreateDynamicObject(19612, 1425.0175800, -1497.3521700, 114.4685500, 0.0000000, 0.0000000, -50.0400000, 3, 0, -1, 250); //Object number 24
+	CreateDynamicObject(19609, 1421.3415500, -1493.2027600, 114.4657800, 0.0000000, 0.0000000, 121.6199900, 3, 0, -1, 250); //Object number 25
+	CreateDynamicObject(19611, 1424.4014900, -1493.7574500, 114.4676800, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 26
+	CreateDynamicObject(19610, 1424.3890400, -1493.7622100, 116.1090000, 13.9200000, -17.4000000, 121.8600000, 3, 0, -1, 250); //Object number 27
+	CreateDynamicObject(19317, 1421.5034200, -1496.1651600, 115.2112000, -11.1000000, 2.4000000, -226.2599600, 3, 0, -1, 250); //Object number 28
+	CreateDynamicObject(2229, 1421.8674300, -1490.6403800, 114.4662200, 0.0000000, 0.0000000, 111.5399600, 3, 0, -1, 250); //Object number 29
+	CreateDynamicObject(2229, 1426.6230500, -1496.6832300, 114.4662200, 0.0000000, 0.0000000, 153.2999700, 3, 0, -1, 250); //Object number 30
+	CreateDynamicObject(2232, 1432.7143600, -1475.8687700, 116.4414300, 0.0000000, 0.0000000, 48.7800100, 3, 0, -1, 250); //Object number 31
+	CreateDynamicObject(2232, 1443.6027800, -1485.5509000, 116.4414000, 0.0000000, 0.0000000, 269.0398900, 3, 0, -1, 250); //Object number 32
+	CreateDynamicObject(16151, 1439.6015600, -1496.9818100, 114.6839100, 0.0000000, 0.0000000, -59.8199900, 3, 0, -1, 250); //Object number 33
+	CreateDynamicObject(1703, 1425.3529100, -1485.1549100, 114.4162300, 0.0000000, 0.0000000, 47.9999900, 3, 0, -1, 250); //Object number 34
+	CreateDynamicObject(1827, 1427.3232400, -1485.8050500, 114.4350400, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 35
+	CreateDynamicObject(1724, 1424.8205600, -1486.8040800, 114.4162000, 0.0000000, 0.0000000, 74.6400000, 3, 0, -1, 250); //Object number 36
+	CreateDynamicObject(638, 1428.3040800, -1481.7542700, 115.1074500, 0.0000000, 0.0000000, -42.0000200, 3, 0, -1, 250); //Object number 37
+	CreateDynamicObject(1702, 1429.8459500, -1480.1615000, 114.4338200, 0.0000000, 0.0000000, 47.4000000, 3, 0, -1, 250); //Object number 38
+	CreateDynamicObject(1827, 1431.8217800, -1480.4412800, 114.4350400, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 39
+	CreateDynamicObject(1705, 1431.8055400, -1478.3990500, 114.4361700, 0.0000000, 0.0000000, 17.1600000, 3, 0, -1, 250); //Object number 40
+	CreateDynamicObject(1557, 1439.2418200, -1473.6180400, 114.4170500, 0.0000000, 0.0000000, -42.5400000, 3, 0, -1, 250); //Object number 41
+	CreateDynamicObject(1557, 1441.4176000, -1475.6152300, 114.4170000, 0.0000000, 0.0000000, -223.1398900, 3, 0, -1, 250); //Object number 42
+	CreateDynamicObject(2773, 1440.6917700, -1476.6069300, 114.9318700, 0.0000000, 0.0000000, -44.8200000, 3, 0, -1, 250); //Object number 43
+	CreateDynamicObject(2773, 1438.2557400, -1474.4079600, 114.9318700, 0.0000000, 0.0000000, -44.8200000, 3, 0, -1, 250); //Object number 44
+	CreateDynamicObject(2745, 1442.1022900, -1477.3039600, 115.6083800, 0.0000000, 0.0000000, -44.4000100, 3, 0, -1, 250); //Object number 45
+	CreateDynamicObject(2745, 1437.3096900, -1473.3715800, 115.5748000, 0.0000000, 0.0000000, -42.1200100, 3, 0, -1, 250); //Object number 46
+	CreateDynamicObject(3077, 1443.4614300, -1490.1031500, 114.4412000, 0.0000000, 0.0000000, 90.0000000, 3, 0, -1, 250); //Object number 47
+	CreateDynamicObject(19885, 1431.9727800, -1488.4558100, 118.7202000, 0.0000000, 0.0000000, 0.0000000, 3, 0, -1, 250); //Object number 48
  
+ 	buil =	CreateDynamicObject(3077, 1443.4614300, -1490.1031500, 114.4412000, 0.0000000, 0.0000000, 90.0000000, 3, 0, -1, 250); //Object number 47
+	SetDynamicObjectMaterialText(buil, 2, "Centrum\nRozrywki\nLS",  OBJECT_MATERIAL_SIZE_256x128, "Arial Black",  32,  1,  0xFFFFFFFF,  0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
  
  //Tutaj wstawiamy obiekty/pickupy/3dtexty/ikonki w nastêpuj¹cym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
@@ -940,7 +994,7 @@ exampleObjects_StworzBudynki()
 {
 
 	StworzDrzwi(50, "LSCDF", 1664.11499, -1521.63135, 43.01180,   0.00000, "wyjście", 1318, 2, 1708.83191, -1500.66260, 13.67164,  0.00000, "Los Santos\nCivillian Defence Force", 1318, 0, bool:lockvalue=false, -1);
-	StworzDrzwi(51, "Centrum Rozrywki Los Santos", Float:ix, Float:iy, Float:iz, Float:ia, "Wyjście", 1314, ipomieszczenie, 1413.64905, -1487.30603, 19.99940,   0.00000, "Centrum Rozrywki\nLos Santos", 1314, 0, bool:lockvalue=false, -1);
+	StworzDrzwi(51, "Centrum Rozrywki Los Santos", 1439.23779, -1475.76660, 115.15816,   0.00000, "Wyjście", 1314, 2, 1413.64905, -1487.30603, 19.99940,   0.00000, "Centrum Rozrywki\nLos Santos", 1314, 0, bool:lockvalue=false, -1);
 	
 	//Tutaj wstawiamy budynki, pomieszczenia i drzwi w formacie:
 	//StworzBudynek(id, nazwa[], typ, wlasciciel, vw, playerid=-1);
