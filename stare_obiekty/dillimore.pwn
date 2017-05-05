@@ -164,9 +164,9 @@ stock Dillimore_DeleteMapObjects(playerid)
 
 stock Dillimore_Load() 
 {
-	//³adowanie bram:
+	//Â³adowanie bram:
 	Bramy_Dillimore();
-	//³adowanie wejœæ:
+	//Â³adowanie wejÂœÃ¦:
 	DodajWejscia_Dillimore();
 	
 	//intek SASP
@@ -513,7 +513,7 @@ stock Dillimore_Load()
 	CreateDynamicObject(3006, 721.15143, -444.78250, 15.33594,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(1238, 711.61682, -452.31143, 15.65412,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(1375, 688.37128, -614.05072, 17.02595,   0.00000, 0.00000, 0.00000);
-	CreateDynamicObject(1887, 801.78387, -716.01434, 78.52293,   0.00000, 0.00000, 0.00000);
+	//CreateDynamicObject(1887, 801.78387, -716.01434, 78.52293,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(918, 805.21216, -612.54596, 15.70747,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(1361, 692.79785, -589.57520, 21.07964,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(1280, 810.97461, -605.54669, 15.73729,   0.00000, 0.00000, 270.00000);
@@ -978,7 +978,7 @@ stock Dillimore_Load()
 	CreateDynamicObject(2765,709.63958740,-519.12707520,28.84615517,0.00000000,0.00000000,179.99450684,35,0); //object(cj_cb_list1) (7)
 	CreateDynamicObject(1569,702.86456299,-496.26995850,22.49048424,0.00000000,0.00000000,0.00000000,35,0); //object(adam_v_door) (1)
 
-	// obiekty dillimore - wystrój
+	// obiekty dillimore - wystrÃ³j
 	CreateDynamicObject(970,642.45928955,-608.86254883,15.84150887,0.00000000,0.00000000,292.49169922,0,0); //convertffs(13)
 	CreateDynamicObject(970,639.89239502,-605.82647705,15.84150887,0.00000000,0.00000000,326.23974609,0,0); //convertffs(14)
 	CreateDynamicObject(970,636.93688965,-603.02392578,15.84150887,0.00000000,0.00000000,306.73901367,0,0); //convertffs(15)
