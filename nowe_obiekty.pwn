@@ -82,7 +82,7 @@ obiekty_OnGameModeInit()
 {
 	//exampleObjects_Init();
 	//template_Init();
-	
+	ammuNationBananov_Init();
 	centralBank_Init();
 	siedzibaMechanikow_Init();
 	radaMiasta_Init();
