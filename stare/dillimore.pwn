@@ -51,158 +51,80 @@ stock Bramy_Dillimore()
 		1, 10.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 	
 	//bramka LS-LV
-	/*bramki_sasd[0] = DodajBrame(CreateDynamicObject(968, 1682.49878, 416.69019, 30.57900,   0.00000, 0.00000, -20.00000),
+	DodajBrame(CreateDynamicObject(968, 1682.49878, 416.69019, 30.57900,   0.00000, 0.00000, -20.00000),
 		1682.49878, 416.69019, 30.57900,   0.00000, 0.00000, -20.00000,
 		1682.49878, 416.69019, 30.57900,   0.00000, 90.00000, -20.00000,
 		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG); 
-	bramki_sasd[1] = DodajBrame(CreateDynamicObject(968, 1698.69885, 410.88089, 30.57900,   0.00000, 0.00000, 160.00000),
+	DodajBrame(CreateDynamicObject(968, 1698.69885, 410.88089, 30.57900,   0.00000, 0.00000, 160.00000),
 		1698.69885, 410.88089, 30.57900,   0.00000, 0.00000, 160.00000,
 		1698.69885, 410.88089, 30.57900,   0.00000, 90.00000, 160.00000,
 		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
-	bramki_sasd[2] = DodajBrame(CreateDynamicObject(968, 1718.32532, 414.82669, 30.61900,   0.00000, 0.00000, 160.00000),
+	DodajBrame(CreateDynamicObject(968, 1718.32532, 414.82669, 30.61900,   0.00000, 0.00000, 160.00000),
 		1718.32532, 414.82669, 30.61900,   0.00000, 0.00000, 160.00000,
 		1718.32532, 414.82669, 30.61900,   0.00000, 90.00000, 160.00000,
 		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG); 
-	bramki_sasd[3] = DodajBrame(CreateDynamicObject(968, 1703.68982, 420.09259, 30.61900,   0.00000, 0.00000, -20.00000),
+	DodajBrame(CreateDynamicObject(968, 1703.68982, 420.09259, 30.61900,   0.00000, 0.00000, -20.00000),
 		1703.68982, 420.09259, 30.61900,   0.00000, 0.00000, -20.00000,
 		1703.68982, 420.09259, 30.61900,   0.00000, 90.00000, -20.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);*/
-	
-
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 16.5817,-1341.8717,10.1456, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 20.7334,-1345.9370,10.0517, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -10.8545,-1334.6915,11.0344, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -14.3871,-1330.2964,11.0292, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -1215.3865,-778.5927,64.0032, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -1225.7410,-777.6310,63.8998, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -964.9792,-346.3461,36.1744, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -969.6429,-337.1957,36.3669, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -165.8201,360.5414,12.0781, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, -170.9974,369.9326,12.0781, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 527.7492,469.1248,18.9297, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 514.3537,474.5262,18.9297, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 1712.9536,410.4525,30.6961, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 1705.3923,413.8160,30.7091, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 1695.8112,415.6877,30.6887, 15.0);
-	CreateDynamic3DTextLabel("Przejazd p³atny $1750\nKomenda /przejazd", 0xFF0000FF, 1687.5596,420.2511,30.7173, 15.0);
-
-	bramki_sasd[0] = CreateDynamicObject(968, 1682.49878, 416.69019, 30.57900,   0.00000, 90.00000, -20.00000);
-	bramki_sasd[1] = CreateDynamicObject(968, 1698.69885, 410.88089, 30.57900,   0.00000, 90.00000, 160.00000);
-	bramki_sasd[2] = CreateDynamicObject(968, 1718.32532, 414.82669, 30.61900,   0.00000, 90.00000, 160.00000);
-	bramki_sasd[3] = CreateDynamicObject(968, 1703.68982, 420.09259, 30.61900,   0.00000, 90.00000, -20.00000);
-
-
-	DodajBrame(bramki_sasd[0],
-		1682.49878, 416.69019, 30.57900,   0.00000, 0.00000, -20.00000,
-		1682.49878, 416.69019, 30.57900,   0.00000, 90.00000, -20.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true); 
-	DodajBrame(bramki_sasd[1],
-		1698.69885, 410.88089, 30.57900,   0.00000, 0.00000, 160.00000,
-		1698.69885, 410.88089, 30.57900,   0.00000, 90.00000, 160.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[2],
-		1718.32532, 414.82669, 30.61900,   0.00000, 0.00000, 160.00000,
-		1718.32532, 414.82669, 30.61900,   0.00000, 90.00000, 160.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true); 
-	DodajBrame(bramki_sasd[3],
-		1703.68982, 420.09259, 30.61900,   0.00000, 0.00000, -20.00000,
-		1703.68982, 420.09259, 30.61900,   0.00000, 90.00000, -20.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-
-
-
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 
 	//bramka na mostku
-
-	bramki_sasd[4] = CreateDynamicObject(968, 526.94672, 475.95499, 18.80680,   0.00000, -90.00000, 35.04000);
-	bramki_sasd[5] = CreateDynamicObject(968, 515.19238, 467.72159, 18.86680,   0.00000, 90.00000, 35.04000);
-
-	DodajBrame(bramki_sasd[4],
+	DodajBrame(CreateDynamicObject(968, 526.94672, 475.95499, 18.80680,   0.00000, 0.00000, 35.04000),
 		526.94672, 475.95499, 18.80680,   0.00000, 0.00000, 35.04000,
 		526.94672, 475.95499, 18.80680,   0.00000, -90.00000, 35.04000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[5],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
+	DodajBrame(CreateDynamicObject(968, 515.19238, 467.72159, 18.86680,   0.00000, 0.00000, 35.04000),
 		515.19238, 467.72159, 18.86680,   0.00000, 0.00000, 35.04000,
 		515.19238, 467.72159, 18.86680,   0.00000, 90.00000, 35.04000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 
 	//bramka na mostku 2
-
-	bramki_sasd[6] = CreateDynamicObject(968, -161.60710, 363.50439, 11.99300,   0.00000, -90.00000, -14.00000);
-	bramki_sasd[7] = CreateDynamicObject(968, -175.44040, 367.09341, 11.99300,   0.00000, -90.00000, 165.00000);
-
-	DodajBrame(bramki_sasd[6],
+	DodajBrame(CreateDynamicObject(968, -161.60710, 363.50439, 11.99300,   0.00000, 0.00000, -14.00000),
 		-161.60710, 363.50439, 11.99300,   0.00000, 0.00000, -14.00000,
 		-161.60710, 363.50439, 11.99300,   0.00000, -90.00000, -14.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[7],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
+	DodajBrame(CreateDynamicObject(968, -175.44040, 367.09341, 11.99300,   0.00000, 0.00000, 165.00000),
 		-175.44040, 367.09341, 11.99300,   0.00000, 0.00000, 165.00000,
 		-175.44040, 367.09341, 11.99300,   0.00000, -90.00000, 165.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 
 	//bramka na mostku 3
-
-	bramki_sasd[8] = CreateDynamicObject(968, -974.08752, -339.83640, 36.27580,   0.00000, 90.00000, -11.00000);
-	bramki_sasd[9] = CreateDynamicObject(968, -960.05786, -342.55597, 36.21580,   0.00000, -90.00000, -11.00000);
-
-	DodajBrame(bramki_sasd[8],
+	DodajBrame(CreateDynamicObject(968, -974.08752, -339.83640, 36.27580,   0.00000, 0.00000, -11.00000),
 		-974.08752, -339.83640, 36.27580,   0.00000, 0.00000, -11.00000,
 		-974.08752, -339.83640, 36.27580,   0.00000, 90.00000, -11.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true); 
-	DodajBrame(bramki_sasd[9],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG); 
+	DodajBrame(CreateDynamicObject(968, -960.05786, -342.55597, 36.21580,   0.00000, 0.00000, -11.00000),
 		-960.05786, -342.55597, 36.21580,   0.00000, 0.00000, -11.00000,
 		-960.05786, -342.55597, 36.21580,   0.00000, -90.00000, -11.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 
 	//tunel
-
-	bramki_sasd[10] = CreateDynamicObject(968, -1225.51465, -783.38373, 63.89480,   0.00000, 90.32000, 42.00000);
-	bramki_sasd[11] = CreateDynamicObject(968, -1215.10303, -773.57288, 63.79480,   0.00000, -90.00000, 45.00000);
-
-	DodajBrame(bramki_sasd[10],
+	DodajBrame(CreateDynamicObject(968, -1225.51465, -783.38373, 63.89480,   0.00000, 0.32000, 42.00000),
 		-1225.51465, -783.38373, 63.89480,   0.00000, 0.32000, 42.00000,
 		-1225.51465, -783.38373, 63.89480,   0.00000, 90.32000, 42.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true); 
-	DodajBrame(bramki_sasd[11],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG); 
+	DodajBrame(CreateDynamicObject(968, -1215.10303, -773.57288, 63.79480,   0.00000, 0.00000, 45.00000),
 		-1215.10303, -773.57288, 63.79480,   0.00000, 0.00000, 45.00000,
 		-1215.10303, -773.57288, 63.79480,   0.00000, -90.00000, 45.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 
 	//tunel 2
-
-	bramki_sasd[12] = CreateDynamicObject(968, -20.38480, -1329.73218, 10.88180,   0.00000, 89.50000, -51.40000);
-	bramki_sasd[13] = CreateDynamicObject(968, -11.48793, -1340.80090, 10.90180,   0.00000, -90.22000, -51.40000);
-	bramki_sasd[14] = CreateDynamicObject(968, 18.04645, -1335.45569, 10.02170,   0.00000, 91.00000, -52.00000);
-	bramki_sasd[15] = CreateDynamicObject(968, 26.81360, -1346.70227, 9.96170,   0.00000, -91.00000, -52.00000);
-
-	DodajBrame(bramki_sasd[12],
+	DodajBrame(CreateDynamicObject(968, -20.38480, -1329.73218, 10.88180,   0.00000, 0.50000, -51.40000),
 		-20.38480, -1329.73218, 10.88180,   0.00000, 0.50000, -51.40000,
 		-20.38480, -1329.73218, 10.88180,   0.00000, 89.50000, -51.40000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[13],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
+	DodajBrame(CreateDynamicObject(968, -11.48793, -1340.80090, 10.90180,   0.00000, 0.22000, -51.40000),
 		-11.48793, -1340.80090, 10.90180,   0.00000, 0.22000, -51.40000,
 		-11.48793, -1340.80090, 10.90180,   0.00000, -90.22000, -51.40000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[14],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
+	DodajBrame(CreateDynamicObject(968, 18.04645, -1335.45569, 10.02170,   0.00000, 0.00000, -52.00000),
 		18.04645, -1335.45569, 10.02170,   0.00000, 0.00000, -52.00000,
 		18.04645, -1335.45569, 10.02170,   0.00000, 91.00000, -52.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[15],
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
+	DodajBrame(CreateDynamicObject(968, 26.81360, -1346.70227, 9.96170,   0.00000, 0.00000, -52.00000),
 		26.81360, -1346.70227, 9.96170,   0.00000, 0.00000, -52.00000,
 		26.81360, -1346.70227, 9.96170,   0.00000, -91.00000, -52.00000,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-
-	bramki_sasd[16] = CreateDynamicObject(968, 68.021484375, -1545.892578125, 5.1986169815063, 9, 270, 270, -1, -1, -1, 200.0);
-	bramki_sasd[17] = CreateDynamicObject(968, 35.3408203125, -1517.900390625, 5.2259092330933, 0, 270, 87, -1, -1, -1, 200.0);
-
-	DodajBrame(bramki_sasd[16],
-		68.021484375, -1545.892578125, 5.1986169815063, 0, 0, 270,
-		68.021484375, -1545.892578125, 5.1986169815063, 9, 270, 270,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
-	DodajBrame(bramki_sasd[17],
-		35.3408203125, -1517.900390625, 5.2259092330933, 0, 0, 90,
-		35.3408203125, -1517.900390625, 5.2259092330933, 0, 270, 87,
-		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG, true);
+		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 }
 
 stock Dillimore_DeleteMapObjects(playerid)

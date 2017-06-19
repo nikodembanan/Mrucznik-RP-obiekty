@@ -30,7 +30,6 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
-	#include "..\nowe\AmmuNationBananov\ammuNationBananov.pwn"
 	#include "..\nowe\CentralBank\centralBank.pwn"
 	#include "..\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
 	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
@@ -53,7 +52,6 @@
 	#include "..\nowe\LowFolow\lowFolow.pwn"
 	#include "..\nowe\KomisariatLS\komisariatLS.pwn"
 #else //Mrucznik-RP gamemode
-	#include "modules\obiekty\nowe\AmmuNationBananov\ammuNationBananov.pwn"
 	#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
 	#include "modules\obiekty\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
 	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
@@ -82,7 +80,7 @@ obiekty_OnGameModeInit()
 {
 	//exampleObjects_Init();
 	//template_Init();
-	ammuNationBananov_Init();
+	
 	centralBank_Init();
 	siedzibaMechanikow_Init();
 	radaMiasta_Init();
