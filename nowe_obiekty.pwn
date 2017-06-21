@@ -31,8 +31,8 @@
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
 	#include "..\nowe\AmmuNationBananov\ammuNationBananov.pwn"
-	#include "..\nowe\CentralBank\centralBank.pwn"
 	#include "..\nowe\DosSantosCarService\DSCS.pwn"
+	#include "..\nowe\CentralBank\centralBank.pwn"
 	#include "..\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
 	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "..\nowe\CassinoAutoService\cassinoAutoService.pwn"
@@ -85,6 +85,7 @@ obiekty_OnGameModeInit()
 	//exampleObjects_Init();
 	//template_Init();
 	ammuNationBananov_Init();
+	DosSantosCarService_Init();
 	centralBank_Init();
 	siedzibaMechanikow_Init();
 	radaMiasta_Init();

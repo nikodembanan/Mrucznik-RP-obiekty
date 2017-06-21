@@ -27,8 +27,8 @@
 	#include "..\nowe\SiedzibaMechanikow\interior.pwn"
 	#include "..\nowe\SiedzibaMechanikow\exterior.pwn"
 #else
-	#include "modules\obiekty\nowe\SiedzibaMechanikow\interior.pwn"
-	#include "modules\obiekty\nowe\SiedzibaMechanikow\exterior.pwn"
+	#include "interior.pwn"
+	#include "exterior.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------

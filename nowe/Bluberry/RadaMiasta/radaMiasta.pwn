@@ -27,8 +27,8 @@
 	#include "..\nowe\Bluberry\RadaMiasta\interior.pwn"
 	#include "..\nowe\Bluberry\RadaMiasta\exterior.pwn"
 #else
-	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\interior.pwn"
-	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\exterior.pwn"
+	#include "interior.pwn"
+	#include "exterior.pwn"
 #endif
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
