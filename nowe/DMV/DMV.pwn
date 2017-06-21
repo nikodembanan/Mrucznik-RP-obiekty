@@ -26,7 +26,7 @@
 #if defined EXAMPLE_SCRIPT
 	#include "..\nowe\DMV\exterior.pwn"
 #else
-	#include "modules\obiekty\nowe\DMV\exterior.pwn"
+	#include "exterior.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------

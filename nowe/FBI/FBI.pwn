@@ -26,7 +26,7 @@
 #if defined EXAMPLE_SCRIPT
 	#include "..\nowe\FBI\parking.pwn"
 #else
-	#include "modules\obiekty\nowe\FBI\parking.pwn"
+	#include "parking.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------
