@@ -4,7 +4,6 @@ ZaladujBramy()
 	BramaLCN = CreateDynamicObject(1557, -792.44158935547, 495.30035400391, 1370.7421875, 0, 0, 0);//2
 	WindaYKZ = CreateDynamicObject(2928, 2806.7307128906, -1089.2893066406, 29.75, 90, 0, 0);//winda YKZ area 3
 	WindaYKZKrata = CreateDynamicObject(2909, 2809.38671875, -1088.9912109375, 42.11808013916, 0, 90, 0);//winda ykz karata 4
-	BramaYKZ = CreateDynamicObject(1493, -2169.5669, 639.9651, 1051.4132, 0.0000, 0.0000, 180.0000);//brama ykz w budynku 5
 	bramadom1 = CreateDynamicObject(7891, 2313.65747, -1217.92151, 24.50300,   0.00000, 0.00000, 180.00000);//nowa brama TFAT
 	bor = CreateDynamicObject(1569, 1501.6648, -1452.1390, 63.3306,   0.00000, 0.00000, 270.00000,80,0);//nowa baza
 	bor1 = CreateDynamicObject(1569, 1513.57556, -1468.74573, 66.82270,   0.00000, 0.00000, 90.00000,80,0);//nowa baza
