@@ -53,6 +53,14 @@
 	#include "..\nowe\MoneyMakers\moneyMakers.pwn"
 	#include "..\nowe\LowFolow\lowFolow.pwn"
 	#include "..\nowe\KomisariatLS\komisariatLS.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.85
+	//*****************************************************
+	
+	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
+	
+	
 #else //Mrucznik-RP gamemode
 	#include "modules\obiekty\nowe\AmmuNationBananov\ammuNationBananov.pwn"
 	#include "modules\obiekty\nowe\DosSantosCarService\DSCS.pwn"
@@ -77,6 +85,11 @@
 	#include "modules\obiekty\nowe\MoneyMakers\moneyMakers.pwn" 
 	#include "modules\obiekty\nowe\LowFolow\lowFolow.pwn" 
 	#include "modules\obiekty\nowe\KomisariatLS\komisariatLS.pwn" 
+	
+	//*****************************************************
+	//Aktualizacja 2.5.85
+	//*****************************************************
+	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -109,6 +122,9 @@ obiekty_OnGameModeInit()
 	lowFolow_Init();
 	komisariatLS_Init();
 	centralBank_Init();
+	
+	
+	pub_Init();//PUB
 	return 1;
 }
 
@@ -129,6 +145,8 @@ obiekty_OnPlayerConnect(playerid)
 	mountChiliad_Connect(playerid);
 	komisariatLS_Connect(playerid);
 	parkingObokSzpitala_Connect(playerid);
+	
+	pub_Connect(playerid);
 	
 	return 1;
 }
