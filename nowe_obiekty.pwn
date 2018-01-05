@@ -4,7 +4,7 @@
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
 //Opis:
 /*
-	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
+	Plik zawierajÂ¹cy doÂ³Â¹czenia wszystkich obiektÃ³w w nowym formacie
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +25,7 @@
 
 //
 
-//TODO: USUN¥Æ TO	
+//TODO: USUNÂ¥Ã† TO	
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
@@ -34,9 +34,9 @@
 	#include "..\nowe\DosSantosCarService\DSCS.pwn"
 	#include "..\nowe\CentralBank\centralBank.pwn"
 	#include "..\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
-	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
+//	#include "..\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "..\nowe\CassinoAutoService\cassinoAutoService.pwn"
-	#include "..\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
+//	#include "..\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
 	#include "..\nowe\DMV\DMV.pwn"
 	#include "..\nowe\FBI\FBI.pwn"
 	#include "..\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
@@ -58,9 +58,9 @@
 	#include "modules\obiekty\nowe\DosSantosCarService\DSCS.pwn"
 	#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
 	#include "modules\obiekty\nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
-	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
+//	#include "modules\obiekty\nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
 	#include "modules\obiekty\nowe\CassinoAutoService\cassinoAutoService.pwn"
-	#include "modules\obiekty\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
+//	#include "modules\obiekty\nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
 	#include "modules\obiekty\nowe\DMV\DMV.pwn"
 	#include "modules\obiekty\nowe\FBI\FBI.pwn"
 	#include "modules\obiekty\nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
@@ -89,9 +89,9 @@ obiekty_OnGameModeInit()
 	DosSantosCarService_Init();
 	centralBank_Init();
 	siedzibaMechanikow_Init();
-	radaMiasta_Init();
+//	radaMiasta_Init();
 	cassinoAutoService_Init();
-	barierkiDillimore_Init();
+//	barierkiDillimore_Init();
 	DMV_Init();
 	FBI_Init();
 	centralaGSA_Init();
@@ -119,7 +119,7 @@ obiekty_OnPlayerConnect(playerid)
 	
 	centralBank_Connect(playerid);
 	siedzibaMechanikow_Connect(playerid);
-	radaMiasta_Connect(playerid);
+//	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);
 	centralaGSA_Connect(playerid);
 	bazaNG_Connect(playerid);
