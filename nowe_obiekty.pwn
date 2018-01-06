@@ -59,6 +59,7 @@
 	//*****************************************************
 	
 	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
+	#include "..\nowe\rondo\rondo.pwn"
 	
 	
 #else //Mrucznik-RP gamemode
@@ -90,6 +91,7 @@
 	//Aktualizacja 2.5.85
 	//*****************************************************
 	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
+	#include "modules\obiekty\nowe\rondo\rondo.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -123,6 +125,7 @@ obiekty_OnGameModeInit()
 	komisariatLS_Init();
 	centralBank_Init();
 	
+	rondo_Init();
 	
 	pub_Init();//PUB
 	return 1;
@@ -147,6 +150,6 @@ obiekty_OnPlayerConnect(playerid)
 	parkingObokSzpitala_Connect(playerid);
 	
 	pub_Connect(playerid);
-	
+	rondo_Connect(playerid);
 	return 1;
 }
