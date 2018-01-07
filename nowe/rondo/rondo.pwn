@@ -21,7 +21,7 @@
 //BY- DEDUIR
 //
 
-//-----------------<[ G�wne funkcje: ]>-------------------
+//-----------------<[ Główne funkcje: ]>-------------------
 rondo_Init()
 {
 	StworzObiekty();
@@ -124,8 +124,8 @@ static StworzObiekty()
 	CreateDynamicObject(970, 621.66528, -1414.85388, 13.10615,   0.00000, 0.00000, -74.94002, 0, 0, -1, 350);
 	CreateDynamicObject(19980, 638.64117, -1400.89197, 11.82621,   0.00000, 0.00000, 89.64005, 0, 0, -1, 350);
 	
-	new p1d3pa = CreateDynamicObject(3335, 2865.25879, -1867.93506, 9.76843,   0.00000, 0.00000, -93.90002, 0, 0, -1, 300);
-    SetDynamicObjectMaterialText(p1d3pa, 3, "Rondo\nWolno�ci",  OBJECT_MATERIAL_SIZE_256x128, "Arial",  32,  1,  0xFFFFFFFF,  0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
+	new p1d3pa = CreateDynamicObject(19980, 638.64117, -1400.89197, 11.82621,   0.00000, 0.00000, 89.64005, 0, 0, -1, 350);
+    SetDynamicObjectMaterialText(p1d3pa, 2, "Rondo\nWolności",  OBJECT_MATERIAL_SIZE_256x128, "Arial",  32,  1,  0xFFFFFFFF,  0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
 	
 	
 	return 1;
