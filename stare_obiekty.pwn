@@ -100,7 +100,6 @@ public obiekty_timer(wartosc)
     JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
-    EXT_Dworzec();
     PC_UM();
     BOR_Load();
     Basen_Load();
