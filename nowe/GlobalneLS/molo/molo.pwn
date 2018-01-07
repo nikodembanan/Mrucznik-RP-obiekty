@@ -21,7 +21,7 @@
 //BY- DEDUIR
 //
 new obiekt;
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
 molo_Init()
 {
 	StworzObiekty();
@@ -740,7 +740,7 @@ static StworzObiekty()
     new buil = CreateDynamicObject(3335, 2865.25879, -1867.93506, 9.76843,   0.00000, 0.00000, -93.90002, 0, 0, -1, 300);
     SetDynamicObjectMaterialText(buil, 2, "Riddle & Cotta\nMolo",  OBJECT_MATERIAL_SIZE_256x128, "Arial",  32,  1,  0xFFFFFFFF,  0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
 
-	DodajWejscie(3055.64941, -1889.84302, 11.86579, 2932.97900, -1782.19946, 91.46398, 0, 0, 0, 0, "Tajemniczy sracz", "Powrot");
+	DodajWejscie(3055.64941, -1889.84302, 11.86579, 2932.97900, -1782.19946, 91.46398, 0, 0, 0, 0, " ", "Powrot");
 	
 	return 1;
 }
@@ -748,7 +748,7 @@ static StworzObiekty()
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 17910, 2916.7656, -1877.6484, 0.0703, 0.25);//molo
-    RemoveBuildingForPlayer(playerid, 17953, 2916.7656, -1877.6484, 0.0703, 0.25);//molo
+	RemoveBuildingForPlayer(playerid, 17953, 2916.7656, -1877.6484, 0.0703, 0.25);//molo
 
 	return 1;
 }
