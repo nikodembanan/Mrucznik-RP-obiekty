@@ -28,11 +28,7 @@ ocult_Init()
 	return 1;
 }
 
-ocult_Connect(playerid)
-{
-	UsunObiekty(playerid);
-	return 1;
-}
+
 
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
@@ -711,9 +707,4 @@ static StworzObiekty()
 	return 1;
 }
 
-static UsunObiekty(playerid)
-{
 
-
-	return 1;
-}
