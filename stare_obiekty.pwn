@@ -187,15 +187,6 @@ DeleteObjects(playerid)
 
     RemoveBuildingForPlayer(playerid, 13024, -87.3047, -347.5000, 3.1719, 0.25); //HA
 	RemoveBuildingForPlayer(playerid, 12932, -117.9609, -337.4531, 3.6172, 0.25); //HA
-    //Dworzec glowny
-    RemoveBuildingForPlayer(playerid, 5033, 1745.2031, -1882.8516, 26.1406, 0.25);
-    RemoveBuildingForPlayer(playerid, 5055, 1745.2031, -1882.8516, 26.1406, 0.25);
-    RemoveBuildingForPlayer(playerid, 955, 1729.7891, -1943.0469, 12.9453, 0.25);
-    RemoveBuildingForPlayer(playerid, 963, 1747.0391, -1942.6641, 13.6094, 0.25);
-    RemoveBuildingForPlayer(playerid, 962, 1757.1484, -1942.6563, 13.6094, 0.25);
-    RemoveBuildingForPlayer(playerid, 5024, 1748.8438, -1883.0313, 14.1875, 0.25);
-    RemoveBuildingForPlayer(playerid, 5083, 1748.8438, -1883.0313, 14.1875, 0.25);
-    RemoveBuildingForPlayer(playerid, 1226, 1755.8203, -1859.5391, 16.3516, 0.25);
     //Grapestreet
     RemoveBuildingForPlayer(playerid, 3562, 2232.3984, -1464.7969, 25.6484, 0.25);
     RemoveBuildingForPlayer(playerid, 3562, 2247.5313, -1464.7969, 25.5469, 0.25);
@@ -692,11 +683,6 @@ BudkiTelefoniczne() {
     //Telefony pod 24/7
     dodajBudke(1346, 1833.84937, -1829.67566, 13.91150,   0.00000, 0.00000, 0.00000);
     dodajBudke(1346, 1835.12561, -1829.67224, 13.91200,   0.00000, 0.00000, 0.00000);
-
-
-    //Telefony Dworzec G³ówny
-    dodajBudke(1363, 1749.75183, -1849.52710, 13.40060,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1363, 1751.48975, -1849.52710, 13.40060,   0.00000, 0.00000, 0.00000);
 
     //Telefony pod FD
     dodajBudke(1363, 1798.48999, -1188.90503, 23.78120,   0.00000, 0.00000, 0.00000);
