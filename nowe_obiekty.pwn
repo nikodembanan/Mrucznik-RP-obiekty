@@ -65,6 +65,7 @@
 	#include "..\nowe\GlobalneLS\molo\molo.pwn"
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "..\nowe\przes\Ocult\ocult.pwn"
+	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	
 	
 #else //Mrucznik-RP gamemode
@@ -102,6 +103,7 @@
 	#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
 	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -141,6 +143,7 @@ obiekty_OnGameModeInit()
 	ocult_Init();
 	molo_Init();
 	satan_Init();
+	miesko_Init();
 	return 1;
 }
 
