@@ -62,6 +62,7 @@
 	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
 	#include "..\nowe\rondo\rondo.pwn"
 	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
+	#include "..\nowe\przes\ocult\ocult.pwn"
 	
 	
 #else //Mrucznik-RP gamemode
@@ -96,6 +97,7 @@
 	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
 	#include "modules\obiekty\nowe\rondo\rondo.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
+	#include "modules\obiekty\nowe\przes\ocult\ocult.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -132,6 +134,7 @@ obiekty_OnGameModeInit()
 	rondo_Init();
 	chinatown_Init();
 	pub_Init();//PUB
+	ocult_Init();
 	return 1;
 }
 
