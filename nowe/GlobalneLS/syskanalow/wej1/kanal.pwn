@@ -20,18 +20,14 @@
 //----------------------------------------------------*------------------------------------------------------//
 //BY- SIMEONE
 //
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
 satan_Init()
 {
 	StworzObiekty();
 	return 1;
 }
 
-satan_Connect(playerid)
-{
-	UsunObiekty(playerid);
-	return 1;
-}
+
 
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
@@ -70,11 +66,6 @@ static StworzObiekty()
 	return 1;
 }
 
-static UsunObiekty(playerid)
-{
-	
 
-	return 1;
-}
 
 
