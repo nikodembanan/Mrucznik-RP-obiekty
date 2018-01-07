@@ -67,6 +67,7 @@
 	#include "..\nowe\przes\Ocult\ocult.pwn"
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "..\nowe\cjgirl\cjgirl.pwn"
+	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
 	
 	
 #else //Mrucznik-RP gamemode
@@ -106,6 +107,7 @@
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
+	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -147,6 +149,7 @@ obiekty_OnGameModeInit()
 	satan_Init();
 	miesko_Init();
 	kasia_Init();
+	opmont_Init();
 	return 1;
 }
 
@@ -173,5 +176,6 @@ obiekty_OnPlayerConnect(playerid)
 	molo_Connect(playerid);
 	satan_Connect(playerid);
 	kasia_Connect(playerid);
+	opmont_Connect(playerid);
 	return 1;
 }
