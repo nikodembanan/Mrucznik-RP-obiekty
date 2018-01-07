@@ -63,6 +63,7 @@
 	#include "..\nowe\rondo\rondo.pwn"
 	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
 	#include "..\nowe\GlobalneLS\molo\molo.pwn"
+	#include "..\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 	#include "..\nowe\przes\Ocult\ocult.pwn"
 	
 	
@@ -100,6 +101,7 @@
 	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
 	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
 #endif
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -138,6 +140,7 @@ obiekty_OnGameModeInit()
 	pub_Init();//PUB
 	ocult_Init();
 	molo_Init();
+	satan_Init();
 	return 1;
 }
 
@@ -162,5 +165,6 @@ obiekty_OnPlayerConnect(playerid)
 	pub_Connect(playerid);
 	rondo_Connect(playerid);
 	molo_Connect(playerid);
+	satan_Connect(playerid);
 	return 1;
 }
