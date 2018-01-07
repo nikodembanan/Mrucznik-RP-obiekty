@@ -125,7 +125,7 @@ static StworzObiekty()
 	CreateDynamicObject(19980, 638.64117, -1400.89197, 11.82621,   0.00000, 0.00000, 89.64005, 0, 0, -1, 350);
 	
 	new p1d3pa = CreateDynamicObject(19980, 638.64117, -1400.89197, 11.82621,   0.00000, 0.00000, 89.64005, 0, 0, -1, 350);
-    SetDynamicObjectMaterialText(p1d3pa, 2, "Rondo\nWolności",  OBJECT_MATERIAL_SIZE_256x128, "Arial",  32,  1,  0xFFFFFFFF,  0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
+    SetDynamicObjectMaterialText(p1d3pa, 2, "Rondo\nWolnosci",  OBJECT_MATERIAL_SIZE_256x128, "Arial",  32,  1,  0xFFFFFFFF,  0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
 	
 	
 	return 1;
