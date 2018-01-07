@@ -62,6 +62,7 @@
 	#include "..\nowe\przes\pub\pub.pwn" //PUB by lil frachty
 	#include "..\nowe\rondo\rondo.pwn"
 	#include "..\nowe\GlobalneLS\chinatown\chinatown.pwn"
+	#include "..\nowe\GlobalneLS\molo\molo.pwn"
 	#include "..\nowe\przes\Ocult\ocult.pwn"
 	
 	
@@ -97,6 +98,7 @@
 	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
 	#include "modules\obiekty\nowe\rondo\rondo.pwn"
 	#include "modules\obiekty\nowe\GlobalneLS\chinatown\chinatown.pwn"
+	#include "modules\obiekty\nowe\GlobalneLS\molo\molo.pwn"
 	#include "modules\obiekty\nowe\przes\Ocult\ocult.pwn"
 #endif
 
@@ -135,6 +137,7 @@ obiekty_OnGameModeInit()
 	chinatown_Init();
 	pub_Init();//PUB
 	ocult_Init();
+	molo_Init();
 	return 1;
 }
 
@@ -158,5 +161,6 @@ obiekty_OnPlayerConnect(playerid)
 	
 	pub_Connect(playerid);
 	rondo_Connect(playerid);
+	molo_Connect(playerid);
 	return 1;
 }
