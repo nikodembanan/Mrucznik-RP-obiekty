@@ -174,7 +174,6 @@ obiekty_OnPlayerConnect(playerid)
 	pub_Connect(playerid);
 	rondo_Connect(playerid);
 	molo_Connect(playerid);
-	satan_Connect(playerid);
 	kasia_Connect(playerid);
 	opmont_Connect(playerid);
 	return 1;
