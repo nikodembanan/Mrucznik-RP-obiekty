@@ -20,7 +20,7 @@
 //----------------------------------------------------*------------------------------------------------------//
 //BY- LUKESQL
 //
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ GÂ³Ã³wne funkcje: ]>-------------------
 opmont_Init()
 {
 	StworzObiekty();
@@ -28,6 +28,11 @@ opmont_Init()
 }
 
 
+opmont_Connect(playerid)
+{
+	UsunObiekty(playerid);
+	return 1;
+}
 
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
