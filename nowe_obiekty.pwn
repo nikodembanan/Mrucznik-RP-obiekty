@@ -68,6 +68,12 @@
 	#include "..\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "..\nowe\cjgirl\cjgirl.pwn"
 	#include "..\nowe\opdlaorg\StacjaMont\stam.pwn"
+	#include "..\nowe\SanVanInterior\sanVanInterior.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.84 - dodatki
+	//*****************************************************
+	#include "..\nowe\HouseInteriorWOSP\houseInteriorWOSP.pwn"
 	
 	
 #else //Mrucznik-RP gamemode
@@ -109,6 +115,11 @@
 	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
 	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
 	#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.84 - dodatki
+	//*****************************************************
+	#include "modules\obiekty\nowe\HouseInteriorWOSP\houseInteriorWOSP.pwn"
 #endif
 
 
@@ -153,6 +164,7 @@ obiekty_OnGameModeInit()
 	kasia_Init();
 	opmont_Init();
 	sanVanInterior_Init();
+	houseInteriorWOSP_Init();
 	return 1;
 }
 
