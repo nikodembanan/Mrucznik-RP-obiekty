@@ -4,7 +4,7 @@
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
 //Opis:
 /*
-	Plik zawierajÂ¹cy doÂ³Â¹czenia wszystkich obiektÃ³w w nowym formacie
+	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +25,7 @@
 
 //
 
-//TODO: USUNÂ¥Ã† TO	
+//TODO: USU¥Æ TO	
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
@@ -97,7 +97,7 @@
 	#include "modules\obiekty\nowe\KomisariatLS\komisariatLS.pwn" 
 	
 	//*****************************************************
-	//Aktualizacja 2.5.85
+	//Aktualizacja 2.5.84
 	//*****************************************************
 	#include "modules\obiekty\nowe\przes\pub\pub.pwn"
 	#include "modules\obiekty\nowe\rondo\rondo.pwn"
@@ -108,7 +108,9 @@
 	#include "modules\obiekty\nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
 	#include "modules\obiekty\nowe\cjgirl\cjgirl.pwn"
 	#include "modules\obiekty\nowe\opdlaorg\StacjaMont\stam.pwn"
+	#include "modules\obiekty\nowe\SanVanInterior\sanVanInterior.pwn"
 #endif
+
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -150,6 +152,7 @@ obiekty_OnGameModeInit()
 	miesko_Init();
 	kasia_Init();
 	opmont_Init();
+	sanVanInterior_Init();
 	return 1;
 }
 
