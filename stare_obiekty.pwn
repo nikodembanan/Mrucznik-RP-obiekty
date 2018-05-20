@@ -17,7 +17,7 @@
 	#include "../stare/grove.pwn"
 	#include "../stare/ha.pwn"
 	#include "../stare/ibiza.pwn"
-	//#include "../stare/icc.pwn"
+	#include "../stare/icc.pwn"
 	#include "../stare/kt.pwn"
 	//#include "../stare/ls_grape.pwn"
 	#include "../stare/lsfd.pwn"
@@ -49,7 +49,7 @@
 	#include "modules/obiekty/stare/grove.pwn"
 	#include "modules/obiekty/stare/ha.pwn"
 	#include "modules/obiekty/stare/ibiza.pwn"
-	//#include "modules/obiekty/stare/icc.pwn"
+	#include "modules/obiekty/stare/icc.pwn"
 	#include "modules/obiekty/stare/kt.pwn"
 	//#include "modules/obiekty/stare/ls_grape.pwn"
 	#include "modules/obiekty/stare/lsfd.pwn"
@@ -91,13 +91,13 @@ public obiekty_timer(wartosc)
     BazaNG();
 	LSPDintek();
 	BazaKT();
-	//Risto();
+	Risto();
 	LOADLSMC();
     SN_Load();
     Int_BarBallas();
     VinylClub();
    // Ibiza_Club();
-  //  JettyLounge();
+  	JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
     PC_UM();
