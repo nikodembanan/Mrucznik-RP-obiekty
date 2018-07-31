@@ -1718,6 +1718,8 @@ Stare_Obiekty()
 	CreateDynamicObject(2939,2345.31298828,-1252.29846191,22.67099571,172.35662842,0.00000000,266.21520996,0,0); //object(ramp_bot)(3)
 
 	//obiekty cywilne przystanek BAZA MECHANIKÓW (pêtla)
+	RemoveBuildingForPlayer(playerid, 1297, 2833.3047, -1593.1797, 13.3281, 0.25);
+	
 	CreateDynamicObject(1280,2821.6999512,-1578.5999756,10.5000000,0.0000000,0.0000000,344.0000000,0,0); //object(parkbench1) (1)
 	CreateDynamicObject(1280,2822.1999512,-1582.4000244,10.5000000,0.0000000,0.0000000,23.9974365,0,0); //object(parkbench1) (2)
 	CreateDynamicObject(1280,2824.1000977,-1575.5000000,10.5000000,0.0000000,0.0000000,303.9971924,0,0); //object(parkbench1) (3)
