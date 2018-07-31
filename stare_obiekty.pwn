@@ -21,7 +21,7 @@
 	#include "../stare/kt.pwn"
 	//#include "../stare/ls_grape.pwn"
 	#include "../stare/lsfd.pwn"
-	#include "../stare/lsmc.pwn"
+	//#include "../stare/lsmc.pwn"
 	#include "../stare/lspd.pwn"
 	#include "../stare/ng.pwn"
 	#include "../stare/pc.pwn"
@@ -32,7 +32,7 @@
 	#include "../stare/vinyl.pwn"
 	#include "../stare/ykz.pwn"
 	#include "../stare/bank.pwn"
-	#include "../stare/new_mech.pwn"
+	//#include "../stare/new_mech.pwn"
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/stare/admin.pwn"
 	#include "modules/obiekty/stare/ballas.pwn"
@@ -53,7 +53,7 @@
 	#include "modules/obiekty/stare/kt.pwn"
 	//#include "modules/obiekty/stare/ls_grape.pwn"
 	#include "modules/obiekty/stare/lsfd.pwn"
-	#include "modules/obiekty/stare/lsmc.pwn"
+	//#include "modules/obiekty/stare/lsmc.pwn"
 	#include "modules/obiekty/stare/lspd.pwn"
 	#include "modules/obiekty/stare/ng.pwn"
 	#include "modules/obiekty/stare/pc.pwn"
@@ -64,7 +64,7 @@
 	#include "modules/obiekty/stare/vinyl.pwn"
 	#include "modules/obiekty/stare/ykz.pwn"
 	#include "modules/obiekty/stare/bank.pwn"
-	#include "modules/obiekty/stare/new_mech.pwn"
+	//#include "modules/obiekty/stare/new_mech.pwn"
 #endif
 
 Stworz_Obiekty()
@@ -80,7 +80,7 @@ public obiekty_timer(wartosc)
     Bus_Stops();
     Stare_Obiekty();
 	ZaladujBramy();
-    noweMech_StworzObiekty();
+    //noweMech_StworzObiekty();
     BazaLSFD();
   //  EXT_GrapeStreet();
     EXT_BazaHA();
@@ -92,7 +92,7 @@ public obiekty_timer(wartosc)
 	LSPDintek();
 	BazaKT();
 	Risto();
-	LOADLSMC();
+	//LOADLSMC();
     SN_Load();
     Int_BarBallas();
     VinylClub();
@@ -116,7 +116,7 @@ public obiekty_timer(wartosc)
     INT_LSFD();
   //  LS_ElCorona();
 	LadujObiektyBanku();
-    ChangeLSMCElevatorState();
+    //ChangeLSMCElevatorState();
   //  BudkiTelefoniczne();
 	return 1;
 }
@@ -137,7 +137,7 @@ DeleteObjects(playerid)
 {
 	//Z funkcji
 	Dillimore_DeleteMapObjects(playerid);
-    noweMech_UsunObiekty(playerid);
+    //noweMech_UsunObiekty(playerid);
 
 
     /*___Obiekty usuniête - Osiedle Idlewood/Alhambra___
@@ -1718,7 +1718,7 @@ Stare_Obiekty()
 	CreateDynamicObject(2939,2345.31298828,-1252.29846191,22.67099571,172.35662842,0.00000000,266.21520996,0,0); //object(ramp_bot)(3)
 
 	//obiekty cywilne przystanek BAZA MECHANIKÓW (pêtla)
-	/*CreateDynamicObject(1280,2821.6999512,-1578.5999756,10.5000000,0.0000000,0.0000000,344.0000000,0,0); //object(parkbench1) (1)
+	CreateDynamicObject(1280,2821.6999512,-1578.5999756,10.5000000,0.0000000,0.0000000,344.0000000,0,0); //object(parkbench1) (1)
 	CreateDynamicObject(1280,2822.1999512,-1582.4000244,10.5000000,0.0000000,0.0000000,23.9974365,0,0); //object(parkbench1) (2)
 	CreateDynamicObject(1280,2824.1000977,-1575.5000000,10.5000000,0.0000000,0.0000000,303.9971924,0,0); //object(parkbench1) (3)
 	CreateDynamicObject(1229,2825.1000977,-1573.0000000,11.6999998,0.0000000,0.0000000,140.0000000,0,0); //object(bussign1) (1)
@@ -1743,7 +1743,7 @@ Stare_Obiekty()
 	CreateDynamicObject(1280,2832.1999512,-1577.3000488,10.5000000,0.0000000,0.0000000,223.9971924,0,0); //object(parkbench1) (4)
 	CreateDynamicObject(949,2825.8000488,-1574.3000488,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (4)
 	CreateDynamicObject(949,2823.3000488,-1584.3000488,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (6)
-	CreateDynamicObject(970,2825.3999023,-1586.0999756,10.6000004,0.0000000,0.0000000,331.9945068,0,0); //object(fencesmallb) (5) */
+	CreateDynamicObject(970,2825.3999023,-1586.0999756,10.6000004,0.0000000,0.0000000,331.9945068,0,0); //object(fencesmallb) (5)
 	CreateDynamicObject(14467,2792.3999023,-1535.8000488,12.8000002,0.0000000,0.0000000,50.0000000,0,0,-1,300.00,300.00); //król mechaników
 	
 	//stacja benzynowa pod paczkiem
