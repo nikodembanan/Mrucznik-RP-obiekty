@@ -95,7 +95,7 @@ static StworzObiekty()
 	CreateDynamicObject(2050, 1397.06726, -1269.41919, 35.19902,   0.00000, 0.00000, 0.00000);
 
 	//stock DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="")
-	DodajWejscie(299.5673,-27.0027,1001.5156, 1400.2362,-1287.7935,33.9234, 0, 1, 0, 0, "Magazyn & Biuro", "");
+	DodajWejscie(299.5673,-27.0027,1001.5156, 1400.2362,-1287.7935,33.9234, 68, 1, 0, 0, "Magazyn & Biuro", "");
 
 	return 1;
 }
