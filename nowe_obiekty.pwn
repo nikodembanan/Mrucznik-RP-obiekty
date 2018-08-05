@@ -53,7 +53,7 @@
 	#include "..\nowe\GlobalneLV\lv.pwn"
 	#include "..\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn"
 	#include "..\nowe\GunShop\gunShop.pwn"
-	#include "..\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn"
+	//#include "..\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn"
 	#include "..\nowe\MountChiliad\mountChiliad.pwn"
 	#include "..\nowe\MoneyMakers\moneyMakers.pwn"
 	#include "..\nowe\LowFolow\lowFolow.pwn"
@@ -113,7 +113,7 @@
 	#include "modules\obiekty\nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn" 
 	#include "modules\obiekty\nowe\GlobalneLV\lv.pwn"
 	#include "modules\obiekty\nowe\GunShop\gunShop.pwn" 
-	#include "modules\obiekty\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn" 
+	//#include "modules\obiekty\nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn"
 	#include "modules\obiekty\nowe\MountChiliad\mountChiliad.pwn" 
 	#include "modules\obiekty\nowe\MoneyMakers\moneyMakers.pwn" 
 	#include "modules\obiekty\nowe\LowFolow\lowFolow.pwn" 
@@ -175,7 +175,7 @@ obiekty_OnGameModeInit()
 	znakiUpiekszenia_Init();
 	centrumRozrywkiLS_Init();
 	gunShop_Init();
-	parkingObokSzpitala_Init();
+	//parkingObokSzpitala_Init();
 	mountChiliad_Init();
 	moneyMakers_Init();
 	lowFolow_Init();
@@ -222,7 +222,7 @@ obiekty_OnPlayerConnect(playerid)
 	znakiUpiekszenia_Connect(playerid);
 	mountChiliad_Connect(playerid);
 	komisariatLS_Connect(playerid);
-	parkingObokSzpitala_Connect(playerid);
+	//parkingObokSzpitala_Connect(playerid);
 	
 	pub_Connect(playerid);
 	rondo_Connect(playerid);
