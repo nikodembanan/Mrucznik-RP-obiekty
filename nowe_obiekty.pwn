@@ -23,9 +23,6 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 
-//======={ZMIENNE}=======
-//#include "..\skrypt\zmienne.pwn"//Dla pdst. gm
-#include "modules\obiekty\skrypt\obiekty_zmienne.pwn"
 
 
 //TODO: USU¥Æ TO	
@@ -33,6 +30,8 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
+	#include "obiekty_zmienne.pwn"
+	
 	#include "..\nowe\AmmuNationBananov\ammuNationBananov.pwn"
 	#include "..\nowe\DosSantosCarService\DSCS.pwn"
 	//#include "..\nowe\CentralBank\centralBank.pwn"
@@ -93,6 +92,8 @@
 	
 	
 #else //Mrucznik-RP gamemode
+	#include "modules\obiekty\skrypt\obiekty_zmienne.pwn"
+	
 	#include "modules\obiekty\nowe\AmmuNationBananov\ammuNationBananov.pwn"
 	#include "modules\obiekty\nowe\DosSantosCarService\DSCS.pwn"
 	//#include "modules\obiekty\nowe\CentralBank\centralBank.pwn"
