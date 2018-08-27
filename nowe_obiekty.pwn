@@ -235,6 +235,6 @@ obiekty_OnPlayerConnect(playerid)
 	idleop_Connect(playerid);
 	sidle_Connect(playerid);
 	
-	lv_Connect();
+	lv_Connect(playerid);
 	return 1;
 }
