@@ -204,6 +204,8 @@ obiekty_OnGameModeInit()
 	enforcer_Init();
 	LSMC_Init();
 	ChangeLSMCElevatorState();
+	
+	lv_Init();
 	return 1;
 }
 
@@ -232,5 +234,7 @@ obiekty_OnPlayerConnect(playerid)
 	opmont_Connect(playerid);
 	idleop_Connect(playerid);
 	sidle_Connect(playerid);
+	
+	lv_Connect();
 	return 1;
 }
