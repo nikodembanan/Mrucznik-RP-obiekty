@@ -16,7 +16,7 @@
 	#include "../stare/fam_fdu.pwn"
 	#include "../stare/grove.pwn"
 	#include "../stare/ha.pwn"
-	#include "../stare/ibiza.pwn"
+	//#include "../stare/ibiza.pwn"
 	#include "../stare/icc.pwn"
 	#include "../stare/kt.pwn"
 	//#include "../stare/ls_grape.pwn"
@@ -48,7 +48,7 @@
 	#include "modules/obiekty/stare/fam_fdu.pwn"
 	#include "modules/obiekty/stare/grove.pwn"
 	#include "modules/obiekty/stare/ha.pwn"
-	#include "modules/obiekty/stare/ibiza.pwn"
+	//#include "modules/obiekty/stare/ibiza.pwn"
 	#include "modules/obiekty/stare/icc.pwn"
 	#include "modules/obiekty/stare/kt.pwn"
 	//#include "modules/obiekty/stare/ls_grape.pwn"
@@ -96,7 +96,6 @@ public obiekty_timer(wartosc)
     SN_Load();
     Int_BarBallas();
     VinylClub();
-   // Ibiza_Club();
   	JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
@@ -117,7 +116,6 @@ public obiekty_timer(wartosc)
   //  LS_ElCorona();
 	LadujObiektyBanku();
     //ChangeLSMCElevatorState();
-  //  BudkiTelefoniczne();
 	return 1;
 }
 
@@ -602,102 +600,6 @@ DeleteObjects(playerid)
 
     LoadingHide(playerid);
 	return 1;
-}
-
-BudkiTelefoniczne() {
-    /* znaki informacyjne
-    CreateDynamicObject(1234, 2076.77466, -1793.24060, 13.95218,   0.00000, 0.00000, 91.31998);//idle
-    CreateDynamicObject(1234, 1538.96326, -1597.73792, 13.81514,   0.00000, 0.00000, 0.00000);//PD
-    CreateDynamicObject(1234, 1831.06897, -1830.49487, 13.97328,   0.00000, 0.00000, 0.00000);//24/7
-    CreateDynamicObject(1234, 1831.06897, -1830.47192, 13.97330,   0.00000, 0.00000, 90.00000);//24/7
-    CreateDynamicObject(1234, 2182.65698, -1114.58582, 25.48570,   0.00000, 0.00000, 0.00000);//Znak motel jeff
-    CreateDynamicObject(1234, 1800.07349, -1186.35193, 24.29012,   0.00000, 0.00000, 0.00000);//Znak pod FD
-    CreateDynamicObject(1234, 1503.83240, -1025.20996, 24.15519,   0.00000, 0.00000, 0.00000);//Znak pod Bankiem
-    CreateDynamicObject(1234, 642.80646, -1377.40320, 14.14353,   0.00000, 0.00000, -88.85999);//Znak pod SN
-    CreateDynamicObject(1234, 2418.92627, -2109.56006, 14.00105,   0.00000, 0.00000, -87.84000);//Znak pod KT
-    CreateDynamicObject(1234, 2477.42432, -1653.32520, 13.74620,   0.00000, 0.00000, 0.00000);//Znak Grove
-    CreateDynamicObject(1234, 2849.16431, -1546.07800, 11.43921,   0.00000, 0.00000, 64.67998);//Znak mechy
-    CreateDynamicObject(1234, 2622.55493, -1726.79504, 11.88914,   0.00000, 0.00000, 0.00000);//Znak BEACH
-    CreateDynamicObject(1234, 662.49359, -535.38519, 16.82881,   0.00000, 0.00000, 0.00000);//Znak Dillimore
-    CreateDynamicObject(1234, 227.46706, -56.18393, 1.87736,   0.00000, 0.00000, 89.88001);//Znak Blueberry 
-
-        //Telefony pod Mechami
-    dodajBudke(1216, 2847.55518, -1543.48450, 10.63379,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1216, 2845.62476, -1543.51538, 10.73104,   0.00000, 0.00000, 0.00000);
-
-    //Telefony pod pizzeri¹ idle
-    dodajBudke(1216, 2071.96118, -1798.40515, 13.00500,   0.00000, 0.00000, 90.00000);
-    dodajBudke(1216, 2071.96118, -1799.54785, 13.00500,   0.00000, 0.00000, 90.00000);
-    dodajBudke(1216, 2071.96118, -1800.79529, 13.00500,   0.00000, 0.00000, 90.00000);
-
-
-    //Telefony pod motelem jeff
-    dodajBudke(1363, 2178.72900, -1113.27100, 25.02770,   0.00000, 0.00000, -10.14000);
-
-    //Telefony pod bankiem
-    dodajBudke(1363, 1500.29370, -1020.68420, 23.66090,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1363, 1502.52527, -1020.68420, 23.66090,   0.00000, 0.00000, 0.00000);
-
-    //Telefony na Grove
-    dodajBudke(1216, 2479.50610, -1651.55981, 13.06228,   0.00000, 0.00000, 180.00000);
-    dodajBudke(1216, 2479.46143, -1652.08362, 13.06030,   0.00000, 0.00000, 0.00000);
-
-
-    //Telefony pod San News
-    dodajBudke(1216, 647.30878, -1369.64648, 13.11750,   0.00000, 0.00000, -90.00000);
-    dodajBudke(1216, 647.30878, -1370.92627, 13.11750,   0.00000, 0.00000, -90.00000);
-    dodajBudke(1216, 647.30878, -1372.36743, 13.11750,   0.00000, 0.00000, -90.00000);
-    dodajBudke(1216, 647.30878, -1373.98645, 13.11750,   0.00000, 0.00000, -90.00000);
-
-
-
-    //Telefony pod Mrucznik Tower
-    dodajBudke(1216, 361.94464, -1551.05176, 32.52104,   0.00000, 0.00000, -130.31996);
-    dodajBudke(1216, 360.88647, -1552.43823, 32.42741,   0.00000, 0.00000, -125.76003);
-
-    //Telefony pod kasynem
-    dodajBudke(1216, 1006.54431, -1115.57385, 23.46170,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1216, 1008.01593, -1115.57385, 23.45930,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1216, 1009.63843, -1115.57385, 23.45930,   0.00000, 0.00000, 0.00000);
-
-    //Telefony pod KT
-    dodajBudke(1216, 2423.45728, -2112.00195, 13.16704,   0.00000, 0.00000, -90.42001);
-    dodajBudke(1216, 2423.44287, -2114.06592, 13.13257,   0.00000, 0.00000, -89.64002);
-
-    //Telefony na moœcie (BEACH)
-    dodajBudke(1216, 2620.19727, -1722.75745, 11.14609,   0.00000, 0.00000, -2.94000);
-    dodajBudke(1216, 2621.80811, -1722.90137, 11.14264,   0.00000, 0.00000, -3.18000);
-
-
-    //Telefony na wzgórzu (camperów)
-    dodajBudke(1363, 2674.16675, -1061.08899, 69.15487,   0.00000, 0.00000, 0.00000);
-
-    //Telefony pod DMV
-    dodajBudke(1216, 1466.27759, -1749.94800, 15.05390,   0.00000, 0.00000, 180.00000);
-    dodajBudke(1216, 1464.32117, -1749.94800, 15.05390,   0.00000, 0.00000, 180.00000);
-    dodajBudke(1216, 1462.65308, -1749.94800, 15.05390,   0.00000, 0.00000, 180.00000);
-
-    //Telefony pod PD
-    dodajBudke(1216, 1540.21875, -1602.00903, 13.08080,   0.00000, 0.00000, 180.00000);
-    dodajBudke(1216, 1542.10693, -1602.01746, 13.08080,   0.00000, 0.00000, 180.00000);
-    dodajBudke(1216, 1544.23730, -1601.99695, 13.08085,   0.00000, 0.00000, 180.00000);
-
-    //Telefony pod 24/7
-    dodajBudke(1346, 1833.84937, -1829.67566, 13.91150,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1346, 1835.12561, -1829.67224, 13.91200,   0.00000, 0.00000, 0.00000);
-
-    //Telefony pod FD
-    dodajBudke(1363, 1798.48999, -1188.90503, 23.78120,   0.00000, 0.00000, 0.00000);
-    dodajBudke(1363, 1795.99878, -1188.90503, 23.78120,   0.00000, 0.00000, 0.00000);
-
-    //Telefony w Dillimore
-    dodajBudke(1216, 663.10199, -539.83276, 15.95064,   0.00000, 0.00000, 180.00000);
-    dodajBudke(1216, 664.71613, -539.80548, 15.95060,   0.00000, 0.00000, 180.00000);
-
-    //Telefony w Blueberry
-    dodajBudke(1216, 223.25951, -54.67980, 1.11520,   0.00000, 0.00000, 90.00000);
-    dodajBudke(1216, 223.25951, -52.98860, 1.11520,   0.00000, 0.00000, 90.00000);
-    dodajBudke(1216, 223.25951, -51.27120, 1.11520,   0.00000, 0.00000, 90.00000); */
 }
 
 Stare_Obiekty()
