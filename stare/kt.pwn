@@ -1317,7 +1317,7 @@ stock INT_AirTowerLS()  //INT 2
     CreateDynamicObject(19376, 1632.68884, -2293.46143, 76.93990,   0.00000, 0.00000, 0.00000);
     CreateDynamicObject(19376, 1622.40918, -2293.49976, 76.93990,   0.00000, 0.00000, 0.00000);
     new end = CreateDynamicObject(19376, 1627.51599, -2293.55615, 71.69643,   0.00000, 90.00000, 0.00000);
-    for(new i=start;i<=end;i++) if(IsValidObject(i)) SetObjectMaterial(i, 0, -1, "none", "none", 0x00FFFFFF);
+    for(new i=start;i<=end;i++) if(IsValidDynamicObject(i)) SetDynamicObjectMaterial(i, 0, -1, "none", "none", 0x00FFFFFF);
 }
 
 stock INT_AirTowerLS_Exit(playerid, bool:force=false, bool:odd=false)
