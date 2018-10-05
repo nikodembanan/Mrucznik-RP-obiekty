@@ -11,7 +11,7 @@
 	#include "../stare/bus.pwn"
 	#include "../stare/christmas.pwn"
 	#include "../stare/dillimore.pwn"
-	#include "../stare/dmv.pwn"
+	//WYŁĄCZONE PRZEZ SIMEONE 02-10-2018 #include "../stare/dmv.pwn"
 	#include "../stare/fbi.pwn"
 	#include "../stare/fam_fdu.pwn"
 	#include "../stare/grove.pwn"
@@ -43,7 +43,7 @@
 	#include "modules/obiekty/stare/bus.pwn"
 	#include "modules/obiekty/stare/christmas.pwn"
 	#include "modules/obiekty/stare/dillimore.pwn"
-	#include "modules/obiekty/stare/dmv.pwn"
+	//WYŁĄCZONE PRZEZ SIMEONE 02-10-2018 #include "modules/obiekty/stare/dmv.pwn"
 	#include "modules/obiekty/stare/fbi.pwn"
 	#include "modules/obiekty/stare/fam_fdu.pwn"
 	#include "modules/obiekty/stare/grove.pwn"
@@ -104,7 +104,7 @@ public obiekty_timer(wartosc)
     Basen_Load();
     FBI_Load();
     WPS_Load();
-    DMV_Load();
+   // DMV_Load();
     KT_Lotniska();
     Load_AdminIsland();
     //Rodziny
@@ -362,7 +362,7 @@ DeleteObjects(playerid)
 	BazaKTDestroyObjects(playerid);
 	
 	//baza NG by Dywan
-	RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);
+	/*RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);
 	RemoveBuildingForPlayer(playerid, 5159, 2838.0313, -2371.9531, 7.2969, 0.25);
 	RemoveBuildingForPlayer(playerid, 5160, 2829.9531, -2479.5703, 5.2656, 0.25);
 	RemoveBuildingForPlayer(playerid, 5161, 2838.0234, -2358.4766, 21.3125, 0.25);
@@ -589,7 +589,7 @@ DeleteObjects(playerid)
 	RemoveBuildingForPlayer(playerid, 1278, 2804.2422, -2333.3828, 26.7031, 0.25);
 	RemoveBuildingForPlayer(playerid, 5158, 2837.7734, -2334.4766, 11.9922, 0.25);
 	RemoveBuildingForPlayer(playerid, 4270, 2657.0781, -2711.4531, -4.0000, 0.25);
-	RemoveBuildingForPlayer(playerid, 4404, 2657.0781, -2711.4531, -4.0000, 0.25);
+	RemoveBuildingForPlayer(playerid, 4404, 2657.0781, -2711.4531, -4.0000, 0.25); */
 
     //SN
     RemoveBuildingForPlayer(playerid, 1689, 745.5859, -1381.1094, 25.8750, 0.25);
@@ -1491,7 +1491,7 @@ Stare_Obiekty()
 	CreateDynamicObject(2943,1497.40002441,-1825.40002441,12.89999962,0.00000000,86.00000000,236.00000000,0,0); //object(kmb_atm2) (1) zniszczony bankomat
 		//PADZIOCH
 	CreateDynamicObject(19324, 2423.41968, -2066.13257, 13.16730,   0.00000, 0.00000, -90.00000); // Pod KT
-	CreateDynamicObject(19324, 1001.01910, -923.60107, 41.94500,   0.00000, 0.00000, -80.00000); // Stacja Temple
+	CreateDynamicObject(19324, 1001.01910, -923.60107, 41.94500,   0.00000, 0.00000, -80.00000); // Temple
 	CreateDynamicObject(19324, 388.61719, -1806.26758, 7.45220,   0.00000, 0.00000, -140.00000); // Pod ibiz¹
 	CreateDynamicObject(19324, 647.26550, -1368.86865, 13.26730,   0.00000, 0.00000, -90.00000); // Pod San News
 	CreateDynamicObject(19324, 661.38593, -575.82269, 15.95790,   0.00000, 0.00000, -90.00000); // Stacja Dillmore
@@ -1649,7 +1649,7 @@ Stare_Obiekty()
 	CreateDynamicObject(949,2823.3000488,-1584.3000488,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (6)
 	CreateDynamicObject(970,2825.3999023,-1586.0999756,10.6000004,0.0000000,0.0000000,331.9945068,0,0); //object(fencesmallb) (5)
 	CreateDynamicObject(14467,2792.3999023,-1535.8000488,12.8000002,0.0000000,0.0000000,50.0000000,0,0,-1,300.00,300.00); //król mechaników
-	
+	/*
 	//stacja benzynowa pod paczkiem
 	CreateDynamicObject(13296,1017.70147705,-1353.82678223,15.60587311,0.00000000,0.00000000,270.25000000,0,0); //object(ce_roadsidegas) (1)
 	CreateDynamicObject(11393,994.86157227,-1344.06176758,13.88285255,0.00000000,0.00000000,272.00000000,0,0); //object(hubprops1_sfs) (1)
@@ -1664,7 +1664,7 @@ Stare_Obiekty()
 	CreateDynamicObject(1244,1012.04095459,-1357.87670898,13.38339233,0.00000000,0.00000000,0.00000000,0,0); //object(petrolpump) (4)
 	CreateDynamicObject(1238,1012.08764648,-1360.32617188,12.67443657,0.00000000,0.00000000,0.00000000,0,0); //object(trafficcone) (1)
 	CreateDynamicObject(1238,1011.94830322,-1348.52600098,12.67443657,0.00000000,0.00000000,0.00000000,0,0); //object(trafficcone) (2)
-
+*/
 	//obiekty cywilne (warsztat Ganton)
 	CreateDynamicObject(13296,2467.8994100,-1784.3994100,15.8000000,0.0000000,0.0000000,179.9950000,0,0); //object(ce_roadsidegas) (1)
 	CreateDynamicObject(16004,2511.7998000,-1793.5996100,15.3000000,0.0000000,0.0000000,283.9970000,0,0); //object(des_tepeoff) (1)

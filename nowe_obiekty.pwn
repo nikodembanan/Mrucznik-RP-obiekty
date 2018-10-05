@@ -58,8 +58,9 @@
 	#include "../nowe/LowFolow/lowFolow.pwn"
 	#include "../nowe/KomisariatLS/komisariatLS.pwn"
 	
+	
 	//*****************************************************
-	//Aktualizacja 2.5.85
+	//Aktualizacja 2.5.85 - By Simeone
 	//*****************************************************
 	
 	#include "../nowe/przes/pub/pub.pwn" //PUB by lil frachty
@@ -72,7 +73,7 @@
 	#include "../nowe/cjgirl/cjgirl.pwn"
 	#include "../nowe/LSMC/LSMC.pwn"
 	#include "../nowe/opdlaorg/StacjaMont/stam.pwn"
-	//#include "../nowe/SanVanInterior/sanVanInterior.pwn"
+	#include "../nowe/SanVanInterior/sanVanInterior.pwn"
 	
 	//-------------------------------------------------------------
 	
@@ -90,6 +91,17 @@
 	//*****************************************************
 	#include "../nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
 	
+	//*****************************************************
+	//Aktualizacja 2.5.93 - By Simeone
+	//*****************************************************
+	#include "../nowe/hitman/hitmans.pwn"
+	#include "../nowe/DMV/intekDMV.pwn"
+	#include "../nowe/ramirezaservice/ramirezext.pwn"
+	#include "../nowe/dscs/dscs.pwn"
+	#include "../nowe/hellsangelsmc/hamc.pwn"
+	#include "../nowe/ramirezaservice/ramirezint.pwn"
+	#include "../nowe/GlobalneLS/banklsext.pwn"
+	#include "../nowe/GunShop/gunshopls.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -121,7 +133,7 @@
 	#include "modules/obiekty/nowe/KomisariatLS/komisariatLS.pwn" 
 	
 	//*****************************************************
-	//Aktualizacja 2.5.84
+	//Aktualizacja 2.5.84- By Simeone
 	//*****************************************************
 	#include "modules/obiekty/nowe/przes/pub/pub.pwn"
 	#include "modules/obiekty/nowe/rondo/rondo.pwn"
@@ -133,7 +145,7 @@
 	#include "modules/obiekty/nowe/cjgirl/cjgirl.pwn"
 	#include "modules/obiekty/nowe/LSMC/lsmc.pwn"
 	#include "modules/obiekty/nowe/opdlaorg/StacjaMont/stam.pwn"
-	//#include "modules/obiekty/nowe/SanVanInterior/sanVanInterior.pwn"
+	#include "modules/obiekty/nowe/SanVanInterior/sanVanInterior.pwn"
 	
 	//------------------------------
 	
@@ -149,6 +161,18 @@
 	//Aktualizacja 2.5.84 - dodatki
 	//*****************************************************
 	#include "modules/obiekty/nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.93 - By Simeone
+	//*****************************************************
+	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
+	#include "modules/obiekty/nowe/DMV/intekDMV.pwn"
+	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
+	#include "modules/obiekty/nowe/dscs/dscs.pwn"
+	#include "modules/obiekty/nowe/hellsangelsmc/hamc.pwn"
+	#include "modules/obiekty/nowe/ramirezaservice/ramirezint.pwn"
+	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
+	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 #endif
 
 
@@ -203,9 +227,17 @@ obiekty_OnGameModeInit()
 	autobusint_Init();
 	enforcer_Init();
 	LSMC_Init();
+	hitmans_Init();
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
+	intekdmv_Init();
+	ramirezext_Init();
+	dossantos_Init();
+	hamcint_Init();
+	ramirezint_Init();
+	banklsext_Init();
+	gunshopls_Init();
 	return 1;
 }
 
