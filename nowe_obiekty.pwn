@@ -171,7 +171,7 @@
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
 	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
-	#include "modules/obiekty/nowe/DMV/intekDMV.pwn"
+	#include "modules/obiekty/nowe/DMV/intekdmv.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
 	#include "modules/obiekty/nowe/dscs/dscs.pwn"
 	#include "modules/obiekty/nowe/hellsangelsmc/hamc.pwn"
