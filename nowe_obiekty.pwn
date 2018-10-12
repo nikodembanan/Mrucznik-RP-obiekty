@@ -4,7 +4,9 @@
 //--------------------------------------[ Obiekty: nowe_obiekty.pwn ]----------------------------------------//
 //Opis: NOWE OBIEKTY - TWORZONE W NOWYM FORMACIE
 /*
-	Plik zawieraj¹cy do³¹czenia wszystkich obiektów w nowym formacie
+
+	Plik zawierajacy dolaczenia wszystkich obiekt�w w nowym formacie
+
 */
 //----------------------------------------------------*------------------------------------------------------//
 //----[                                                                                                 ]----//
@@ -25,7 +27,9 @@
 
 
 
-//TODO: USU¥Æ TO	
+
+//TODO: USUNAC TO
+
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
@@ -35,7 +39,7 @@
 	#include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"
 	#include "../nowe/DosSantosCarService/DSCS.pwn"
 	//#include "../nowe/CentralBank/centralBank.pwn"
-	#include "../nowe/SiedzibaMechanikow/siedzibaMechanikow.pwn"
+	#include "../nowe/SiedzibaMechanikow/exterior.pwn"
 //	#include "../nowe/Bluberry/RadaMiasta/radaMiasta.pwn"
 	#include "../nowe/CassinoAutoService/cassinoAutoService.pwn"
 //	#include "../nowe/Dillimore/BarierkiDillimore/barierkiDillimore.pwn"
@@ -102,6 +106,7 @@
 	#include "../nowe/ramirezaservice/ramirezint.pwn"
 	#include "../nowe/GlobalneLS/banklsext.pwn"
 	#include "../nowe/GunShop/gunshopls.pwn"
+	#include "../nowe/Globalne/nagrodyeventy/sktom.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -173,6 +178,7 @@
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezint.pwn"
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
+	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
 #endif
 
 
@@ -217,7 +223,7 @@ obiekty_OnGameModeInit()
 	miesko_Init();
 	kasia_Init();
 	opmont_Init();
-	//sanVanInterior_Init();
+	sanVanInterior_Init();
 	houseInteriorWOSP_Init();
 	//bank_Init();
 	sidle_Init();
@@ -238,6 +244,7 @@ obiekty_OnGameModeInit()
 	ramirezint_Init();
 	banklsext_Init();
 	gunshopls_Init();
+	sktomdom_Init();
 	return 1;
 }
 
