@@ -21,7 +21,7 @@
 
 //
 
-//-----------------<[ Glowne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 DMV::exterior_Init()
 {
 	StworzObiekty();
@@ -244,7 +244,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(19445, 1378.851196, -1819.234130, 14.278890, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 8130, "vgsschurch", "vgschurchwall04_256", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1338.295166, -1805.304443, 13.585955, 720.000000, -8.900010, -90.200004, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "Luis C0tt4 tu byl", 80, "Ariel", 40, 1, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "Luis C0tt4 tu byl.\nMruczn1k te¿.", 80, "Ariel", 40, 1, 0xFFFFFFFF, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19383, 1378.770385, -1811.845458, 14.298897, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 8130, "vgsschurch", "vgschurchwall04_256", 0x00000000);
 	placdmv = CreateDynamicObject(18762, 1378.844848, -1824.545166, 13.536891, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
@@ -326,7 +326,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1355.439697, -1785.330078, 12.532040, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1356.307006, -1798.523193, 13.825936, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} Luk Manewrowy", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} £uk Manewrowy", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1343.160522, -1777.808105, 12.493474, 90.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF} STOP!", 20, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
 	placdmv = CreateDynamicObject(19445, 1379.021484, -1790.720947, 14.278890, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
@@ -383,7 +383,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1364.719604, -1768.358154, 14.242045, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1363.930175, -1781.247924, 13.863274, 360.000000, 360.799987, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "Podjazd + Ruszanie\n z recznego.", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "Podjazd + Ruszanie\n z rêcznego.", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
 	placdmv = CreateDynamicObject(18880, 1378.512695, -1774.953369, 12.459273, 0.000000, 90.000000, 220.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 2, 18835, "mickytextures", "whiteforletters", 0x00000000);
 	placdmv = CreateDynamicObject(18880, 1378.767333, -1778.880126, 12.459273, 0.000000, 90.000000, 220.000000, 0, 0, -1, 300.00, 300.00); 
@@ -430,7 +430,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1351.176879, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1372.311767, -1790.124267, 13.494655, 0.200005, 0.099992, 450.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Skosne", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Skoœne", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
 	placdmv = CreateDynamicObject(994, 1348.947265, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(994, 1344.046142, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
@@ -452,9 +452,9 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(19329, 1350.046752, -1804.453613, 14.015938, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Symulator", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1350.046752, -1804.453613, 13.705934, 360.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagrozenia", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro¿enia", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1346.556640, -1793.253540, 12.565951, 450.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagrozenie HAMUJ!", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro¿enie HAMUJ!", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1346.556640, -1805.304443, 12.565951, 450.000000, 360.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Start", 80, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(18762, 1347.123657, -1824.905517, 13.536890, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
@@ -472,7 +472,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Start", 80, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19470, 1379.323730, -1801.269897, 13.716871, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 18646, "matcolours", "grey-60-percent", 0x00000000);
-	SetDynamicObjectMaterialText(placdmv, 0, "{FF0000}Zakaz Wstepu!", 50, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FF0000}Zakaz wstêpu!", 50, "Ariel", 20, 1, 0x00000000, 0x00000000, 0);
 	placdmv = CreateDynamicObject(19376, 1379.182250, -1818.879150, 13.002799, 90.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19297, "matlights", "invisible", 0x00000000);
 	placdmv = CreateDynamicObject(19376, 1379.182250, -1796.510253, 13.002799, 90.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
