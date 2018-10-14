@@ -25,6 +25,7 @@
 DMV::exterior_Init()
 {
 	StworzObiekty();
+	StworzBramy();
 	return 1;
 }
 
@@ -568,22 +569,24 @@ static StworzObiekty()
     return 1;
 }
 
+
 static StworzBramy()
 {
 
-    new placdmv1 =   CreateDynamicObject(968, 1378.79565, -1809.17114, 13.50280,   0.00000, 90.00000, 90.48000);
-    DodajBrame(placdmv1, 1378.79565, -1809.17114, 13.50280,   0.00000, 90.00000, 90.48000, 1378.79565, -1809.17114, 13.50280,   0.00000, 0.00000, 90.48000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama wjazdowa
+    new placbrama =   CreateDynamicObject(968, 1378.64551, -1802.05420, 13.36220,   0.00000, -90.00000, 90.00000);
+    DodajBrame(placbrama, 1378.64551, -1802.05420, 13.36220,   0.00000, -90.00000, 90.00000, 1378.64551, -1802.05420, 13.36220,   0.00000, 0.00000, 90.00000, 2, 7, BRAMA_UPR_TYPE_FRACTION, 11);//Brama wjazdowa
     
-    new placdmv2 = CreateDynamicObject(1495, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
-    SetDynamicObjectMaterial(placdmv, 0, 19058, "xmasboxes", "silk5-128x128", 0x00000000);
-    SetDynamicObjectMaterial(placdmv, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
-    SetDynamicObjectMaterial(placdmv, 2, 18646, "matcolours", "grey-40-percent", 0x00000000);
-    SetDynamicObjectMaterial(placdmv, 3, 18646, "matcolours", "grey-70-percent", 0x00000000);
-    SetDynamicObjectMaterial(placdmv, 4, 18646, "matcolours", "grey-70-percent", 0x00000000);
-    DodajBrame(placdmv2, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 175.7999, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama poboczna
+    new placbrama3 = CreateDynamicObject(1495, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+    SetDynamicObjectMaterial(placbrama3, 0, 19058, "xmasboxes", "silk5-128x128", 0x00000000);
+    SetDynamicObjectMaterial(placbrama3, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
+    SetDynamicObjectMaterial(placbrama3, 2, 18646, "matcolours", "grey-40-percent", 0x00000000);
+    SetDynamicObjectMaterial(placbrama3, 3, 18646, "matcolours", "grey-70-percent", 0x00000000);
+    SetDynamicObjectMaterial(placbrama3, 4, 18646, "matcolours", "grey-70-percent", 0x00000000);
+    DodajBrame(placbrama3, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 175.7999, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama poboczna
 
     return 1;
 }
+
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 1283, 1441.8594, -1733.0078, 15.6250, 0.25);
