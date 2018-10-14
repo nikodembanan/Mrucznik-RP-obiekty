@@ -98,7 +98,7 @@
 	//*****************************************************
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
-	#include "../nowe/hitman/hitmans.pwn"
+	//#include "../nowe/hitman/hitmans.pwn"
 	#include "../nowe/DMV/intekDMV.pwn"
 	#include "../nowe/ramirezaservice/ramirezext.pwn"
 	#include "../nowe/dscs/dscs.pwn"
@@ -107,6 +107,7 @@
 	#include "../nowe/GlobalneLS/banklsext.pwn"
 	#include "../nowe/GunShop/gunshopls.pwn"
 	#include "../nowe/Globalne/nagrodyeventy/sktom.pwn"
+	#include "../nowe/DMV/bramyplac.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -170,7 +171,7 @@
 	//*****************************************************
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
-	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
+//	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
 	#include "modules/obiekty/nowe/DMV/intekdmv.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
 	#include "modules/obiekty/nowe/dscs/dscs.pwn"
@@ -179,6 +180,7 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
+	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
 #endif
 
 
@@ -233,7 +235,7 @@ obiekty_OnGameModeInit()
 	autobusint_Init();
 	enforcer_Init();
 	LSMC_Init();
-	hitmans_Init();
+//	hitmans_Init();
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
@@ -245,6 +247,7 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
+	bramydmvext_Init();
 	return 1;
 }
 
