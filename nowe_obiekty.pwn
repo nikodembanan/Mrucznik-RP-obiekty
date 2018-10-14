@@ -246,7 +246,6 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
-	bramydmvext_Init();
 	return 1;
 }
 
