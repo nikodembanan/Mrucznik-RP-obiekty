@@ -4,10 +4,10 @@ Wszystkie obiekty DMV
 # Pliki
 Opis jakie pliki znajdują się w folderze 
 
-## exterior.pwn 
+### exterior.pwn 
 Obiekty parkingu przed DMV
 
-## Readme 
+### Readme 
 
 Opis, który właśnie czytasz. 
 
@@ -20,16 +20,16 @@ Opis, który właśnie czytasz.
 
 # Zdjęcia obieków
 
-## Plac manewrowy
+### Plac manewrowy
 
 aaaa
 
-## Interior UM
+### Interior UM
 
 aaa
 
 
-## Parking przed UM
+### Parking przed UM
 
 
 aaa
