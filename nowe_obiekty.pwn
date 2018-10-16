@@ -26,7 +26,8 @@
 //----------------------------------------------------*------------------------------------------------------//
 
 
-
+//Zapamietac! - Naprawic skrypt dla hitman agency - Dodac nowego #include i now¹ zmienna new hitmansb 
+//Notka dla Simeone ^^ 
 
 //TODO: USUN¥Æ TO
 
@@ -180,7 +181,6 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
-	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
 #endif
 
 
@@ -247,7 +247,6 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
-	bramydmvext_Init();
 	return 1;
 }
 
