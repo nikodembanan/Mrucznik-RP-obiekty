@@ -19,7 +19,11 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 
-//
+//Notka dla Simeone:
+//Sprawdziæ czy skrypt hitmanów dzia³a poprawnie - dziala
+//Sprawdziæ czy nie ma niebieskiej poœwiaty po zmianie INT
+//Sprawdziæ czy dzia³a enterad 
+//Sprawdziæ czy wszystkie podmiany txd dzia³aj¹ poprawnie 
 
 //-----------------<[ Glowne funkcje: ]>-------------------
 hitmans_Init()
