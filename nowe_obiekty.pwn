@@ -110,6 +110,11 @@
 	#include "../nowe/Globalne/nagrodyeventy/sktom.pwn"
 	#include "../nowe/DMV/bramyplac.pwn"
 	
+	//*****************************************************
+	//Aktualizacja 2.5.94 - By Simeone
+	//*****************************************************
+	#include "../obiekty/nowe/wps/wpsext.pwn"
+	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
 	
@@ -181,6 +186,15 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
+<<<<<<< HEAD
+=======
+	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.94 - By Simeone
+	//*****************************************************
+	#include "modules/obiekty/nowe/wps/wpsext.pwn"
+>>>>>>> dodajemy wps
 #endif
 
 
@@ -247,6 +261,11 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
+<<<<<<< HEAD
+=======
+	bramydmvext_Init();
+	wpsext_Init();
+>>>>>>> dodajemy wps
 	return 1;
 }
 
