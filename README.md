@@ -1,7 +1,7 @@
 # Repozytorium Mrucznik-RP-obiekty 2.0
 Repozytorium Mrucznik-RP-obiekty zostało stworzone, aby ułatwić wgrywanie obiektów na serwer. Od wydania 2.0 mogą w tym uczestniczyć starsi mapperzy. 
 
-
+//cos
 ## Podstawowe pliki i foldery
 W głównym folderze repozytorium znajdziesz pliki nowe_obiekty.pwn oraz stare_obiekty.pwn.
 
