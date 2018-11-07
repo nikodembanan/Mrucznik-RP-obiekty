@@ -23,6 +23,7 @@ new banklsext;//Zmienna banku Los Santos
 new gslossantos;//Zmienna dla GunShopaLS
 new placdmv;//Zmienna dla placu DMV
 new ciec;//Parking na odholowane LSPD
+new sasdob;//Zmienna dla ca³ego SASD
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
