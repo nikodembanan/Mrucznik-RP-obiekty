@@ -44,5 +44,5 @@ static StworzObiekty()
 	
 
 
-	retrurn 1; 
+	return 1; 
 }
