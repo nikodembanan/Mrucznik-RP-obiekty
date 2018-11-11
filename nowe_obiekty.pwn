@@ -117,6 +117,7 @@
 	#include "../nowe/DMV/exteriorpc.pwn"
 	#include "../nowe/SASD/interior.pwn"
 	#include "../nowe/Dillimore/GunShop/interior.pwn"
+	#include "../nowe/SASD/exterior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -199,6 +200,7 @@
 	#include "modules/obiekty/nowe/DMV/exteriorpc.pwn"
 	#include "modules/obiekty/nowe/SASD/interior.pwn"
 	#include "modules/obiekty/nowe/Dillimore/GunShop/interior.pwn"
+	#include "modules/obiekty/nowe/SASD/exterior.pwn"
 
 #endif
 
@@ -273,6 +275,7 @@ obiekty_OnGameModeInit()
 	pcexterior_Init();
 	inteksasd_Init();
 	gsdiliinterior_Init();
+	extsasd_Init();
 
 	return 1;
 }
@@ -306,5 +309,6 @@ obiekty_OnPlayerConnect(playerid)
 	lv_Connect(playerid);
 	
 	pcexterior_Connect(playerid);
+	extsasd_Connect(playerid);
 	return 1;
 }
