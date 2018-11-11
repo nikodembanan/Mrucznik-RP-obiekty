@@ -116,6 +116,7 @@
 	#include "../obiekty/nowe/wps/wpsext.pwn"
 	#include "../obiekty/nowe/DMV/exteriorpc.pwn"
 	#include "../obiekty/nowe/SASD/interior.pwn"
+	#include "../obiekty/nowe/Dillimore/GunShop/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -197,6 +198,7 @@
 	#include "modules/obiekty/nowe/wps/wpsext.pwn"
 	#include "modules/obiekty/nowe/DMV/exteriorpc.pwn"
 	#include "modules/obiekty/nowe/SASD/interior.pwn"
+	#include "modules/obiekty/nowe/Dillimore/GunShop/interior.pwn"
 
 #endif
 
@@ -270,6 +272,7 @@ obiekty_OnGameModeInit()
 	wpsext_Init();
 	pcexterior_Init();
 	inteksasd_Init();
+	gsdiliinterior_Init();
 
 	return 1;
 }
