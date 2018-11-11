@@ -114,6 +114,8 @@
 	//Aktualizacja 2.5.94 - By Simeone
 	//*****************************************************
 	#include "../obiekty/nowe/wps/wpsext.pwn"
+	#include "../obiekty/nowe/DMV/exteriorpc.pwn"
+	#include "../obiekty/nowe/SASD/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -186,15 +188,16 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
-<<<<<<< HEAD
-=======
+
 	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
 	
 	//*****************************************************
 	//Aktualizacja 2.5.94 - By Simeone
 	//*****************************************************
 	#include "modules/obiekty/nowe/wps/wpsext.pwn"
->>>>>>> dodajemy wps
+	#include "modules/obiekty/nowe/DMV/exteriorpc.pwn"
+	#include "modules/obiekty/nowe/SASD/interior.pwn"
+
 #endif
 
 
@@ -261,11 +264,13 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
-<<<<<<< HEAD
-=======
+	
+	
 	bramydmvext_Init();
 	wpsext_Init();
->>>>>>> dodajemy wps
+	pcexterior_Init();
+	inteksasd_Init();
+
 	return 1;
 }
 
@@ -296,5 +301,7 @@ obiekty_OnPlayerConnect(playerid)
 	sidle_Connect(playerid);
 	
 	lv_Connect(playerid);
+	
+	pcexterior_Connect(playerid);
 	return 1;
 }

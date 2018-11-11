@@ -16,7 +16,7 @@
 //----[  |||             |||||             |||                |||       |||    |||                      ]----//
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
-//BY- Simeone & Seven
+//BY- Simeone & Satius
 //-----------------<[ ZMIENNE ]>---------------------------
 
 //Wszystkie znajduj¹ siê w pliku obiekty_zmienne.pwn
@@ -34,7 +34,8 @@ inteksasd_Init()
 
 static StworzObiekty()
 {
-
+//===================================PIÊTRO [1]=================================
+//Wykonawca: Simeone & Satius
 	sasdob = CreateDynamicObject(18981, 2381.679199, -100.231124, 30.314285, 0.000000, 90.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(sasdob, 0, 11301, "carshow_sfse", "ws_officy_ceiling", 0x00000000);
 	sasdob = CreateDynamicObject(8661, 2377.759033, -103.191482, 26.672969, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
@@ -144,12 +145,12 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(sasdob, 0, 3820, "boxhses_sfsx", "stonewall_la", 0x00000000);
 	sasdob = CreateDynamicObject(19442, 2379.555419, -102.019866, 32.543987, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(sasdob, 0, 3820, "boxhses_sfsx", "ws_mixedbrick", 0x00000000);
-	sasdob = CreateDynamicObject(1493, 2379.534667, -97.713157, 30.814994, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
+	/*sasdob = CreateDynamicObject(1493, 2379.534667, -97.713157, 30.814994, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(sasdob, 0, -1, "none", "none", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(sasdob, 1, 1649, "wglass", "carshowwin2", 0x00000000);
 	sasdob = CreateDynamicObject(1493, 2379.544677, -100.725143, 30.813995, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(sasdob, 0, -1, "none", "none", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(sasdob, 1, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(sasdob, 1, 1649, "wglass", "carshowwin2", 0x00000000);*/
 	sasdob = CreateDynamicObject(19991, 2379.523925, -100.735534, 30.643989, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(sasdob, 0, 19480, "signsurf", "sign", 0x00000000);
 	SetDynamicObjectMaterial(sasdob, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
