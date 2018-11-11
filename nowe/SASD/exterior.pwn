@@ -272,15 +272,15 @@ static StworzObiekty()
 	sasdob = CreateDynamicObject(19327, 2376.882812, -88.186859, 35.192649, 270.000000, 90.000000, 90.000000, 0, 0, -1, 450.00, 450.00); 
 	SetDynamicObjectMaterialText(sasdob, 0, "B", 50, "Webdings", 72, 1, 0xFFFF0000, 0x00000000, 0);
 	sasdob = CreateDynamicObject(19327, 2376.412353, -89.656829, 35.192649, 270.000000, 90.000000, 90.000000, 0, 0, -1, 450.00, 450.00); 
-	SetDynamicObjectMaterialText(sasdob, 0, "     "Aby miasto by3o\nbezpieczniejsze" ~SASD", 90, "Calibri", 32, 1, 0xFFFF0000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(sasdob, 0, "''Aby miasto by³o\nbezpieczniejsze'' ~SASD", 90, "Calibri", 32, 1, 0xFFFF0000, 0x00000000, 0);
 	sasdob = CreateDynamicObject(19327, 2379.714843, -112.368782, 27.426277, 0.000000, 0.000000, 0.000000, 0, 0, -1, 450.00, 450.00); 
-	SetDynamicObjectMaterialText(sasdob, 0, "Luis Cotta tu by3", 90, "Ariel", 20, 1, 0xFFFF0000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(sasdob, 0, "Luis Cotta tu by³", 90, "Ariel", 20, 1, 0xFFFF0000, 0x00000000, 1);
 	sasdob = CreateDynamicObject(19327, 2379.714843, -112.368782, 27.206272, 0.000000, 0.000000, 0.000000, 0, 0, -1, 450.00, 450.00); 
-	SetDynamicObjectMaterialText(sasdob, 0, "Stewart West tu sika3 [*]", 90, "Ariel", 20, 1, 0xFFFF0000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(sasdob, 0, "Stewart West tu sika³ [*]", 90, "Ariel", 20, 1, 0xFFFF0000, 0x00000000, 1);
 	sasdob = CreateDynamicObject(19327, 2379.714843, -112.368782, 26.936265, 0.000000, 0.000000, 0.000000, 0, 0, -1, 450.00, 450.00); 
-	SetDynamicObjectMaterialText(sasdob, 0, "Kenyon Carrington tu sra3 [*]", 90, "Ariel", 20, 1, 0xFFFF0000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(sasdob, 0, "Kenyon Carrington tu sra³ [*]", 90, "Ariel", 20, 1, 0xFFFF0000, 0x00000000, 1);
 	sasdob = CreateDynamicObject(19327, 2411.002685, -78.862030, 27.074380, -2.499998, 38.099990, 90.000000, 0, 0, -1, 450.00, 450.00); 
-	SetDynamicObjectMaterialText(sasdob, 0, "JEBAA SASD!\nULANE KURWY!", 90, "Quartz MS", 32, 1, 0xFF001111, 0x00000000, 1);
+	SetDynamicObjectMaterialText(sasdob, 0, "JEBAÆ SASD!\nULANE KURWY!", 90, "Quartz MS", 32, 1, 0xFF001111, 0x00000000, 1);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
