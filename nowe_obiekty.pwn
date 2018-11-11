@@ -113,10 +113,10 @@
 	//*****************************************************
 	//Aktualizacja 2.5.94 - By Simeone
 	//*****************************************************
-	#include "../obiekty/nowe/wps/wpsext.pwn"
-	#include "../obiekty/nowe/DMV/exteriorpc.pwn"
-	#include "../obiekty/nowe/SASD/interior.pwn"
-	#include "../obiekty/nowe/Dillimore/GunShop/interior.pwn"
+	#include "../nowe/wps/wpsext.pwn"
+	#include "../nowe/DMV/exteriorpc.pwn"
+	#include "../nowe/SASD/interior.pwn"
+	#include "../nowe/Dillimore/GunShop/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
