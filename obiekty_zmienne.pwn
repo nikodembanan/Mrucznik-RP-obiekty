@@ -24,6 +24,7 @@ new gslossantos;//Zmienna dla GunShopaLS
 new placdmv;//Zmienna dla placu DMV
 new ciec;//Parking na odholowane LSPD
 new sasdob;//Zmienna dla ca³ego SASD
+new pcdmv;//Zmienna urzêdu miasta PC
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
