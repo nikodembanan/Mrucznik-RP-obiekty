@@ -119,6 +119,7 @@
 	#include "../nowe/Dillimore/GunShop/interior.pwn"
 	#include "../nowe/SASD/exterior.pwn"
 	#include "../nowe/coffeshopls/interior.pwn"
+	#include "../nowe/chinesefood/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -203,6 +204,7 @@
 	#include "modules/obiekty/nowe/Dillimore/GunShop/interior.pwn"
 	#include "modules/obiekty/nowe/SASD/exterior.pwn"
 	#include "modules/obiekty/nowe/coffeshopls/interior.pwn"
+	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
 
 #endif
 
@@ -279,6 +281,7 @@ obiekty_OnGameModeInit()
 	gsdiliinterior_Init();//GunShop Dillimore
 	extsasd_Init();//Exterior SASD w PC
 	coffeeshop_Init();//Coffee Shop Los Santos
+	chinskiejedzenie_Init();//Chinese food
 
 	return 1;
 }
@@ -311,8 +314,9 @@ obiekty_OnPlayerConnect(playerid)
 	
 	lv_Connect(playerid);
 	
-	pcexterior_Connect(playerid);
-	extsasd_Connect(playerid);
-	coffeshop_Connect(playerid);
+	pcexterior_Connect(playerid);//exterior urzedu w pc
+	extsasd_Connect(playerid);//exterior sasd
+	coffeshop_Connect(playerid);//Coffe shop
+	chinskiejedzenie_Connect(playerid);//Chinese food
 	return 1;
 }
