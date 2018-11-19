@@ -5,9 +5,11 @@ Miejsce, w którym spotykają się wszyscy skośno-ocy i nie tylko! Można tam z
 Charlie112
 
 ## Lokalizacja
+
 Za szpitalem, obok pączka
 
 ## Zdjęcia
-![Alt text](zdj1.png)
-![Alt text](zdj2.png)
-![Alt text](zdj3.png)
+
+![Alt text](zdj1.PNG)
+![Alt text](zdj2.PNG)
+![Alt text](zdj3.PNG)
