@@ -7,6 +7,7 @@ new pevori2;//Zmienna Deduir+Santiago
 new faraon;//Zmienna faraona
 new simeonel;//Zmienna Simeone
 new lukesqly;//Zmienna LukeSQL
+new charlie112;//Zmienna dla Charllie112
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -25,8 +26,8 @@ new placdmv;//Zmienna dla placu DMV
 new ciec;//Parking na odholowane LSPD
 new sasdob;//Zmienna dla ca³ego SASD
 new pcdmv;//Zmienna urzêdu miasta PC
-new eventob;
-new wpsob;
+new eventob;//zmienna eventów
+new wpsob;//zmienna wps
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

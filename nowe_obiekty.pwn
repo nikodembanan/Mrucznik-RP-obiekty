@@ -118,6 +118,7 @@
 	#include "../nowe/SASD/interior.pwn"
 	#include "../nowe/Dillimore/GunShop/interior.pwn"
 	#include "../nowe/SASD/exterior.pwn"
+	#include "../nowe/coffeshopls/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -201,6 +202,7 @@
 	#include "modules/obiekty/nowe/SASD/interior.pwn"
 	#include "modules/obiekty/nowe/Dillimore/GunShop/interior.pwn"
 	#include "modules/obiekty/nowe/SASD/exterior.pwn"
+	#include "modules/obiekty/nowe/coffeshopls/interior.pwn"
 
 #endif
 
@@ -260,22 +262,23 @@ obiekty_OnGameModeInit()
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
-	intekdmv_Init();
-	ramirezext_Init();
-	dossantos_Init();
-	hamcint_Init();
-	ramirezint_Init();
-	banklsext_Init();
-	gunshopls_Init();
-	sktomdom_Init();
+	intekdmv_Init();//INTERIOR DMV
+	ramirezext_Init();//RAMIREZ CAR SERVICE EXTERIOR
+	dossantos_Init();//Dos Santos Car Service interior
+	hamcint_Init();//Hells Angels MC
+	ramirezint_Init();//RAMIREZ CAR SERVICE
+	banklsext_Init();//Bariekrki przed bankiem LS
+	gunshopls_Init();//GS LS
+	sktomdom_Init();//Dom skTOM'a
 	
 	
-	bramydmvext_Init();
-	wpsext_Init();
-	pcexterior_Init();
-	inteksasd_Init();
-	gsdiliinterior_Init();
-	extsasd_Init();
+	bramydmvext_Init();//Bramy DMV (?) 
+	wpsext_Init();//WPS
+	pcexterior_Init();//DMV w PC
+	inteksasd_Init();//Interior SASD w PC
+	gsdiliinterior_Init();//GunShop Dillimore
+	extsasd_Init();//Exterior SASD w PC
+	coffeeshop_Init();//Coffee Shop Los Santos
 
 	return 1;
 }
@@ -310,5 +313,6 @@ obiekty_OnPlayerConnect(playerid)
 	
 	pcexterior_Connect(playerid);
 	extsasd_Connect(playerid);
+	coffeshop_Connect(playerid);
 	return 1;
 }
