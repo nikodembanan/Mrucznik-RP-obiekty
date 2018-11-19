@@ -37,6 +37,191 @@ DMV::exterior_Connect(playerid)
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
+	new g_Object[99];
+	g_Object[0] = CreateDynamicObject(982, 1498.7767, -1720.8066, 13.2489, 0.0000, 0.0000, 90.0000); //fenceshit
+	g_Object[1] = CreateDynamicObject(19545, 1480.3741, -1719.7373, 12.5537, 0.0000, 0.0000, 90.0000); //Plane62_5x15Conc1
+	SetDynamicObjectMaterial(g_Object[1], 0, 7555, "bballcpark1", "ws_carparknew2", 0xFFFFFFFF);
+	g_Object[2] = CreateDynamicObject(982, 1461.9541, -1720.7667, 13.2489, 0.0000, 0.0000, 90.0000); //fenceshit
+	g_Object[3] = CreateDynamicObject(983, 1484.4007, -1720.8027, 13.2440, 0.0000, 0.0000, 90.0000); //fenceshit3
+	g_Object[4] = CreateDynamicObject(983, 1474.7679, -1720.7624, 13.2440, 0.0000, 0.0000, 90.0000); //fenceshit3
+	g_Object[5] = CreateDynamicObject(19929, 1448.6894, -1725.0295, 12.5438, 0.0000, 0.0000, 0.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[5], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[5], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[6] = CreateDynamicObject(19929, 1447.6988, -1726.8094, 12.5340, 0.0000, 0.0000, -90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[6], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[6], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[7] = CreateDynamicObject(19929, 1448.6894, -1722.1695, 12.5438, 0.0000, 0.0000, 0.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[7], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[7], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[8] = CreateDynamicObject(19929, 1444.8481, -1726.8094, 12.5340, 0.0000, 0.0000, -90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[8], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[8], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[9] = CreateDynamicObject(19929, 1441.5472, -1722.1783, 12.5340, 0.0000, 0.0000, 180.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[9], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[9], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[10] = CreateDynamicObject(19929, 1441.5472, -1725.0378, 12.5340, 0.0000, 0.0000, 180.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[10], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[10], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[11] = CreateDynamicObject(19929, 1442.5383, -1726.8088, 12.5241, 0.0000, 0.0000, -90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[11], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[11], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[12] = CreateDynamicObject(19929, 1446.8979, -1721.1793, 12.5340, 0.0000, 0.0000, 90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[12], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[12], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[13] = CreateDynamicObject(19929, 1444.0373, -1721.1793, 12.5340, 0.0000, 0.0000, 90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[13], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[13], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[14] = CreateDynamicObject(19929, 1442.5660, -1721.1893, 12.5241, 0.0000, 0.0000, 90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[14], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[14], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[15] = CreateDynamicObject(11416, 1446.2840, -1723.9549, 12.9594, 0.0000, 90.0000, 0.0000); //hbgdSFS
+	SetDynamicObjectMaterial(g_Object[15], 0, 4829, "airport_las", "Grass_128HV", 0xFFFFFFFF);
+	g_Object[16] = CreateDynamicObject(11416, 1443.8839, -1723.9549, 12.9492, 0.0000, 90.0000, 0.0000); //hbgdSFS
+	SetDynamicObjectMaterial(g_Object[16], 0, 4829, "airport_las", "Grass_128HV", 0xFFFFFFFF);
+	g_Object[17] = CreateDynamicObject(19929, 1512.0301, -1722.1783, 12.5340, 0.0000, 0.0000, 180.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[17], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[17], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[18] = CreateDynamicObject(19929, 1512.0301, -1725.0384, 12.5340, 0.0000, 0.0000, 180.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[18], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[18], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[19] = CreateDynamicObject(19929, 1513.0201, -1726.7695, 12.5241, 0.0000, 0.0000, -90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[19], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[19], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[20] = CreateDynamicObject(19929, 1515.8813, -1726.7695, 12.5241, 0.0000, 0.0000, -90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[20], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[20], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[21] = CreateDynamicObject(19929, 1517.5644, -1725.0356, 12.5340, 0.0000, 0.0000, 0.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[21], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[21], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[22] = CreateDynamicObject(19929, 1513.8110, -1721.1794, 12.5241, 0.0000, 0.0000, 90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[22], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[22], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[23] = CreateDynamicObject(19929, 1517.5644, -1722.1767, 12.5340, 0.0000, 0.0000, 0.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[23], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[23], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[24] = CreateDynamicObject(19929, 1516.5721, -1726.7595, 12.5038, 0.0000, 0.0000, -90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[24], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[24], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[25] = CreateDynamicObject(19929, 1515.8923, -1721.1993, 12.5141, 0.0000, 0.0000, 90.0000); //MKWorkTop5
+	SetDynamicObjectMaterial(g_Object[25], 0, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(g_Object[25], 1, 17542, "eastls1b_lae2", "tanstucco1_LA", 0xFFFFFFFF);
+	g_Object[26] = CreateDynamicObject(19790, 1514.7923, -1724.0758, 8.0115, 0.0000, 0.0000, 0.0000); //Cube5mx5m
+	SetDynamicObjectMaterial(g_Object[26], 0, 4829, "airport_las", "Grass_128HV", 0xFFFFFFFF);
+	g_Object[27] = CreateDynamicObject(11700, 1449.0589, -1727.1811, 12.2220, 0.0000, 0.0000, 0.0000); //SAMPRoadSign47
+	SetDynamicObjectMaterialText(g_Object[27], "P", 2, 60, "Arial", 100, 1, 0xFFFFFFFF, 0xFF0E316D, 1);
+	SetDynamicObjectMaterial(g_Object[27], 3, 10101, "2notherbuildsfe", "sl_vicwall02", 0xFFFFFFFF);
+	g_Object[28] = CreateDynamicObject(11700, 1511.6330, -1727.1811, 12.2220, 0.0000, 0.0000, 0.0000); //SAMPRoadSign47
+	SetDynamicObjectMaterialText(g_Object[28], "P", 2, 60, "Arial", 100, 1, 0xFFFFFFFF, 0xFF0E316D, 1);
+	g_Object[29] = CreateDynamicObject(983, 1518.0366, -1614.2264, 13.2440, 0.0000, 0.0000, 0.0000); //fenceshit3
+	g_Object[30] = CreateDynamicObject(19121, 1479.2578, -1726.9017, 13.0761, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[31] = CreateDynamicObject(718, 1444.9814, -1724.1783, 12.4995, 0.0000, 0.0000, 0.0000); //vgs_palm04
+	g_Object[32] = CreateDynamicObject(11753, 1452.9730, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[32], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[33] = CreateDynamicObject(11753, 1457.7342, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[33], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[34] = CreateDynamicObject(11753, 1462.7552, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[34], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[35] = CreateDynamicObject(11753, 1467.4969, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[35], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[36] = CreateDynamicObject(11753, 1472.2181, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[36], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[37] = CreateDynamicObject(11753, 1486.7800, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[37], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[38] = CreateDynamicObject(11753, 1491.5611, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[38], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[39] = CreateDynamicObject(718, 1514.8702, -1724.1783, 12.4995, 0.0000, 0.0000, 0.0000); //vgs_palm04
+	g_Object[40] = CreateDynamicObject(11753, 1496.3514, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[40], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[41] = CreateDynamicObject(11753, 1500.9521, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[41], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[42] = CreateDynamicObject(11753, 1506.0134, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
+	SetDynamicObjectMaterialText(g_Object[42], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[43] = CreateDynamicObject(19880, 1482.5886, -1723.1385, 12.5311, 90.0000, 0.0000, 90.0000); //WellsFargoGrgDoor1
+	SetDynamicObjectMaterial(g_Object[43], 0, 4004, "civic07_lan", "badmarb1_LAn", 0xFFFFFFFF);
+	g_Object[44] = CreateDynamicObject(970, 1482.5716, -1724.2054, 13.1197, 0.0000, 0.0000, 90.0000); //fencesmallb
+	g_Object[45] = CreateDynamicObject(970, 1477.7187, -1724.2054, 13.1197, 0.0000, 0.0000, 90.0000); //fencesmallb
+	g_Object[46] = CreateDynamicObject(19121, 1481.2218, -1726.8905, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[47] = CreateDynamicObject(1280, 1482.1948, -1724.2745, 12.9483, 0.0000, 0.0000, 0.0000); //parkbench1
+	SetDynamicObjectMaterial(g_Object[47], 1, 3820, "boxhses_sfsx", "sw_barnwoodblu", 0xFFFFFFFF);
+	g_Object[48] = CreateDynamicObject(1280, 1478.0825, -1724.2745, 12.9483, 0.0000, 0.0000, 180.0000); //parkbench1
+	SetDynamicObjectMaterial(g_Object[48], 1, 3820, "boxhses_sfsx", "sw_barnwoodblu", 0xFFFFFFFF);
+	g_Object[49] = CreateDynamicObject(19957, 1479.6113, -1720.7148, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
+	g_Object[50] = CreateDynamicObject(19321, 1476.6909, -1738.8724, 11.1042, 0.0000, 0.0000, 90.0000); //cuntainer
+	SetDynamicObjectMaterial(g_Object[50], 0, 9514, "711_sfw", "ws_carpark2", 0xFFFFFFFF);
+	g_Object[51] = CreateDynamicObject(19321, 1483.8415, -1738.8724, 11.1042, 0.0000, 0.0000, 90.0000); //cuntainer
+	SetDynamicObjectMaterial(g_Object[51], 0, 9514, "711_sfw", "ws_carpark2", 0xFFFFFFFF);
+	g_Object[52] = CreateDynamicObject(19327, 1483.8363, -1738.8354, 12.5689, -90.0000, 0.0000, 90.0000); //7_11_sign02
+	SetDynamicObjectMaterialText(g_Object[52], "TAXI", 0, 90, "Arial", 90, 1, 0xFFD78E10, 0x0, 1);
+	g_Object[53] = CreateDynamicObject(19978, 1486.1904, -1740.4149, 12.1356, 0.0000, 0.0000, 180.0000); //SAMPRoadSign31
+	g_Object[54] = CreateDynamicObject(19327, 1477.1947, -1738.8349, 12.5689, -90.0000, 0.0000, -90.0000); //7_11_sign02
+	SetDynamicObjectMaterialText(g_Object[54], "TAXI", 0, 90, "Arial", 90, 1, 0xFFD78E10, 0x0, 1);
+	g_Object[55] = CreateDynamicObject(19834, 1476.6031, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[55], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[56] = CreateDynamicObject(19834, 1474.2724, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[56], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[57] = CreateDynamicObject(19834, 1478.9338, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[57], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[58] = CreateDynamicObject(19834, 1481.2641, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[58], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[59] = CreateDynamicObject(19834, 1483.5848, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[59], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[60] = CreateDynamicObject(19834, 1485.9155, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[60], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[61] = CreateDynamicObject(19834, 1487.3459, -1738.4630, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[61], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[62] = CreateDynamicObject(19834, 1487.3459, -1739.3038, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[62], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[63] = CreateDynamicObject(19834, 1486.2458, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[63], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[64] = CreateDynamicObject(19834, 1473.1512, -1738.4537, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[64], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[65] = CreateDynamicObject(19834, 1473.1512, -1739.3243, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[65], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[66] = CreateDynamicObject(19834, 1480.5543, -1739.2020, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[66], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[67] = CreateDynamicObject(19834, 1480.5543, -1738.4510, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
+	SetDynamicObjectMaterialText(g_Object[67], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	g_Object[68] = CreateDynamicObject(19121, 1480.9116, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[69] = CreateDynamicObject(19121, 1479.5610, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[70] = CreateDynamicObject(19121, 1478.2397, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[71] = CreateDynamicObject(19121, 1482.1606, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[72] = CreateDynamicObject(995, 1472.2694, -1742.1728, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[73] = CreateDynamicObject(995, 1484.5605, -1742.1728, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[74] = CreateDynamicObject(997, 1489.9320, -1740.7539, 12.6357, 0.0000, 0.0000, 90.0000); //lhouse_barrier3
+	g_Object[75] = CreateDynamicObject(997, 1470.6616, -1740.7539, 12.6357, 0.0000, 0.0000, 90.0000); //lhouse_barrier3
+	g_Object[76] = CreateDynamicObject(995, 1492.0566, -1737.6324, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[77] = CreateDynamicObject(995, 1499.1783, -1737.6324, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[78] = CreateDynamicObject(995, 1506.2008, -1737.6324, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[79] = CreateDynamicObject(995, 1464.8885, -1737.6324, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[80] = CreateDynamicObject(995, 1458.4781, -1737.6324, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[81] = CreateDynamicObject(995, 1452.1479, -1737.6324, 13.2075, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[82] = CreateDynamicObject(19121, 1510.8188, -1739.0107, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[83] = CreateDynamicObject(19121, 1510.8188, -1740.8719, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[84] = CreateDynamicObject(19121, 1510.8188, -1742.7738, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[85] = CreateDynamicObject(19121, 1451.3779, -1740.9923, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[86] = CreateDynamicObject(19121, 1451.3779, -1739.1905, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[87] = CreateDynamicObject(19121, 1451.3779, -1742.8613, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
+	g_Object[88] = CreateDynamicObject(970, 1510.9552, -1746.2923, 13.5846, 0.0000, 0.0000, 90.0000); //fencesmallb
+	SetDynamicObjectMaterialText(g_Object[88], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText(g_Object[88], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[89] = CreateDynamicObject(970, 1510.9552, -1750.4635, 13.5846, 0.0000, 0.0000, 90.0000); //fencesmallb
+	SetDynamicObjectMaterialText(g_Object[89], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText(g_Object[89], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[90] = CreateDynamicObject(970, 1451.0101, -1746.2728, 13.5466, 0.0000, 0.0000, 90.0000); //fencesmallb
+	SetDynamicObjectMaterialText(g_Object[90], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText(g_Object[90], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[91] = CreateDynamicObject(970, 1451.0101, -1749.9726, 13.5466, 0.0000, 0.0000, 90.0000); //fencesmallb
+	SetDynamicObjectMaterialText(g_Object[91], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText(g_Object[91], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	g_Object[92] = CreateDynamicObject(19957, 1510.9355, -1753.4068, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
+	g_Object[93] = CreateDynamicObject(19957, 1510.9355, -1754.6882, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
+	g_Object[94] = CreateDynamicObject(19957, 1451.0260, -1754.6882, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
+	g_Object[95] = CreateDynamicObject(19957, 1451.0260, -1753.4969, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
+	g_Object[96] = CreateDynamicObject(18766, 1483.7423, -1738.6291, 10.0950, 90.0000, 0.0000, -13.2000); //Concrete10mx1mx5m
+	SetDynamicObjectMaterial(g_Object[96], 0, 2887, "a51_spotlight", "stormdrain5_nt", 0xFFFFFFFF);
+	g_Object[97] = CreateDynamicObject(995, 1542.0112, -1727.2117, 13.4475, 90.0000, 0.0000, 0.0000); //bar_barrier16
+	g_Object[98] = CreateDynamicObject(995, 1534.6820, -1720.5706, 13.4475, 90.0000, 90.0000, 0.0000); //bar_barrier16
+/* STARE - Z ZABLOKOWANYM PRZEJAZDEM
 	new g_Object[103];
 	g_Object[0] = CreateDynamicObject(982, 1498.7767, -1720.8066, 13.2489, 0.0000, 0.0000, 90.0000, 0); //fenceshit
 	g_Object[1] = CreateDynamicObject(19545, 1480.3741, -1719.7373, 12.5537, 0.0000, 0.0000, 90.0000, 0); //Plane62_5x15Conc1
@@ -226,7 +411,7 @@ static StworzObiekty()
     g_Object[99] = CreateDynamicObject(19957, 1510.9355, -1753.4069, 13.6844, 0.0000, 180.0000, 0.0000, 0); //SAMPRoadSign10
     g_Object[100] = CreateDynamicObject(19957, 1510.9355, -1754.6882, 13.6844, 0.0000, 180.0000, 0.0000, 0); //SAMPRoadSign10
     g_Object[101] = CreateDynamicObject(19957, 1451.0260, -1754.6882, 13.6844, 0.0000, 180.0000, 0.0000, 0); //SAMPRoadSign10
-    g_Object[102] = CreateDynamicObject(19957, 1451.0260, -1753.4970, 13.6844, 0.0000, 180.0000, 0.0000, 0); //SAMPRoadSign10
+    g_Object[102] = CreateDynamicObject(19957, 1451.0260, -1753.4970, 13.6844, 0.0000, 180.0000, 0.0000, 0); //SAMPRoadSign10 */
     
     	//Map Information////////////////////////////////////////////////////////////////////////////////////////////////
 	/*
@@ -586,7 +771,10 @@ static StworzBramy()
 }
 static UsunObiekty(playerid)
 {
+	RemoveBuildingForPlayer(playerid, 1527, 1448.2344, -1755.8984, 14.5234, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1388.3594, -1745.4453, 15.6250, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1441.8594, -1733.0078, 15.6250, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1403.3672, -1733.0078, 15.6250, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1414.4141, -1731.4297, 15.6250, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1430.1719, -1719.4688, 15.6250, 0.25);
 	RemoveBuildingForPlayer(playerid, 1226, 1451.6250, -1727.6719, 16.4219, 0.25);
@@ -594,8 +782,10 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1226, 1485.1719, -1727.6719, 16.4219, 0.25);
 	RemoveBuildingForPlayer(playerid, 1226, 1505.1797, -1727.6719, 16.4219, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1513.2344, -1732.9219, 15.6250, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1568.8828, -1745.4766, 15.6250, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1545.7656, -1731.6719, 15.6250, 0.25);
 	RemoveBuildingForPlayer(playerid, 1283, 1530.1172, -1717.0078, 15.6250, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1582.6719, -1733.1328, 15.6250, 0.25);
 //Obiekty usuniete z placu:
 	RemoveBuildingForPlayer(playerid, 4023, 1359.280, -1796.469, 24.343, 0.250);
 	RemoveBuildingForPlayer(playerid, 4226, 1359.280, -1796.469, 24.343, 0.250);
