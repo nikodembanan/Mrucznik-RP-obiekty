@@ -120,6 +120,7 @@
 	#include "../nowe/SASD/exterior.pwn"
 	#include "../nowe/coffeshopls/interior.pwn"
 	#include "../nowe/chinesefood/interior.pwn"
+	#include "../nowe/KomisariatLS/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -205,6 +206,7 @@
 	#include "modules/obiekty/nowe/SASD/exterior.pwn"
 	#include "modules/obiekty/nowe/coffeshopls/interior.pwn"
 	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
+	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
 
 #endif
 
@@ -282,6 +284,7 @@ obiekty_OnGameModeInit()
 	extsasd_Init();//Exterior SASD w PC
 	coffeeshop_Init();//Coffee Shop Los Santos
 	chinskiejedzenie_Init();//Chinese food
+	interiorpd_Init();//Interior Los Santos Police Department
 
 	return 1;
 }
