@@ -6337,8 +6337,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(ubunteq, 0, 11301, "carshow_sfse", "concpanel_la", 0x00000000);
 	ubunteq = CreateDynamicObject(19372, 1601.000854, -1598.328247, 2319.969970, 0.000000, 0.000000, 0.000000, 7, -1, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 11301, "carshow_sfse", "concpanel_la", 0x00000000);
-	ubunteq = CreateDynamicObject(3089, 1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 90.000000, 7, -1, -1, 300.00, 300.00);
-	SetDynamicObjectMaterial(ubunteq, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
+	
 	ubunteq = CreateDynamicObject(19458, 1596.211425, -1604.385375, 2318.143310, 0.000000, 90.000000, 90.000000, 7, -1, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 2023, "bitsnbobs", "CJ_LIGHTWOOD", 0x00000000);
 	ubunteq = CreateDynamicObject(19458, 1596.211425, -1607.868530, 2318.143310, 0.000000, 90.000000, 90.000000, 7, -1, -1, 300.00, 300.00);
@@ -6704,6 +6703,8 @@ static StworzObiekty()
 	ubunteq = CreateDynamicObject(18756, 1605.853149, -1611.563232, 2320.197509, 0.000000, 0.000000, -90.000000, 7, -1, -1, 300.00, 300.00);
 	ubunteq = CreateDynamicObject(1886, 1609.889404, -1608.868652, 2321.751708, 29.000000, 0.000000, -135.699905, 7, -1, -1, 300.00, 300.00);
 	ubunteq = CreateDynamicObject(1886, 1601.523803, -1596.415405, 2321.828857, 21.799999, 0.000000, 29.500000, 7, -1, -1, 300.00, 300.00);
+	
+	DodajWejscie(1555.5057,-1675.7166,16.1953,1605.08752, -1596.29431, 2299.50977, 0, 0, 1, 0, "Los Santos Police Department", "Wyjscie");
 
 	return 1;
 }
@@ -6857,6 +6858,14 @@ static StworzBramy()//1589.59570, -1637.99036, 14.47502 - to usuniete
 	DodajBrame(ubunteq, 1610.444946, -1605.092041, 2315.966796, 0.000000, 0.000000, 270.000000, 1610.444946, -1605.092041, 2315.966796, 0.000000, 0.000000, 340.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
 	
 //=======================<[BRAMY NA SZÓSTYM PIÊTRZE]>==============================
+
+	ubunteq = CreateDynamicObject(3089, 1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 90.000000, 7, -1, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(ubunteq, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
+	DodajBrame(ubunteq, 1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 90.000000, 1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 0.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
+	
+	ubunteq = CreateDynamicObject(3089, 1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 90.000000, 7, -1, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(ubunteq, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
+	DodajBrame(ubunteq,1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 90.000000, 1601.013916, -1602.241943, 2319.349853, 0.000000, 0.000000, 0.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
 	return 1;
 }
 
