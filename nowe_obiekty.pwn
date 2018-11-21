@@ -209,6 +209,7 @@
 	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
 	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
 	#include "modules/obiekty/nowe/Globalne/magazynsol/interior.pwn"
+	#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
 
 #endif
 
