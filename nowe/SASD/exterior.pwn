@@ -25,6 +25,7 @@
 extsasd_Init()
 {
 	StworzObiekty();
+	StworzBramy();
 	return 1;
 }
 
@@ -337,8 +338,8 @@ static StworzObiekty()
 static StworzBramy()
 {
 
-	sasdob = CreateDynamicObject(968, 2376.758789, -75.897979, 27.477977, 0.000000, 90.000000, 270.000000, 0, 0, -1, 450.00, 450.00);
-    DodajBrame(sasdob, 2376.758789, -75.897979, 27.477977, 0.000000, 90.000000, 270.000000, 2376.758789, -75.897979, 27.477977, 0.000000, 0.000000, 270.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 3);//Brama na parking 
+	sasdob = CreateDynamicObject(968, 2376.758789, -75.897979, 27.477977, 0.000000, 90.000000, 3.1416, 0, -1, -1, 200.00, 200.00);
+    DodajBrame(sasdob, 2376.758789, -75.897979, 27.477977, 0.000000, 90.000000, 3.1416, 2376.758789, -75.897979, 27.477977, 0.000000, 0.000000, 3.1416, 2, 3, BRAMA_UPR_TYPE_FRACTION, 3);//Brama na parking 
     
 
 

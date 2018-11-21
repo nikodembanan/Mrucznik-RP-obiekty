@@ -1331,7 +1331,12 @@ static StworzObiekty()
 	sasdob = CreateDynamicObject(2173, 2390.168212, -106.573265, 30.814285, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	sasdob = CreateDynamicObject(1714, 2388.904296, -107.438140, 30.944280, 0.000000, 0.000000, 118.099960, 5, 0, -1, 300.00, 300.00); 
 
-
+	DodajWejscie(2368.4822,-97.5322,28.0017, 2369.8044,-97.7796,31.8143, 0, 0, 5, 0, "San Andreas Sheriffs Department", "[Wpisz /wyjdz]");//G³ówne wejœcie
+	//WINDA
+	//PARTER: 2398.75488, -103.32272, 31.90401
+	//PIÊTRO:
+	//ZEWN¥TRZ:
+	//DACH:
 
 	return 1;
 }
