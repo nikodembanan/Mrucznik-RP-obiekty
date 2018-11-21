@@ -108,34 +108,34 @@ static StworzObiekty()
 	g_Object[26] = CreateDynamicObject(19790, 1514.7923, -1724.0758, 8.0115, 0.0000, 0.0000, 0.0000); //Cube5mx5m
 	SetDynamicObjectMaterial(g_Object[26], 0, 4829, "airport_las", "Grass_128HV", 0xFFFFFFFF);
 	g_Object[27] = CreateDynamicObject(11700, 1449.0589, -1727.1811, 12.2220, 0.0000, 0.0000, 0.0000); //SAMPRoadSign47
-	SetDynamicObjectMaterialText(g_Object[27], "P", 2, 60, "Arial", 100, 1, 0xFFFFFFFF, 0xFF0E316D, 1);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[27], "P", 2, 60, "Arial", 100, 1, 0xFFFFFFFF, 0xFF0E316D, 1);
 	SetDynamicObjectMaterial(g_Object[27], 3, 10101, "2notherbuildsfe", "sl_vicwall02", 0xFFFFFFFF);
 	g_Object[28] = CreateDynamicObject(11700, 1511.6330, -1727.1811, 12.2220, 0.0000, 0.0000, 0.0000); //SAMPRoadSign47
-	SetDynamicObjectMaterialText(g_Object[28], "P", 2, 60, "Arial", 100, 1, 0xFFFFFFFF, 0xFF0E316D, 1);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[28], "P", 2, 60, "Arial", 100, 1, 0xFFFFFFFF, 0xFF0E316D, 1);
 	g_Object[29] = CreateDynamicObject(983, 1518.0366, -1614.2264, 13.2440, 0.0000, 0.0000, 0.0000); //fenceshit3
 	g_Object[30] = CreateDynamicObject(19121, 1479.2578, -1726.9017, 13.0761, 0.0000, 0.0000, 0.0000); //BollardLight1
 	g_Object[31] = CreateDynamicObject(718, 1444.9814, -1724.1783, 12.4995, 0.0000, 0.0000, 0.0000); //vgs_palm04
 	g_Object[32] = CreateDynamicObject(11753, 1452.9730, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[32], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[32], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[33] = CreateDynamicObject(11753, 1457.7342, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[33], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[33], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[34] = CreateDynamicObject(11753, 1462.7552, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[34], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[34], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[35] = CreateDynamicObject(11753, 1467.4969, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[35], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[35], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[36] = CreateDynamicObject(11753, 1472.2181, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[36], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[36], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[37] = CreateDynamicObject(11753, 1486.7800, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[37], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[37], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[38] = CreateDynamicObject(11753, 1491.5611, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[38], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[38], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[39] = CreateDynamicObject(718, 1514.8702, -1724.1783, 12.4995, 0.0000, 0.0000, 0.0000); //vgs_palm04
 	g_Object[40] = CreateDynamicObject(11753, 1496.3514, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[40], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[40], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[41] = CreateDynamicObject(11753, 1500.9521, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[41], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[41], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[42] = CreateDynamicObject(11753, 1506.0134, -1727.2292, 12.5592, 90.0000, 180.0000, 0.0000); //AreaBoundary1m
-	SetDynamicObjectMaterialText(g_Object[42], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[42], "|", 0, 90, "Arial", 255, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[43] = CreateDynamicObject(19880, 1482.5886, -1723.1385, 12.5311, 90.0000, 0.0000, 90.0000); //WellsFargoGrgDoor1
 	SetDynamicObjectMaterial(g_Object[43], 0, 4004, "civic07_lan", "badmarb1_LAn", 0xFFFFFFFF);
 	g_Object[44] = CreateDynamicObject(970, 1482.5716, -1724.2054, 13.1197, 0.0000, 0.0000, 90.0000); //fencesmallb
@@ -151,36 +151,36 @@ static StworzObiekty()
 	g_Object[51] = CreateDynamicObject(19321, 1483.8415, -1738.8724, 11.1042, 0.0000, 0.0000, 90.0000); //cuntainer
 	SetDynamicObjectMaterial(g_Object[51], 0, 9514, "711_sfw", "ws_carpark2", 0xFFFFFFFF);
 	g_Object[52] = CreateDynamicObject(19327, 1483.8363, -1738.8354, 12.5689, -90.0000, 0.0000, 90.0000); //7_11_sign02
-	SetDynamicObjectMaterialText(g_Object[52], "TAXI", 0, 90, "Arial", 90, 1, 0xFFD78E10, 0x0, 1);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[52], "TAXI", 0, 90, "Arial", 90, 1, 0xFFD78E10, 0x0, 1);
 	g_Object[53] = CreateDynamicObject(19978, 1486.1904, -1740.4149, 12.1356, 0.0000, 0.0000, 180.0000); //SAMPRoadSign31
 	g_Object[54] = CreateDynamicObject(19327, 1477.1947, -1738.8349, 12.5689, -90.0000, 0.0000, -90.0000); //7_11_sign02
-	SetDynamicObjectMaterialText(g_Object[54], "TAXI", 0, 90, "Arial", 90, 1, 0xFFD78E10, 0x0, 1);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[54], "TAXI", 0, 90, "Arial", 90, 1, 0xFFD78E10, 0x0, 1);
 	g_Object[55] = CreateDynamicObject(19834, 1476.6031, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[55], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[55], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[56] = CreateDynamicObject(19834, 1474.2724, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[56], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[56], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[57] = CreateDynamicObject(19834, 1478.9338, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[57], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[57], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[58] = CreateDynamicObject(19834, 1481.2641, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[58], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[58], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[59] = CreateDynamicObject(19834, 1483.5848, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[59], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[59], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[60] = CreateDynamicObject(19834, 1485.9155, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[60], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[60], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[61] = CreateDynamicObject(19834, 1487.3459, -1738.4630, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[61], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[61], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[62] = CreateDynamicObject(19834, 1487.3459, -1739.3038, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[62], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[62], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[63] = CreateDynamicObject(19834, 1486.2458, -1740.4232, 12.5655, 90.0000, 0.0000, 0.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[63], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[63], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[64] = CreateDynamicObject(19834, 1473.1512, -1738.4537, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[64], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[64], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[65] = CreateDynamicObject(19834, 1473.1512, -1739.3243, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[65], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[65], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[66] = CreateDynamicObject(19834, 1480.5543, -1739.2020, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[66], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[66], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[67] = CreateDynamicObject(19834, 1480.5543, -1738.4510, 12.5655, 90.0000, 0.0000, 90.0000); //PoliceLineTape1
-	SetDynamicObjectMaterialText(g_Object[67], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[67], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0xFFD78E10, 0);
 	g_Object[68] = CreateDynamicObject(19121, 1480.9116, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
 	g_Object[69] = CreateDynamicObject(19121, 1479.5610, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
 	g_Object[70] = CreateDynamicObject(19121, 1478.2397, -1742.4707, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
@@ -202,17 +202,17 @@ static StworzObiekty()
 	g_Object[86] = CreateDynamicObject(19121, 1451.3779, -1739.1905, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
 	g_Object[87] = CreateDynamicObject(19121, 1451.3779, -1742.8613, 13.0964, 0.0000, 0.0000, 0.0000); //BollardLight1
 	g_Object[88] = CreateDynamicObject(970, 1510.9552, -1746.2923, 13.5846, 0.0000, 0.0000, 90.0000); //fencesmallb
-	SetDynamicObjectMaterialText(g_Object[88], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
-	SetDynamicObjectMaterialText(g_Object[88], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[88], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[88], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[89] = CreateDynamicObject(970, 1510.9552, -1750.4635, 13.5846, 0.0000, 0.0000, 90.0000); //fencesmallb
-	SetDynamicObjectMaterialText(g_Object[89], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
-	SetDynamicObjectMaterialText(g_Object[89], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[89], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[89], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[90] = CreateDynamicObject(970, 1451.0101, -1746.2728, 13.5466, 0.0000, 0.0000, 90.0000); //fencesmallb
-	SetDynamicObjectMaterialText(g_Object[90], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
-	SetDynamicObjectMaterialText(g_Object[90], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[90], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[90], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[91] = CreateDynamicObject(970, 1451.0101, -1749.9726, 13.5466, 0.0000, 0.0000, 90.0000); //fencesmallb
-	SetDynamicObjectMaterialText(g_Object[91], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
-	SetDynamicObjectMaterialText(g_Object[91], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[91], " ", 0, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
+	SetDynamicObjectMaterialText_Kolejnosc(g_Object[91], " ", 1, 90, "Arial", 24, 1, 0xFFFFFFFF, 0x0, 0);
 	g_Object[92] = CreateDynamicObject(19957, 1510.9355, -1753.4068, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
 	g_Object[93] = CreateDynamicObject(19957, 1510.9355, -1754.6882, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
 	g_Object[94] = CreateDynamicObject(19957, 1451.0260, -1754.6882, 13.6843, 0.0000, 180.0000, 0.0000); //SAMPRoadSign10
