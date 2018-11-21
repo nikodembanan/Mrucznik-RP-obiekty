@@ -121,6 +121,7 @@
 	#include "../nowe/coffeshopls/interior.pwn"
 	#include "../nowe/chinesefood/interior.pwn"
 	#include "../nowe/KomisariatLS/interior.pwn"
+	#include "../nowe/Globalne/magazynsol/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -207,6 +208,7 @@
 	#include "modules/obiekty/nowe/coffeshopls/interior.pwn"
 	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
 	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
+	#include "modules/obiekty/nowe/Globalne/magazynsol/interior.pwn"
 
 #endif
 
@@ -285,6 +287,7 @@ obiekty_OnGameModeInit()
 	coffeeshop_Init();//Coffee Shop Los Santos
 	chinskiejedzenie_Init();//Chinese food
 	interiorpd_Init();//Interior Los Santos Police Department
+	magazynsol_Init();//Magazyn Solarin 
 
 	return 1;
 }
@@ -321,5 +324,6 @@ obiekty_OnPlayerConnect(playerid)
 	extsasd_Connect(playerid);//exterior sasd
 	coffeshop_Connect(playerid);//Coffe shop
 	chinskiejedzenie_Connect(playerid);//Chinese food
+	
 	return 1;
 }
