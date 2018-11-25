@@ -12,7 +12,7 @@
 	#include "../stare/christmas.pwn"
 	#include "../stare/dillimore.pwn"
 	//WYlACZONE PRZEZ SIMEONE 02-10-2018 #include "../stare/dmv.pwn"
-	#include "../stare/fbi.pwn"
+	// WY£¥CZONE WRAZ Z AKTUALIZACJ¥ 2.5.94 --> #include "../stare/fbi.pwn"
 	#include "../stare/fam_fdu.pwn"
 	#include "../stare/grove.pwn"
 	#include "../stare/ha.pwn"
@@ -102,7 +102,7 @@ public obiekty_timer(wartosc)
     PC_UM();
     BOR_Load();
     Basen_Load();
-    FBI_Load();
+ //   FBI_Load();
     WPS_Load();
    // DMV_Load();
     KT_Lotniska();

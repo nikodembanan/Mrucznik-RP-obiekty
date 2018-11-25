@@ -122,6 +122,7 @@
 	#include "../nowe/chinesefood/interior.pwn"
 	#include "../nowe/KomisariatLS/interior.pwn"
 	#include "../nowe/Globalne/magazynsol/interior.pwn"
+	#include "../nowe/FBI/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -210,6 +211,7 @@
 	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
 	#include "modules/obiekty/nowe/Globalne/magazynsol/interior.pwn"
 	#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
+	#include "modules/obiekty/nowe/FBI/interior.pwn"
 
 #endif
 
@@ -289,6 +291,7 @@ obiekty_OnGameModeInit()
 	chinskiejedzenie_Init();//Chinese food
 	interiorpd_Init();//Interior Los Santos Police Department
 	magazynsol_Init();//Magazyn Solarin 
+	fbiintek_Init();//Interior FBI
 
 	return 1;
 }
@@ -325,6 +328,7 @@ obiekty_OnPlayerConnect(playerid)
 	extsasd_Connect(playerid);//exterior sasd
 	coffeshop_Connect(playerid);//Coffe shop
 	chinskiejedzenie_Connect(playerid);//Chinese food
+	
 	
 	return 1;
 }
