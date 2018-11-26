@@ -105,7 +105,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(pevori2, 0, 18646, "matcolours", "grey-60-percent", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 1, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	pevori2 = CreateDynamicObject(19327, 1269.900268, 246.760375, 20.520633, 0.000000, 0.000000, 336.000000, 1, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}"Ich tue nur, was die Kirche\n seit funfzehnhundert Jahren tut,\n allerdings grundlicher." ~ A. Hitler", 90, "Calibri", 20, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}''Ich tue nur, was die Kirche\n seit funfzehnhundert Jahren tut,\n allerdings grundlicher'' ~ A. Hitler", 90, "Calibri", 20, 1, 0x00000000, 0x00000000, 1);
 	pevori2 = CreateDynamicObject(2612, 1265.398071, 238.299774, 20.390632, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	pevori2 = CreateDynamicObject(19450, 1267.784790, 231.758865, 20.320636, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
@@ -258,9 +258,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}Es ist immer Zeit fur\n einen neuen Anfang.", 90, "Calibri", 20, 1, 0x00000000, 0x00000000, 1);
 	pevori2 = CreateDynamicObject(19376, 1269.392700, 241.745605, 21.864755, 0.000000, 90.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 17944, "lngblok_lae2", "white64bumpy", 0x00000000);
-	pevori2 = CreateDynamicObject(3089, 1268.479003, 236.770034, 19.700630, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterial(pevori2, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
-	SetDynamicObjectMaterial(pevori2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	//t
 	pevori2 = CreateDynamicObject(2011, 1266.187500, 237.100952, 18.580623, 0.000000, 0.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 5, 10765, "airportgnd_sfse", "black64", 0x00000000);
 	pevori2 = CreateDynamicObject(2255, 1264.207031, 239.304183, 19.970621, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
@@ -861,9 +859,7 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(1499, 1259.384765, 212.008316, 22.067695, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 18646, "matcolours", "grey-70-percent", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 1, 14650, "ab_trukstpc", "mp_CJ_WOOD5", 0x00000000);
-	pevori2 = CreateDynamicObject(3089, 1252.227172, 222.824813, 23.197719, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterial(pevori2, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
-	SetDynamicObjectMaterial(pevori2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	//ty
 	pevori2 = CreateDynamicObject(19358, 1253.590698, 222.761810, 22.017694, 0.000000, 90.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 13007, "sw_bankint", "woodfloor1", 0x00000000);
 	pevori2 = CreateDynamicObject(19358, 1252.167114, 219.564376, 22.017694, 0.000000, 90.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
@@ -1088,9 +1084,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(pevori2, 0, 14847, "mp_policesf", "mp_cop_marble", 0x00000000);
 	pevori2 = CreateDynamicObject(19358, 1245.533203, 223.715606, 23.810663, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 14847, "mp_policesf", "mp_cop_marble", 0x00000000);
-	pevori2 = CreateDynamicObject(3089, 1248.495605, 230.250686, 23.197719, 0.000000, 0.000000, 336.000000, 1, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterial(pevori2, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
-	SetDynamicObjectMaterial(pevori2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	pevori2 = CreateDynamicObject(1516, 1249.025634, 225.470352, 22.217699, 0.000000, 0.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	pevori2 = CreateDynamicObject(2276, 1247.515014, 226.700363, 23.607698, 0.000000, 0.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
@@ -1373,7 +1366,6 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(19874, 1250.707885, 218.932128, 19.638603, 0.000000, 0.000000, 0.000000, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(2741, 1250.059570, 216.634307, 20.192628, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(2741, 1249.265991, 214.852890, 20.192628, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
-	pevori2 = CreateDynamicObject(1500, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(2844, 1256.853393, 211.109115, 18.592634, 0.000000, 0.000000, 0.000000, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(2264, 1259.939819, 222.735885, 20.050630, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(3058, 1248.861328, 200.892471, 12.352446, -178.000000, 0.000000, 36.400016, 1, -1, -1, 400.00, 400.00); 
@@ -1607,6 +1599,7 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(1886, 1243.652099, 229.173751, 25.547676, 20.800041, 0.000000, -144.200347, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(1886, 1255.721679, 231.634307, 25.610883, 16.100027, 0.000000, -42.300357, 1, -1, -1, 400.00, 400.00); 
 	pevori2 = CreateDynamicObject(1886, 1244.469604, 216.999298, 25.611749, 17.400032, 0.000000, 36.699607, 1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(12905, 1251.58594, 218.08594, 18.46875,   356.85840, 0.00000, 3.14159, 1, -1, -1, 200.00, 200.00);//droga za oknem
 	
 	DodajWejscie(1273.28967, 238.41292, 19.89381, 1272.4275,240.6153,19.5806, 0, 0, 1, 0, "White Power Skin Head", "[Wpisz /wyjdz]"); 
 	DodajWejscie(1264.7909,190.5923,7.5434, 2266.6672,-76.6848,24.5859, 1, 0, 0, 0, "**Ma³a szczelina**", " "); 
@@ -1614,7 +1607,28 @@ static StworzObiekty()
 
 	return 1; 
 }
+static StworzBramy()
+{
+	pevori2 = CreateDynamicObject(3089, 1268.479003, 236.770034, 19.700630, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
+	SetDynamicObjectMaterial(pevori2, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	DodajBrame(pevori2, 1268.479003, 236.770034, 19.700630, 0.000000, 0.000000, 203.000000, 1268.479003, 236.770034, 19.700630, 0.000000, 0.000000, 246.000000, 3, 4, BRAMA_UPR_TYPE_FAMILY, 16);
 
+	pevori2 = CreateDynamicObject(3089, 1252.227172, 222.824813, 23.197719, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
+	SetDynamicObjectMaterial(pevori2, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	DodajBrame(pevori2, 1252.227172, 222.824813, 23.197719, 0.000000, 0.000000, 65.000000, 1252.227172, 222.824813, 23.197719, 0.000000, 0.000000, 156.000000, 3, 4, BRAMA_UPR_TYPE_FAMILY, 16);
+	
+	pevori2 = CreateDynamicObject(3089, 1248.495605, 230.250686, 23.197719, 0.000000, 0.000000, 336.000000, 1, -1, -1, 400.00, 400.00); 
+	SetDynamicObjectMaterial(pevori2, 1, 18646, "matcolours", "grey-70-percent", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	DodajBrame(pevori2, 1248.495605, 230.250686, 23.197719, 0.000000, 0.000000, -115.000000, 1248.495605, 230.250686, 23.197719, 0.000000, 0.000000, 336.000000, 3,4, BRAMA_UPR_TYPE_FAMILY, 16); 
+	
+	pevori2 = CreateDynamicObject(1500, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
+	DodajBrame(pevori2, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 156.000000, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 246.000000, 3,4, BRAMA_UPR_TYPE_FAMILY, 16);
+	
+	return 1;
+}
 
 static UsunObiekty(playerid)
 {
