@@ -28,6 +28,7 @@
 wpsint_Init() 
 {
 	StworzObiekty();
+	StworzBramy();
 	return 1;
 }
 
@@ -1602,7 +1603,7 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(12905, 1251.58594, 218.08594, 18.46875,   356.85840, 0.00000, 3.14159, 1, -1, -1, 200.00, 200.00);//droga za oknem
 	
 	DodajWejscie(1273.28967, 238.41292, 19.89381, 1272.4275,240.6153,19.5806, 0, 0, 1, 0, "White Power Skin Head", "[Wpisz /wyjdz]"); 
-	DodajWejscie(1264.7909,190.5923,7.5434, 2266.6672,-76.6848,24.5859, 1, 0, 0, 0, "**Ma³a szczelina**", " "); 
+	DodajWejscie(1264.7909,190.5923,7.5434, 1469.75476, -1793.14197, 135.73119, 1, 0, 0, 0, "**Ma³a szczelina**", " "); 
 
 
 	return 1; 
