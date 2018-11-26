@@ -122,9 +122,8 @@ static StworzObiekty()
 	
 	
 	
-	Create3DTextLabel("Parking USSS", 0xAA3333AA, 1824.50964, -1538.02869, 13.48028, 20.0, 0, 0);//GSA
-	//Create3DTextLabel("United States Secret Service", 0xAA3333AA, 1797.99829, -1578.78772, 14.01125, 20.0, 0, 0);//GSA
-   	Create3DTextLabel("Parking podziemny USSS", 0xAA3333AA, 1750.55762, -1537.86279, 9.51801, 20.0, 0, 0);//GSA
+	CreateDynamic3DTextLabel("Parking USSS", 0xAA3333AA, 1824.50964, -1538.02869, 13.48028, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 0);//GSA
+   	CreateDynamic3DTextLabel("Parking podziemny USSS", 0xAA3333AA, 1750.55762, -1537.86279, 9.51801, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 0);//GSA
 	return 1;
 }
 

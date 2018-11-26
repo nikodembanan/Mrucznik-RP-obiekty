@@ -196,6 +196,7 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
+
 	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
 	
 	//*****************************************************
@@ -213,6 +214,7 @@
 	#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
 	#include "modules/obiekty/nowe/FBI/interior.pwn"
 	#include "modules/obiekty/nowe/wps/interior.pwn"
+
 
 #endif
 
@@ -272,6 +274,7 @@ obiekty_OnGameModeInit()
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
+<<<<<<< HEAD
 	intekdmv_Init();//INTERIOR DMV
 	ramirezext_Init();//RAMIREZ CAR SERVICE EXTERIOR
 	dossantos_Init();//Dos Santos Car Service interior
@@ -295,6 +298,16 @@ obiekty_OnGameModeInit()
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
 
+=======
+	intekdmv_Init();
+	ramirezext_Init();
+	dossantos_Init();
+	hamcint_Init();
+	ramirezint_Init();
+	banklsext_Init();
+	gunshopls_Init();
+	sktomdom_Init();
+>>>>>>> master
 	return 1;
 }
 

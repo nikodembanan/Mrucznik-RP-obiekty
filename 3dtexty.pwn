@@ -5,14 +5,14 @@ Zaladuj3DTexty()
 	//wybory
 	//CreateDynamic3DTextLabel("Urna wyborcza", 0x33CCFFAA, 1304.1296, -1299.9874, 35.6941, 25.0);
 
-	okienko[0] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 1 \n {FF0000}Nieczynne",COLOR_WHITE,1454.55847, -1792.14673, 79.56396,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[1] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 2 \n {FF0000}Nieczynne",COLOR_WHITE,1454.59851, -1795.38660, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[2] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 3 \n {FF0000}Nieczynne",COLOR_WHITE,1454.59851, -1798.56665, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[3] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 4 \n {FF0000}Nieczynne",COLOR_WHITE,1454.59814, -1801.72668, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[4] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 5 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1791.37695, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[5] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 6 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1794.63696, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[6] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 7 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1797.8570, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
-	okienko[7] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 8 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1800.9770, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, 50, 5);
+	okienko[0] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 1 \n {FF0000}Nieczynne",COLOR_WHITE,1454.55847, -1792.14673, 79.56396,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[1] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 2 \n {FF0000}Nieczynne",COLOR_WHITE,1454.59851, -1795.38660, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[2] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 3 \n {FF0000}Nieczynne",COLOR_WHITE,1454.59851, -1798.56665, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[3] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 4 \n {FF0000}Nieczynne",COLOR_WHITE,1454.59814, -1801.72668, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[4] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 5 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1791.37695, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[5] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 6 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1794.63696, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[6] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 7 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1797.8570, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
+	okienko[7] = CreateDynamic3DTextLabel("Urz¹d Miasta Los Santos\n{0080FF}Okienko 8 \n {FF0000}Nieczynne",COLOR_WHITE,1446.32007, -1800.9770, 79.56400,9,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 5);
 	
     CreateDynamic3DTextLabel("WeŸ zlecenie - PIZZA", 0xFFA500AA, 2103.8123,-1798.7085,13.6504,30.0);//PizzaJob
 	//nowe domy 3dtext biznesów

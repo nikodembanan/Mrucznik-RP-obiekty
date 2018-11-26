@@ -178,15 +178,15 @@ static StworzObiekty()
 	banklsext = CreateDynamicObject(18762, 1459.498535, -1020.042114, 31.193773, 0.000000, 90.000000, 180.000000, 0, 0, -1, 380.00, 380.00); 
 	SetDynamicObjectMaterial(banklsext, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
 	banklsext = CreateDynamicObject(19362, 1459.085693, -1020.421691, 32.486240, 0.000000, 0.000000, 90.000000, 0, 0, -1, 380.00, 380.00); 
-	SetDynamicObjectMaterialText(banklsext, 0, "{FFFFFF} Bank", 50, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(banklsext, 0, "{FFFFFF}Verte", 50, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	banklsext = CreateDynamicObject(18762, 1464.488769, -1020.042114, 31.193773, 0.000000, 90.000000, 180.000000, 0, 0, -1, 380.00, 380.00); 
 	SetDynamicObjectMaterial(banklsext, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
 	banklsext = CreateDynamicObject(18762, 1469.498535, -1020.042114, 31.193773, 0.000000, 90.000000, 180.000000, 0, 0, -1, 380.00, 380.00); 
 	SetDynamicObjectMaterial(banklsext, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
 	banklsext = CreateDynamicObject(19362, 1461.567382, -1020.421691, 32.486293, 0.000000, 0.000000, 90.000000, 0, 0, -1, 380.00, 380.00); 
-	SetDynamicObjectMaterialText(banklsext, 0, "{FFFFFF}Los", 50, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(banklsext, 0, "{FFFFFF}Bank", 50, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	banklsext = CreateDynamicObject(19362, 1464.267089, -1020.361633, 32.506248, 0.000000, 0.000000, 90.000000, 0, 0, -1, 380.00, 380.00); 
-	SetDynamicObjectMaterialText(banklsext, 0, "{FFFFFF}Santos", 50, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(banklsext, 0, "{FFFFFF}  LS", 50, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
