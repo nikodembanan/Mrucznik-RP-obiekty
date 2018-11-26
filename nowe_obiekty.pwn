@@ -274,7 +274,6 @@ obiekty_OnGameModeInit()
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
-<<<<<<< HEAD
 	intekdmv_Init();//INTERIOR DMV
 	ramirezext_Init();//RAMIREZ CAR SERVICE EXTERIOR
 	dossantos_Init();//Dos Santos Car Service interior
@@ -298,7 +297,7 @@ obiekty_OnGameModeInit()
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
 
-=======
+
 	intekdmv_Init();
 	ramirezext_Init();
 	dossantos_Init();
@@ -307,7 +306,7 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
->>>>>>> master
+
 	return 1;
 }
 
