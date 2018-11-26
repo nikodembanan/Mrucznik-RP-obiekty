@@ -26,7 +26,8 @@
 //----------------------------------------------------*------------------------------------------------------//
 
 
-
+//Zapamietac! - Naprawic skrypt dla hitman agency - Dodac nowego #include i now¹ zmienna new hitmansb 
+//Notka dla Simeone ^^ 
 
 //TODO: USUN¥Æ TO
 
@@ -98,7 +99,7 @@
 	//*****************************************************
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
-	//#include "../nowe/hitman/hitmans.pwn"
+	#include "../nowe/hitman/hitmans.pwn"
 	#include "../nowe/DMV/intekDMV.pwn"
 	#include "../nowe/ramirezaservice/ramirezext.pwn"
 	#include "../nowe/dscs/dscs.pwn"
@@ -108,6 +109,21 @@
 	#include "../nowe/GunShop/gunshopls.pwn"
 	#include "../nowe/Globalne/nagrodyeventy/sktom.pwn"
 	#include "../nowe/DMV/bramyplac.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.94 - By Simeone
+	//*****************************************************
+	#include "../nowe/wps/wpsext.pwn"
+	#include "../nowe/DMV/exteriorpc.pwn"
+	#include "../nowe/SASD/interior.pwn"
+	#include "../nowe/Dillimore/GunShop/interior.pwn"
+	#include "../nowe/SASD/exterior.pwn"
+	#include "../nowe/coffeshopls/interior.pwn"
+	#include "../nowe/chinesefood/interior.pwn"
+	#include "../nowe/KomisariatLS/interior.pwn"
+	#include "../nowe/Globalne/magazynsol/interior.pwn"
+	#include "../nowe/FBI/interior.pwn"
+	#include "../nowe/wps/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
@@ -171,7 +187,7 @@
 	//*****************************************************
 	//Aktualizacja 2.5.93 - By Simeone
 	//*****************************************************
-//	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
+	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
 	#include "modules/obiekty/nowe/DMV/intekdmv.pwn"
 	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
 	#include "modules/obiekty/nowe/dscs/dscs.pwn"
@@ -180,6 +196,26 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
+
+	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
+	
+	//*****************************************************
+	//Aktualizacja 2.5.94 - By Simeone
+	//*****************************************************
+	#include "modules/obiekty/nowe/wps/wpsext.pwn"
+	#include "modules/obiekty/nowe/DMV/exteriorpc.pwn"
+	#include "modules/obiekty/nowe/SASD/interior.pwn"
+	#include "modules/obiekty/nowe/Dillimore/GunShop/interior.pwn"
+	#include "modules/obiekty/nowe/SASD/exterior.pwn"
+	#include "modules/obiekty/nowe/coffeshopls/interior.pwn"
+	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
+	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
+	#include "modules/obiekty/nowe/Globalne/magazynsol/interior.pwn"
+	#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
+	#include "modules/obiekty/nowe/FBI/interior.pwn"
+	#include "modules/obiekty/nowe/wps/interior.pwn"
+
+
 #endif
 
 
@@ -234,10 +270,34 @@ obiekty_OnGameModeInit()
 	autobusint_Init();
 	enforcer_Init();
 	LSMC_Init();
-//	hitmans_Init();
+	hitmans_Init();
 	ChangeLSMCElevatorState();
 	
 	lv_Init();
+	intekdmv_Init();//INTERIOR DMV
+	ramirezext_Init();//RAMIREZ CAR SERVICE EXTERIOR
+	dossantos_Init();//Dos Santos Car Service interior
+	hamcint_Init();//Hells Angels MC
+	ramirezint_Init();//RAMIREZ CAR SERVICE
+	banklsext_Init();//Bariekrki przed bankiem LS
+	gunshopls_Init();//GS LS
+	sktomdom_Init();//Dom skTOM'a
+	
+	
+	bramydmvext_Init();//Bramy DMV (?) 
+	wpsext_Init();//WPS
+	pcexterior_Init();//DMV w PC
+	inteksasd_Init();//Interior SASD w PC
+	gsdiliinterior_Init();//GunShop Dillimore
+	extsasd_Init();//Exterior SASD w PC
+	coffeeshop_Init();//Coffee Shop Los Santos
+	chinskiejedzenie_Init();//Chinese food
+	interiorpd_Init();//Interior Los Santos Police Department
+	magazynsol_Init();//Magazyn Solarin 
+	fbiintek_Init();//Interior FBI
+	wpsint_Init();//Interior WPS
+
+
 	intekdmv_Init();
 	ramirezext_Init();
 	dossantos_Init();
@@ -246,6 +306,7 @@ obiekty_OnGameModeInit()
 	banklsext_Init();
 	gunshopls_Init();
 	sktomdom_Init();
+
 	return 1;
 }
 
@@ -276,5 +337,13 @@ obiekty_OnPlayerConnect(playerid)
 	sidle_Connect(playerid);
 	
 	lv_Connect(playerid);
+	
+	pcexterior_Connect(playerid);//exterior urzedu w pc
+	extsasd_Connect(playerid);//exterior sasd
+	coffeshop_Connect(playerid);//Coffe shop
+	chinskiejedzenie_Connect(playerid);//Chinese food
+	wpsint_Connect(playerid);//Interior WPS
+	
+	
 	return 1;
 }
