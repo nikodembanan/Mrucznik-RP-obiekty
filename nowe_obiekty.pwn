@@ -196,7 +196,6 @@
 	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
 	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
-
 	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
 	
 	//*****************************************************
