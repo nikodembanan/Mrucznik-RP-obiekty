@@ -35,7 +35,7 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
-	#include "obiekty_zmienne.pwn"
+	#include "../obiekty_zmienne.pwn"
 	
 	#include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"
 	#include "../nowe/DosSantosCarService/DSCS.pwn"
