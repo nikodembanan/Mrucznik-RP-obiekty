@@ -58,7 +58,7 @@ static StworzObiekty()
 -------------------------------<[UWAGA!]>----------------------------------
 Poni¿sza (zakreskowana) wersja DMV  z dnia 10-20-2018r (0.4) 
 	//Map Information////////////////////////////////////////////////////////////////////////////////////////////////
-	/*
+	
 		Exported on "2018-10-01 13:59:28" by "Luis_Cotta"
 		Created by "Sevenity"
 		Spawn Position: -/-
