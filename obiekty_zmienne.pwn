@@ -28,7 +28,7 @@ new ciec;//Parking na odholowane LSPD
 new sasdob;//Zmienna dla ca³ego SASD
 new pcdmv;//Zmienna urzêdu miasta PC
 new eventob;//zmienna eventów
-new wpsob;//zmienna wps
+//new wpsob; zmienna wps
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
