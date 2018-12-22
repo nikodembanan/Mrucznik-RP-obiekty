@@ -3519,7 +3519,7 @@ static StworzBramy()
 	DodajBrame(bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -92.16000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//BRAMA DO OKIENEK OD WEJSCIA #2
 	*/
 	//stara brama = CreateDynamicObject(3089, 1454.737915, -1786.455810, 78.075195, 0.000000, 0.000000, 90.000000, 50, -1, -1, 400.00, 400.00);
-	bramausss =	CreateDynamicObject(3089, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 90.00000, 50, -1, -1, 400.00, 400.00);
+	new bramausss =	CreateDynamicObject(3089, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 90.00000, 50, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(bramausss, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramausss, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(bramausss, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
