@@ -126,7 +126,7 @@
 	#include "../nowe/wps/interior.pwn"
 	
 #else //Mrucznik-RP gamemode
-	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
+	#include "modules/obiekty/obiekty_zmienne.pwn"
 	
 	#include "modules/obiekty/nowe/AmmuNationBananov/ammuNationBananov.pwn"
 	#include "modules/obiekty/nowe/DosSantosCarService/DSCS.pwn"
