@@ -1873,7 +1873,7 @@ static StworzBramy()
 	SetDynamicObjectMaterial(bramausss, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramausss, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(bramausss, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramausss, 1454.737915, -1786.455810, 78.075195, 0.000000, 0.000000, 90.000000, 1454.737915, -1786.455810, 78.075195, 0.000000, 0.000000, 0.000000, 2, 1, BRAMA_UPR_TYPE_FRACTION, 7);//BRAMA OTWIERANA TYLKO DLA GSA 
+	DodajBrame(bramausss, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 90.00000, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 0.00000, 2, 1, BRAMA_UPR_TYPE_FRACTION, 7);//BRAMA OTWIERANA TYLKO DLA GSA 
  
  
  /*	bramaduza1 = CreateDynamicObject(3089, 1449.065307, -1823.232543, 81.605194, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00);
