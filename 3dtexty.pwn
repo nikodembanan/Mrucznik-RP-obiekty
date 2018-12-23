@@ -284,7 +284,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("{FFFFFF}Okienka 3-4", 0x008080FF, 2324.6873, -77.9382, 40.8925, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Przejœcie dla klientów", 0x008080FF, 2318.8750, -77.9110, 40.8925, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Plac Manewrowy\n Wejœcie tylko z instruktorem", 0x008080FF, 2327.4940, -75.0322, 41.0837, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
-    str2 = "{FFA500}Dowód osobisty - {9ACD32}5000$ +akt urodz.\n{FFA500}Wydanie Prawa Jazdy - {9ACD32}12 500$ +zal. egz.\n {FFA500}Patent ¯eglarski - {9ACD32}100 000$\n {FFA500}Pozwolenie na Bron - {9ACD32}37 500$\n {FFA500}Licencja Pilota - {9ACD32}5 400 000$\n {FFA500}Karty wêdkarskie - {9ACD32}4000$\n{9ACD32}Egzamin teoretyczny - 5 000${FFA500}\n{9ACD32}Egzamin praktyczny- {9ACD32} 10 000$";
+    str2 = "{FFA500}Dowód osobisty - {9ACD32}5000$ +akt urodz.\n{FFA500}Wydanie Prawa Jazdy - {9ACD32}20 000$ +zal. egz.\n {FFA500}Patent ¯eglarski - {9ACD32}350 000$\n {FFA500}Pozwolenie na Bron - {9ACD32}500 000$\n {FFA500}Licencja Pilota - {9ACD32}5 000 000$\n {FFA500}Karty wêdkarskie - {9ACD32}10 000$\n{9ACD32}Egzamin teoretyczny - 10 000${FFA500}\n{9ACD32}Egzamin praktyczny- {9ACD32} 15 000$";
     CreateDynamic3DTextLabel(str2, 0x008080FF, 2321.0730, -78.1003, 40.5000, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Przebierlania Urzêdników", 0x008080FF, 2318.8938, -72.1589, 41.0185, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Urz¹d Miasta \n {FF0000}P{FFFFFF}alomino {FF0000}C{FFFFFF}reek", 0x008080FF,2269.6770, -73.9858, 26.2765, 10.0);
