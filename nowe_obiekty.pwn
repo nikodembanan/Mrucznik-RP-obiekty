@@ -298,15 +298,6 @@ obiekty_OnGameModeInit()
 	wpsint_Init();//Interior WPS
 
 
-	intekdmv_Init();
-	ramirezext_Init();
-	dossantos_Init();
-	hamcint_Init();
-	ramirezint_Init();
-	banklsext_Init();
-	gunshopls_Init();
-	sktomdom_Init();
-
 	return 1;
 }
 
