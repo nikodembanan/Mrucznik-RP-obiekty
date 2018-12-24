@@ -339,8 +339,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(ubunteq, 0, 18065, "ab_sfammumain", "breezewall", 0x00000000);
 	ubunteq = CreateDynamicObject(19450, 586.580322, -1496.287841, 82.889038, 0.000000, 0.000000, 90.000000, 1, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 18065, "ab_sfammumain", "breezewall", 0x00000000);
-	ubunteq = CreateDynamicObject(1569, 591.369628, -1500.315551, 81.161743, 0.000000, 0.000000, 180.000000, 1, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
 	ubunteq = CreateDynamicObject(19357, 588.270507, -1500.315551, 82.889038, 0.000000, 0.000000, 90.000000, 1, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 19304, "pd_jail_door_top01", "pd_jail_door_top01", 0x00000000);
 	ubunteq = CreateDynamicObject(19450, 589.811523, -1503.390258, 82.889038, 0.000000, 0.000000, 90.000000, 1, -1, -1, 400.00, 400.00);
@@ -367,8 +365,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
 	ubunteq = CreateDynamicObject(19357, 608.890502, -1493.001953, 82.889038, 0.000000, 0.000000, 0.000000, 1, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 19304, "pd_jail_door_top01", "pd_jail_door_top01", 0x00000000);
-	ubunteq = CreateDynamicObject(1569, 608.890502, -1485.182617, 81.121948, 0.000000, 0.000000, 270.000000, 1, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
 	ubunteq = CreateDynamicObject(19450, 587.080810, -1477.274047, 82.889038, 0.000000, 0.000000, 90.000000, 1, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 18065, "ab_sfammumain", "breezewall", 0x00000000);
 	ubunteq = CreateDynamicObject(1569, 587.618713, -1478.862304, 81.161743, 0.000000, 0.000000, 90.000000, 1, -1, -1, 400.00, 400.00);
@@ -491,8 +487,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(ubunteq, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	ubunteq = CreateDynamicObject(1569, 593.708374, -1496.265136, 81.161743, 0.000000, 0.000000, 180.000000, 1, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
-	ubunteq = CreateDynamicObject(1569, 594.269104, -1481.873413, 81.161743, 0.000000, 0.000000, 0.000000, 1, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
+	
 	ubunteq = CreateDynamicObject(1499, 600.696105, -1475.400756, 81.128540, 0.000000, 0.000000, 0.000000, 1, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(ubunteq, 0, 1736, "cj_ammo", "CJ_Black_metal", 0x00000000);
 	SetDynamicObjectMaterial(ubunteq, 1, 7247, "vgncoast", "metalwheel1_128", 0x00000000);
@@ -2672,6 +2667,23 @@ static StworzBramy()
 	ubunteq = CreateDynamicObject(1569, 589.593017, -1476.859008, 88.260253, 0.000000, 0.000000, 90.000000, 1, -1, -1, 400.00, 400.00);
 	DodajBrame(ubunteq, 589.593017, -1476.859008, 88.260253, 0.000000, 0.000000, 90.000000, 589.593017, -1476.859008, 88.260253, 0.000000, 0.000000, 0.000000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 2);
 
-
+	//Brama do windy ze stanowego
+	ubunteq = CreateDynamicObject(1569, 594.269104, -1481.873413, 81.161743, 0.000000, 0.000000, 0.000000, 1, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
+	DodajBrame(ubunteq, 594.269104, -1481.873413, 81.161743, 0.000000, 0.000000, 0.000000, 592.7691, -1481.873413, 81.161743, 0.000000, 0.000000, 0.000000, 10,3, BRAMA_UPR_TYPE_FRACTION, 2);
+	
+	//bramacel1
+	ubunteq = CreateDynamicObject(1569, 608.890502, -1485.182617, 81.121948, 0.000000, 0.000000, 270.000000, 1, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
+	DodajBrame(ubunteq, 608.890502, -1485.182617, 81.121948, 0.000000, 0.000000, 270.000000, 608.890502, -1485.182617, 81.121948, 0.000000, 0.000000, 10.000000, 8, 3, BRAMA_UPR_TYPE_FRACTION, 2);
+	
+	//bramacel2
+	ubunteq = CreateDynamicObject(1569, 608.890502, -1489.902954, 81.121948, 0.000000, 0.000000, 270.000000, 1, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
+	DodajBrame(ubunteq, 608.890502, -1489.902954, 81.121948, 0.000000, 0.000000, 270.000000,608.890502, -1489.902954, 81.121948, 0.000000, 0.000000, 10.000000, 8,3, BRAMA_UPR_TYPE_FRACTION, 2);
+	//bramacel3
+	ubunteq = CreateDynamicObject(1569, 608.890502, -1489.902954, 81.121948, 0.000000, 0.000000, 270.000000, 1, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(ubunteq, 0, 19302, "pd_jail_door01", "pd_jail_door01", 0x00000000);
+	DodajBrame(ubunteq,  608.890502, -1489.902954, 81.121948, 0.000000, 0.000000, 270.000000, 608.890502, -1489.902954, 81.121948, 0.000000, 0.000000, 10.000000, 8,3, BRAMA_UPR_TYPE_FRACTION, 2);
 	return 1; 
 }
