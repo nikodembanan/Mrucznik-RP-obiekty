@@ -69,9 +69,11 @@ Zaladuj3DTexty()
     str2 = "BACZNOŒÆ \n{7CFC00}By nie zostaæ oszukanym:\n {8B0000}1. NIGDY NIE GRAJ gdy ktoœ chce graæ o wiêcej ni¿ ma w {FFFFFF}/sprawdzkase [ID]\n{9ACD32}Je¿eli mimo to zostaniesz oszukany NATYCHMIAST zg³oœ ten fakt na {FFFFFF}/report{9ACD32} - oszust otrzyma od razu blocka\nGdy taka osoba otrzyma blokadê ty masz 10min na napisanie na niego skargi\nW ten sposób mo¿esz odzyskaæ nawet 100%% wygranej!!";
 	CreateDynamic3DTextLabel(str2, COLOR_PANICRED ,1032.8098,-1091.7827,-66.5729, 20.0);
     CreateDynamic3DTextLabel("San Andreas Police Department\n{00FFCC}Zaœwiadczenia o niekaralnoœæi\nKoszt: {9ACD32}18 000${0080FF}", COLOR_BLUE ,252.3918,117.3390,1005.2188, 2.5);//36
-	str2 = "{FFFFFF}Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslawski {FF0000}- od 2013 do 2017 GLD i zas³u¿ony";
-	CreateDynamic3DTextLabel(str2, 0x008080FF, 1460.06836, -1813.06421, 79.45823, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
-	CreateDynamic3DTextLabel("Plac Manewrowy", COLOR_GREEN, 1441.79016, -1811.51782, 79.55123, 3.4);
+	str2 = "{FFFFFF}Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslawski {FF0000}- od 2013 do 2017 GLD i zas³u¿ony\n{FFA500}Krzysztof Golder {FF0000}- od 2015 do 2016 VLD i zas³u¿ony\n{FFA500}Monika Lorens {FF0000}- od 2015 do 2016 VLD i zas³u¿ona\n{FFA500}Luis Cotta {FF0000}- od 2017 VLD i zas³u¿ony dla frakcji";
+	CreateDynamic3DTextLabel(str2, COLOR_NEWS, 1460.06836, -1813.06421, 79.45823, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
+	CreateDynamic3DTextLabel("Plac Manewrowy", COLOR_RED, 1441.79016, -1811.51782, 79.55123, 5);//Plac manewrowy w dmv ls 
+	CreateDynamic3DTextLabel("Biuro USSS\n[MONITORING]", COLOR_RED, 1454.66711, -1788.37805, 79.52730, 5);
+	CreateDynamic3DTextLabel("Regulamin Obiektu\n\n{FF0000}1. Nie wolno biegaæ i skakaæ\n2.Nie wolno krzyczeæ\n3.Obowi¹zuje kultura osobista\n4.Urz¹d to nie biuro po¿yczek\n5.Na plac manewrowy, za okienka, jak i na resztê ca³ego urzêdu\ndostêp maj¹ jedynie urzêdnicy!", COLOR_RED, 1454.67273, -1785.99878, 79.40360, 4.2);
     CreateDynamic3DTextLabel("Taras PD", COLOR_BLUE ,214.9873,121.0619,999.0156, 2.5);//36
 
     CreateDynamic3DTextLabel("Biurowiec\nFederalnego Biura Œledczego", COLOR_BLUE ,608.19793701172, -1458.9837646484, 14.387271881104, 30.0);
