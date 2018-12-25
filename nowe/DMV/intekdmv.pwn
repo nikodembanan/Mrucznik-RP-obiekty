@@ -519,9 +519,9 @@ static StworzObiekty()
 	gldmv = CreateDynamicObject(19327, 1446.343383, -1804.628540, 78.945281, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-Plakietce", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
 	gldmv = CreateDynamicObject(19327, 1446.343383, -1804.628540, 78.785278, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-S3u?bie {ffff00}(/duty)", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-S³u¿bie {ffff00}(/duty)", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
 	gldmv = CreateDynamicObject(4988, 1445.007080, -1742.494018, 86.122009, 0.000000, 0.000000, -170.999969, 50, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterialText(gldmv, 0, "Wydzia3 Ulepszen\nZróbmy to razem!", 90, "Ariel", 32, 1, 0xFFFF0000, 0x80808080, 1);
+	SetDynamicObjectMaterialText(gldmv, 0, "Wydzia³ Ulepszeñ\nZróbmy to razem!", 90, "Ariel", 32, 1, 0xFFFF0000, 0x80808080, 1);
 	gldmv = CreateDynamicObject(19327, 1446.343383, -1804.628540, 78.615257, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-Regulaminie!", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
 	gldmv = CreateDynamicObject(18762, 1460.182861, -1845.195556, 81.475242, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00); 
