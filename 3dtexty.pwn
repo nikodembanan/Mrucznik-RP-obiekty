@@ -71,6 +71,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("San Andreas Police Department\n{00FFCC}Zaœwiadczenia o niekaralnoœæi\nKoszt: {9ACD32}18 000${0080FF}", COLOR_BLUE ,252.3918,117.3390,1005.2188, 2.5);//36
 	str2 = "{FFFFFF}Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslawski {FF0000}- od 2013 do 2017 GLD i zas³u¿ony";
 	CreateDynamic3DTextLabel(str2, 0x008080FF, 1460.06836, -1813.06421, 79.45823, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
+	CreateDynamic3DTextLabel("Plac Manewrowy", COLOR_GREEN, 1441.79016, -1811.51782, 79.55123, 3.4);
     CreateDynamic3DTextLabel("Taras PD", COLOR_BLUE ,214.9873,121.0619,999.0156, 2.5);//36
 
     CreateDynamic3DTextLabel("Biurowiec\nFederalnego Biura Œledczego", COLOR_BLUE ,608.19793701172, -1458.9837646484, 14.387271881104, 30.0);
