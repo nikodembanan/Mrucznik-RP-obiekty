@@ -289,7 +289,8 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("{FFFFFF}Przebierlania Urzêdników", 0x008080FF, 2318.8938, -72.1589, 41.0185, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
     CreateDynamic3DTextLabel("{FFFFFF}Urz¹d Miasta \n {FF0000}P{FFFFFF}alomino {FF0000}C{FFFFFF}reek", 0x008080FF,2269.6770, -73.9858, 26.2765, 10.0);
 	//Urzad miasta ls
-	CreateDynamic3DTextLabel("{FFFFFF}Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslawski {FF0000}- od 2014 do 2017 GLD i zas³u¿ony\n{FFA500}Krzysztof Golder {FF0000}- od 2015 do 2016 VLD i zas³u¿ony\n{FFA500}Monika Lorens {FF0000}- od 2015 do 2016 VLD i zas³u¿ona\n{FFA500}Luis Cotta {FF0000}- od 2017 VLD i zas³u¿ony dla frakcji", 0x008080FF, 1460.06836, -1813.06421, 79.45823, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
+	str2 = "{FFFFFF}Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslawski {FF0000}- od 2013 do 2017 GLD i zas³u¿ony\n{FFA500}Krzysztof Golder {FF0000}- od 2015 do 2016 VLD i zas³u¿ony\n{FFA500}Monika Lorens {FF0000}- od 2015 do 2016 VLD i zas³u¿ona\n{FFA500}Luis Cotta {FF0000}- od 2017 VLD i zas³u¿ony dla frakcji";
+	CreateDynamic3DTextLabel(str2, 0x008080FF, 1460.06836, -1813.06421, 79.45823, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
 	//verona mall
 	
 	CreateDynamic3DTextLabel("Verona Mall #1", 0xFFFFFFFF, 1155.1920,-1440.2554,18.8004, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
