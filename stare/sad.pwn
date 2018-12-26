@@ -297,10 +297,10 @@ INT_FamilySad()
     new string200[2000];
     strcat(string200, "{FF0000}S¥D STANOWY - SAN ANDREAS");
 	strcat(string200, "{000000}\nObiekt w 75% ($75.000.000) zosta³ op³acony\n z bud¿et stanu {0000FF}San Andreas\n");
-	strcat(string20, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}John 'a Mrucznika\n");
-	strcat(string20, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}Sven 'a Helvetick 'i\n");
-	strcat(string20, "{000000}Projekt architektoniczny wykona³:\n{0000FF}Jack Simon.\n");
-	strcat(string20, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Anthony Hartman\n{E9E9E9}69 ?");
+	strcat(string200, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}John 'a Mrucznika\n");
+	strcat(string200, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}Sven 'a Helvetick 'i\n");
+	strcat(string200, "{000000}Projekt architektoniczny wykona³:\n{0000FF}Jack Simon.\n");
+	strcat(string200, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Anthony Hartman\n{E9E9E9}69 ?");
     SetDynamicObjectMaterialText(tablicawsad2, 0, string20, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
 	//SUFIT
 	new sufits = CreateDynamicObject(19378, 1297.76099, -1324.77393, 41.95820,   0.00000, 90.00000, 0.00000, 500);
