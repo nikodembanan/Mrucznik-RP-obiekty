@@ -215,7 +215,7 @@
 	//#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
 	#include "modules/obiekty/nowe/FBI/interior.pwn"
 	#include "modules/obiekty/nowe/wps/interior.pwn"
-	#include "modules/nowe/Globalne/interiorypojazdow/pociag.pwn"
+	#include "modules/obiekty/nowe/Globalne/interiorypojazdow/pociag.pwn"
 
 
 #endif
