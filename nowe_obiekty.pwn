@@ -124,6 +124,7 @@
 	#include "../nowe/Globalne/magazynsol/interior.pwn"
 	#include "../nowe/FBI/interior.pwn"
 	#include "../nowe/wps/interior.pwn"
+	#include "../nowe/Globalne/interiorypojazdow/pociag.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/obiekty_zmienne.pwn"
@@ -214,6 +215,7 @@
 	//#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
 	#include "modules/obiekty/nowe/FBI/interior.pwn"
 	#include "modules/obiekty/nowe/wps/interior.pwn"
+	#include "modules/nowe/Globalne/interiorypojazdow/pociag.pwn"
 
 
 #endif
@@ -296,6 +298,7 @@ obiekty_OnGameModeInit()
 	magazynsol_Init();//Magazyn Solarin 
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
+	interiorpociagu_Init();//interior pociagu
 
 
 	return 1;
