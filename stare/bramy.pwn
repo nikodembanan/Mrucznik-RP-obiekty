@@ -106,7 +106,7 @@ ZaladujBramy()
 	bramadmv[16] = CreateDynamicObject(3089, -1775.28, 532.77, -20.84,   0.00, 0.00, 90.00,75,8);
 	bramadmv[17] = CreateDynamicObject(3089, -1817.47, 505.95, -19.46,   0.00, 0.00, 90.00,75,8);
 	//bramy plac manewrowy
-	plac1 = CreateDynamicObject(980, -2053.29150, -102.76010, 36.93400,   0.00000, 0.00000, 180.00000,0,0);
+	//plac1 = CreateDynamicObject(980, -2053.29150, -102.76010, 36.93400,   0.00000, 0.00000, 180.00000,0,0);
 	//plac2 = CreateDynamicObject(980, -2041.77271, -102.76008, 36.93400,   0.00000, 0.00000, 0.00000,0,0);
 	//WPS
 	SkinBrama[0] = CreateDynamicObject(1536, 2433.3701, -1944.2460, 119.7100,   0.00, 0.00, 270.00,1);

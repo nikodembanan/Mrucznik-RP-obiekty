@@ -1102,9 +1102,6 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(19173, 1251.623168, 234.135803, 23.857706, 0.000000, 0.000000, 156.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 18646, "matcolours", "grey-60-percent", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 1, 18646, "matcolours", "grey-60-percent", 0x00000000);
-	pevori2 = CreateDynamicObject(1497, 1248.300537, 211.563781, 22.067695, 0.000000, 0.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterial(pevori2, 0, 19297, "matlights", "invisible", 0x00000000);
-	SetDynamicObjectMaterial(pevori2, 1, 19297, "matlights", "invisible", 0x00000000);
 	pevori2 = CreateDynamicObject(1742, 1260.566040, 235.975112, 22.097696, 0.000000, 0.000000, 36.000000, 1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 19297, "matlights", "invisible", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 1, 19297, "matlights", "invisible", 0x00000000);
@@ -1627,6 +1624,11 @@ static StworzBramy()
 	
 	pevori2 = CreateDynamicObject(1500, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 246.000000, 1, -1, -1, 400.00, 400.00); 
 	DodajBrame(pevori2, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 156.000000, 1262.078857, 221.161865, 18.580623, 0.000000, 0.000000, 246.000000, 3,4, BRAMA_UPR_TYPE_FAMILY, 16);
+	
+	pevori2 = CreateDynamicObject(1497, 1248.300537, 211.563781, 22.067695, 0.000000, 0.000000, 66.000000, 1, -1, -1, 400.00, 400.00); 
+	SetDynamicObjectMaterial(pevori2, 0, 19297, "matlights", "invisible", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 1, 19297, "matlights", "invisible", 0x00000000);
+	DodajBrame(pevori2, 1248.300537, 211.563781, 22.067695, 0.000000, 0.000000, 66.000000, 1248.300537, 211.563781, 28.0396, 0.000000, 0.000000, 66.000000, 3,4, BRAMA_UPR_TYPE_FAMILY, 16);
 	
 	return 1;
 }
