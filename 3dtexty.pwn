@@ -57,7 +57,17 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Verte Bank\nOddzia³ Palomino Creek", COLOR_BLUE, 2302.7798,-15.9637,26.4844, 10.0);
     CreateDynamic3DTextLabel("Biuro\nKorporacji Transportowej", COLOR_BLUE, 2518.0, -2127.0, 13.5, 7.0);
     CreateDynamic3DTextLabel("Tylne wejœcie", COLOR_BLUE, 593.5989,-1489.5365,15.2650, 5.0);
-
+	//--------------[Pickupy odnoœnie systemu biletów KT]----------------------
+	//Ticket machine
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 1747.0645,-1944.3795,13.5668, 10.0);
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 1757.1211,-1943.6776,13.5694, 10.0);
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 2293.0547,-1175.9962,26.0441, 10.0);
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 2856.7439,1314.4252,11.3906, 10.0);
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 1436.5784,2655.9736,11.3926, 10.0);
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, -1958.2460,121.6830,27.6875, 10.0);
+	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 825.0424,-1353.8247,13.5372, 10.0);
+	
+	
 	//--------------[Moje Pickupy i 3D moje 3d texty]---------------- {9ACD32}
 
 	CreateDynamic3DTextLabel("Komisariat", 0x0080FFFF, 1553.3929,-1675.4796,16.1953, 40.0); //Wejœcie do komisariatu
