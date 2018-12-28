@@ -294,7 +294,7 @@ obiekty_OnGameModeInit()
 	extsasd_Init();//Exterior SASD w PC
 	coffeeshop_Init();//Coffee Shop Los Santos
 	chinskiejedzenie_Init();//Chinese food
-	interiorpd_Init();//Interior Los Santos Police Department
+	interiorpolicedepartment();//Interior Los Santos Police Department
 	magazynsol_Init();//Magazyn Solarin 
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
