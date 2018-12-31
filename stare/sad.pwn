@@ -294,14 +294,14 @@ INT_FamilySad()
 	strcat(string, "6. Na terenie budynku obowi¹zuje ca³kowity zakaz\npalenia, spo¿ywania alkoholu oraz\nkorzystania ze œrodków odurzaj¹cych\n");
 	strcat(string, "{FF0000}Nieznajomoœæ regulaminu\nnie upowa¿nia do jego ³amania!");
     SetDynamicObjectMaterialText(tablicawsad, 0, string, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
-    new string2[2000];
-    strcat(string2, "{FF0000}S¥D STANOWY - SAN ANDREAS");
-	strcat(string2, "{000000}\nObiekt w 75% ($75.000.000) zosta³ op³acony\n z bud¿et stanu {0000FF}San Andreas\n");
-	strcat(string2, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}John 'a Mrucznika\n");
-	strcat(string2, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}Sven 'a Helvetick 'i\n");
-	strcat(string2, "{000000}Projekt architektoniczny wykona³:\n{0000FF}Jack Simon.\n");
-	strcat(string2, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Anthony Hartman\n{E9E9E9}69 ?");
-    SetDynamicObjectMaterialText(tablicawsad2, 0, string2, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
+    new string200[2000];
+    strcat(string200, "{FF0000}S¥D STANOWY - SAN ANDREAS");
+	strcat(string200, "{000000}\nObiekt w 75% ($75.000.000) zosta³ op³acony\n z bud¿et stanu {0000FF}San Andreas\n");
+	strcat(string200, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}John 'a Mrucznika\n");
+	strcat(string200, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}Sven 'a Helvetick 'i\n");
+	strcat(string200, "{000000}Projekt architektoniczny wykona³:\n{0000FF}Jack Simon.\n");
+	strcat(string200, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Anthony Hartman\n{E9E9E9}69 ?");
+    SetDynamicObjectMaterialText(tablicawsad2, 0, string200, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
 	//SUFIT
 	new sufits = CreateDynamicObject(19378, 1297.76099, -1324.77393, 41.95820,   0.00000, 90.00000, 0.00000, 500);
 	CreateDynamicObject(19378, 1305.88757, -1315.03625, 41.88620,   0.00000, 90.00000, 0.00000, 500);

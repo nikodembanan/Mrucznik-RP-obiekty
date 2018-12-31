@@ -513,8 +513,8 @@ static StworzObiekty()
 	// 854.50244, -605.01929, 18.50988 - zewn¹trz
 	//  856.45038, -615.48877, -6.18033 - wewn¹trz
 	
-	DodajWejscie(854.50244, -605.01929, 18.50988, 856.45038, -615.48877, -6.18033, 0, 0, 1, 0, "Magazyn Solarin Industries", "[Wpisz /wyjdz]");
-		return 1;
+//	DodajWejscie(854.50244, -605.01929, 18.50988, 856.45038, -615.48877, -6.18033, 0, 0, 1, 0, "Magazyn Solarin Industries", "[Wpisz /wyjdz]");
+	return 1;
 }
 static StworzBramy()
 {

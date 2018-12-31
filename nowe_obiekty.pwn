@@ -124,9 +124,10 @@
 	#include "../nowe/Globalne/magazynsol/interior.pwn"
 	#include "../nowe/FBI/interior.pwn"
 	#include "../nowe/wps/interior.pwn"
+	#include "../nowe/Globalne/interiorypojazdow/pociag.pwn"
 	
 #else //Mrucznik-RP gamemode
-	#include "modules/obiekty/skrypt/obiekty_zmienne.pwn"
+	#include "modules/obiekty/obiekty_zmienne.pwn"
 	
 	#include "modules/obiekty/nowe/AmmuNationBananov/ammuNationBananov.pwn"
 	#include "modules/obiekty/nowe/DosSantosCarService/DSCS.pwn"
@@ -211,9 +212,10 @@
 	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
 	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
 	#include "modules/obiekty/nowe/Globalne/magazynsol/interior.pwn"
-	#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
+	//#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
 	#include "modules/obiekty/nowe/FBI/interior.pwn"
 	#include "modules/obiekty/nowe/wps/interior.pwn"
+	#include "modules/obiekty/nowe/Globalne/interiorypojazdow/pociag.pwn"
 
 
 #endif
@@ -292,20 +294,12 @@ obiekty_OnGameModeInit()
 	extsasd_Init();//Exterior SASD w PC
 	coffeeshop_Init();//Coffee Shop Los Santos
 	chinskiejedzenie_Init();//Chinese food
-	interiorpd_Init();//Interior Los Santos Police Department
+	interiorpolicedepartment_Init();//Interior Los Santos Police Department
 	magazynsol_Init();//Magazyn Solarin 
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
+	interiorpociagu_Init();//interior pociagu
 
-
-	intekdmv_Init();
-	ramirezext_Init();
-	dossantos_Init();
-	hamcint_Init();
-	ramirezint_Init();
-	banklsext_Init();
-	gunshopls_Init();
-	sktomdom_Init();
 
 	return 1;
 }
