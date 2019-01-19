@@ -125,6 +125,7 @@
 	#include "../nowe/FBI/interior.pwn"
 	#include "../nowe/wps/interior.pwn"
 	#include "../nowe/Globalne/interiorypojazdow/pociag.pwn"
+	#include "../nowe/Globalne/nagrodyeventy/simeone.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/obiekty_zmienne.pwn"
@@ -216,6 +217,7 @@
 	#include "modules/obiekty/nowe/FBI/interior.pwn"
 	#include "modules/obiekty/nowe/wps/interior.pwn"
 	#include "modules/obiekty/nowe/Globalne/interiorypojazdow/pociag.pwn"
+	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/simeone.pwn"
 
 
 #endif
@@ -299,6 +301,7 @@ obiekty_OnGameModeInit()
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
+	simeonedom_Init();//Domek Simeone
 
 
 	return 1;
@@ -337,6 +340,7 @@ obiekty_OnPlayerConnect(playerid)
 	coffeshop_Connect(playerid);//Coffe shop
 	chinskiejedzenie_Connect(playerid);//Chinese food
 	wpsint_Connect(playerid);//Interior WPS
+	simeonedom_Connect(playerid);//Domek simeone
 	
 	
 	return 1;
