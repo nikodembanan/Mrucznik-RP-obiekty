@@ -311,7 +311,7 @@ obiekty_OnGameModeInit()
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
 	simeonedom_Init();//Domek Simeone
-	bankomaty_init();//Obiekty bankomatów na SA
+	bankomaty_Init();//Obiekty bankomatów na SA
 
 
 	return 1;
