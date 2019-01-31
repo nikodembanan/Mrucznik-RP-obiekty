@@ -126,6 +126,10 @@
 	#include "../nowe/wps/interior.pwn"
 	#include "../nowe/Globalne/interiorypojazdow/pociag.pwn"
 	#include "../nowe/Globalne/nagrodyeventy/simeone.pwn"
+	//*****************************************************
+	//Aktualizacja 2.6 - By Simeone & Sergio
+	//*****************************************************
+	#include "../nowe/Globalne/bankomaty.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/obiekty_zmienne.pwn"
@@ -218,7 +222,12 @@
 	#include "modules/obiekty/nowe/wps/interior.pwn"
 	#include "modules/obiekty/nowe/Globalne/interiorypojazdow/pociag.pwn"
 	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/simeone.pwn"
-
+	
+	//*****************************************************
+	//Aktualizacja 2.6 - By Simeone & Sergio
+	//*****************************************************
+	#include "modules/obiekty/nowe/Globalne/bankomaty.pwn"
+	
 
 #endif
 
@@ -302,6 +311,7 @@ obiekty_OnGameModeInit()
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
 	simeonedom_Init();//Domek Simeone
+	bankomaty_init();//Obiekty bankomatów na SA
 
 
 	return 1;
