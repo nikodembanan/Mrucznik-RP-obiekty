@@ -130,6 +130,7 @@
 	//Aktualizacja 2.6 - By Simeone & Sergio
 	//*****************************************************
 	#include "../nowe/Globalne/bankomaty.pwn"
+	#include "../BialyDom/exterior.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/obiekty_zmienne.pwn"
@@ -227,6 +228,7 @@
 	//Aktualizacja 2.6 - By Simeone & Sergio
 	//*****************************************************
 	#include "modules/obiekty/nowe/Globalne/bankomaty.pwn"
+	#include "modules/obiekty/nowe/BialyDom/exterior.pwn"
 	
 
 #endif
@@ -312,6 +314,7 @@ obiekty_OnGameModeInit()
 	interiorpociagu_Init();//interior pociagu
 	simeonedom_Init();//Domek Simeone
 	bankomaty_Init();//Obiekty bankomatów na SA
+	WhiteHouseExt_Init();//Exterior bia³ego domu
 
 
 	return 1;
@@ -351,7 +354,7 @@ obiekty_OnPlayerConnect(playerid)
 	chinskiejedzenie_Connect(playerid);//Chinese food
 	wpsint_Connect(playerid);//Interior WPS
 	simeonedom_Connect(playerid);//Domek simeone
-	
+	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	
 	return 1;
 }

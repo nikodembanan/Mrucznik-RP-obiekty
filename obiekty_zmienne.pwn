@@ -41,3 +41,4 @@ new bramawgs1;//Zmienna bramy w Gun Shop LS
 new bramawgs2;//Zmienna bramy w Gun Shop LS
 new bramawgs3;//Zmienna bramy w Gun Shop LS
 new bramawgs4;//Zmienna bramy w Gun Shop LS
+new bankomatMove;//Zmienna bankomatu - bram
