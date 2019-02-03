@@ -127,7 +127,7 @@ public OnGameModeExit()
     print(">>> Wykonano. Gamemode pomyslnie wylaczony.");
 	return 1;
 }
-
+//Tutaj buüka i uúmieszek :D 
 public OnPlayerRequestClass(playerid, classid)
 {
 	ApplyAnimation(playerid, "ON_LOOKERS", "wave_loop", 3.5, 1, 0, 0, 0, 0, 1);
