@@ -22,7 +22,7 @@ static StworzBramy()
     SetDynamicObjectMaterial(placbrama3, 4, 18646, "matcolours", "grey-70-percent", 0x00000000);
     DodajBrame(placbrama3, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 175.7999, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama poboczna
 	
-	new bramaAlarmu[4];
+	//new bramaAlarmu[4];
 	//BRAMY ALARMU
 	bramaAlarmu[0] = CreateDynamicObject(19912, 1458.55872, -1781.09436, 84.14751,   0.00000, 0.00000, 0.00000, 50, 0);
 	bramaAlarmu[1] = CreateDynamicObject(19912, 1453.65222, -1822.41931, 87.62315,   0.00000, 0.00000, 0.00000, 50, 0);
