@@ -126,16 +126,17 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Koœció³", COLOR_BLUE ,-2482.6416,2406.8088,17.1094, 25.0);
 	CreateDynamic3DTextLabel("Wejœcie na balkon", COLOR_BLUE ,-2065.5505,575.6121,1173.0511, 1.0);
 
-//3d text basen
+//3dtexty na basenie 
 	CreateDynamic3DTextLabel("Wpisz tu /trampolina\n aby wykonaæ skok", COLOR_BLUE ,579.3132,-2193.8735,6.5254, 7.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("Sauna", COLOR_BLUE ,570.5168,-2095.3618,2.6152, 15.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
     str2 =  "Wejœcie na p³ywalniê i inne atrakcje na basenie jest p³atne za pomoc¹ kredytów\n Zaopatrz siê w odpowiedni¹ liczbê kredytów u pracownika Aqua Parku\n Cennik znajduje siê na tablicy przy kasach\n Dodatkowe kredyty mo¿esz dokupiæ równie¿ na basenie\n Wchodz¹c na basen akceptujesz regulamin p³ywalni";
-	CreateDynamic3DTextLabel(str2, COLOR_BLUE ,560.8828,-2033.8701,16.1670, 6.5, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	CreateDynamic3DTextLabel(str2, COLOR_BLUE ,1205.84192, -1765.71741, 13.52577, 6.5, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
     str2 = "{FFA500}Wejœcie na basen -{9ACD32}210 kredytów \n {FFA500}Wejœcie do Sauny - {9ACD32}75 kredytów \n {FFA500}Skorzystanie z szatni-{9ACD32}50 kredytów\n {FFA500}Trampolina œrednia - {9ACD32}10 kredytów\n {FFA500}Trampolina wyczynowa- {9ACD32}25 kredytów\n {FFA500}Wejœcie do pontonu basenowego- {9ACD32}25 kredytów\nCeny kredytów ustala dzier¿awca\nPo opuszczeniu p³ywalni kredyty przepadaj¹";
-    CreateDynamic3DTextLabel(str2,COLOR_NEWS,570.76820068,-2029.58264160,17.9,8.5,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
-	CreateDynamic3DTextLabel("Wejscie tylko dla personelu \n(wpisz /wyjdz aby wejsc)", COLOR_BLUE ,562.2107,-2029.9917,16.1670, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+    CreateDynamic3DTextLabel(str2,COLOR_NEWS,1193.82861, -1771.33301, 13.27689,17.9,8.5,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	//CreateDynamic3DTextLabel("Wejscie tylko dla personelu \n(wpisz /wyjdz aby wejsc)", COLOR_BLUE ,562.2107,-2029.9917,16.1670, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("Trampoliny", COLOR_BLUE ,578.6193,-2195.7708,1.6288, 3.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
-	CreateDynamic3DTextLabel("U¿yj: /kupkredyty", COLOR_BLUE ,570.63, -2031.03, 16.2, 3.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	CreateDynamic3DTextLabel("U¿yj: /kupkredyty", COLOR_BLUE ,1197.0911,-1772.3119,13.7282, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	CreateDynamic3DTextLabel("=-=-=-=-=Tsunami Pool=-=-=-=-=\n\n{37AC45}Founded by:\n{C0C0C0}>Luis Cotta\n{C0C0C0}>Sergio Santiago\n{C0C0C0}>John Mrucznik\n{C0C0C0}>Sven Helvetica", COLOR_BLUE, 1205.97107, -1759.93848, 15.94710, 6.5, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 
 //-------------------------------[Przystanki autobusowe]----------------------------------------
 
