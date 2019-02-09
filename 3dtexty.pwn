@@ -128,7 +128,9 @@ Zaladuj3DTexty()
 
 //3dtexty na basenie 
 	CreateDynamic3DTextLabel("Wpisz tu /trampolina\n aby wykonaæ skok", COLOR_BLUE ,579.3132,-2193.8735,6.5254, 7.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
-	CreateDynamic3DTextLabel("Sauna", COLOR_BLUE ,570.5168,-2095.3618,2.6152, 15.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	CreateDynamic3DTextLabel("Sauna", COLOR_BLUE ,1212.84546, -1790.80505, 71.69380, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	CreateDynamic3DTextLabel("Basen", COLOR_BLUE ,1221.30774, -1790.77686, 71.70520, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	CreateDynamic3DTextLabel("=-=-=-=-=Tsunami Pool=-=-=-=-=\n\n{37AC45}1.Nie biegamy\n{37AC45}2.Nie skaczemy\n{37AC45}3.Na basenie obowi¹zuje zakaz p³ywania bez stroju!\n{37AC45}4. Osoby poni¿ej 18 roku ¿ycia wymagaj¹ wejœcia z opiekunem!", COLOR_BLUE ,1212.84546, -1790.80505, 71.69380, 20.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
     str2 =  "Wejœcie na p³ywalniê i inne atrakcje na basenie jest p³atne za pomoc¹ kredytów\n Zaopatrz siê w odpowiedni¹ liczbê kredytów u pracownika Aqua Parku\n Cennik znajduje siê na tablicy przy kasach\n Dodatkowe kredyty mo¿esz dokupiæ równie¿ na basenie\n Wchodz¹c na basen akceptujesz regulamin p³ywalni";
 	CreateDynamic3DTextLabel(str2, COLOR_BLUE ,1205.84192, -1765.71741, 13.52577, 6.5, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
     str2 = "{FFA500}Wejœcie na basen -{9ACD32}210 kredytów \n {FFA500}Wejœcie do Sauny - {9ACD32}75 kredytów \n {FFA500}Skorzystanie z szatni-{9ACD32}50 kredytów\n {FFA500}Trampolina œrednia - {9ACD32}10 kredytów\n {FFA500}Trampolina wyczynowa- {9ACD32}25 kredytów\n {FFA500}Wejœcie do pontonu basenowego- {9ACD32}25 kredytów\nCeny kredytów ustala dzier¿awca\nPo opuszczeniu p³ywalni kredyty przepadaj¹";
