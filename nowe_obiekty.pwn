@@ -133,6 +133,7 @@
 	#include "../nowe/BialyDom/exterior.pwn"
 	#include "../nowe/basen/interior.pwn"
 	#include "../nowe/basen/exterior.pwn"
+	#include "../nowe/Globalne/biznesy/biznesy.pwn"
 	
 #else //Mrucznik-RP gamemode
 	#include "modules/obiekty/obiekty_zmienne.pwn"
@@ -233,6 +234,7 @@
 	#include "modules/obiekty/nowe/BialyDom/exterior.pwn"
 	#include "modules/obiekty/nowe/basen/interior.pwn"
 	#include "modules/obiekty/nowe/basen/exterior.pwn"
+	#include "modules/obiekty/nowe/Globalne/biznesy/biznesy.pwn"
 	
 
 #endif
@@ -321,6 +323,7 @@ obiekty_OnGameModeInit()
 	WhiteHouseExt_Init();//Exterior bia³ego domu
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
+	biznesy_Init();
 
 
 	return 1;

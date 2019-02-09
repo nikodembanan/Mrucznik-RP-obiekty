@@ -132,7 +132,7 @@ Zaladuj3DTexty()
     str2 =  "Wejœcie na p³ywalniê i inne atrakcje na basenie jest p³atne za pomoc¹ kredytów\n Zaopatrz siê w odpowiedni¹ liczbê kredytów u pracownika Aqua Parku\n Cennik znajduje siê na tablicy przy kasach\n Dodatkowe kredyty mo¿esz dokupiæ równie¿ na basenie\n Wchodz¹c na basen akceptujesz regulamin p³ywalni";
 	CreateDynamic3DTextLabel(str2, COLOR_BLUE ,1205.84192, -1765.71741, 13.52577, 6.5, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
     str2 = "{FFA500}Wejœcie na basen -{9ACD32}210 kredytów \n {FFA500}Wejœcie do Sauny - {9ACD32}75 kredytów \n {FFA500}Skorzystanie z szatni-{9ACD32}50 kredytów\n {FFA500}Trampolina œrednia - {9ACD32}10 kredytów\n {FFA500}Trampolina wyczynowa- {9ACD32}25 kredytów\n {FFA500}Wejœcie do pontonu basenowego- {9ACD32}25 kredytów\nCeny kredytów ustala dzier¿awca\nPo opuszczeniu p³ywalni kredyty przepadaj¹";
-    CreateDynamic3DTextLabel(str2,COLOR_NEWS,1193.82861,-1771.33301,13.27689,8.5,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+    CreateDynamic3DTextLabel(str2,COLOR_NEWS,1193.82861,-1771.33301,13.27689+3,8.5,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	//CreateDynamic3DTextLabel("Wejscie tylko dla personelu \n(wpisz /wyjdz aby wejsc)", COLOR_BLUE ,562.2107,-2029.9917,16.1670, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("Trampoliny", COLOR_BLUE ,578.6193,-2195.7708,1.6288, 3.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("U¿yj: /kupkredyty", COLOR_BLUE ,1197.0911,-1772.3119,13.7282, 7.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
