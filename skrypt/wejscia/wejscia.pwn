@@ -30,7 +30,7 @@
 //
 
 //-----------------<[ Funkcje: ]>-------------------
-stock DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="")
+stock DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", bool:pLocalValue=0, bool:pLocalYesFalse=false)
 {
 	wejscia[iloscwejsc][w_x1] = fx1;
 	wejscia[iloscwejsc][w_y1] = fy1;
@@ -74,6 +74,10 @@ stock SprawdzWejscia(playerid)
 			SetPlayerPos(playerid,  wejscia[i][w_x2],  wejscia[i][w_y2], wejscia[i][w_z2]);
 			SetPlayerInterior(playerid, wejscia[i][w_int2]);
 			SetPlayerVirtualWorld(playerid, wejscia[i][w_vw2]);
+			if(pLocalYesFalse = true)
+			{
+				PlayerInfo[playerid][pLocal] = pLocalValue;
+			}
 			Wchodzenie(playerid);
 			return 1;
 		}
@@ -82,6 +86,7 @@ stock SprawdzWejscia(playerid)
 			SetPlayerPos(playerid,  wejscia[i][w_x1],  wejscia[i][w_y1], wejscia[i][w_z1]);
 			SetPlayerInterior(playerid, wejscia[i][w_int1]);
 			SetPlayerVirtualWorld(playerid, wejscia[i][w_vw1]);
+			PlayerInfo[playerid][pLocal] = 255;
 			Wchodzenie(playerid);
 			return 1;
 		}
