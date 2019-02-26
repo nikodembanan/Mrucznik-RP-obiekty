@@ -77,6 +77,15 @@ stock SprawdzWejscia(playerid)
 			if(pLocalYesFalse = true)
 			{
 				PlayerInfo[playerid][pLocal] = pLocalValue;
+				if(pLocalValue == 108)
+				{
+					if(muzykaON[11] = 1)
+					{
+						new string[128];
+						format(string, sizeof(string), "%s", muzykaURL); 
+						PlayAudioStreamForPlayer(playerid, string);
+					}
+				}
 			}
 			Wchodzenie(playerid);
 			return 1;
