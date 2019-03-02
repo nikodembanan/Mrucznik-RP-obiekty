@@ -300,7 +300,7 @@ INT_FamilySad()
 	strcat(string200, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}John 'a Mrucznika\n");
 	strcat(string200, "{000000}Obiekt w 10% ($10.000.000) zosta³ op³acony\n z prywatnego bud¿etu {0000FF}Sven 'a Helvetick 'i\n");
 	strcat(string200, "{000000}Projekt architektoniczny wykona³:\n{0000FF}Jack Simon.\n");
-	strcat(string200, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Novella Capon\n{E9E9E9}69 ?");
+	strcat(string200, "{000000}Ochrone nad budykiem sprawuje:\n{0000FF}United States Secret Service (U.S.S.S.)\n{000000}Przewodnictwo nad sadem prowadzi:\nPrezes Sadu {0000FF}Odette Perre\n{E9E9E9}69 ?");
     SetDynamicObjectMaterialText(tablicawsad2, 0, string200, 100, "Times New Roman", 15, 0, 0xFFC7151C, 0xFFFFFFFF , 1);
 	//SUFIT
 	new sufits = CreateDynamicObject(19378, 1297.76099, -1324.77393, 41.95820,   0.00000, 90.00000, 0.00000, 500);

@@ -74,19 +74,6 @@ stock SprawdzWejscia(playerid)
 			SetPlayerPos(playerid,  wejscia[i][w_x2],  wejscia[i][w_y2], wejscia[i][w_z2]);
 			SetPlayerInterior(playerid, wejscia[i][w_int2]);
 			SetPlayerVirtualWorld(playerid, wejscia[i][w_vw2]);
-			if(pLocalYesFalse = true)
-			{
-				PlayerInfo[playerid][pLocal] = pLocalValue;
-				if(pLocalValue == 108)
-				{
-					if(muzykaON[11] = 1)
-					{
-						new string[128];
-						format(string, sizeof(string), "%s", muzykaURL); 
-						PlayAudioStreamForPlayer(playerid, string);
-					}
-				}
-			}
 			Wchodzenie(playerid);
 			return 1;
 		}
