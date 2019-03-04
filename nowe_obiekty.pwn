@@ -35,8 +35,10 @@
 
 //-----------------<[ Include: ]>-------------------
 #if defined EXAMPLE_SCRIPT
+//SKRYPTOWE
 	#include "../obiekty_zmienne.pwn"
-	
+	#include "../wjazdy/wjazdy.pwn"
+	//OBIEKTOWE
 	#include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"
 	#include "../nowe/DosSantosCarService/DSCS.pwn"
 	//#include "../nowe/CentralBank/centralBank.pwn"
@@ -324,6 +326,7 @@ obiekty_OnGameModeInit()
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
 	biznesy_Init();
+	wjedz_Init();
 
 
 	return 1;
