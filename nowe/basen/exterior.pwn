@@ -53,6 +53,7 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1215, 1190.290, -1754.790, 13.109, 0.250);
 	RemoveBuildingForPlayer(playerid, 1215, 1164.589, -1782.359, 13.109, 0.250);
 	
-	StworzWjedz(playerid,1827.0527,-1539.3645,13.2089,1818.77222, -1536.09314, 13.11075, 3, 0, " ", " ", 7, 0, 255);
+	StworzWjedz(1827.0527, -1539.3645, 13.2089, 1818.77222, -1536.09314, 13.11075, 3, 0, "Brama United States Secret Service", "Wyjazdowa Brama", 7, 0, 255);
+	//(Float:wjedzX, Float:wjedzY, Float:wjedzZ, Float:wyjedzX, Float:wyjedzY, Float:wyjedzZ, Float:RangePoint, VW, MessageIN[]=" ", MessageOut[]=" ", FracOwner=0, OrgOwner=0, local)
 	return 1;
 }
