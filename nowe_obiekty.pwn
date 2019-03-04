@@ -326,7 +326,6 @@ obiekty_OnGameModeInit()
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
 	biznesy_Init();
-	wjedz_Init();
 
 
 	return 1;
@@ -368,6 +367,7 @@ obiekty_OnPlayerConnect(playerid)
 	simeonedom_Connect(playerid);//Domek simeone
 	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
+	wjedz_Connect(playerid); 
 	
 	return 1;
 }

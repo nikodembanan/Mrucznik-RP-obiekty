@@ -1,16 +1,12 @@
 
-wjedz_Init() 
+wjedz_Connect(playerid) 
 {
-	StworzObiekty();
+	StworzWjazdy(playerid);
 	return 1;
 }
 
-static StworzObiekty()
+static StworzWjazdy(playerid)
 {
-	CreateDynamicObject(1215, 1164.589965, -1782.359985+20, 13.109395+100, 0.000000, 0.000000, 0.000000, 3, -1, -1, 300.00, 300.00); //int
-	//========================[USSS]====================================
 	StworzWjedz(playerid,1827.0527,-1539.3645,13.2089,1818.77222, -1536.09314, 13.11075, 3, 0, " ", " ", 7, 0, 255);
-	
-	//========================[LSPD]===================================
 	return 1;
 }
