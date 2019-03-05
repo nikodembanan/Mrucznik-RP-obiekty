@@ -222,6 +222,13 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(g_Object[96], 0, 2887, "a51_spotlight", "stormdrain5_nt", 0xFFFFFFFF);
 	g_Object[97] = CreateDynamicObject(995, 1542.0112, -1727.2117, 13.4475, 90.0000, 0.0000, 0.0000); //bar_barrier16
 	g_Object[98] = CreateDynamicObject(995, 1534.6820, -1720.5706, 13.4475, 90.0000, 90.0000, 0.0000); //bar_barrier16
+	
+	CreateDynamicObject(10010, 1289.86169, 744.78082, 10.32700,   0.00000, 0.00000, 0.00000, 2);
+	CreateDynamicObject(4232, 1181.72205, 778.77063, 15.83607,   0.00000, 0.00000, 0.00000, 2);
+	CreateDynamicObject(4032, 1181.72644, 778.75989, 15.83610,   0.00000, 0.00000, 0.00000,2);
+	CreateDynamicObject(3601, 1201.37146, 825.81348, 15.88262,   0.00000, -90.00000, 90.00000,2);
+	CreateDynamicObject(3601, 1256.41772, 784.28876, 15.88262,   0.00000, -90.00000, 90.00000,2);
+	CreateDynamicObject(2957, 1433.92944, -1824.47791, 14.15927,   0.00000, 0.00000, 0.00000, 0);
 /* STARE - Z ZABLOKOWANYM PRZEJAZDEM
 	new g_Object[103];
 	g_Object[0] = CreateDynamicObject(982, 1498.7767, -1720.8066, 13.2489, 0.0000, 0.0000, 90.0000, 0); //fenceshit
@@ -798,6 +805,8 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1220, 1342.270, -1806.199, 12.929, 0.250);
 	RemoveBuildingForPlayer(playerid, 1230, 1342.630, -1807.040, 12.976, 0.250);
 	RemoveBuildingForPlayer(playerid, 1221, 1342.520, -1805.069, 12.984, 0.250);
+	StworzWjedz(1433.04944, -1828.65381, 13.39984, 1201.80603, 812.99982, 18.13282, 5.0, 2, "Parking podziemny UM", "Wyjazd", 11, 1, 255);//DMV
+	StworzWjedz(1124.49756, -1329.60229, 13.27335, 1253.43909, 760.75952, 11.12695, 5.0, 2, "Parking podziemny LSMC", "Wyjazd", 3, 0, 255);//LSMC
     
     
 	return 1;
