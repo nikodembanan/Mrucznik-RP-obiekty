@@ -229,6 +229,11 @@ static StworzObiekty()
 	CreateDynamicObject(3601, 1201.37146, 825.81348, 15.88262,   0.00000, -90.00000, 90.00000,2);
 	CreateDynamicObject(3601, 1256.41772, 784.28876, 15.88262,   0.00000, -90.00000, 90.00000,2);
 	CreateDynamicObject(2957, 1433.92944, -1824.47791, 14.15927,   0.00000, 0.00000, 0.00000, 0);
+	new niewidzialne;
+	niewidzialne = CreateDynamicObject(19129, 1202.81799, 814.26294, 15.38739,   0.00000, 0.00000, 0.00000, 0);
+	SetDynamicObjectMaterial(niewidzialne, 1, 3820, "boxhses_sfsx", "sw_barnwoodblu", 0xFFFFFFFF);
+	niewidzialne = CreateDynamicObject(19129, 1255.33630, 764.60522, 9.82901,   0.00000, 0.00000, 0.00000, 0);
+	SetDynamicObjectMaterial(niewidzialne, 1, 3820, "boxhses_sfsx", "sw_barnwoodblu", 0xFFFFFFFF);
 /* STARE - Z ZABLOKOWANYM PRZEJAZDEM
 	new g_Object[103];
 	g_Object[0] = CreateDynamicObject(982, 1498.7767, -1720.8066, 13.2489, 0.0000, 0.0000, 90.0000, 0); //fenceshit
