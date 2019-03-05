@@ -811,7 +811,7 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1230, 1342.630, -1807.040, 12.976, 0.250);
 	RemoveBuildingForPlayer(playerid, 1221, 1342.520, -1805.069, 12.984, 0.250);
 	StworzWjedz(1433.04944, -1828.65381, 13.39984, 1201.80603, 812.99982, 18.13282, 5.0, 2, "Parking podziemny UM", "Wyjazd", 11, 1, 255);//DMV
-	StworzWjedz(1124.49756, -1329.60229, 13.27335, 1253.43909, 760.75952, 11.12695, 5.0, 2, "Parking podziemny LSMC", "Wyjazd", 3, 0, 255);//LSMC
+	StworzWjedz(1124.49756, -1329.60229, 13.27335, 1253.43909, 760.75952, 11.12695, 5.0, 2, "Parking podziemny LSMC", "Wyjazd", 4, 0, 255);//LSMC
     
     
 	return 1;
