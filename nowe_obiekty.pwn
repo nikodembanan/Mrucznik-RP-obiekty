@@ -237,6 +237,7 @@
 	#include "modules/obiekty/nowe/basen/interior.pwn"
 	#include "modules/obiekty/nowe/basen/exterior.pwn"
 	#include "modules/obiekty/nowe/Globalne/biznesy/biznesy.pwn"
+	#include "modules/obiekty/nowe/inne_skrypt/wejscia.pwn"
 	
 
 #endif
@@ -326,6 +327,7 @@ obiekty_OnGameModeInit()
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
 	biznesy_Init();
+	wejsciaSkrypt_Init();
 
 
 	return 1;
