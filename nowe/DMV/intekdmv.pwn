@@ -1852,67 +1852,55 @@ static StworzObiekty()
 
 static StworzBramy()
 {
-/*	bramawej1 =	CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramawej1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 3, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 4, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 5, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	DodajBrame(bramawej1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, -87.95994, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//BRAMA DO OKIENEK OD WEJSCIA #1
 
-
-	bramawej2 =	CreateDynamicObject(3089, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramawej2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramawej2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -92.16000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//BRAMA DO OKIENEK OD WEJSCIA #2
-	*/
 	//stara brama = CreateDynamicObject(3089, 1454.737915, -1786.455810, 78.075195, 0.000000, 0.000000, 90.000000, 50, -1, -1, 400.00, 400.00);
 	new bramausss =	CreateDynamicObject(3089, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 90.00000, 50, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(bramausss, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramausss, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(bramausss, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	DodajBrame(bramausss, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 90.00000, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 0.00000, 2, 1, BRAMA_UPR_TYPE_FRACTION, 7);//BRAMA OTWIERANA TYLKO DLA GSA 
+	
+	//DUAL GATE:
+	dudmv3 = CreateDynamicObject(3089, 1420.936035, -1815.156494, 78.095230, 0.000000, 0.000000, -90.000000, 50, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(dudmv3, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(dudmv3, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	SetDynamicObjectMaterial(dudmv3, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	dudmv4 = CreateDynamicObject(3089, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 90.000000, 50, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(dudmv4, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(dudmv4, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	SetDynamicObjectMaterial(dudmv4, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	DualGateAdd(dudmv3,1420.936035, -1815.156494, 78.095230, 0.000000, 0.000000, -90.000000, 1420.936035, -1815.156494, 78.095230, 0.000000, 0.000000, 190.000000, 
+	dudmv4, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 90.000000, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, -190.000000,
+	35, 3.5, UPR_TYPE_FRACTION, 11);
+	
+	DualGateAdd(bramawej1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 90.000000, 
+	bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -90.000000, 35, 3, BRAMA_UPR_TYPE_FRACTION, 11);
  
- 
- /*	bramaduza1 = CreateDynamicObject(3089, 1449.065307, -1823.232543, 81.605194, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza1, 1449.065307, -1823.232543, 81.605194, 0.000000, 0.000000, 0.000000, 1449.065307, -1823.232543, 81.605194, 0.000000, 0.000000, -80.1000, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama przejsciowa do biur urzedasow
+	new dualgdmv1 = CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00); 
+	SetDynamicObjectMaterial(dualgdmv1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(dualgdmv1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	SetDynamicObjectMaterial(dualgdmv1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	new dualgdmv2 = CreateDynamicObject(3089, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 50, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(dualgdmv2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(dualgdmv2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	SetDynamicObjectMaterial(dualgdmv2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	DualGateAdd(dualgdmv1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 90.000000,
+	dualgdmv2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -90.000000, 35, 3, BRAMA_UPR_TYPE_FRACTION, 11);
 	
-	bramaduza2 = CreateDynamicObject(3089, 1452.035400, -1823.232543, 81.610244, 0.000000, 0.000000, 180.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza2, 1452.035400, -1823.232543, 81.610244, 0.000000, 0.000000, 180.000000, 1452.035400, -1823.232543, 81.610244, 0.000000, 0.000000, 252.1799, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama przejsciowa do biur urzedasow 2
 	
-	bramaduza3 = CreateDynamicObject(3089, 1440.781494, -1818.137207, 78.066238, 0.000000, 0.000000, 450.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza3, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza3, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza3, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza3, 1440.781494, -1818.137207, 78.066238, 0.000000, 0.000000, 450.000000, 1440.781494, -1818.137207, 78.066238, 0.000000, 0.000000, 532.6802, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Drzwi do senatu 1
+	bramadyrektora1 = CreateDynamicObject(3089, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 180.000000, 50, -1, -1, 400.00, 400.00);
+	bramadyrektora2 = CreateDynamicObject(3089, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -0.800033, 50, -1, -1, 400.00, 400.00);
+	SetDynamicObjectMaterial(bramadyrektora1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(bramadyrektora1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	SetDynamicObjectMaterial(bramadyrektora1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	SetDynamicObjectMaterial(bramadyrektora2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	SetDynamicObjectMaterial(bramadyrektora2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	SetDynamicObjectMaterial(bramadyrektora2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	DualGateAdd(bramadyrektora1, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 180.000000, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 90.000000,
+	bramadyrektora2, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -0.800033, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -90.800033, BRAMA_UPR_TYPE_FRACTION, 11);  
 	
-	bramaduza4 = CreateDynamicObject(3089, 1440.785400, -1815.156494, 78.065223, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza4, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza4, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza4, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza4, 1440.785400, -1815.156494, 78.065223, 0.000000, 0.000000, 270.000000, 1440.785400, -1815.156494, 78.065223, 0.000000, 0.000000, 182.5200, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Drzwi do senatu 2
-	*/
-	/*bramaduza5 = CreateDynamicObject(3089, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 90.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza5, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza5, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza5, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza5, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 90.000000, 1460.467163, -1818.117187, 78.104232, 0.000000, 0.000000, 4.1400, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//duze Drzwi do akademii 1
-	*/
+	//END
 	
-/*	bramaduza6 = CreateDynamicObject(3089, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza6, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza6, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza6, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(bramaduza6, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 270.000000, 1460.470703, -1815.165649, 78.110229, 0.000000, 0.000000, 355.9200, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//duze Drzwi do akademii 2
-	*/
 	okienka1 = CreateDynamicObject(3089, 1443.515014, -1808.515258, 78.065223, 0.000000, 0.000000, 720.000000, 50, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(okienka1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(okienka1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
@@ -1925,22 +1913,7 @@ static StworzBramy()
 	SetDynamicObjectMaterial(okienka2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	DodajBrame(okienka2, 1457.415649, -1808.475585, 78.065223, 0.000000, 0.000000, 540.000000, 1457.415649, -1808.475585, 78.065223, 0.000000, 0.000000, 445.2602, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Przejscie do okienek2
 	
-	/*bramaduza7 = CreateDynamicObject(3089, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 180.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza7, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza7, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza7, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza7, 3, 18646, "matcolours", "grey-60-percent", 0x00000000);
-	DodajBrame(bramaduza7, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 180.000000, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 265.9202, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Drzwi do biura burmistrza 1
-	
-	
-	bramaduza8 = CreateDynamicObject(3089, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -0.800033, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramaduza8, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza8, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza8, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	SetDynamicObjectMaterial(bramaduza8, 3, 18646, "matcolours", "grey-60-percent", 0x00000000);
-	DodajBrame(bramaduza8, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -0.800033, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -82.2801, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Drzwi do biura burmistrza 2
-	
-	*/
+
 	bramabiur1 = CreateDynamicObject(3089, 1452.955932, -1834.270385, 81.565254, 0.000000, 0.000000, -90.599929, 50, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(bramabiur1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(bramabiur1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
