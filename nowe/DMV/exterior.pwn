@@ -38,6 +38,10 @@ DMV::exterior_Connect(playerid)
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
+	pevori2 = CreateDynamicObject(3980, 1481.189941, -1785.069946, 22.382799, 0.000000, 0.000000, -0.000009, 0, -1, -1, 350.00, 350.00); 
+	pevori2 = CreateDynamicObject(1226, 1485.170043, -1727.670043, 16.421899, 0.000000, 0.000000, 89.999992, 0, -1, -1, 350.00, 350.00); 
+	pevori2 = CreateDynamicObject(4003, 1481.079956, -1747.030029, 33.523399, 0.000000, 0.000000, 0.000000, 0, -1, -1, 350.00, 350.00); 
+	pevori2 = CreateDynamicObject(4002, 1479.869995, -1790.400024, 56.023399, 0.000000, 0.000000, 0.000000, 0, -1, -1, 350.00, 350.00); 
 	new g_Object[99];
 	g_Object[0] = CreateDynamicObject(982, 1498.7767, -1720.8066, 13.2489, 0.0000, 0.0000, 90.0000); //fenceshit
 	g_Object[1] = CreateDynamicObject(19545, 1480.3741, -1719.7373, 12.5537, 0.0000, 0.0000, 90.0000); //Plane62_5x15Conc1
@@ -812,6 +816,13 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1221, 1342.520, -1805.069, 12.984, 0.250);
 	StworzWjedz(1433.04944, -1828.65381, 13.39984, 1201.80603, 812.99982, 18.13282, 5.0, 2, "Parking podziemny UM", "Wyjazd", 11, 1, 255);//DMV
 	StworzWjedz(1124.49756, -1329.60229, 13.27335, 1253.43909, 760.75952, 11.12695, 5.0, 2, "Parking podziemny LSMC", "Wyjazd", 4, 0, 255);//LSMC
+//lokal wyborczy
+
+	RemoveBuildingForPlayer(playerid, 4002, 1479.869, -1790.400, 56.023, 0.250);
+	RemoveBuildingForPlayer(playerid, 4024, 1479.869, -1790.400, 56.023, 0.250);
+	RemoveBuildingForPlayer(playerid, 4003, 1481.079, -1747.030, 33.523, 0.250);
+	RemoveBuildingForPlayer(playerid, 3980, 1481.189, -1785.069, 22.382, 0.250);
+	RemoveBuildingForPlayer(playerid, 4044, 1481.189, -1785.069, 22.382, 0.250);
     
     
 	return 1;
