@@ -28,7 +28,6 @@ FBI::parking_Init()
 {
 	StworzObiekty();
 	StworzBramy();
-	StworzBudynki();
 	return 1;
 }
 FBIPARKING_Connect(playerid)
