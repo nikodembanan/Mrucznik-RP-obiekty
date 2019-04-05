@@ -369,6 +369,7 @@ obiekty_OnPlayerConnect(playerid)
 	simeonedom_Connect(playerid);//Domek simeone
 	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
+	FBIPARKING_Connect(playerid);
 //	wjedz_Connect(playerid); 
 	
 	return 1;
