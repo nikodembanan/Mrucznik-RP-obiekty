@@ -520,7 +520,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterialText(stripclub, 0, "{ff0033}Budynek powsta³ dziêki Charlie Halliwell", 140, "Ariel", 20, 1, 0x00000000, 0x00000000, 1);
 	stripclub = CreateDynamicObject(19370, 1254.317138, -1551.565307, 3.825046, 0.000037, 0.000000, 269.999877, 40, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(stripclub, 0, 18901, "matclothes", "bowlerred", 0xFF800000);
-	SetDynamicObjectMaterialText(stripclub, 0, "{ff0033}Budynek powsta³ dziêki Charlie Halliwell", 140, "Ariel", 20, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(stripclub, 0, "{ff0033}Projektant: Charlie Halliwell", 140, "Ariel", 20, 1, 0x00000000, 0x00000000, 1);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
