@@ -301,27 +301,27 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 612.557983, -1518.670654, 12.324998, 0.000000, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
-	extfbi = CreateDynamicObject(638, 613.538024, -1518.186401, 14.551492, 0.000000, 0.000000, 270.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(638, 613.538024, -1518.186401, 14.711496, 0.000000, 0.000000, 270.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
-	extfbi = CreateDynamicObject(638, 616.018920, -1518.216430, 14.554492, 0.000000, 0.000000, 450.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(638, 616.018920, -1518.216430, 14.704496, 0.000000, 0.000000, 450.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
-	extfbi = CreateDynamicObject(19450, 610.981506, -1521.050170, 12.771223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(19450, 610.981506, -1521.050170, 12.774223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	extfbi = CreateDynamicObject(18762, 608.566589, -1524.095947, 14.031225, 0.000000, 90.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0xFFFFFFFF);
-	extfbi = CreateDynamicObject(19450, 607.060058, -1521.050170, 12.771223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(19450, 607.060058, -1521.050170, 12.774223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
-	extfbi = CreateDynamicObject(19450, 603.108520, -1521.050170, 12.771223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(19450, 603.108520, -1521.050170, 12.774223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
-	extfbi = CreateDynamicObject(19450, 599.167297, -1521.050170, 12.771223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(19450, 599.167297, -1521.050170, 12.774223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 595.216491, -1521.050170, 12.771223, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	extfbi = CreateDynamicObject(6959, 590.590148, -1508.744140, 14.551717, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
-	extfbi = CreateDynamicObject(8947, 581.509887, -1508.945190, 17.511226, -0.000004, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(8947, 578.938232, -1508.945190, 17.511226, -0.000004, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 1, 3922, "bistro", "ahoodfence2", 0x00000000);
-	extfbi = CreateDynamicObject(2938, 593.716918, -1509.000610, 15.731248, 0.000000, -0.000004, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(2938, 591.066528, -1509.000610, 15.731248, 0.000000, -0.000004, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 3820, "boxhses_sfsx", "ws_garagedoor3_pink", 0xFFFFFFFF);
 	extfbi = CreateDynamicObject(18762, 603.586181, -1524.095947, 14.031225, 0.000000, 90.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 10765, "airportgnd_sfse", "white", 0xFFFFFFFF);
@@ -373,6 +373,8 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 583.177185, -1493.446411, 18.233301, 0.000000, -1.100000, -1.799998, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	extfbi = CreateDynamicObject(19870, 611.150512, -1512.742797, 16.240314, 0.000000, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(extfbi, 2, 16093, "a51_ext", "a51_fencsign", 0x00000000);
 	extfbi = CreateDynamicObject(11714, 595.578552, -1488.783203, 15.750469, 0.000000, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 14577, "casinovault01", "dts_elevator_door", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 611.164489, -1503.119140, 17.286851, 0.000000, 0.000000, -0.099999, 0, 0, -1, 170.00, 170.00); 
@@ -387,10 +389,16 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
 	extfbi = CreateDynamicObject(18762, 611.172424, -1513.153564, 17.926925, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
-	extfbi = CreateDynamicObject(19355, 611.932495, -1511.219848, 14.115207, 0.000000, -80.299964, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(19355, 611.942626, -1511.219848, 14.204689, 0.000000, -82.799934, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
-	extfbi = CreateDynamicObject(19355, 611.932495, -1509.388183, 14.115207, 0.000000, -80.299964, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(19355, 611.942626, -1509.558593, 14.204689, 0.000000, -82.799934, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	extfbi = CreateDynamicObject(19355, 614.822265, -1511.219848, 13.841252, 0.000000, -82.799934, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	extfbi = CreateDynamicObject(19355, 614.822265, -1509.518798, 13.841252, 0.000000, -82.799934, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	extfbi = CreateDynamicObject(18762, 611.695190, -1515.751220, 12.069918, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(extfbi, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -401,10 +409,11 @@ static StworzObiekty()
 	extfbi = CreateDynamicObject(1256, 611.606079, -1490.653808, 14.462720, 0.000000, 0.000000, 180.000000, 0, 0, -1, 170.00, 170.00); 
 	extfbi = CreateDynamicObject(1256, 611.606079, -1495.885620, 14.462720, 0.000000, 0.000000, 180.000000, 0, 0, -1, 170.00, 170.00); 
 	extfbi = CreateDynamicObject(1359, 611.738586, -1493.275756, 14.426615, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
-	extfbi = CreateDynamicObject(1223, 593.588134, -1505.036376, 13.776554, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
-	extfbi = CreateDynamicObject(1223, 593.588134, -1512.988281, 13.776554, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(1223, 590.997131, -1505.036376, 13.776554, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(1223, 590.997314, -1512.988281, 13.776554, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	extfbi = CreateDynamicObject(19121, 616.780517, -1498.452270, 15.017916, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	extfbi = CreateDynamicObject(19121, 616.780517, -1523.254760, 15.017916, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+
 
 	
 	//STARE OBIEKTY FBI - DACH, KAMERY i WEJSCIE
