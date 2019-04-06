@@ -238,6 +238,7 @@
 	#include "modules/obiekty/nowe/basen/exterior.pwn"
 	#include "modules/obiekty/nowe/Globalne/biznesy/biznesy.pwn"
 	#include "modules/obiekty/nowe/inne_skrypt/wejscia.pwn"
+	#include "modules/obiekty/nowe/StripClub/stripclub.pwn"
 	
 
 #endif
@@ -328,6 +329,7 @@ obiekty_OnGameModeInit()
 	basenext_Init();//exteriorbasenu
 	biznesy_Init();
 	wejsciaSkrypt_Init();
+	stripclub_Init();
 
 
 	return 1;
