@@ -373,8 +373,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 583.177185, -1493.446411, 18.233301, 0.000000, -1.100000, -1.799998, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
-	extfbi = CreateDynamicObject(19870, 611.150512, -1512.742797, 16.240314, 0.000000, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
-	SetDynamicObjectMaterial(extfbi, 2, 16093, "a51_ext", "a51_fencsign", 0x00000000);
 	extfbi = CreateDynamicObject(11714, 595.578552, -1488.783203, 15.750469, 0.000000, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 14577, "casinovault01", "dts_elevator_door", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 611.164489, -1503.119140, 17.286851, 0.000000, 0.000000, -0.099999, 0, 0, -1, 170.00, 170.00); 
@@ -485,7 +483,7 @@ static StworzBramy()
 {
 	extfbi = CreateDynamicObject(19870, 611.150512, -1512.742797, 16.240314, 0.000000, 0.000000, 90.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 2, 16093, "a51_ext", "a51_fencsign", 0x00000000);
-	DodajBrame(extfbi, 611.150512, -1512.742797, 16.240314, 0.000000, 0.000000, 90.000000, 611.150512, -1512.742797, 13.240314, 0.000000, 0.000000, 90.000000, 40, 11.5, BRAMA_UPR_TYPE_FRACTION, 2);
+	DodajBrame(extfbi, 611.150512, -1512.742797, 16.240314, 0.000000, 0.000000, 90.000000, 611.150512, -1512.742797, 12.240314, 0.000000, 0.000000, 90.000000, 40, 11.5, BRAMA_UPR_TYPE_FRACTION, 2);
 	return 1; 
 }
 
