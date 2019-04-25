@@ -22,7 +22,7 @@
 //
 /*
 //-----------------<[ G³ówne funkcje: ]>-------------------
-SiedzibaMechanikow::exterior_Init()
+SiedzibaMechanikow__exterior_Init()
 {
 	StworzObiekty();
 	StworzBramy();
@@ -30,7 +30,7 @@ SiedzibaMechanikow::exterior_Init()
 	return 1;
 }
 
-SiedzibaMechanikow::exterior_Connect(playerid)
+SiedzibaMechanikow__exterior_Connect(playerid)
 {
 	UsunObiekty(playerid);
 	return 1;

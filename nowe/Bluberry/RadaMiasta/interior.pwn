@@ -22,7 +22,7 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-RadaMiasta::interior_Init()
+RadaMiasta__interior_Init()
 {
 	StworzObiekty();
 	StworzBudynki();

@@ -21,23 +21,21 @@
 
 //
 
-#define DMV:: DMV_
-
 #if defined EXAMPLE_SCRIPT
-	#include "../nowe/DMV/exterior.pwn"
+	#include "..\nowe\DMV\exterior.pwn"
 #else
-	#include "modules/obiekty/nowe/DMV/exterior.pwn"
+	#include "modules\obiekty\nowe\DMV/exterior.pwn"
 #endif
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------
-DMV::Init()
+DMV_Init()
 {
-	DMV::exterior_Init();
+	DMV_exterior_Init();
 	return 1;
 }
 
-DMV::Connect(playerid)
+DMV_Connect(playerid)
 {
-	DMV::exterior_Connect(playerid);
+	DMV_exterior_Connect(playerid);
 	return 1;
 }

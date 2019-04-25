@@ -22,14 +22,14 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-DMV::exterior_Init()
+DMV_exterior_Init()
 {
 	StworzObiekty();
 //	StworzBramy();
 	return 1;
 }
 
-DMV::exterior_Connect(playerid)
+DMV_exterior_Connect(playerid)
 {
 	UsunObiekty(playerid);
 	return 1;

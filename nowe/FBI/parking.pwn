@@ -24,7 +24,7 @@ new extfbi;
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
 
-FBI::parking_Init()
+FBI__parking_Init()
 {
 	StworzObiekty();
 	StworzBramy();
