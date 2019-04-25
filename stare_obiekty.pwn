@@ -48,7 +48,6 @@
 	#include "modules\obiekty\stare/fam_fdu.pwn"
 	#include "modules\obiekty\stare/grove.pwn"
 	#include "modules\obiekty\stare/ha.pwn"
-	#include "modules\obiekty\stare/ibiza.pwn"
 	#include "modules\obiekty\stare/icc.pwn"
 	#include "modules\obiekty\stare/kt.pwn"
 	//#include "modules\obiekty\stare/ls_grape.pwn"
