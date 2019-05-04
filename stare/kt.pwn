@@ -822,7 +822,7 @@ BazaKT()
 	return 1;
 }
 
-stock KT_Lotniska()
+KT_Lotniska()
 {
     //Lotnisko SF
 	CreateDynamicObject(3599, -1390.8994140625, -298.8994140625, -88, 0, 90, 0,0,0);
@@ -1306,7 +1306,7 @@ INT_AT400()
     }
 }
 
-stock INT_AirTowerLS()  //INT 2
+INT_AirTowerLS()  //INT 2
 {
     //Doors
     CreateDynamicObject(1532, 1635.10156, -2288.08789, 12.46774,   0.00000, 0.00000, 90.00000);
@@ -1320,7 +1320,7 @@ stock INT_AirTowerLS()  //INT 2
     for(new i=start;i<=end;i++) if(IsValidDynamicObject(i)) SetDynamicObjectMaterial(i, 0, -1, "none", "none", 0x00FFFFFF);
 }
 
-stock INT_AirTowerLS_Exit(playerid, bool:force=false, bool:odd=false)
+INT_AirTowerLS_Exit(playerid, bool:force=false, bool:odd=false)
 {
     if(GetPVarInt(playerid, "AT-LS-start") != 0)
     {
@@ -1346,7 +1346,7 @@ stock INT_AirTowerLS_Exit(playerid, bool:force=false, bool:odd=false)
     }
 }
 
-stock INT_AirTowerLS_Init(playerid)
+INT_AirTowerLS_Init(playerid)
 {
     INT_AirTowerLS_Exit(playerid);
     INT_AirTower_RadarInit(playerid);

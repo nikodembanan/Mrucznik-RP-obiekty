@@ -1,4 +1,4 @@
-stock DodajWejscia_Dillimore()
+DodajWejscia_Dillimore()
 {
 	DodajWejscie(246.6199,63.3594,1003.6406, 627.8462,-571.6732,17.5113, 88, 6, 0, 0, "", "Posterunek");
 	DodajWejscie(236.1267,71.6366,1005.0391, 236.1212,68.5662,1005.0391, 88, 6, 88, 6, "", "");
@@ -8,7 +8,7 @@ stock DodajWejscia_Dillimore()
 	DodajWejscie(611.0284,-583.8448,18.0515, 803.0414,-588.9749,-74.1955, 0, 0, 0, 16, "Akademia policyjna", "");
 }
 
-stock Bramy_Dillimore()
+Bramy_Dillimore()
 {
 	//intek SASP Ÿ
 	DodajBrame(CreateDynamicObject(1569, 222.16035, 68.89352, 1004.04041,   0.00000, 0.00000, 90.00000), 
@@ -127,7 +127,7 @@ stock Bramy_Dillimore()
 		1, 7.0, BRAMA_UPR_TYPE_FRACTION, FRAC_NG);
 }
 
-stock Dillimore_DeleteMapObjects(playerid)
+Dillimore_DeleteMapObjects(playerid)
 {
 	//Dillimore
 	RemoveBuildingForPlayer(playerid, 1446, 741.6328, -517.7656, 16.3438, 0.25);
@@ -162,7 +162,7 @@ stock Dillimore_DeleteMapObjects(playerid)
 	RemoveBuildingForPlayer(playerid, 2605, 232.1172, 65.0625, 1004.4609, 0.25);
 }
 
-stock Dillimore_Load() 
+Dillimore_Load() 
 {
 	//Â³adowanie bram:
 	Bramy_Dillimore();
@@ -912,7 +912,7 @@ stock Dillimore_Load()
 
 // Stare obiekty dillimore
 /*
-stock Dillimore_Load() 
+Dillimore_Load() 
 {
 	//z bus.pwn (sklep monopolowy)
 	CreateDynamicObject(3171,762.48890000,-611.13370000,13.99870000,0.00000000,0.00000000,105.54280000,0,0); //

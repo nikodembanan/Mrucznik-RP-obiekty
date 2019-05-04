@@ -1,4 +1,4 @@
-stock Bus_Stops()
+Bus_Stops()
 {
 	//Przystanki autobusowe NOWE
 	//CreateDynamicObject(1257,2446.08154297,-1667.00268555,13.75020123,0.00000000,0.00000000,270.00000000,0,0); //groove strren patelnia

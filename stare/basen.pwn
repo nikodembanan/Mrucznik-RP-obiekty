@@ -1,4 +1,4 @@
-stock Basen_Load()
+Basen_Load()
 {
     	//obiekty basen (nowy) usuniete DEL
 	CreateDynamicObject(7488,530.54394531,-2182.35742188,-5.42700005,0.00000000,0.00000000,90.00000000,43,0); //convertffs(0)

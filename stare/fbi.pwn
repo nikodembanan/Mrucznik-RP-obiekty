@@ -1,4 +1,4 @@
-stock FBI_Load()
+FBI_Load()
 {
     	//-----------TORY-------------
 	//--------SZKOLENIOWE-------------

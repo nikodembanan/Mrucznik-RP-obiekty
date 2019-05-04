@@ -31,7 +31,7 @@
 //CreateDynamicObject(19249141, 412,41,4, 12,4,1,42,1,41,24
 //-----------------<[ Funkcje: ]>-------------------
 //(ZMIENNA, X,Y,Z,XX,XY,XZ, OX,OY,YZ,OXX,OXY,OXZ, Speed (otwierania bramy), range(odleg³oœæ /brama), TYP(rodziny,frakcja,nikt), Numer); 
-stock DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
+DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
 {
 	bramy[iloscbram][b_obiekt] = fobiekt;
 	bramy[iloscbram][b_flaga] = false;
@@ -54,7 +54,7 @@ stock DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry
 	return iloscbram++;
 }
 
-stock SprawdzBramy(playerid)
+SprawdzBramy(playerid)
 {
 	for(new i; i<iloscbram; i++)
 	{
@@ -74,12 +74,12 @@ stock SprawdzBramy(playerid)
 	return 0;
 }
 
-stock GetPlayerFraction(playerid)
+GetPlayerFraction(playerid)
 {
 	return GetPVarInt(playerid, "frac");
 }
 
-stock GetPlayerOrg(playerid)
+GetPlayerOrg(playerid)
 {
 	return GetPVarInt(playerid, "org");
 }

@@ -1,4 +1,4 @@
-stock FDU_Load()
+FDU_Load()
 {
 //-->WARSZTAT<--//
 	//Kolumny:
