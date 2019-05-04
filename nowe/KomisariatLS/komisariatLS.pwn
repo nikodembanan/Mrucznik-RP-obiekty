@@ -22,11 +22,7 @@
 //
 
 
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe\KomisariatLS\parking.pwn"
-#else
-	#include "modules\obiekty\nowe\KomisariatLS/parking.pwn"
-#endif
+#include "parking.pwn"
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
 komisariatLS_Init()

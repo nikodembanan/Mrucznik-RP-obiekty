@@ -21,11 +21,7 @@
 
 //
 
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe\FBI\parking.pwn"
-#else
-	#include "modules\obiekty\nowe\FBI\parking.pwn"
-#endif
+#include "parking.pwn"
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------
 FBI_Init()

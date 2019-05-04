@@ -23,13 +23,8 @@
 
 #define SiedzibaMechanikow__ O_SMech_
 
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe\SiedzibaMechanikow\interior.pwn"
-	#include "..\nowe\SiedzibaMechanikow\exterior.pwn"
-#else
-	#include "modules\obiekty\nowe\SiedzibaMechanikow\interior.pwn"
-	#include "modules\obiekty\nowe\SiedzibaMechanikow\exterior.pwn"
-#endif
+#include "interior.pwn"
+#include "exterior.pwn"
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------
 siedzibaMechanikow_Init()

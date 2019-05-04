@@ -21,11 +21,7 @@
 
 //
 
-#if defined EXAMPLE_SCRIPT
-	#include "..\nowe\DMV\exterior.pwn"
-#else
-	#include "modules\obiekty\nowe\DMV/exterior.pwn"
-#endif
+#include "exterior.pwn"
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------
 DMV_Init()
