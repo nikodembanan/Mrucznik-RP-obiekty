@@ -22,7 +22,7 @@
 //
 
 
-#include "parking.pwn"
+#include "parking_komisariatu.pwn"
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
 komisariatLS_Init()

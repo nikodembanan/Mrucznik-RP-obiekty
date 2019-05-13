@@ -106,13 +106,13 @@
 #include "nowe\GunShop\gunshopls.pwn"
 #include "nowe\Globalne\nagrodyeventy\sktom.pwn"
 
-#include "nowe\DMV\bramyplac.pwn"
+#include "nowe\DMV\DMV_bramyplac.pwn"
 
 //*****************************************************
 //Aktualizacja 2.5.94 - By Simeone
 //*****************************************************
 #include "nowe\wps\wpsext.pwn"
-#include "nowe\DMV\exteriorpc.pwn"
+#include "nowe\DMV\DMV_exteriorpc.pwn"
 #include "nowe\SASD/interior.pwn"
 #include "nowe\Dillimore\GunShop/interior.pwn"
 #include "nowe\SASD/exterior.pwn"
@@ -133,7 +133,7 @@
 #include "nowe\BialyDom/exterior.pwn"
 #include "nowe\basen/interior.pwn"
 #include "nowe\basen/exterior.pwn"
-#include "nowe\Globalne\biznesy\biznesy.pwn"
+#include "nowe\Globalne\biznesy\biznesy_obj.pwn"
 #include "nowe\inne_skrypt/wejscia.pwn"
 #include "nowe\StripClub\stripclub.pwn"
 
