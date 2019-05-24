@@ -40,7 +40,7 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Koœció³", COLOR_NEWS, 2254.8652,-1334.2078,23.9922, 30.0); //Koœció³
 	//CreateDynamic3DTextLabel("O³tarz", COLOR_NEWS, 1964.2332,-369.1353,1093.7289, 10.0); //Koœció³
 	CreateDynamic3DTextLabel("Kosció³ w Palomino Creek [/slub]", COLOR_NEWS, 2256.8000488281,-43.900001525879,26.5, 10.0); //Koœció³
-	CreateDynamic3DTextLabel("Baza Puro Cubano", COLOR_NEWS, -382.5024, -1426.3225, 26.1998, 20.0); //Baza Puro Cubano
+	//CreateDynamic3DTextLabel("Baza Puro Cubano", COLOR_NEWS, -382.5024, -1426.3225, 26.1998, 20.0); //Baza Puro Cubano
 	CreateDynamic3DTextLabel("Witamy na torze ¿u¿lowym\nWpisz /zuzel aby zobaczyc komendy", 0x0080FFFF, -1150.0270,-990.5195,130.8855, 10.0); //Tor ¿u¿lowy
 	CreateDynamic3DTextLabel("Publiczne\nTory szkoleniowe FBI", COLOR_NEWS, 1271.0920,-1667.8794,19.7344, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 60);
     CreateDynamic3DTextLabel("Wyjœcie z toru", COLOR_NEWS, 1630.513671875,5232.2626953125,2.6707870960236, 10.0);
