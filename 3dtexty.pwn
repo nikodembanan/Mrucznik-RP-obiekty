@@ -20,7 +20,7 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Urz¹d Miasta", 0x9ACD32AA, 1481.1531,-1770.0277,18.7958, 50.0); //City Hall
 	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall
 	CreateDynamic3DTextLabel("Praca £owcy Nagród", 0xFFA500AA, 322.3034,317.0233,999.1484, 30.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 5); //Detective Registration
-	CreateDynamic3DTextLabel("Praca Prawnika", 0xFFA500AA, 310.3626,-1503.3282,13.8096, 30.0); //Lawyer Registration
+	CreateDynamic3DTextLabel("Praca Prawnika", 0xFFA500AA, 310.3626,-1503.3282,13.8096, 10.0); //Lawyer Registration
 	CreateDynamic3DTextLabel("Praca Dziwki", 0xFFA500AA, 1215.1304,-11.8431,1000.9219, 15.0); //Whore Registration
 	CreateDynamic3DTextLabel("Praca Dilera Dragow", 0xFFA500AA, 2166.3772,-1675.3829,15.0859, 30.0); //DrugDealer Registration
 	CreateDynamic3DTextLabel("Praca Zlodzieja Aut", 0xFFA500AA, 1109.3318,-1796.3042,16.5938, 30.0); //CarJacker Registration 7
@@ -242,7 +242,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("{FFFF00}Korporacja Transportowa\n{FF8C00}Zajezdnia Autobusowa Ocean Docks\nBaza taksówkarska\nHangary dla helikopterów", COLOR_BLUE , 2424.0740,-2089.3833,16.0, 20.0);
 
 	CreateDynamic3DTextLabel("Biurowiec\n'Mrucznik Tower'", COLOR_BROWN, 330.6893,-1513.0613,35.8672, 100.0);
-    CreateDynamic3DTextLabel("Kancelaria Prawnicza", COLOR_LIGHTGREEN, 315.4501953125, -1501.822265625, 13.820824623108, 20.0);
+    CreateDynamic3DTextLabel("Kancelaria Prawnicza", COLOR_LIGHTGREEN, 315.4501953125, -1501.822265625, 13.820824623108, 10.0);
     CreateDynamic3DTextLabel("Biuro £owców Nagród", COLOR_LIGHTGREEN, 292.85711669922, -1530.8516845703, 13.818398475647, 20.0);//99
 	
 	CreateDynamic3DTextLabel("Kamera wiêzienna", COLOR_LIGHTGREEN, 327.5762,-1546.8887,13.8364, 10.0);
