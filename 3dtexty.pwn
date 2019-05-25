@@ -56,7 +56,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Verte Bank\nOddzia³ Los Santos", COLOR_BLUE, 1462.395751,-1012.391174,26.843799, 10.0);
     CreateDynamic3DTextLabel("Verte Bank\nOddzia³ Palomino Creek", COLOR_BLUE, 2302.7798,-15.9637,26.4844, 10.0);
     CreateDynamic3DTextLabel("Biuro\nKorporacji Transportowej", COLOR_BLUE, 2518.0, -2127.0, 13.5, 7.0);
-    CreateDynamic3DTextLabel("Tylne wejœcie", COLOR_BLUE, 593.5989,-1489.5365,15.2650, 5.0);
+    CreateDynamic3DTextLabel("Tylne wejœcie", COLOR_BLUE, 595.6168,-1489.4412, 15.5205, 5.0);
 	//--------------[Pickupy odnoœnie systemu biletów KT]----------------------
 	//Ticket machine
 	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 1747.0645,-1944.3795,13.5668, 10.0);
