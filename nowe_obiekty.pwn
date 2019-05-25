@@ -136,6 +136,7 @@
 #include "nowe\Globalne\biznesy\biznesy_obj.pwn"
 #include "nowe\inne_skrypt/wejscia.pwn"
 #include "nowe\StripClub\stripclub.pwn"
+#include "nowe\SanNews\exteriorSN.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -224,6 +225,7 @@ obiekty_OnGameModeInit()
 	biznesy_Init();
 	wejsciaSkrypt_Init();
 	stripclub_Init();
+	extSN_Init();
 
 
 	return 1;

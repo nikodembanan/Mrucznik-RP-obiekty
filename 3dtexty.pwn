@@ -325,8 +325,9 @@ Zaladuj3DTexty()
 
     CreateDynamic3DTextLabel("{333399}Tymczasowe wiêzienie stanowe FBI\n{FFFFFF}[/stanowe]", COLOR_BLUE, NG_JAIL_X,NG_JAIL_Y,NG_JAIL_Z, 5.0);
     //SN
-    CreateDynamic3DTextLabel("Dach San News", 0xFFA500FF, 721.5504,-1381.8588,25.7176, 15.0);
-    CreateDynamic3DTextLabel("Zaplecze San News", 0xFFA500FF, 732.5052,-1343.5123,13.5206, 15.0);
+    CreateDynamic3DTextLabel("Dach San News", 0xFFA500FF, 297.7128,-1612.1783,114.4219, 15.0);
+    CreateDynamic3DTextLabel("Parking San News", 0xFFA500FF, 288.0914,-1609.7465,17.9994, 10.0);
+	CreateDynamic3DTextLabel("Biurowiec San News", 0xFFA500FF, 287.7476,-1609.9395,33.0723, 10.0); 
 
     CreateDynamic3DTextLabel("Siedziba S¹du Najwy¿szego", COLOR_BLUE, 1310.1124,-1367.6780,13.5391, 35.0);
     CreateDynamic3DTextLabel("Wejœcie ewakuacyjne", COLOR_LIGHTBLUE, 1286.0413,-1329.2007,13.5515, 9.0);
