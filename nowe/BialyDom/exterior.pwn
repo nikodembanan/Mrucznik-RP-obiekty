@@ -844,6 +844,7 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1530, 1118.910, -2008.239, 75.023, 0.250);
 	RemoveBuildingForPlayer(playerid, 4824, 1224.430, -2037.010, 62.929, 0.250);
 	RemoveBuildingForPlayer(playerid, 4920, 1224.430, -2037.010, 62.929, 0.250);
+	RemoveBuildingForPlayer(playerid, 1280, 1204.4922, -2039.8047, 68.3750, 0.25);
 	
 	//By simeone i santiago - podmiana tekstur
 	
