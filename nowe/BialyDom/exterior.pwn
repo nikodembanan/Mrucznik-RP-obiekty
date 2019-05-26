@@ -889,39 +889,39 @@ static StworzBramy()
 	
 	pevori2 = CreateDynamicObject(19795, 1207.029663, -2040.254150, 69.717826, 0.000000, 0.000000, 180.000000, -1, -1, -1, 300.00, 300.00); // srodek, zamkniete lewe skrzydlo
 	SetDynamicObjectMaterial(pevori2, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);	
-	pevori2 = CreateDynamicObject(19795, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); // srodek, zamkniete  prawe skrzydlo
-	SetDynamicObjectMaterial(pevori2, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);
-	DualGateAdd(pevori2,//Obiekt pierwszej bramy
-    1207.029663,//Pozycja pierwszej bramy X
-    -2040.254150,//Pozycja pierwszej bramy Y
-    69.717826, //Pozycja pierwszej bramy Z
-    0.000000, //Pozycja pierwszej bramy rX
-    0.000000, //Pozycja pierwszej bramy rY
-    180.000000, //Pozycja pierwszej bramy rZ
-    1207.029663, //Pozycja pierwszej bramy po przesunieciu X
-    -2040.254150, //Pozycja pierwszej bramy po przesunieciu Y
-    69.717826, //Pozycja pierwszej bramy po przesunieciu Z
-    0.000000, //Pozycja pierwszej bramy po przesunieciu RX
-    0.000000, //Pozycja pierwszej bramy po przesunieciu rY
-    260.000000, //Pozycja pierwszej bramy po przesunieciu rZ
-    pevori2, //Obiekt pierwszej bramy
-    1207.029663, //Pozycja drugiej bramy X
-    -2033.753662, //Pozycja drugiej bramy Y
-    69.717826, //Pozycja drugiej bramy Z
-    0.000000, //Pozycja drugiej bramy rX
-    0.000000, //Pozycja drugiej bramy rY
-    0.000000, //Pozycja drugiej bramy rZ
-    1207.029663, //Pozycja drugiej bramy po przesunieciu  X
-    -2033.753662, //Pozycja drugiej bramy po przesunieciu  Y
-    69.717826, //Pozycja drugiej bramy po przesunieciu  Z
-    0.000000, //Pozycja drugiej bramy po przesunieciu  rX
-    0.000000, //Pozycja drugiej bramy po przesunieciu  rY
-    -80.000000, //Pozycja drugiej bramy po przesunieciu  rZ
-    5, // brama speed
-    11.5, // brama range
-    BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
-    11, //Value (wartosc) uprawnien
-    0, //Karta dostepu
+	new pevori23 = CreateDynamicObject(19795, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); // srodek, zamkniete  prawe skrzydlo
+	SetDynamicObjectMaterial(pevori23, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);
+	DualGateAdd(pevori2,
+    1207.029663,
+    -2040.254150,
+    69.717826, 
+    0.000000, 
+    0.000000, 
+    180.000000, 
+    1207.029663, 
+    -2040.254150, 
+    69.717826, 
+    0.000000, 
+    0.000000, 
+    260.000000, 
+    pevori23, 
+    1207.029663, 
+    -2033.753662, 
+    69.717826, 
+    0.000000, 
+    0.000000, 
+    0.000000, 
+    1207.029663, 
+    -2033.753662, 
+    69.717826, 
+    0.000000, 
+    0.000000, 
+    -80.000000, 
+    5, 
+    11.5, 
+    BRAMA_UPR_TYPE_FRACTION, 
+    11, 
+    0); 
 	return 1;
 }
 

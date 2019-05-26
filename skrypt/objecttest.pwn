@@ -19,6 +19,9 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 //	Mrucznik® Role Play
+//Twórcy:
+//	-> Mrucznik - g³ówny twórca mapy
+//	-> Simeone - poprawki, edycja 
 
 //-------------------------------------------<[ Includy ]>---------------------------------------------------//
 //-                                                                                                         -//
@@ -254,6 +257,20 @@ CMD:setint(playerid, params[])
 	SetPlayerInterior(playerid, value);
 	format(string, sizeof(string), "Twoja interior to teraz: %d", value);
 	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+CMD:setskin(playerid, params[])
+{
+	new skinID;
+	if(sscanf(params, "d", skinID))
+	{
+		SendClientMessage(playerid, -1, "U¿yj /setskin [ID_skina]"); 
+		return 1;
+	}
+	SetPlayerSkin(playerid, skinID);
+	new string[124]; 
+	format(string, sizeof(string), "Ustawi³eœ sobie skin %d", skinID); 
+	SendClientMessage(playerid, -1, string): 
 	return 1;
 }
 CMD:gotols(playerid)
