@@ -127,7 +127,7 @@
 #include "nowe\Globalne\nagrodyeventy\simeone.pwn"
 
 //*****************************************************
-//Aktualizacja 2.6 - By Simeone & Sergio
+//Aktualizacja 2.6 - By Simeone & Sergio & deduir
 //*****************************************************
 #include "nowe\Globalne\bankomaty.pwn"
 #include "nowe\BialyDom/exterior.pwn"
@@ -137,6 +137,7 @@
 #include "nowe\inne_skrypt/wejscia.pwn"
 #include "nowe\StripClub\stripclub.pwn"
 #include "nowe\SanNews\exteriorSN.pwn"
+#include "nowe\BarKacpra\bar.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -226,6 +227,7 @@ obiekty_OnGameModeInit()
 	wejsciaSkrypt_Init();
 	stripclub_Init();
 	extSN_Init();
+	intBarKacpra_Init();//Bar u Kacpra
 
 
 	return 1;
