@@ -919,9 +919,9 @@ static StworzBramy()
     -80.000000, //Pozycja drugiej bramy po przesunieciu  rZ
     5, // brama speed
     11.5, // brama range
-    fuprtyp1=BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
-    fuprval1=11, //Value (wartosc) uprawnien
-    accessCard = 0, //Karta dostepu
+    BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
+    11, //Value (wartosc) uprawnien
+    0, //Karta dostepu
 	return 1;
 }
 
