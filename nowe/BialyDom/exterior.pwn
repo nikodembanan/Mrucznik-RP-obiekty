@@ -876,24 +876,24 @@ static UsunObiekty(playerid)
 static StworzBramy()
 {
 	pevori2 = CreateDynamicObject(3036, 1207.249511, -2007.609619, 68.130615, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); // prawe, zamkniete
-	SetDynamicObjectMaterial(tmpobjid, 0, 5449, "chicanotr1_lae", "eb_firesc1_LAe2", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 1, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 2, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 0, 5449, "chicanotr1_lae", "eb_firesc1_LAe2", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 1, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 2, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
 	DodajBrame(pevori2, 1207.249511, -2007.609619, 68.130615, 0.000000, 0.000000, 90.000000, 1207.249511, -2007.609619, 66.140579, 0.000000, 0.000000, 90.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 11);
 	
 	pevori2 = CreateDynamicObject(3036, 1207.249511, -2071.194824, 68.130615, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); // lewe, zamkniete
-	SetDynamicObjectMaterial(tmpobjid, 0, 5449, "chicanotr1_lae", "eb_firesc1_LAe2", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 1, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 2, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 0, 5449, "chicanotr1_lae", "eb_firesc1_LAe2", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 1, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 2, 6351, "rodeo02_law2", "dirtwall128", 0x00000000);
 	DodajBrame(pevori2, 1207.249511, -2071.194824, 68.130615, 0.000000, 0.000000, 90.000000, 1207.249511, -2071.194824, 66.100601, 0.000000, 0.000000, 90.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 11);
 	
 	pevori2 = CreateDynamicObject(19795, 1207.029663, -2040.254150, 69.717826, 0.000000, 0.000000, 180.000000, -1, -1, -1, 300.00, 300.00); // srodek, zamkniete lewe skrzydlo
-	SetDynamicObjectMaterial(tmpobjid, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);
+	SetDynamicObjectMaterial(pevori2, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);
 	DodajBrame(pevori2, 1207.029663, -2040.254150, 69.717826, 0.000000, 0.000000, 180.000000,  1207.029663, -2040.254150, 69.717826, 0.000000, 0.000000, 260.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 11);
 	
 	pevori2 = CreateDynamicObject(19795, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); // srodek, zamkniete  prawe skrzydlo
-	SetDynamicObjectMaterial(tmpobjid, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);
-	DodajBrame(pevori2, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, 0.000000, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, -80.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 11);
+	SetDynamicObjectMaterial(pevori2, 0, 14789, "ab_sfgymmain", "gymwinodow3", 0x00000000);
+	DodajBrame(pevori2, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, 360.000000, 1207.029663, -2033.753662, 69.717826, 0.000000, 0.000000, 280.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 11);
 	return 1;
 }
 
