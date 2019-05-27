@@ -139,6 +139,7 @@
 #include "nowe\SanNews\exteriorSN.pwn"
 #include "nowe\BarKacpra\bar.pwn"
 #include "nowe\ElPueblo\exterior.pwn"
+#include "nowe\ElPueblo\interior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -229,7 +230,8 @@ obiekty_OnGameModeInit()
 	stripclub_Init();
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
-	extElPueblo_Init();//Carniceria El Pueblo
+	extElPueblo_Init();//Carniceria El Pueblo exterior
+	intElPueblo_Init();//Carniceria El Pueblo interior
 
 
 	return 1;
@@ -272,6 +274,7 @@ obiekty_OnPlayerConnect(playerid)
 	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
 	FBIPARKING_Connect(playerid);
+	ElPueblo_Connect(playerid);//interior el pueblo
 //	wjedz_Connect(playerid); 
 	
 	return 1;
