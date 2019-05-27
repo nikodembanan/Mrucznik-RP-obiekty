@@ -21,8 +21,7 @@
 
 //
 //-----------------<[ G³ówne funkcje: ]>-------------------
-
-carniceriain_Init()
+carinterior_Init()
 {
 	StworzObiekty();
 	StworzBramy();
@@ -34,18 +33,6 @@ carniceria_Connect(playerid)
 	return 1;
 }
 //Stat
-static UsunObiekty(playerid)
-{
-	RemoveBuildingForPlayer(playerid, 5655, 2111.800, -1010.090, 55.148, 0.250);
-	RemoveBuildingForPlayer(playerid, 5657, 2111.800, -1010.090, 55.148, 0.250);
-	RemoveBuildingForPlayer(playerid, 5662, 2143.050, -1048.410, 48.648, 0.250);
-	RemoveBuildingForPlayer(playerid, 5618, 2143.050, -1048.410, 48.648, 0.250);
-	RemoveBuildingForPlayer(playerid, 5444, 2143.050, -1048.410, 48.648, 0.250);
-	RemoveBuildingForPlayer(playerid, 5618, 2143.050, -1048.410, 48.648, 0.250);
-	RemoveBuildingForPlayer(playerid, 1297, 2158.989, -1018.250, 65.015, 0.250);
-	return 1;
-}
-
 static StworzObiekty()
 {
 	pevori2 = CreateDynamicObject(19356, 2140.215820, -1014.883361, 61.523777, 0.000000, 0.000000, -12.399991, 1, -1, -1, 300.00, 300.00); 
@@ -513,4 +500,15 @@ static StworzBramy()
 	SetDynamicObjectMaterial(pevori2, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);//DRZWI ZAMKNIETE
 	DodajBrame(pevori2, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 258.700042, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 168.700042, 5, 15, BRAMA_UPR_TYPE_FRACTION, 14);
 	return 1; 
+}
+static UsunObiekty(playerid)
+{
+	RemoveBuildingForPlayer(playerid, 5655, 2111.800, -1010.090, 55.148, 0.250);
+	RemoveBuildingForPlayer(playerid, 5657, 2111.800, -1010.090, 55.148, 0.250);
+	RemoveBuildingForPlayer(playerid, 5662, 2143.050, -1048.410, 48.648, 0.250);
+	RemoveBuildingForPlayer(playerid, 5618, 2143.050, -1048.410, 48.648, 0.250);
+	RemoveBuildingForPlayer(playerid, 5444, 2143.050, -1048.410, 48.648, 0.250);
+	RemoveBuildingForPlayer(playerid, 5618, 2143.050, -1048.410, 48.648, 0.250);
+	RemoveBuildingForPlayer(playerid, 1297, 2158.989, -1018.250, 65.015, 0.250);
+	return 1;
 }

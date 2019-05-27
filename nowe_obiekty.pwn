@@ -138,8 +138,8 @@
 #include "nowe\StripClub\stripclub.pwn"
 #include "nowe\SanNews\exteriorSN.pwn"
 #include "nowe\BarKacpra\bar.pwn"
-#include "nowe\ElPueblo\exterior.pwn"
-#include "nowe\ElPueblo\interior.pwn"
+#include "nowe\ElPueblo/pueint.pwn"
+#include "nowe\ElPueblo/pueext.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -205,8 +205,7 @@ obiekty_OnGameModeInit()
 	banklsext_Init();//Bariekrki przed bankiem LS
 	gunshopls_Init();//GS LS
 	sktomdom_Init();//Dom skTOM'a
-	
-	
+	carinterior_Init();
 	bramydmvext_Init();//Bramy DMV (?) 
 	wpsext_Init();//WPS
 	pcexterior_Init();//DMV w PC
@@ -230,10 +229,6 @@ obiekty_OnGameModeInit()
 	stripclub_Init();
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
-	carniceriaex_Init();//Carniceria El Pueblo exterior
-	carniceriain_Init();//Carniceria El Pueblo interior
-
-
 	return 1;
 }
 
