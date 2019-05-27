@@ -40,10 +40,6 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(18783, 2148.166259, -1022.127136, 59.116359, 0.000000, 0.000000, -12.800001, 1, -1, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 1, 3080, "adjumpx", "planks64", 0x00000000);
-	pevori2 = CreateDynamicObject(19857, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 168.700042, 1, -1, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(pevori2, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
-	pevori2 = CreateDynamicObject(2987, 2146.840087, -1022.952636, 62.796089, 0.000000, 0.000000, -13.800000, 1, -1, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(pevori2, 0, 15042, "svsfsm", "GB_rapposter01", 0x00000000);
 	pevori2 = CreateDynamicObject(19478, 2147.966552, -1018.224243, 62.359737, 0.000000, 0.000000, 166.600082, 1, -1, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}-RKI-", 20, "Calibri", 25, 0, 0x00000000, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(19356, 2147.080566, -1031.817626, 63.223777, 360.000000, 0.000000, 257.600006, 1, -1, -1, 300.00, 300.00); 
@@ -494,11 +490,11 @@ static StworzBramy()
 {
 	pevori2 = CreateDynamicObject(2987, 2145.103271, -1022.526123, 62.796089, 0.000000, 0.000000, -13.800000, 1, -1, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 15042, "svsfsm", "GB_rapposter01", 0x00000000);//PLAKAT ZAMKNIETY
-	DodajBrame(pevori2, 2145.103271, -1022.526123, 62.796089, 0.000000, 0.000000, -13.800000, 2146.840087, -1022.952636, 62.796089, 0.000000, 0.000000, -13.800000, 5, 15, BRAMA_UPR_TYPE_FRACTION, 14);
+	DodajBrame(pevori2, 2145.103271, -1022.526123, 62.796089, 0.000000, 0.000000, -13.800000, 2146.840087, -1022.952636, 62.796089, 0.000000, 0.000000, -13.800000, 5, 2, BRAMA_UPR_TYPE_FRACTION, 14);
 	
 	pevori2 = CreateDynamicObject(19857, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 258.700042, 1, -1, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);//DRZWI ZAMKNIETE
-	DodajBrame(pevori2, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 258.700042, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 168.700042, 5, 15, BRAMA_UPR_TYPE_FRACTION, 14);
+	DodajBrame(pevori2, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 258.700042, 2143.324951, -1022.932067, 62.733947, 0.000000, 0.000000, 168.700042, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 14);
 	return 1; 
 }
 static UsunObiekty(playerid)
