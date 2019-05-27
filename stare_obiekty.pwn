@@ -16,7 +16,7 @@
 #include "stare/fam_fdu.pwn"
 #include "stare/grove.pwn"
 #include "stare/ha.pwn"
-//#include "stare/icc.pwn"
+#include "stare/icc.pwn"
 #include "stare/kt.pwn"
 //#include "stare/ls_grape.pwn"
 #include "stare/lsfd.pwn"
