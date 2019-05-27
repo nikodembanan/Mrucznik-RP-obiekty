@@ -22,13 +22,13 @@
 //
 //-----------------<[ G³ówne funkcje: ]>-------------------
 
-intElPueblo_Init()
+carniceriain_Init()
 {
 	StworzObiekty();
 	StworzBramy();
 	return 1;
 }
-ElPueblo_Connect(playerid)
+carniceria_Connect(playerid)
 {
 	UsunObiekty(playerid);
 	return 1;
