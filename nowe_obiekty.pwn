@@ -206,6 +206,7 @@ obiekty_OnGameModeInit()
 	gunshopls_Init();//GS LS
 	sktomdom_Init();//Dom skTOM'a
 	carinterior_Init();
+	carexterior_Init();
 	bramydmvext_Init();//Bramy DMV (?) 
 	wpsext_Init();//WPS
 	pcexterior_Init();//DMV w PC

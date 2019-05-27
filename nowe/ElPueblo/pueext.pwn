@@ -22,7 +22,7 @@
 //
 //-----------------<[ G³ówne funkcje: ]>-------------------*
 
-carniceriaex_Init()
+carexterior_Init()
 {
 	StworzObiekty();
 	return 1;
