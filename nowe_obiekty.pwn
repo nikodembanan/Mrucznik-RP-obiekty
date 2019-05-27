@@ -138,6 +138,7 @@
 #include "nowe\StripClub\stripclub.pwn"
 #include "nowe\SanNews\exteriorSN.pwn"
 #include "nowe\BarKacpra\bar.pwn"
+#include "nowe\ElPueblo\exterior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -228,6 +229,7 @@ obiekty_OnGameModeInit()
 	stripclub_Init();
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
+	extElPueblo_Init();//Carniceria El Pueblo
 
 
 	return 1;
