@@ -141,7 +141,6 @@
 #include "nowe\ElPueblo/pueint.pwn"
 #include "nowe\ElPueblo/pueext.pwn"
 #include "nowe\MelinaIdle\exterior.pwn"
-#include "nowe\MelinaIdle\interior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
