@@ -140,6 +140,7 @@
 #include "nowe\BarKacpra\bar.pwn"
 #include "nowe\ElPueblo/pueint.pwn"
 #include "nowe\ElPueblo/pueext.pwn"
+#include "nowe\MelinaIdle\exterior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -230,6 +231,7 @@ obiekty_OnGameModeInit()
 	stripclub_Init();
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
+	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke.
 	return 1;
 }
 
