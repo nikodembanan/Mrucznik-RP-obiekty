@@ -141,6 +141,7 @@
 #include "nowe\ElPueblo/pueint.pwn"
 #include "nowe\ElPueblo/pueext.pwn"
 #include "nowe\MelinaIdle\exterior.pwn"
+#include "nowe\SanNews\ScenaSASC.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -232,6 +233,7 @@ obiekty_OnGameModeInit()
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
 	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke.
+	ScenaSASC_Init();
 	return 1;
 }
 
