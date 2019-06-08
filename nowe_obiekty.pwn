@@ -142,6 +142,7 @@
 #include "nowe\ElPueblo/pueext.pwn"
 #include "nowe\MelinaIdle/exterior.pwn"
 #include "nowe\SanNews/ScenaSASC.pwn"
+#include "nowe\MelinaIdle/interior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
