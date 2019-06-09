@@ -143,6 +143,7 @@
 #include "nowe\MelinaIdle/exterior.pwn"
 #include "nowe\SanNews/ScenaSASC.pwn"
 #include "nowe\MelinaIdle/interior.pwn"
+#include "nowe\StudioNagran/interior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -235,6 +236,7 @@ obiekty_OnGameModeInit()
 	intBarKacpra_Init();//Bar u Kacpra
 	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke.
 	//ScenaSASC_Init();
+	StudioIdle_Init();//studio nagran idlewood
 	return 1;
 }
 
