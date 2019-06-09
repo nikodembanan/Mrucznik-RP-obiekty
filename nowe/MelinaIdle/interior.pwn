@@ -21,7 +21,7 @@
 
 //
 //-----------------<[ G³ówne funkcje: ]>-------------------
-MelinaIdle_Init()
+MelinaIdleint_Init()
 {
 	StworzObiekty();
 	return 1;

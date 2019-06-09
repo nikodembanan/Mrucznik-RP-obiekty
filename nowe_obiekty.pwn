@@ -234,9 +234,10 @@ obiekty_OnGameModeInit()
 	stripclub_Init();
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
-	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke.
+	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke, exterior
 	//ScenaSASC_Init();
 	StudioIdle_Init();//studio nagran idlewood
+	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
 	return 1;
 }
 
