@@ -185,7 +185,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(extfbi, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
 	extfbi = CreateDynamicObject(19450, 584.088195, -1523.850463, 15.536861, 0.000000, 0.000000, 90.300003, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 0, 4552, "ammu_lan2", "sl_lavicdtwall1", 0x00000000);
-	extfbi = CreateDynamicObject(6371, 585.281005, -1456.719970, 45.898399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	extfbi = CreateDynamicObject(6371, 585.281005, -1456.719970, 45.898399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(extfbi, 12, 9515, "bigboxtemp1", "poshground_sfw", 0x00000000);
 	extfbi = CreateDynamicObject(6340, 588.179992, -1530.469970, 25.593799, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 4, 9514, "711_sfw", "ws_carpark2", 0x00000000);
