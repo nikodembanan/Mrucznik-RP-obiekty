@@ -141,7 +141,7 @@
 #include "nowe\ElPueblo/pueint.pwn"
 #include "nowe\ElPueblo/pueext.pwn"
 #include "nowe\MelinaIdle/exterior.pwn"
-#include "nowe\SanNews/ScenaSASC.pwn"
+//#include "nowe\SanNews/ScenaSASC.pwn"
 #include "nowe\MelinaIdle/interior.pwn"
 #include "nowe\StudioNagran/interior.pwn"
 #include "nowe\StudioNagran/exterior.pwn"
