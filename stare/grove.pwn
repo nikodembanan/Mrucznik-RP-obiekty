@@ -1,4 +1,4 @@
-stock EXT_Grove()
+EXT_Grove()
 {
     CreateDynamicObject(12843,2432.7998000,-1640.2998000,12.5000000,0.0000000,0.0000000,0.0000000); //object(cos_liquorshop) (1)
     CreateDynamicObject(12844,2429.8388700,-1640.2998000,14.4900000,0.0000000,0.0000000,0.0000000); //object(cos_liqinside) (2)

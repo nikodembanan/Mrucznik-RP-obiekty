@@ -1,4 +1,4 @@
-stock INT_VagosPub()
+INT_VagosPub()
 {
     SetDynamicObjectMaterial(CreateDynamicObject(1569, 2133.81543, -1020.22284, 67.07730,   0.00000, -90.00000, 72.0000,37),0,2312,"cj_tv_stand","CJ_TV_SCREEN",0);
     SetDynamicObjectMaterial(CreateDynamicObject(19378, 2132.10449, -1012.01471, 65.86860,   0.00000, 90.00000, -18.00000,37),0,18028,"cj_bar2","GB_nastybar10",0);

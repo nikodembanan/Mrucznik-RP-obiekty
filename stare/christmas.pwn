@@ -1,5 +1,5 @@
 
-stock EXT_LoadChristmas()
+EXT_LoadChristmas()
 {
     CreateDynamicObject(19076, 1478.92407, -1681.18066, 13.04263,   0.00000, 0.00000, 0.00000);
     CreateDynamicObject(19054, 1478.73853, -1683.36377, 13.64340,   0.00000, 0.00000, 0.00000);

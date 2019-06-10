@@ -322,7 +322,7 @@ static StworzObiekty()
 	
 	charlie112 = CreateDynamicObject(4006, 1394.359985, -1620.660034, 32.148399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 180.00, 180.00); 
 
-	DodajWejscie(1419.21289, -1623.94189, 13.16008, 1417.92004, -1639.84705, 13.35293, 0, 0, 1, 0, "Coffee Shop Los Santos", "[Wpisz /wyjdz]");
+	//DodajWejscie(1419.21289, -1623.94189, 13.16008, 1417.92004, -1639.84705, 13.35293, 0, 0, 1, 0, "Coffee Shop Los Santos", "[Wpisz /wyjdz]");
 	return 1;
 }
 

@@ -34,191 +34,117 @@
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
 //-----------------<[ Include: ]>-------------------
-#if defined EXAMPLE_SCRIPT
-	#include "../obiekty_zmienne.pwn"
-	
-	#include "../nowe/AmmuNationBananov/ammuNationBananov.pwn"
-	#include "../nowe/DosSantosCarService/DSCS.pwn"
-	//#include "../nowe/CentralBank/centralBank.pwn"
-	#include "../nowe/SiedzibaMechanikow/exterior.pwn"
-//	#include "../nowe/Bluberry/RadaMiasta/radaMiasta.pwn"
-	#include "../nowe/CassinoAutoService/cassinoAutoService.pwn"
-//	#include "../nowe/Dillimore/BarierkiDillimore/barierkiDillimore.pwn"
-	#include "../nowe/DMV/DMV.pwn"
-	#include "../nowe/FBI/FBI.pwn"
-	#include "../nowe/GSA/centralaGSA.pwn" //TODO: Rozdziel
-	#include "../nowe/Globalne/ObiektyCiekawostki/obiektyCiekawostki.pwn"
-	#include "../nowe/Globalne/PoprawkiRockstar/poprawkiRockstar.pwn" 
-//	#include "../nowe/NG/bazaNG.pwn" //TODO: Rozdziel
-	#include "../nowe/GlobalneLS/Pomnik/pomnik.pwn"
-	#include "../nowe/GlobalneLS/SkracaneZakrety/skracaneZakrety.pwn"
-	#include "../nowe/GlobalneLS/ZnakiUpiekszenia/znakiUpiekszenia.pwn"
-	#include "../nowe/GlobalneLS/lslot/lslot.pwn"
-	#include "../nowe/GlobalneLV/lv.pwn"
-	#include "../nowe/CentrumRozrywkiLS/centrumRozrywkiLS.pwn"
-	#include "../nowe/GunShop/gunShop.pwn"
-	//#include "../nowe/ParkingObokSzpitala/parkingObokSzpitala.pwn"
-	#include "../nowe/MountChiliad/mountChiliad.pwn"
-	#include "../nowe/MoneyMakers/moneyMakers.pwn"
-	#include "../nowe/LowFolow/lowFolow.pwn"
-	#include "../nowe/KomisariatLS/komisariatLS.pwn"
-	
-	
-	//*****************************************************
-	//Aktualizacja 2.5.85 - By Simeone
-	//*****************************************************
-	
-	#include "../nowe/przes/pub/pub.pwn" //PUB by lil frachty
-	#include "../nowe/rondo/rondo.pwn"
-	#include "../nowe/GlobalneLS/chinatown/chinatown.pwn"
-	//#include "../nowe/GlobalneLS/molo/molo.pwn"
-	#include "../nowe/GlobalneLS/syskanalow/wej1/kanal.pwn"
-	#include "../nowe/przes/Ocult/ocult.pwn"
-	#include "../nowe/GlobalneLS/syskanalow/wej1/norakan/miesko.pwn"
-	#include "../nowe/cjgirl/cjgirl.pwn"
-	#include "../nowe/LSMC/LSMC.pwn"
-	#include "../nowe/opdlaorg/StacjaMont/stam.pwn"
-	#include "../nowe/SanVanInterior/sanVanInterior.pwn"
-	
-	//-------------------------------------------------------------
-	
-	#include "../nowe/Pizzernia idle/pizza.pwn"
-	//#include "../nowe/centralbank/bank.pwn"
-	#include "../nowe/GlobalneLS/stacja_paliw_idle/sidle.pwn"
-	#include "../nowe/Pizzernia idle/intpidle.pwn"
-	#include "../nowe/GlobalneLS/inttv.pwn"
-	#include "../nowe/autobusinterior/autobusint.pwn"
-	#include "../nowe/enforcerint/enforcerint.pwn"
-	
-	
-	//*****************************************************
-	//Aktualizacja 2.5.84 - dodatki
-	//*****************************************************
-	#include "../nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
-	
-	//*****************************************************
-	//Aktualizacja 2.5.93 - By Simeone
-	//*****************************************************
-	#include "../nowe/hitman/hitmans.pwn"
-	#include "../nowe/DMV/intekDMV.pwn"
-	#include "../nowe/ramirezaservice/ramirezext.pwn"
-	#include "../nowe/dscs/dscs.pwn"
-	#include "../nowe/hellsangelsmc/hamc.pwn"
-	#include "../nowe/ramirezaservice/ramirezint.pwn"
-	#include "../nowe/GlobalneLS/banklsext.pwn"
-	#include "../nowe/GunShop/gunshopls.pwn"
-	#include "../nowe/Globalne/nagrodyeventy/sktom.pwn"
-	#include "../nowe/DMV/bramyplac.pwn"
-	
-	//*****************************************************
-	//Aktualizacja 2.5.94 - By Simeone
-	//*****************************************************
-	#include "../nowe/wps/wpsext.pwn"
-	#include "../nowe/DMV/exteriorpc.pwn"
-	#include "../nowe/SASD/interior.pwn"
-	#include "../nowe/Dillimore/GunShop/interior.pwn"
-	#include "../nowe/SASD/exterior.pwn"
-	#include "../nowe/coffeshopls/interior.pwn"
-	#include "../nowe/chinesefood/interior.pwn"
-	#include "../nowe/KomisariatLS/interior.pwn"
-	#include "../nowe/Globalne/magazynsol/interior.pwn"
-	#include "../nowe/FBI/interior.pwn"
-	#include "../nowe/wps/interior.pwn"
-	#include "../nowe/Globalne/interiorypojazdow/pociag.pwn"
-	
-#else //Mrucznik-RP gamemode
-	#include "modules/obiekty/obiekty_zmienne.pwn"
-	
-	#include "modules/obiekty/nowe/AmmuNationBananov/ammuNationBananov.pwn"
-	#include "modules/obiekty/nowe/DosSantosCarService/DSCS.pwn"
-	//#include "modules/obiekty/nowe/CentralBank/centralBank.pwn"
-	#include "modules/obiekty/nowe/SiedzibaMechanikow/siedzibaMechanikow.pwn"
-//	#include "modules/obiekty/nowe/Bluberry/RadaMiasta/radaMiasta.pwn"
-	#include "modules/obiekty/nowe/CassinoAutoService/cassinoAutoService.pwn"
-//	#include "modules/obiekty/nowe/Dillimore/BarierkiDillimore/barierkiDillimore.pwn"
-	#include "modules/obiekty/nowe/DMV/DMV.pwn"
-	#include "modules/obiekty/nowe/FBI/FBI.pwn"
-	#include "modules/obiekty/nowe/GSA/centralaGSA.pwn" //TODO: Rozdziel
-	#include "modules/obiekty/nowe/Globalne/ObiektyCiekawostki/obiektyCiekawostki.pwn"
-	#include "modules/obiekty/nowe/Globalne/PoprawkiRockstar/poprawkiRockstar.pwn"
-//	#include "modules/obiekty/nowe/NG/bazaNG.pwn"  //TODO: Rozdziel
-	#include "modules/obiekty/nowe/GlobalneLS/Pomnik/pomnik.pwn" 
-	#include "modules/obiekty/nowe/GlobalneLS/SkracaneZakrety/skracaneZakrety.pwn" 
-	#include "modules/obiekty/nowe/GlobalneLS/ZnakiUpiekszenia/znakiUpiekszenia.pwn" 
-	#include "modules/obiekty/nowe/GlobalneLS/lslot/lslot.pwn"
-	#include "modules/obiekty/nowe/CentrumRozrywkiLS/centrumRozrywkiLS.pwn" 
-	#include "modules/obiekty/nowe/GlobalneLV/lv.pwn"
-	#include "modules/obiekty/nowe/GunShop/gunShop.pwn" 
-	//#include "modules/obiekty/nowe/ParkingObokSzpitala/parkingObokSzpitala.pwn"
-	#include "modules/obiekty/nowe/MountChiliad/mountChiliad.pwn" 
-	#include "modules/obiekty/nowe/MoneyMakers/moneyMakers.pwn" 
-	#include "modules/obiekty/nowe/LowFolow/lowFolow.pwn" 
-	#include "modules/obiekty/nowe/KomisariatLS/komisariatLS.pwn" 
-	
-	//*****************************************************
-	//Aktualizacja 2.5.84- By Simeone
-	//*****************************************************
-	#include "modules/obiekty/nowe/przes/pub/pub.pwn"
-	#include "modules/obiekty/nowe/rondo/rondo.pwn"
-	#include "modules/obiekty/nowe/GlobalneLS/chinatown/chinatown.pwn"
-	//#include "modules/obiekty/nowe/GlobalneLS/molo/molo.pwn"
-	#include "modules/obiekty/nowe/przes/Ocult/ocult.pwn"
-	#include "modules/obiekty/nowe/GlobalneLS/syskanalow/wej1/kanal.pwn"
-	#include "modules/obiekty/nowe/GlobalneLS/syskanalow/wej1/norakan/miesko.pwn"
-	#include "modules/obiekty/nowe/cjgirl/cjgirl.pwn"
-	#include "modules/obiekty/nowe/LSMC/lsmc.pwn"
-	#include "modules/obiekty/nowe/opdlaorg/StacjaMont/stam.pwn"
-	#include "modules/obiekty/nowe/SanVanInterior/sanVanInterior.pwn"
-	
-	//------------------------------
-	
-	#include "modules/obiekty/nowe/Pizzernia idle/pizza.pwn"
-	//#include "modules/obiekty/nowe/centralbank/bank.pwn"
-	#include "modules/obiekty/nowe/GlobalneLS/stacja_paliw_idle/sidle.pwn"
-	#include "modules/obiekty/nowe/Pizzernia idle/intpidle.pwn"
-	#include "modules/obiekty/nowe/GlobalneLS/inttv.pwn"
-	#include "modules/obiekty/nowe/autobusinterior/autobusint.pwn"
-	#include "modules/obiekty/nowe/enforcerint/enforcerint.pwn"
-	
-	//*****************************************************
-	//Aktualizacja 2.5.84 - dodatki
-	//*****************************************************
-	#include "modules/obiekty/nowe/HouseInteriorWOSP/houseInteriorWOSP.pwn"
-	
-	//*****************************************************
-	//Aktualizacja 2.5.93 - By Simeone
-	//*****************************************************
-	#include "modules/obiekty/nowe/hitman/hitmans.pwn"
-	#include "modules/obiekty/nowe/DMV/intekdmv.pwn"
-	#include "modules/obiekty/nowe/ramirezaservice/ramirezext.pwn"
-	#include "modules/obiekty/nowe/dscs/dscs.pwn"
-	#include "modules/obiekty/nowe/hellsangelsmc/hamc.pwn"
-	#include "modules/obiekty/nowe/ramirezaservice/ramirezint.pwn"
-	#include "modules/obiekty/nowe/GlobalneLS/banklsext.pwn"
-	#include "modules/obiekty/nowe/GunShop/gunshopls.pwn"
-	#include "modules/obiekty/nowe/Globalne/nagrodyeventy/sktom.pwn"
 
-	#include "modules/obiekty/nowe/DMV/bramyplac.pwn"
-	
-	//*****************************************************
-	//Aktualizacja 2.5.94 - By Simeone
-	//*****************************************************
-	#include "modules/obiekty/nowe/wps/wpsext.pwn"
-	#include "modules/obiekty/nowe/DMV/exteriorpc.pwn"
-	#include "modules/obiekty/nowe/SASD/interior.pwn"
-	#include "modules/obiekty/nowe/Dillimore/GunShop/interior.pwn"
-	#include "modules/obiekty/nowe/SASD/exterior.pwn"
-	#include "modules/obiekty/nowe/coffeshopls/interior.pwn"
-	#include "modules/obiekty/nowe/chinesefood/interior.pwn"
-	#include "modules/obiekty/nowe/KomisariatLS/interior.pwn"
-	#include "modules/obiekty/nowe/Globalne/magazynsol/interior.pwn"
-	//#include "modules/obiekty/nowe/dualgate/duale.pwn"//Potrzebne do skryptu na dual-gate
-	#include "modules/obiekty/nowe/FBI/interior.pwn"
-	#include "modules/obiekty/nowe/wps/interior.pwn"
-	#include "modules/obiekty/nowe/Globalne/interiorypojazdow/pociag.pwn"
+#include "obiekty_zmienne.pwn"
 
+#include "nowe/AmmuNationBananov\ammuNationBananov.pwn"
+#include "nowe\DosSantosCarService\DSCS.pwn"
+//#include "nowe\CentralBank\centralBank.pwn"
+#include "nowe\SiedzibaMechanikow\siedzibaMechanikow.pwn"
+//	#include "nowe\Bluberry\RadaMiasta\radaMiasta.pwn"
+#include "nowe\CassinoAutoService\cassinoAutoService.pwn"
+//	#include "nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
+#include "nowe\DMV\DMV.pwn"
+#include "nowe\FBI\FBI.pwn"
+#include "nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
+#include "nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
+#include "nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn"
+//	#include "nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
+#include "nowe\GlobalneLS\Pomnik\pomnik.pwn" 
+#include "nowe\GlobalneLS\SkracaneZakrety\skracaneZakrety.pwn" 
+#include "nowe\GlobalneLS\ZnakiUpiekszenia\znakiUpiekszenia.pwn" 
+#include "nowe\GlobalneLS\lslot\lslot.pwn"
+#include "nowe\CentrumRozrywkiLS\centrumRozrywkiLS.pwn" 
+#include "nowe\GlobalneLV\lv.pwn"
+#include "nowe\GunShop\gunShop.pwn" 
+//#include "nowe\ParkingObokSzpitala\parkingObokSzpitala.pwn"
+#include "nowe\MountChiliad\mountChiliad.pwn" 
+#include "nowe\MoneyMakers\moneyMakers.pwn" 
+#include "nowe\LowFolow\lowFolow.pwn" 
+#include "nowe\KomisariatLS\komisariatLS.pwn" 
 
-#endif
+//*****************************************************
+//Aktualizacja 2.5.84- By Simeone
+//*****************************************************
+#include "nowe\przes\pub\pub.pwn"
+#include "nowe\rondo\rondo.pwn"
+#include "nowe\GlobalneLS\chinatown\chinatown.pwn"
+//#include "nowe\GlobalneLS\molo\molo.pwn"
+#include "nowe\przes\Ocult\ocult.pwn"
+#include "nowe\GlobalneLS\syskanalow\wej1\kanal.pwn"
+#include "nowe\GlobalneLS\syskanalow\wej1\norakan\miesko.pwn"
+#include "nowe\cjgirl\cjgirl.pwn"
+#include "nowe\LSMC\lsmc.pwn"
+#include "nowe\opdlaorg\StacjaMont\stam.pwn"
+#include "nowe\SanVanInterior\sanVanInterior.pwn"
+
+//------------------------------
+
+#include "nowe\Pizzernia idle\pizza.pwn"
+//#include "nowe\centralbank\bank.pwn"
+#include "nowe\GlobalneLS\stacja_paliw_idle\sidle.pwn"
+#include "nowe\Pizzernia idle\intpidle.pwn"
+#include "nowe\GlobalneLS\inttv.pwn"
+#include "nowe\autobusinterior\autobusint.pwn"
+#include "nowe\enforcerint\enforcerint.pwn"
+
+//*****************************************************
+//Aktualizacja 2.5.84 - dodatki
+//*****************************************************
+#include "nowe\HouseInteriorWOSP\houseInteriorWOSP.pwn"
+
+//*****************************************************
+//Aktualizacja 2.5.93 - By Simeone
+//*****************************************************
+#include "nowe\hitman\hitmans.pwn"
+#include "nowe\DMV\intekdmv.pwn"
+#include "nowe\ramirezaservice\ramirezext.pwn"
+#include "nowe\dscs\dscs.pwn"
+#include "nowe\hellsangelsmc\hamc.pwn"
+#include "nowe\ramirezaservice\ramirezint.pwn"
+#include "nowe\GlobalneLS\banklsext.pwn"
+#include "nowe\GunShop\gunshopls.pwn"
+#include "nowe\Globalne\nagrodyeventy\sktom.pwn"
+
+#include "nowe\DMV\DMV_bramyplac.pwn"
+
+//*****************************************************
+//Aktualizacja 2.5.94 - By Simeone
+//*****************************************************
+#include "nowe\wps\wpsext.pwn"
+#include "nowe\DMV\DMV_exteriorpc.pwn"
+#include "nowe\SASD/interior.pwn"
+#include "nowe\Dillimore\GunShop/interior.pwn"
+#include "nowe\SASD/exterior.pwn"
+#include "nowe\coffeshopls/interior.pwn"
+#include "nowe\chinesefood/interior.pwn"
+#include "nowe\KomisariatLS/interior.pwn"
+#include "nowe\Globalne\magazynsol/interior.pwn"
+//#include "nowe\dualgate\duale.pwn"//Potrzebne do skryptu na dual-gate
+#include "nowe\FBI/interior.pwn"
+#include "nowe\wps/interior.pwn"
+#include "nowe\Globalne\interiorypojazdow\pociag.pwn"
+#include "nowe\Globalne\nagrodyeventy\simeone.pwn"
+
+//*****************************************************
+//Aktualizacja 2.6 - By Simeone & Sergio & deduir
+//*****************************************************
+#include "nowe\Globalne\bankomaty.pwn"
+#include "nowe\BialyDom/exterior.pwn"
+#include "nowe\basen/interior.pwn"
+#include "nowe\basen/exterior.pwn"
+#include "nowe\Globalne\biznesy\biznesy_obj.pwn"
+#include "nowe\inne_skrypt/wejscia.pwn"
+#include "nowe\StripClub\stripclub.pwn"
+#include "nowe\SanNews\exteriorSN.pwn"
+#include "nowe\BarKacpra\bar.pwn"
+#include "nowe\ElPueblo/pueint.pwn"
+#include "nowe\ElPueblo/pueext.pwn"
+#include "nowe\MelinaIdle/exterior.pwn"
+#include "nowe\SanNews/ScenaSASC.pwn"
+#include "nowe\MelinaIdle/interior.pwn"
+#include "nowe\StudioNagran/interior.pwn"
+#include "nowe\StudioNagran/exterior.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -284,8 +210,8 @@ obiekty_OnGameModeInit()
 	banklsext_Init();//Bariekrki przed bankiem LS
 	gunshopls_Init();//GS LS
 	sktomdom_Init();//Dom skTOM'a
-	
-	
+	carinterior_Init();
+	carexterior_Init();
 	bramydmvext_Init();//Bramy DMV (?) 
 	wpsext_Init();//WPS
 	pcexterior_Init();//DMV w PC
@@ -299,8 +225,21 @@ obiekty_OnGameModeInit()
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
-
-
+	simeonedom_Init();//Domek Simeone
+	bankomaty_Init();//Obiekty bankomatów na SA
+	WhiteHouseExt_Init();//Exterior bia³ego domu
+	basenint_Init();//interior basenu
+	basenext_Init();//exteriorbasenu
+	biznesy_Init();
+	wejsciaSkrypt_Init();
+	stripclub_Init();
+	extSN_Init();
+	intBarKacpra_Init();//Bar u Kacpra
+	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke, exterior
+	//ScenaSASC_Init();
+	StudioIdle_Init();//studio nagran idlewood, interior
+	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
+	StudioIdleext_Init();//studio nagran idlewood, exterior
 	return 1;
 }
 
@@ -337,7 +276,12 @@ obiekty_OnPlayerConnect(playerid)
 	coffeshop_Connect(playerid);//Coffe shop
 	chinskiejedzenie_Connect(playerid);//Chinese food
 	wpsint_Connect(playerid);//Interior WPS
-	
+	simeonedom_Connect(playerid);//Domek simeone
+	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
+	basen_Connect(playerid);//basen
+	FBIPARKING_Connect(playerid);
+	carniceria_Connect(playerid);//interior el pueblo
+//	wjedz_Connect(playerid); 
 	
 	return 1;
 }

@@ -19,6 +19,9 @@
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
 //	MrucznikÆ Role Play
+//TwÛrcy:
+//	-> Mrucznik - g≥Ûwny twÛrca mapy
+//	-> Simeone - poprawki, edycja 
 
 //-------------------------------------------<[ Includy ]>---------------------------------------------------//
 //-                                                                                                         -//
@@ -127,7 +130,7 @@ public OnGameModeExit()
     print(">>> Wykonano. Gamemode pomyslnie wylaczony.");
 	return 1;
 }
-
+//Tutaj buüka i uúmieszek :D 
 public OnPlayerRequestClass(playerid, classid)
 {
 	ApplyAnimation(playerid, "ON_LOOKERS", "wave_loop", 3.5, 1, 0, 0, 0, 0, 1);
@@ -254,6 +257,20 @@ CMD:setint(playerid, params[])
 	SetPlayerInterior(playerid, value);
 	format(string, sizeof(string), "Twoja interior to teraz: %d", value);
 	SendClientMessage(playerid, -1, string);
+	return 1;
+}
+CMD:setskin(playerid, params[])
+{
+	new skinID;
+	if(sscanf(params, "d", skinID))
+	{
+		SendClientMessage(playerid, -1, "Uøyj /setskin [ID_skina]"); 
+		return 1;
+	}
+	SetPlayerSkin(playerid, skinID);
+	new string[124]; 
+	format(string, sizeof(string), "Ustawi≥eú sobie skin %d", skinID); 
+	SendClientMessage(playerid, -1, string): 
 	return 1;
 }
 CMD:gotols(playerid)

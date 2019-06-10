@@ -21,14 +21,14 @@
 //BY: SIMEONE, DEDUIR, SANTIAGO, FARAON
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-KomisariatLS::parking_Init()
+KomisariatLS_parking_Init()
 {
 	StworzObiekty();
 	StworzBramy();
 	return 1;
 }
 
-KomisariatLS::parking_Connect(playerid)
+KomisariatLS_parking_Connect(playerid)
 {
 	UsunObiekty(playerid);
 	return 1;

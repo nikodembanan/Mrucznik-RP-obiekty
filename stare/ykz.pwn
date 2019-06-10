@@ -1,4 +1,4 @@
-stock EXT_Yakuza() {
+EXT_Yakuza() {
 
 	//YKZ ulepszenia
 	CreateDynamicObject(2909,2809.36130000,-1097.41600000,93.01810000,0.00000000,90.00000000,0.00000000,0,0); //

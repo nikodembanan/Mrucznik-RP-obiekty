@@ -1,4 +1,4 @@
-stock DMV_Load()
+DMV_Load()
 {
     	//parter i okienka
 	CreateDynamicObject(19377, 1095.62000, 1072.31006, -22.71000,   0.00000, 90.00000, 0.00000,50,5);

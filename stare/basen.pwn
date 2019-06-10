@@ -1,4 +1,4 @@
-stock Basen_Load()
+Basen_Load()
 {
     	//obiekty basen (nowy) usuniete DEL
 	CreateDynamicObject(7488,530.54394531,-2182.35742188,-5.42700005,0.00000000,0.00000000,90.00000000,43,0); //convertffs(0)
@@ -238,5 +238,10 @@ stock Basen_Load()
 	CreateDynamicObject(18655,597.74792480,-2173.53491211,0.81599998,0.00000000,0.00000000,0.00000000,43,0); //object(chairs) (1)
 	CreateDynamicObject(18762,577.63360596,-2194.66406250,8.63797569,0.00000000,0.00000000,0.00000000,43,0); //object(thebowl15) (1)
 	CreateDynamicObject(18809,580.55603027,-2121.82299805,0.91448975,0.00000000,270.00000000,270.00000000,43,0); //object(monkeyman) (1)
+	
+	//Drzwi do dyrektora
+	CreateDynamicObject(1569, 577.32819, -2039.02173, 15.05740,   0.00000, 0.00000, 90.00000, 43, 0);
+	
+	//Pani janina
 	SetActorVirtualWorld(PaniJanina, 43);
 }//

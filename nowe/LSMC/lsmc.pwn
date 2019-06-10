@@ -5,7 +5,7 @@ LSMC_Init()
 	return 1;
 }
 
-stock LoadLSMCElevatorDoor()
+LoadLSMCElevatorDoor()
 {
     for(new i=0;i<8;i++)
     {

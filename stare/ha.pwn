@@ -1,4 +1,4 @@
-stock EXT_BazaHA()
+EXT_BazaHA()
 {
     SetDynamicObjectMaterial(CreateDynamicObject(18765, -79.05870, -317.98309, 2.88600,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(18765, -79.05870, -327.98590, 2.88600,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);

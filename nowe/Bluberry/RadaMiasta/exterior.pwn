@@ -22,13 +22,13 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-RadaMiasta::exterior_Init()
+RadaMiasta__exterior_Init()
 {
 	StworzObiekty();
 	return 1;
 }
 
-RadaMiasta::exterior_Connect(playerid)
+RadaMiasta__exterior_Connect(playerid)
 {
 	UsunObiekty(playerid);
 	return 1;

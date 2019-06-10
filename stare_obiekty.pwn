@@ -1,71 +1,37 @@
 //obiekty.pwn
 // KOLEJNOSC: rX,rY,rZ,VirtualWorld,Interior);
 
-#if defined EXAMPLE_SCRIPT
-	#include "../stare/admin.pwn"
-	#include "../stare/ballas.pwn"
-	#include "../stare/basen.pwn"
-	#include "../stare/bor.pwn"
-	#include "../stare/bramy.pwn"
-	#include "../stare/bs.pwn"
-	#include "../stare/bus.pwn"
-	#include "../stare/christmas.pwn"
-	#include "../stare/dillimore.pwn"
-	//WYlACZONE PRZEZ SIMEONE 02-10-2018 #include "../stare/dmv.pwn"
-	// WY£¥CZONE WRAZ Z AKTUALIZACJ¥ 2.5.94 --> #include "../stare/fbi.pwn"
-	#include "../stare/fam_fdu.pwn"
-	#include "../stare/grove.pwn"
-	#include "../stare/ha.pwn"
-	#include "../stare/ibiza.pwn"
-	#include "../stare/icc.pwn"
-	#include "../stare/kt.pwn"
-	//#include "../stare/ls_grape.pwn"
-	#include "../stare/lsfd.pwn"
-	//#include "../stare/lsmc.pwn"
-	#include "../stare/lspd.pwn"
-	#include "../stare/ng.pwn"
-	#include "../stare/pc.pwn"
-	#include "../stare/sad.pwn"
-	#include "../stare/sn.pwn"
-	#include "../stare/wps.pwn"
-	#include "../stare/vagos.pwn"
-	#include "../stare/vinyl.pwn"
-	#include "../stare/ykz.pwn"
-	#include "../stare/bank.pwn"
-	//#include "../stare/new_mech.pwn"
-#else //Mrucznik-RP gamemode
-	#include "modules/obiekty/stare/admin.pwn"
-	#include "modules/obiekty/stare/ballas.pwn"
-	#include "modules/obiekty/stare/basen.pwn"
-	#include "modules/obiekty/stare/bor.pwn"
-	#include "modules/obiekty/stare/bramy.pwn"
-	#include "modules/obiekty/stare/bs.pwn"
-	#include "modules/obiekty/stare/bus.pwn"
-	#include "modules/obiekty/stare/christmas.pwn"
-	#include "modules/obiekty/stare/dillimore.pwn"
-	//WYlACZONE PRZEZ SIMEONE 02-10-2018 #include "modules/obiekty/stare/dmv.pwn"
-	#include "modules/obiekty/stare/fbi.pwn"
-	#include "modules/obiekty/stare/fam_fdu.pwn"
-	#include "modules/obiekty/stare/grove.pwn"
-	#include "modules/obiekty/stare/ha.pwn"
-	#include "modules/obiekty/stare/ibiza.pwn"
-	#include "modules/obiekty/stare/icc.pwn"
-	#include "modules/obiekty/stare/kt.pwn"
-	//#include "modules/obiekty/stare/ls_grape.pwn"
-	#include "modules/obiekty/stare/lsfd.pwn"
-	//#include "modules/obiekty/stare/lsmc.pwn"
-	#include "modules/obiekty/stare/lspd.pwn"
-	#include "modules/obiekty/stare/ng.pwn"
-	#include "modules/obiekty/stare/pc.pwn"
-	#include "modules/obiekty/stare/sad.pwn"
-	#include "modules/obiekty/stare/sn.pwn"
-	#include "modules/obiekty/stare/wps.pwn"
-	#include "modules/obiekty/stare/vagos.pwn"
-	#include "modules/obiekty/stare/vinyl.pwn"
-	#include "modules/obiekty/stare/ykz.pwn"
-	#include "modules/obiekty/stare/bank.pwn"
-	//#include "modules/obiekty/stare/new_mech.pwn"
-#endif
+
+#include "stare/admin.pwn"
+#include "stare/ballas.pwn"
+#include "stare/basen.pwn"
+#include "stare/bor.pwn"
+#include "stare/bramy.pwn"
+#include "stare/bs.pwn"
+#include "stare/bus.pwn"
+#include "stare/christmas.pwn"
+#include "stare/dillimore.pwn"
+//WYlACZONE PRZEZ SIMEONE 02-10-2018 #include "stare/dmv.pwn"
+#include "stare/fbi.pwn"
+#include "stare/fam_fdu.pwn"
+#include "stare/grove.pwn"
+#include "stare/ha.pwn"
+#include "stare/icc.pwn"
+#include "stare/kt.pwn"
+//#include "stare/ls_grape.pwn"
+#include "stare/lsfd.pwn"
+//#include "stare/lsmc.pwn"
+#include "stare/lspd.pwn"
+#include "stare/ng.pwn"
+#include "stare/pc.pwn"
+#include "stare/sad.pwn"
+#include "stare/sn.pwn"
+#include "stare/wps.pwn"
+#include "stare/vagos.pwn"
+#include "stare/vinyl.pwn"
+#include "stare/ykz.pwn"
+#include "stare/bank.pwn"
+//#include "stare/new_mech.pwn"
 
 Stworz_Obiekty()
 {
@@ -616,7 +582,7 @@ Stare_Obiekty()
 	CreateDynamicObject(1550,1478.84400000,-994.29050000,13.83770000,0.00000000,0.00000000,0.00000000, 2); //
 	
 
-	//obiekty dom Saula(moj)
+	//obiekty dom Saula(moj) :) 
 	CreateDynamicObject(10444,714.69720459,-1052.42102051,45.46129608,0.00000000,0.00000000,330.09008789,0,0); //object(poolwater_sfs) (1)
 	CreateDynamicObject(1646,723.42962646,-1041.49548340,46.01116943,0.00000000,0.00000000,314.12011719,0,0); //object(lounge_towel_up) (1)
 	CreateDynamicObject(1255,716.92156982,-1064.18481445,46.24763489,0.00000000,0.00000000,111.65499878,0,0); //object(lounger) (1)
@@ -1418,7 +1384,7 @@ Stare_Obiekty()
 	//-----------------------------------------------------------------------------------------------------------------------
 
 	//kasyno
-	//zenÄ…trz
+	//zen¹trz
 	CreateDynamicObject(8394,1022.57460000,-1121.07040000,36.95560000,0.00000000,0.00000000,0.00000000,0,0); //
 	CreateDynamicObject(13562,1022.79140000,-1121.47620000,52.04930000,0.00000000,0.00000000,0.00000000,0,0); //
 	CreateDynamicObject(6965,1010.19430000,-1127.36520000,21.46050000,0.00000000,0.00000000,0.00000000,0,0); //
@@ -1428,7 +1394,7 @@ Stare_Obiekty()
 	CreateDynamicObject(2780,1003.29410000,-1116.80700000,26.48940000,0.00000000,0.00000000,0.00000000,0,0); //
 	CreateDynamicObject(2780,1042.35550000,-1117.28060000,25.91620000,0.00000000,0.00000000,0.00000000,0,0); //
 
-	//wewnÄ…trz
+	//wewn¹trz
 	CreateDynamicObject(1550,1143.18920000,11.76900000,1000.07310000,0.00000000,0.00000000,0.00000000,55,-1); //hajs
 	CreateDynamicObject(14777,1025.09863281,-1090.54479980,-68.58067322,0.00000000,0.00000000,0.00000000,55,-1); //object(int_5weecasino)(1)
 	CreateDynamicObject(1978,1038.22924805,-1090.59741211,-67.52223969,0.00000000,0.00000000,0.00000000,55,-1); //object(roulette_tbl)(1)

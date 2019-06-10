@@ -1,4 +1,4 @@
-stock Alhambra_Load()
+Alhambra_Load()
 {
         //wystrój alhambry (VIP central przy market) int 17 obiekty cywilne
 	CreateDynamicObject(2664,477.70001221,-21.00000000,1001.59997559,0.00000000,0.00000000,179.99450684); //object(cj_suburb_door) (3)

@@ -1,4 +1,4 @@
-stock BS_Ext()
+BS_Ext()
 {
 	//obiekty bay side  (ratusz bay side œrodek) usuniete DEL
 	CreateDynamicObject(14846,-2062.42578125,548.77246094,1173.09020996,0.00000000,0.00000000,0.00000000,-1,7); //object(int_ppol) (1)

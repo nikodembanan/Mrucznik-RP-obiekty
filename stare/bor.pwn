@@ -1,4 +1,4 @@
-stock BOR_Load() {
+BOR_Load() {
 	//baza BOR (obiekty bor frakcji) -> dawna baza BOR znajduje siê w wersji 2.4.91NF
 	CreateDynamicObject(19076, 1479.50354, -1675.91748, 12.70340,   0.00000, 0.00000, 0.00000,80,0);
 	CreateDynamicObject(19054, 1479.44373, -1677.03467, 13.57920,   0.00000, 0.00000, 0.00000,80,0);

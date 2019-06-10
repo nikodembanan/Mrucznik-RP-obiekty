@@ -1,4 +1,4 @@
-stock EXT_LoadForest()
+EXT_LoadForest()
 {
     CreateDynamicObject(664, 2323.61426, -677.43738, 128.81213,   0.00000, 0.00000, -45.54001);
     CreateDynamicObject(664, 2320.94482, -645.23486, 130.10269,   0.00000, 0.00000, -42.42002);

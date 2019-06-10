@@ -1,4 +1,4 @@
-stock WPS_Load()
+WPS_Load()
 {
     	//obiekty cywilne - wystrój WPS
 	CreateDynamicObject(4100, 2508.29, -2042.05, 14.25,   0.00, 0.00, 51.00,0,0);

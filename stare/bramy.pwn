@@ -11,24 +11,6 @@ ZaladujBramy()
 	// Nowa policja
 	//lspdWjazdDolny = CreateDynamicObject(19880, 1588.4932, -1638.2795, 17.0965, 0.0000, 0.0000, 0.0000); //zamknieta brama
 	// End nowa policja
-	dualgdmv1 = CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterial(dualgdmv1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(dualgdmv1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(dualgdmv1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	dualgdmv2 = CreateDynamicObject(3089, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(dualgdmv2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(dualgdmv2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(dualgdmv2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	bramadyrektora1 = CreateDynamicObject(3089, 1452.035400, -1842.966674, 81.605247, 0.000000, 0.000000, 180.000000, 50, -1, -1, 400.00, 400.00);
-	bramadyrektora2 = CreateDynamicObject(3089, 1449.049804, -1842.941528, 81.605247, -0.100000, 0.000000, -0.800033, 50, -1, -1, 400.00, 400.00);
-	dudmv3 = CreateDynamicObject(3089, 1420.936035, -1815.156494, 78.095230, 0.000000, 0.000000, -90.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(dudmv3, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(dudmv3, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(dudmv3, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	dudmv4 = CreateDynamicObject(3089, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 90.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(dudmv4, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(dudmv4, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(dudmv4, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 
 	DrzwiPDKomi = CreateDynamicObject(1569,253.18164062,108.04980469,1002.21875000,0.00000000,0.00000000,90.00000000); //brama pd1 stary komisariat (old komi)
 	DrzwiPDKomi2 = CreateDynamicObject(1569,253.22167969,124.16796875,1002.21875000,0.00000000,0.00000000,90.00000000); //bramapd 2b stary komisariat (old komi)
@@ -106,7 +88,7 @@ ZaladujBramy()
 	bramadmv[16] = CreateDynamicObject(3089, -1775.28, 532.77, -20.84,   0.00, 0.00, 90.00,75,8);
 	bramadmv[17] = CreateDynamicObject(3089, -1817.47, 505.95, -19.46,   0.00, 0.00, 90.00,75,8);
 	//bramy plac manewrowy
-	plac1 = CreateDynamicObject(980, -2053.29150, -102.76010, 36.93400-30.0000,   0.00000, 0.00000, 180.00000,0,0);
+	//plac1 = CreateDynamicObject(980, -2053.29150, -102.76010, 36.93400-30.0000,   0.00000, 0.00000, 180.00000,0,0);
 	//plac2 = CreateDynamicObject(980, -2041.77271, -102.76008, 36.93400,   0.00000, 0.00000, 0.00000,0,0);
 	//WPS
 	SkinBrama[0] = CreateDynamicObject(1536, 2433.3701, -1944.2460, 119.7100,   0.00, 0.00, 270.00,1);

@@ -22,7 +22,7 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-SiedzibaMechanikow::interior_Init()
+BazaMech_interior_Init()
 {
 	StworzObiekty();
 	StworzBudynki();

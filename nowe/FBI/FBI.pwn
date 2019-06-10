@@ -21,17 +21,11 @@
 
 //
 
-#define FBI:: FBI_
-
-#if defined EXAMPLE_SCRIPT
-	#include "../nowe/FBI/parking.pwn"
-#else
-	#include "modules/obiekty/nowe/FBI/parking.pwn"
-#endif
+#include "parking.pwn"
 	
 //-----------------<[ G³ówne funkcje: ]>-------------------
-FBI::Init()
+FBI_Init()
 {
-	FBI::parking_Init();
+	FBI__parking_Init();
 	return 1;
 }

@@ -1,4 +1,4 @@
-stock LoadLSMCElevatorDoor()
+LoadLSMCElevatorDoor()
 {
     for(new i=0;i<7;i++)
     {

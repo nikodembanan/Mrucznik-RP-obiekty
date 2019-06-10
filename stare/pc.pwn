@@ -1,4 +1,4 @@
-stock PC_UM()
+PC_UM()
 {
     //Urz¹d miasta PC by abram (obiekty frakcyjne)
 	SetDynamicObjectMaterial(CreateDynamicObject(18783, 2319.03589, -77.09144, 35.79460,   0.00000, 0.00000, 0.00000,1), 1, 14847, "mp_policesf", "mp_cop_vinyl", 0);
@@ -181,7 +181,7 @@ stock PC_UM()
 	return 1;
 }
 
-stock PC_Ext()
+PC_Ext()
 {
     	//obiekty palomino creek
 	CreateDynamicObject(13296,2578.88671875,63.22949219,28.68292046,0.00000000,0.00000000,90.00000000,0,0); //object(ce_roadsidegas) (1)
