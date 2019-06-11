@@ -236,7 +236,7 @@ obiekty_OnGameModeInit()
 	extSN_Init();
 	intBarKacpra_Init();//Bar u Kacpra
 	MelinaIdle_Init();//Melina na Idlewood - przy domie big smoke, exterior
-	//ScenaSASC_Init();
+	ScenaSASC_Init();
 	StudioIdle_Init();//studio nagran idlewood, interior
 	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
 	StudioIdleext_Init();//studio nagran idlewood, exterior
