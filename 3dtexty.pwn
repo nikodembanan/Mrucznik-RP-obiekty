@@ -138,7 +138,7 @@ Zaladuj3DTexty()
 	//CreateDynamic3DTextLabel("Wejscie tylko dla personelu \n(wpisz /wyjdz aby wejsc)", COLOR_BLUE ,562.2107,-2029.9917,16.1670, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("Trampoliny", COLOR_BLUE ,578.6193,-2195.7708,1.6288, 3.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("U¿yj: /kupkredyty", COLOR_BLUE ,1197.0911,-1772.3119,13.7282, 7.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
-	CreateDynamic3DTextLabel("Pani Janina (69)", COLOR_WHITE,1197.0911,-1772.3119,13.7282+0.85, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
+	//CreateDynamic3DTextLabel("Pani Janina (69)", COLOR_WHITE,1197.0911,-1772.3119,13.7282+0.85, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 	CreateDynamic3DTextLabel("=-=-=-=-=Tsunami Pool=-=-=-=-=\n\n{37AC45}Founded by:\n{C0C0C0}>Luis Cotta\n{C0C0C0}>Sergio Santiago\n{C0C0C0}>John Mrucznik\n{C0C0C0}>Sven Helvetica", COLOR_BLUE, 1205.97107, -1759.93848, 15.94710, 14, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 43);
 
 //-------------------------------[Przystanki autobusowe]----------------------------------------
