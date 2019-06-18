@@ -16,7 +16,7 @@
 //----[  |||             |||||             |||                |||       |||    |||                      ]----//
 //----[                                                                                                 ]----//
 //----------------------------------------------------*------------------------------------------------------//
-//BY- Seven
+///BY- Seven
 //-----------------<[ ZMIENNE ]>---------------------------
 
 new gldmv;
@@ -1874,7 +1874,7 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(18766, 1467.317504, -1757.276733, 15.226865, 0.000014, 0.000000, 89.999954, 49, 0, -1, 195.00, 195.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 9525, "boigas_sfw", "GEwhite1_64", 0xFFFFFFFF);
 	pevori2 = CreateDynamicObject(11737, 1467.854736, -1746.066894, 14.736888, 89.999992, 166.631469, -76.631500, 49, 0, -1, 195.00, 195.00); 
-	SetDynamicObjectMaterialText(pevori2, 0, "URZYD MIASTA", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
+	SetDynamicObjectMaterialText(pevori2, 0, "URZAD MIASTA", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(638, 1486.151733, -1742.772216, 14.076886, 0.000000, 0.000000, 270.000000, 49, 0, -1, 195.00, 195.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 14789, "ab_sfgymmain", "ab_wood02", 0xFFBBBBBB);
 	pevori2 = CreateDynamicObject(11737, 1485.325317, -1749.190673, 15.296908, 90.000000, 0.000000, 270.000000, 49, 0, -1, 195.00, 195.00); 
@@ -2058,11 +2058,11 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(11737, 1467.852783, -1746.016845, 14.616888, 89.999992, 166.631469, -76.631500, 49, 0, -1, 195.00, 195.00); 
 	SetDynamicObjectMaterialText(pevori2, 0, "LOS SANTOS", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(11737, 1467.854736, -1750.810302, 14.736888, 89.999992, 173.225967, -83.225975, 49, 0, -1, 195.00, 195.00); 
-	SetDynamicObjectMaterialText(pevori2, 0, "URZYD MIASTA", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
+	SetDynamicObjectMaterialText(pevori2, 0, "URZAD MIASTA", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(11737, 1467.852783, -1750.760253, 14.616888, 89.999992, 173.225967, -83.225975, 49, 0, -1, 195.00, 195.00); 
 	SetDynamicObjectMaterialText(pevori2, 0, "LOS SANTOS", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(11737, 1487.687377, -1745.750976, 14.736888, 89.999992, 660.084411, -30.084539, 49, 0, -1, 195.00, 195.00); 
-	SetDynamicObjectMaterialText(pevori2, 0, "URZYD MIASTA", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
+	SetDynamicObjectMaterialText(pevori2, 0, "URZAD MIASTA", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(11737, 1487.689331, -1745.801025, 14.616888, 89.999992, 660.084411, -30.084539, 49, 0, -1, 195.00, 195.00); 
 	SetDynamicObjectMaterialText(pevori2, 0, "LOS SANTOS", 60, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(1561, 1473.143920, -1742.406127, 12.716893, 0.000000, 0.000000, 180.000000, 49, 0, -1, 195.00, 195.00); 
