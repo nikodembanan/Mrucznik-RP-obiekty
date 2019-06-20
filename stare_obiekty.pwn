@@ -9,18 +9,14 @@
 #include "stare/bramy.pwn"
 #include "stare/bs.pwn"
 #include "stare/bus.pwn"
-#include "stare/christmas.pwn"
 #include "stare/dillimore.pwn"
 //WYlACZONE PRZEZ SIMEONE 02-10-2018 #include "stare/dmv.pwn"
-#include "stare/fbi.pwn"
 #include "stare/fam_fdu.pwn"
 #include "stare/grove.pwn"
 #include "stare/ha.pwn"
 #include "stare/icc.pwn"
 #include "stare/kt.pwn"
-//#include "stare/ls_grape.pwn"
 #include "stare/lsfd.pwn"
-//#include "stare/lsmc.pwn"
 #include "stare/lspd.pwn"
 #include "stare/ng.pwn"
 #include "stare/pc.pwn"
@@ -31,7 +27,6 @@
 #include "stare/vinyl.pwn"
 #include "stare/ykz.pwn"
 #include "stare/bank.pwn"
-//#include "stare/new_mech.pwn"
 
 Stworz_Obiekty()
 {
@@ -46,9 +41,7 @@ public obiekty_timer(wartosc)
     Bus_Stops();
     Stare_Obiekty();
 	ZaladujBramy();
-    //noweMech_StworzObiekty();
     BazaLSFD();
-  //  EXT_GrapeStreet();
     EXT_BazaHA();
     PC_Ext();
     BS_Ext();
@@ -58,7 +51,6 @@ public obiekty_timer(wartosc)
 	LSPDintek();
 	BazaKT();
 	Risto();
-	//LOADLSMC();
     SN_Load();
     Int_BarBallas();
     VinylClub();
@@ -68,9 +60,7 @@ public obiekty_timer(wartosc)
     PC_UM();
     BOR_Load();
     Basen_Load();
- //   FBI_Load();
     WPS_Load();
-   // DMV_Load();
     KT_Lotniska();
     Load_AdminIsland();
     //Rodziny
@@ -79,9 +69,7 @@ public obiekty_timer(wartosc)
     EXT_Grove();
     INT_VagosPub();
     INT_LSFD();
-  //  LS_ElCorona();
 	LadujObiektyBanku();
-    //ChangeLSMCElevatorState();
 	return 1;
 }
 
