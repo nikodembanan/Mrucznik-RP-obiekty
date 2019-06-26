@@ -79,6 +79,7 @@ Zaladuj3DTexty()
     str2 = "BACZNOŒÆ \n{7CFC00}By nie zostaæ oszukanym:\n {8B0000}1. NIGDY NIE GRAJ gdy ktoœ chce graæ o wiêcej ni¿ ma w {FFFFFF}/sprawdzkase [ID]\n{9ACD32}Je¿eli mimo to zostaniesz oszukany NATYCHMIAST zg³oœ ten fakt na {FFFFFF}/report{9ACD32} - oszust otrzyma od razu blocka\nGdy taka osoba otrzyma blokadê ty masz 10min na napisanie na niego skargi\nW ten sposób mo¿esz odzyskaæ nawet 100%% wygranej!!";
 	CreateDynamic3DTextLabel(str2, COLOR_PANICRED ,1032.8098,-1091.7827,-66.5729, 20.0);
     CreateDynamic3DTextLabel("San Andreas Police Department\n{00FFCC}Zaœwiadczenia o niekaralnoœæi\nKoszt: {9ACD32}18 000${0080FF}", COLOR_BLUE ,252.3918,117.3390,1005.2188, 2.5);//36
+	CreateDynamic3DTextLabel("Lista Zas³u¿onych\n\n{FFA500}Beyonce Bennett\n{FFA500}Victoria Foxworth\n{FFA500}Mat Drep\n{FFA500}Richard Parker\n{FFA500}Lucas Scott", COLOR_RED, 298.12421, -1609.47058, 117.22952, 4.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 17, 0); 
 	CreateDynamic3DTextLabel("Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslowski {C0C0C0}- od 2013 do 2017 GLD i zas³u¿ony\n{FFA500}Krzysztof Golder {C0C0C0}- od 2014 do 2016 VLD i zas³u¿ony\n{FFA500}Monika Lorens {C0C0C0}- od 2014 do 2016 VLD i zas³u¿ona\n{FFA500}Luis Cotta {C0C0C0}- od 2017 VLD i zas³u¿ony dla frakcji", COLOR_RED, 1460.06836, -1813.06421, 79.45823, 8.0);
 	CreateDynamic3DTextLabel("Plac Manewrowy", COLOR_RED, 1441.79016, -1811.51782, 79.55123, 5);//Plac manewrowy w dmv ls 
 	CreateDynamic3DTextLabel("Biuro USSS\n[MONITORING]", COLOR_RED, 1454.66711, -1788.37805, 79.52730, 5);
