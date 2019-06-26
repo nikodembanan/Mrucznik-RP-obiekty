@@ -146,7 +146,10 @@
 #include "nowe\StudioNagran/interior.pwn"
 #include "nowe\StudioNagran/exterior.pwn"
 
-
+//*****************************************************
+//Aktualizacja 2.6.03 - By Simeone 
+//*****************************************************
+#include "nowe\SanNews/interiorSN.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -200,6 +203,7 @@ obiekty_OnGameModeInit()
 	LSMC_Init();
 	hitmans_Init();
 	ChangeLSMCElevatorState();
+	intSN_Init(); 
 	
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV

@@ -22,7 +22,7 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-extSN_Init()
+intSN_Init()
 {
 	StworzObiekty();
 	StworzBramy();
