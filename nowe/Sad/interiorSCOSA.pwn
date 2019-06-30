@@ -259,7 +259,7 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(19327, 1309.711181, -1341.883911, 64.199211, 0.000000, 0.000000, 90.000000,10,0,-1,350.00,350.00);
 	SetDynamicObjectMaterialText(skgang, 0, "AKTA CYWILNE", 130, "Ariel", 80, 0, 0xFF000000, 0x00000000, 1);
 	skgang = CreateDynamicObject(19327, 1309.711181, -1335.833862, 64.199211, 0.000000, 0.000000, 90.000000,10,0,-1,350.00,350.00);
-	SetDynamicObjectMaterialText(skgang, 0, "AKTA \nODWOÂ?AWCZE", 130, "Ariel", 80, 0, 0xFF000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(skgang, 0, "AKTA \nODWO£AWCZE", 130, "Ariel", 80, 0, 0xFF000000, 0x00000000, 1);
 	skgang = CreateDynamicObject(1499, 1309.615600, -1341.158691, 60.989227, 0.000000, 0.000000, -90.000000,10,0,-1,350.00,350.00);
 	SetDynamicObjectMaterial(skgang, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
@@ -2090,7 +2090,7 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(19327, 1297.904541, -1315.878906, 84.525917, 0.000000, 0.000000, 90.000000,13,0,-1,350.00,350.00);
 	SetDynamicObjectMaterialText(skgang, 0, "Biuro VI", 140, "Ariel", 120, 0, 0xFFFFFFFF, 0x00000000, 1);
 	skgang = CreateDynamicObject(19327, 1299.713867, -1310.798583, 84.585945, 0.000000, 0.000000, 0.000000,13,0,-1,350.00,350.00);
-	SetDynamicObjectMaterialText(skgang, 0, "Biuro \n Zast??pcy", 140, "Ariel", 110, 0, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(skgang, 0, "Biuro \n Zastêpcy", 140, "Ariel", 110, 0, 0xFFFFFFFF, 0x00000000, 1);
 	skgang = CreateDynamicObject(19327, 1320.798828, -1310.788574, 84.585945, 0.000000, 0.000000, 0.000000,13,0,-1,350.00,350.00);
 	SetDynamicObjectMaterialText(skgang, 0, "Biuro VII", 140, "Ariel", 120, 0, 0xFFFFFFFF, 0x00000000, 1);
 	skgang = CreateDynamicObject(19327, 1322.600341, -1315.906982, 84.585945, 0.000000, 0.000000, -90.000000,13,0,-1,350.00,350.00);
@@ -5856,7 +5856,7 @@ static StworzBramy()
 	skgang = CreateDynamicObject(1506, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, 180.000000,17,0,-1,350.00,350.00);// Sala3.Drzwi.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 2, 1);
-	DodajBrame(skgang, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 1, 7);
+	DodajBrame(skgang, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 1, 7);
 
 //Ewakuacyjne
 
