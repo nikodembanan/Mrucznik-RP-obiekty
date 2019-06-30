@@ -5729,6 +5729,37 @@ static StworzBramy()
 	2, //Uprawnienia do bram
 	1); //Value (wartoœæ) uprawnieñ
 
+	DualGateAdd(skgang,//Obiekt pierwszej bramy
+	1304.538452,//Pozycja pierwszej bramy X
+	-1347.252197,//Pozycja pierwszej bramy Y 
+	51.425956, //Pozycja pierwszej bramy Z
+	180.000000, //Pozycja pierwszej bramy rX
+	-180.000000, //Pozycja pierwszej bramy rY
+	180.000000, //Pozycja pierwszej bramy rZ
+	1304.538452, //Pozycja pierwszej bramy po przesuniêciu X
+	-1347.252197, //Pozycja pierwszej bramy po przesuniêciu Y
+	51.425956, //Pozycja pierwszej bramy po przesuniêciu Z
+	180.000000, //Pozycja pierwszej bramy po przesuniêciu RX
+	-180.000000, //Pozycja pierwszej bramy po przesuniêciu rY
+	90.000000, //Pozycja pierwszej bramy po przesuniêciu rZ 
+	skgang2, //Obiekt drugiej bramy
+	1307.560546, //Pozycja drugiej bramy X
+	-1347.252197, //Pozycja drugiej bramy Y
+	51.405963, //Pozycja drugiej bramy Z
+	180.000000, //Pozycja drugiej bramy rX
+	-180.000000, //Pozycja drugiej bramy rY
+	0.000000, //Pozycja drugiej bramy rZ
+	1307.560546, //Pozycja drugiej bramy po przesuniêciu  X
+	-1347.252197, //Pozycja drugiej bramy po przesuniêciu  Y
+	51.405963, //Pozycja drugiej bramy po przesuniêciu  Z
+	180.000000, //Pozycja drugiej bramy po przesuniêciu  rX
+	-180.000000, //Pozycja drugiej bramy po przesuniêciu  rY
+	90.000000, //Pozycja drugiej bramy po przesuniêciu  rZ
+	2, // brama speed
+	4, // brama range
+	1, //Uprawnienia do bram
+	7); //Value (wartoœæ) uprawnieñ
+
 	skgang = CreateDynamicObject(1506, 1314.910156, -1338.462158, 51.425956, -0.000003, -360.000000, -90.000000,11,0,-1,350.00,350.00);// Rec.Biuro1.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1314.910156, -1338.462158, 51.425956, -0.000003, -360.000000, -90.000000, 1314.910156, -1338.462158, 51.425956, -0.000004, -360.000000, -180.000000, 2, 2, 2, 1);
@@ -5743,6 +5774,7 @@ static StworzBramy()
 	skgang = CreateDynamicObject(19377, 1310.151367, -1345.989257, 63.799201, 0.000000, 0.000000, 90.000000,12,0,-1,350.00,350.00);// Korytarz.Kraty.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 18761, "matracing", "metalfence3", 0x00000000);
 	DodajBrame(skgang, 1310.151367, -1345.989257, 63.799201, 0.000000, 0.000000, 90.000000, 1310.151367, -1345.989257, 67.979133, 0.000000, 0.000000, 90.000000, 2, 20, 2, 1);
+	DodajBrame(skgang, 1310.151367, -1345.989257, 63.799201, 0.000000, 0.000000, 90.000000, 1310.151367, -1345.989257, 67.979133, 0.000000, 0.000000, 90.000000, 2, 20, 1, 7);
 
 //BIURA
 
@@ -5801,26 +5833,30 @@ static StworzBramy()
 	skgang = CreateDynamicObject(1506, 1279.663940, -1288.402343, 80.481956, 0.000000, 0.000000, -90.000000,15,0,-1,350.00,350.00);// SalaGlowna.Gniewni.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1279.663940, -1288.402343, 80.481956, 0.000000, 0.000000, -90.000000, 1279.663940, -1288.402343, 80.481956, 0.000000, 0.000000, 0.000000, 2, 2, 2, 1);
+	DodajBrame(skgang, 1279.663940, -1288.402343, 80.481956, 0.000000, 0.000000, -90.000000, 1279.663940, -1288.402343, 80.481956, 0.000000, 0.000000, 0.000000, 2, 2, 1, 7);
 
 	skgang = CreateDynamicObject(1506, 1309.254638, -1268.429443, 81.411949, 0.000000, 0.000000, 0.000000,15,0,-1,350.00,350.00);// SalaGlowna.Sedz.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1309.254638, -1268.429443, 81.411949, 0.000000, 0.000000, 0.000000, 1309.254638, -1268.429443, 81.411949, 0.000000, 0.000000, -90.000000, 2, 2, 2, 1);
+	DodajBrame(skgang, 1309.254638, -1268.429443, 81.411949, 0.000000, 0.000000, 0.000000, 1309.254638, -1268.429443, 81.411949, 0.000000, 0.000000, -90.000000, 2, 2, 1, 7);
 
 	skgang = CreateDynamicObject(1506, 1340.263793, -1288.402343, 80.481956, 0.000000, 0.000000, -90.000000,15,0,-1,350.00,350.00);// SalaGlowna.Biegli.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1340.263793, -1288.402343, 80.481956, 0.000000, 0.000000, -90.000000, 1340.263793, -1288.402343, 80.481956, 0.000000, 0.000000, 180.000000, 2, 2, 2, 1);
+	DodajBrame(skgang, 1340.263793, -1288.402343, 80.481956, 0.000000, 0.000000, -90.000000, 1340.263793, -1288.402343, 80.481956, 0.000000, 0.000000, 180.000000, 2, 2, 1, 7);
 
 //Sala rozpraw nr. 2
 
 	skgang = CreateDynamicObject(1506, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, 180.000000,16,0,-1,350.00,350.00);// Sala2.Drzwi.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 2, 1);
-
+	DodajBrame(skgang, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 1, 7);
 //Sala rozpraw nr. 3
 
 	skgang = CreateDynamicObject(1506, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, 180.000000,17,0,-1,350.00,350.00);// Sala3.Drzwi.Zamkniete
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DodajBrame(skgang, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1343.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 2, 1);
+	DodajBrame(skgang, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, 180.000000, 1316.397827, -1303.603881, 72.986793, 0.000000, 0.000000, -90.000000, 2, 2, 1, 7);
 
 //Ewakuacyjne
 
