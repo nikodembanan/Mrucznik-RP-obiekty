@@ -151,6 +151,7 @@
 //*****************************************************
 #include "nowe\SanNews/interiorSN.pwn"
 #include "nowe\Sad/interiorSCOSA.pwn"
+#include "nowe\SanNews/interiorVINYL.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -206,6 +207,7 @@ obiekty_OnGameModeInit()
 	ChangeLSMCElevatorState();
 	intSN_Init(); 
 	interiorSCOSA_Init();
+	interiorVINYL_Init(); 
 	
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
