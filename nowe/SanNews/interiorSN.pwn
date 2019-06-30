@@ -4394,19 +4394,19 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(2263, 288.709503, -1607.144409, 117.281768, 0.000000, 0.000000, 90.000000, 17, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterial(simeonel, 0, 2266, "picture_frame", "CJ_PAINTING28", 0x00000000);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1603.074707, 117.347839, 0.000000, 0.000000, 360.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "Wiedz? mo?emy zdobywa?", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "Wiedze mo¿emy zdobywaæ", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1603.074707, 117.167823, 0.000000, 0.000000, 360.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "od innych, ale m?dro?ci", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "od innych, ale m¹droœci", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1603.074707, 116.967834, 0.000000, 0.000000, 360.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "musimy nauczy? si? sami.", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "musimy nauczyæ siê sami.", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1603.074707, 116.727844, 0.000000, 0.000000, 360.000000, 17, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterialText(simeonel, 0, "~ A. Mickiewicz", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1615.994995, 117.357826, 0.000000, 0.000000, 180.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "Spotka? si? to pocz?tek", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "Spotkaæ siê to pocz¹tek", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1615.994995, 117.207839, 0.000000, 0.000000, 180.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "zgodzi? si? to post?p", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "zgodziæ siê to postêp", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1615.994995, 117.057838, 0.000000, 0.000000, 180.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "pracowa? razem to sukces", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "pracowaæ razem to sukces", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19327, 283.297424, -1615.994995, 116.787841, 0.000000, 0.000000, 180.000000, 17, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterialText(simeonel, 0, "~ H. Ford", 100, "Calibri", 24, 1, 0xFFFF2244, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19450, 307.652404, -1603.615356, 116.261848, 0.000000, 0.000000, 90.000000, 17, 0, -1, 350.00, 350.00); 
@@ -4566,7 +4566,7 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(638, 312.333618, -1602.425292, 114.041831, 0.000000, 0.000000, 0.000000, 17, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterial(simeonel, 0, 18646, "matcolours", "red", 0x00000000);
 	simeonel = CreateDynamicObject(19329, 319.712829, -1609.458984, 116.291809, 0.000000, 0.000000, 450.000000, 17, 0, -1, 350.00, 350.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "przekszta?cania", 140, "Ariel", 48, 1, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "przekszta³cania", 140, "Ariel", 48, 1, 0xFFFFFFFF, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19329, 319.712829, -1609.458984, 116.051803, 0.000000, 0.000000, 450.000000, 17, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterialText(simeonel, 0, "zapisywania", 140, "Ariel", 48, 1, 0xFFFFFFFF, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19329, 319.712829, -1609.458984, 115.791793, 0.000000, 0.000000, 450.000000, 17, 0, -1, 350.00, 350.00); 
@@ -6605,32 +6605,32 @@ static StworzBramy()
 {
 	//PARTER BRAMY
 	simeonel = CreateDynamicObject(1569, 288.116424, -1602.978271, 123.445182, 0.000000, 0.000000, 90.000000, 14, 0, -1, 350.00, 350.00); 
-	DodajBrame(simeonel, 288.116424, -1602.978271, 123.445182, 0.000000, 0.000000, 90.000000, 288.116424, -1602.978271, 123.445182, 0.000000, 0.000000, 0.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9); 
+	DodajBrame(simeonel, 288.116424, -1602.978271, 123.445182, 0.000000, 0.000000, 90.000000, 288.116424, -1602.978271, 123.445182, 0.000000, 0.000000, 0.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9); 
 	//LAZIENKI
 
 	simeonel = CreateDynamicObject(1569, 301.198760, -1599.460327, 123.911895, 0.000000, 0.000000, 90.000000, 15, 0, -1, 250.00, 250.00); 
-	DodajBrame(simeonel, 301.198760, -1599.460327, 123.911895, 0.000000, 0.000000, 90.000000, 301.198760, -1599.460327, 123.911895, 0.000000, 0.000000, 0.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9);
+	DodajBrame(simeonel, 301.198760, -1599.460327, 123.911895, 0.000000, 0.000000, 90.000000, 301.198760, -1599.460327, 123.911895, 0.000000, 0.000000, 0.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9);
 
 	simeonel = CreateDynamicObject(1569, 301.198760, -1600.460327, 114.911888, 0.000000, 0.000000, 90.000000, 15, 0, -1, 250.00, 250.00); 
-	DodajBrame(simeonel, 301.198760, -1600.460327, 114.911888, 0.000000, 0.000000, 90.000000, 301.198760, -1600.460327, 114.911888, 0.000000, 0.000000, 0.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9); 
+	DodajBrame(simeonel, 301.198760, -1600.460327, 114.911888, 0.000000, 0.000000, 90.000000, 301.198760, -1600.460327, 114.911888, 0.000000, 0.000000, 0.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9); 
 
 	//VICTIM - STUDIA
 
 	simeonel = CreateDynamicObject(1569, 306.575531, -1592.445678, 115.921875, 0.000000, 0.000000, 90.000000, 16, 0, -1, 350.00, 350.00); 
-	DodajBrame(simeonel, 306.575531, -1592.445678, 115.921875, 0.000000, 0.000000, 90.000000, 306.575531, -1592.445678, 115.921875, 0.000000, 0.000000, 180.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9); 
+	DodajBrame(simeonel, 306.575531, -1592.445678, 115.921875, 0.000000, 0.000000, 90.000000, 306.575531, -1592.445678, 115.921875, 0.000000, 0.000000, 180.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9); 
 	
 	//AKADEMIA
 	simeonel = CreateDynamicObject(1569, 302.911163, -1610.102050, 114.541877, 0.000000, 0.000000, 90.000000, 17, 0, -1, 350.00, 350.00); 
-	DodajBrame(simeonel, 302.911163, -1610.102050, 114.541877, 0.000000, 0.000000, 90.000000, 302.911163, -1610.102050, 114.541877, 0.000000, 0.000000, 0.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9);
+	DodajBrame(simeonel, 302.911163, -1610.102050, 114.541877, 0.000000, 0.000000, 90.000000, 302.911163, -1610.102050, 114.541877, 0.000000, 0.000000, 0.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9);
 
 	simeonel = CreateDynamicObject(1569, 294.742919, -1601.998901, 114.531867, 0.000000, 0.000000, 0.000000, 17, 0, -1, 350.00, 350.00); 
-	DodajBrame(simeonel, 294.742919, -1601.998901, 114.531867, 0.000000, 0.000000, 0.000000, 294.742919, -1601.998901, 114.531867, 0.000000, 0.000000, 90.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9);
+	DodajBrame(simeonel, 294.742919, -1601.998901, 114.531867, 0.000000, 0.000000, 0.000000, 294.742919, -1601.998901, 114.531867, 0.000000, 0.000000, 90.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9);
 
 	simeonel = CreateDynamicObject(1569, 294.736938, -1616.766723, 114.531867, 0.000000, 0.000000, 0.000000, 17, 0, -1, 350.00, 350.00); 
-	DodajBrame(simeonel, 294.736938, -1616.766723, 114.531867, 0.000000, 0.000000, 0.000000, 294.736938, -1616.766723, 114.531867, 0.000000, 0.000000, 90.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9); 
+	DodajBrame(simeonel, 294.736938, -1616.766723, 114.531867, 0.000000, 0.000000, 0.000000, 294.736938, -1616.766723, 114.531867, 0.000000, 0.000000, 90.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9); 
 
 	simeonel = CreateDynamicObject(1569, 288.123107, -1610.099487, 114.501876, 0.000000, 0.000000, 90.000000, 17, 0, -1, 350.00, 350.00); 
-	DodajBrame(simeonel, 288.123107, -1610.099487, 114.501876, 0.000000, 0.000000, 90.000000, 288.123107, -1610.099487, 114.501876, 0.000000, 0.000000, 180.000000, 5, 11.5, BRAMA_UPR_TYPE_FRACTION, 9); 
+	DodajBrame(simeonel, 288.123107, -1610.099487, 114.501876, 0.000000, 0.000000, 90.000000, 288.123107, -1610.099487, 114.501876, 0.000000, 0.000000, 180.000000, 11.5, 2, BRAMA_UPR_TYPE_FRACTION, 9); 
 	return 1;
 }
 
