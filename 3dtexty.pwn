@@ -256,7 +256,7 @@ Zaladuj3DTexty()
 	//CreateDynamic3DTextLabel("Pizzeria", COLOR_BLUE, 2104.4970703125,-1806.3927001953,13.5546875, 15.0);
 	CreateDynamic3DTextLabel("Dom na Las Collinas", COLOR_BLUE, 2351.8894042969,-1169.4614257813,28.001684188843, 15.0);
 
-	CreateDynamic3DTextLabel("{FF00FF}V{FFFFFF}inyl {FF00FF}C{FFFFFF}lub", COLOR_BLUE, 816.0999,-1386.8,13.6, 10.0);//VIP VINYL club central
+//	CreateDynamic3DTextLabel("{FF00FF}V{FFFFFF}inyl {FF00FF}C{FFFFFF}lub", COLOR_BLUE, 816.0999,-1386.8,13.6, 10.0);//VIP VINYL club central
 	CreateDynamic3DTextLabel("{FF00FF}K{FFFFFF}rul {FF00FF}M{FFFFFF}echanikuw\n{008000}Bij Pok³ony", COLOR_BLUE, 2792.6999511719,-1536.4000244141,10.5, 10.0);//pomnik króla
 	//CreateDynamic3DTextLabel("{FF00FF}A{FFFFFF}lhambra {FF00FF}C{FFFFFF}lub {FF00FF}\n{008000}P³atne wewn¹trz", 0xFFFFFF, 1836.1028,-1682.2826,13.3620, 10.0);//nowa Alhambra
 	CreateDynamic3DTextLabel("{FFFFFF}Wejscie na Scene!",0xFFFFFF,481.0048,-1499.3975,41.3900,5,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
