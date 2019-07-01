@@ -4605,7 +4605,7 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(19939, 1306.049682, -1279.535888, 81.228843, 0.000000, 0.000000, 90.000000,15,0,-1,350.00,350.00);
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0xFFFFF2E6);
 	skgang = CreateDynamicObject(19937, 1310.000000, -1279.924072, 80.497848, 0.000000, 90.000000, 90.000000,15,0,-1,350.00,350.00);
-	SetDynamicObjectMaterial(skgang, 0, 12944, "ce_bankalley2", "sw_brick04", 0xFFFFF2E6);
+	SetDynamicObjectMaterial(skgang, 0, 12944, "ce_bankalley2", "sw_brick04", 0xFFFFFFFF);
 	skgang = CreateDynamicObject(1827, 1313.119140, -1261.729248, 81.341835, 0.000000, 0.000000, 0.000000,15,0,-1,350.00,350.00);
 	SetDynamicObjectMaterial(skgang, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	skgang = CreateDynamicObject(1811, 1314.317138, -1266.286376, 81.941856, 0.000000, 0.000000, 90.000000,15,0,-1,350.00,350.00);

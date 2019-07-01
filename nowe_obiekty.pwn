@@ -152,6 +152,7 @@
 #include "nowe\SanNews/interiorSN.pwn"
 #include "nowe\Sad/interiorSCOSA.pwn"
 #include "nowe\SanNews/interiorVINYL.pwn"
+#include "nowe\MelinaLasColinas/interior.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -208,7 +209,8 @@ obiekty_OnGameModeInit()
 	intSN_Init(); 
 	interiorSCOSA_Init();
 	interiorVINYL_Init(); 
-	
+	MelinaLasColinas_Init();
+
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
 	ramirezext_Init();//RAMIREZ CAR SERVICE EXTERIOR
@@ -290,6 +292,7 @@ obiekty_OnPlayerConnect(playerid)
 	FBIPARKING_Connect(playerid);
 	carniceria_Connect(playerid);//interior el pueblo
 //	wjedz_Connect(playerid); 
+	MelinaLasColinas_Connect(playerid);
 	
 	return 1;
 }
