@@ -153,6 +153,7 @@
 #include "nowe\Sad/interiorSCOSA.pwn"
 #include "nowe\SanNews/interiorVINYL.pwn"
 #include "nowe\MelinaLasColinas/interior.pwn"
+#include "nowe\SanNews/mma-event.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -250,6 +251,7 @@ obiekty_OnGameModeInit()
 	StudioIdle_Init();//studio nagran idlewood, interior
 	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
 	StudioIdleext_Init();//studio nagran idlewood, exterior
+	mmaevent_Init(); 
 	return 1;
 }
 
