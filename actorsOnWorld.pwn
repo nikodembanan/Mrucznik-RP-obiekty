@@ -12,7 +12,7 @@ PushActors()
 	CreateActorEx(129, "Basia_Kajzerka", 809.4175,-1420.2585,-22.6193,268.8190, 1, 25.0, 72, -1, -1); 
 
 	//Na event Los Santos-MMA
-	CreateActorEx(217, "Mariusz_Trump", 2766.1125,-1438.2677,67.7845,2.7868, 1, 25.0, 1, -1, -1); 
+	CreateActorEx(217, "Mariusz_Trump", 2766.1125,-1438.2677,67.7845,2.7868, 1, 25.0, 2, -1, -1); 
 	CreateActorEx(211, "Roksana_Wegiel", 433.2737,-1415.4435,51.0105,125.0213, 1, 25.0, 1, -1, -1); 
-	CreateActorEx(32, "Adam_Vector", 2776.5264,-1429.2460,67.7845,183.8717, 1, 25.0, 1, -1, -1); 
+	CreateActorEx(32, "Adam_Vector", 2776.5264,-1429.2460,67.7845,183.8717, 1, 25.0, 2, -1, -1); 
 }
