@@ -24,7 +24,7 @@
 #include "stare/sn.pwn"
 #include "stare/wps.pwn"
 #include "stare/vagos.pwn"
-#include "stare/vinyl.pwn"
+//#include "stare/vinyl.pwn"
 #include "stare/ykz.pwn"
 #include "stare/bank.pwn"
 
@@ -53,7 +53,7 @@ public obiekty_timer(wartosc)
 	Risto();
     SN_Load();
     Int_BarBallas();
-    VinylClub();
+  //  VinylClub();
   	JettyLounge();
     INT_AT400();
     INT_AirTowerLS();

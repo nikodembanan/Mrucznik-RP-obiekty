@@ -79,6 +79,7 @@ Zaladuj3DTexty()
     str2 = "BACZNOŒÆ \n{7CFC00}By nie zostaæ oszukanym:\n {8B0000}1. NIGDY NIE GRAJ gdy ktoœ chce graæ o wiêcej ni¿ ma w {FFFFFF}/sprawdzkase [ID]\n{9ACD32}Je¿eli mimo to zostaniesz oszukany NATYCHMIAST zg³oœ ten fakt na {FFFFFF}/report{9ACD32} - oszust otrzyma od razu blocka\nGdy taka osoba otrzyma blokadê ty masz 10min na napisanie na niego skargi\nW ten sposób mo¿esz odzyskaæ nawet 100%% wygranej!!";
 	CreateDynamic3DTextLabel(str2, COLOR_PANICRED ,1032.8098,-1091.7827,-66.5729, 20.0);
     CreateDynamic3DTextLabel("San Andreas Police Department\n{00FFCC}Zaœwiadczenia o niekaralnoœæi\nKoszt: {9ACD32}18 000${0080FF}", COLOR_BLUE ,252.3918,117.3390,1005.2188, 2.5);//36
+	CreateDynamic3DTextLabel("Lista Zas³u¿onych\n\n{FFA500}Beyonce Bennett\n{FFA500}Victoria Foxworth\n{FFA500}Mat Drep\n{FFA500}Richard Parker\n{FFA500}Lucas Scott", COLOR_RED, 298.12421, -1609.47058, 117.22952, 6.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 17, 0); 
 	CreateDynamic3DTextLabel("Lista Zas³u¿onych\n\n{FFA500}Mateusz Jaroslowski {C0C0C0}- od 2013 do 2017 GLD i zas³u¿ony\n{FFA500}Krzysztof Golder {C0C0C0}- od 2014 do 2016 VLD i zas³u¿ony\n{FFA500}Monika Lorens {C0C0C0}- od 2014 do 2016 VLD i zas³u¿ona\n{FFA500}Luis Cotta {C0C0C0}- od 2017 VLD i zas³u¿ony dla frakcji", COLOR_RED, 1460.06836, -1813.06421, 79.45823, 8.0);
 	CreateDynamic3DTextLabel("Plac Manewrowy", COLOR_RED, 1441.79016, -1811.51782, 79.55123, 5);//Plac manewrowy w dmv ls 
 	CreateDynamic3DTextLabel("Biuro USSS\n[MONITORING]", COLOR_RED, 1454.66711, -1788.37805, 79.52730, 5);
@@ -255,7 +256,7 @@ Zaladuj3DTexty()
 	//CreateDynamic3DTextLabel("Pizzeria", COLOR_BLUE, 2104.4970703125,-1806.3927001953,13.5546875, 15.0);
 	CreateDynamic3DTextLabel("Dom na Las Collinas", COLOR_BLUE, 2351.8894042969,-1169.4614257813,28.001684188843, 15.0);
 
-	CreateDynamic3DTextLabel("{FF00FF}V{FFFFFF}inyl {FF00FF}C{FFFFFF}lub", COLOR_BLUE, 816.0999,-1386.8,13.6, 10.0);//VIP VINYL club central
+//	CreateDynamic3DTextLabel("{FF00FF}V{FFFFFF}inyl {FF00FF}C{FFFFFF}lub", COLOR_BLUE, 816.0999,-1386.8,13.6, 10.0);//VIP VINYL club central
 	CreateDynamic3DTextLabel("{FF00FF}K{FFFFFF}rul {FF00FF}M{FFFFFF}echanikuw\n{008000}Bij Pok³ony", COLOR_BLUE, 2792.6999511719,-1536.4000244141,10.5, 10.0);//pomnik króla
 	//CreateDynamic3DTextLabel("{FF00FF}A{FFFFFF}lhambra {FF00FF}C{FFFFFF}lub {FF00FF}\n{008000}P³atne wewn¹trz", 0xFFFFFF, 1836.1028,-1682.2826,13.3620, 10.0);//nowa Alhambra
 	CreateDynamic3DTextLabel("{FFFFFF}Wejscie na Scene!",0xFFFFFF,481.0048,-1499.3975,41.3900,5,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);

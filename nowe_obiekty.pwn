@@ -146,7 +146,14 @@
 #include "nowe\StudioNagran/interior.pwn"
 #include "nowe\StudioNagran/exterior.pwn"
 
-
+//*****************************************************
+//Aktualizacja 2.6.03 - By Simeone 
+//*****************************************************
+#include "nowe\SanNews/interiorSN.pwn"
+#include "nowe\Sad/interiorSCOSA.pwn"
+#include "nowe\SanNews/interiorVINYL.pwn"
+//#include "nowe\MelinaLasColinas/interior.pwn"
+#include "nowe\SanNews/mma-event.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -200,7 +207,11 @@ obiekty_OnGameModeInit()
 	LSMC_Init();
 	hitmans_Init();
 	ChangeLSMCElevatorState();
-	
+	intSN_Init(); 
+	interiorSCOSA_Init();
+	interiorVINYL_Init(); 
+	//MelinaLasColinas_Init();
+
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
 	ramirezext_Init();//RAMIREZ CAR SERVICE EXTERIOR
@@ -220,7 +231,7 @@ obiekty_OnGameModeInit()
 	extsasd_Init();//Exterior SASD w PC
 	coffeeshop_Init();//Coffee Shop Los Santos
 	chinskiejedzenie_Init();//Chinese food
-	interiorpolicedepartment_Init();//Interior Los Santos Police Department
+	interiorpolicedepartment_Init();//PD LS
 	magazynsol_Init();//Magazyn Solarin 
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
@@ -240,6 +251,7 @@ obiekty_OnGameModeInit()
 	StudioIdle_Init();//studio nagran idlewood, interior
 	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
 	StudioIdleext_Init();//studio nagran idlewood, exterior
+	mmaevent_Init(); 
 	return 1;
 }
 
@@ -282,6 +294,7 @@ obiekty_OnPlayerConnect(playerid)
 	FBIPARKING_Connect(playerid);
 	carniceria_Connect(playerid);//interior el pueblo
 //	wjedz_Connect(playerid); 
+	//MelinaLasColinas_Connect(playerid);
 	
 	return 1;
 }

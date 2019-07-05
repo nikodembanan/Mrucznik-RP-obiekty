@@ -23,7 +23,6 @@ $RECYCLE.BIN/
 *.dll
 *.so
 *.pdb
-*.db
 *.db-journal
 
 #AMX file format
