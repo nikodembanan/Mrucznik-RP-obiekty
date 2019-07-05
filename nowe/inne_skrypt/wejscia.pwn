@@ -26,7 +26,7 @@ static StworzBudynki()
 	DodajWejscie(1462.395751,-1012.391174,26.843799, 1462.2887,-1008.2450,27.1099, 0, 0, 2, 0, "", "Wyjœcie", 4, PLOCAL_INNE_BANK); 
 	DodajWejscie(2302.7798,-15.9637,26.4844, 2305.688964,-16.088100,26.749599, 0, 0, 2, 0, "", "Wyjœcie", 5, PLOCAL_INNE_BANK); 
 	//to jest coœ zesrane
-	DodajWejscie(816.0470, -1386.3253, 13.6114, 808.3142, -1381.9436, 23.6518, 0, 0, 255, 0, "", "Wyjœcie z klubu", 10, PLOCAL_ORG_SN);//Vinyl Club, wejœcie g³ówne
+	//DodajWejscie(816.0470, -1386.3253, 13.6114, 808.3142, -1381.9436, 23.6518, 0, 0, 255, 0, "", "Wyjœcie z klubu", 10, PLOCAL_ORG_SN);
 	//DodajWejscie(815.4965, -1377.1671, 23.6518, 816.4282, -1376.2659, 23.6518, 255, 0, 255, 0, "", "", 7);//Vinyl Club, przejœcie do klubu 
 	DodajWejscie(830.4240, -1376.2208, 27.8467, 830.5424, -1375.1467, 27.8467, 255, 0, 255,0, "Strefa VIP", "", 8);
 	DodajWejscie(813.2293, -1349.5438, 23.6597, 823.3508, -1349.5614, 24.7971, 255, 0, 255, 0, "Przejœcie dla DJ", "Powrót na salê", 9); 
