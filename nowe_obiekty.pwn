@@ -154,6 +154,10 @@
 #include "nowe\SanNews/interiorVINYL.pwn"
 //#include "nowe\MelinaLasColinas/interior.pwn"
 #include "nowe\SanNews/mma-event.pwn"
+
+//*****************************************************
+//Aktualizacja 2.6.1 - By Simeone & skPembleton
+//*****************************************************
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
