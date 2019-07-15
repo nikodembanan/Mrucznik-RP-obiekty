@@ -34,7 +34,7 @@ Aby poprawnie wgraæ obiekty na nasz serwer postêpuj zgodnie z poni¿szymi krokami
 * UWAGA! Przy edycji jednego pliku, b¹dŸ dodaniu jednego interioru/exterioru od razu wrzucaj to na git'a stosuj¹c "git commit", jako opis ustawiaj to, co zmieni³eœ. Pozwoli nam to zaoszczêdziæ czasu przy Review. 
 * UWAGA! Narzêdzie edycji na stronie github.com zmienia domyœlnie kodowanie na UTF-8! Nie korzystaj z tego! 
 
-## Nie umiem przygotowaÄ‡ obiektÃ³w do wgrania, co teraz?
+## Nie umiem przygotowaæ obiektów do wgrania, co teraz?
 Je¿eli masz problem z przygotowaniem swoich obiektów do wgrania zg³oœ siê do obecnego kierownika mapy - w celu wyjaœnieñ. 
 
 ## Dodatkowe pliki w folderze
@@ -46,8 +46,8 @@ Je¿eli chcesz umieœciæ w swoim interiorze / exteriorze bramê, nale¿y wykorzystaæ
 Schemat funkcji DodajBrame, wygl¹da nastêpuj¹co: 
 DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0, bool:flag=false); 
 
-fobiekt - to obiekt, który chcemy ustawiæ jako bramê. 
-fx1 - pozycja naszej bramy zamkniêta X
+> fobiekt - to obiekt, który chcemy ustawiæ jako bramê. 
+> fx1 - pozycja naszej bramy zamkniêta X
 fy1 - pozycja naszej bramy zamkniêta Y
 fz1 - pozycja naszej bramy zamkniêta Z
 frx1 - pozycja naszej bramy zamkniêta RX
