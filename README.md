@@ -46,24 +46,24 @@ Je¿eli chcesz umieœciæ w swoim interiorze / exteriorze bramê, nale¿y wykorzystaæ
 Schemat funkcji DodajBrame, wygl¹da nastêpuj¹co: 
 DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0, bool:flag=false); 
 
-> fobiekt - to obiekt, który chcemy ustawiæ jako bramê. 
-> fx1 - pozycja naszej bramy zamkniêta X
-fy1 - pozycja naszej bramy zamkniêta Y
-fz1 - pozycja naszej bramy zamkniêta Z
-frx1 - pozycja naszej bramy zamkniêta RX
-fry1 - pozycja naszej bramy zamkniêta RY
-frz1 - pozycja naszej bramy zamkniêta RZ
-fx1 - pozycja naszej bramy otwarta X
-fy1 - pozycja naszej bramy otwarta Y
-fz1 - pozycja naszej bramy otwarta Z
-frx1 - pozycja naszej bramy otwarta RX
-fry1 - pozycja naszej bramy otwarta RY
-frz1 - pozycja naszej bramy otwarta RZ
-fspeed - szybkoœæ otwierania bramy 
-frange - odleg³oœæ w jakiej zadzia³a komenda /brama
-fuprtyp - TYP (BRAMA_UPR_TYPE_FRACTION, BRAMA_UPR_TYPE_FAMILY, BRAMA_UPR_TYPE_NONE, BRAMA_UPR_TYPE_BUSINESS)
-fuprval - wartoœæ typu, je¿eli chcemy dopisaæ bramê dla frakcji nr 1 - ustawiamy to jako "1"
-flag - pozycja otwarta/zamkniêta (domyœlnie tego nie dopisywaæ)
+- fobiekt - to obiekt, który chcemy ustawiæ jako bramê. 
+- fx1 - pozycja naszej bramy zamkniêta X
+- fy1 - pozycja naszej bramy zamkniêta Y
+- fz1 - pozycja naszej bramy zamkniêta Z
+- frx1 - pozycja naszej bramy zamkniêta RX
+- fry1 - pozycja naszej bramy zamkniêta RY
+- frz1 - pozycja naszej bramy zamkniêta RZ
+- fx1 - pozycja naszej bramy otwarta X
+- fy1 - pozycja naszej bramy otwarta Y
+- fz1 - pozycja naszej bramy otwarta Z
+- frx1 - pozycja naszej bramy otwarta RX
+- fry1 - pozycja naszej bramy otwarta RY
+- frz1 - pozycja naszej bramy otwarta RZ
+- fspeed - szybkoœæ otwierania bramy 
+- frange - odleg³oœæ w jakiej zadzia³a komenda /brama
+- fuprtyp - TYP (BRAMA_UPR_TYPE_FRACTION, BRAMA_UPR_TYPE_FAMILY, BRAMA_UPR_TYPE_NONE, BRAMA_UPR_TYPE_BUSINESS)
+- fuprval - wartoœæ typu, je¿eli chcemy dopisaæ bramê dla frakcji nr 1 - ustawiamy to jako "1"
+- flag - pozycja otwarta/zamkniêta (domyœlnie tego nie dopisywaæ)
 
 * WA¯NE! Nie ustawiaj VirtualWorldu obiektu bramy jako -1, to samo z interiorem. Stosuj wartoœci sta³e (0+)
 * WA¯NE! VirtualWorld, który s³u¿y do sprawdzenia czy gracz jest OBOK tej bramy jest wyci¹gany z fobiekt
@@ -71,38 +71,39 @@ flag - pozycja otwarta/zamkniêta (domyœlnie tego nie dopisywaæ)
 
 Je¿eli chcesz stwworzyæ bramê podwójn¹, u¿yj funkcji DualGateAdd. 
 
-DualGateAdd(object1,//Obiekt pierwszej bramy
-	Float:fx1,//Pozycja pierwszej bramy X
-	Float:fy1,//Pozycja pierwszej bramy Y 
-	Float:fz1, //Pozycja pierwszej bramy Z
-	Float:frx1, //Pozycja pierwszej bramy rX
-	Float:fry1, //Pozycja pierwszej bramy rY
-	Float:frz1, //Pozycja pierwszej bramy rZ
-	Float:fx2, //Pozycja pierwszej bramy po przesuniêciu X
-	Float:fy2, //Pozycja pierwszej bramy po przesuniêciu Y
-	Float:fz2, //Pozycja pierwszej bramy po przesuniêciu Z
-	Float:frx2, //Pozycja pierwszej bramy po przesuniêciu RX
-	Float:fry2, //Pozycja pierwszej bramy po przesuniêciu rY
-	Float:frz2, //Pozycja pierwszej bramy po przesuniêciu rZ 
-	object2, //Obiekt pierwszej bramy
-	Float:f2x1, //Pozycja drugiej bramy X
-	Float:f2y1, //Pozycja drugiej bramy Y
-	Float:f2z1, //Pozycja drugiej bramy Z
-	Float:f2rx1, //Pozycja drugiej bramy rX
-	Float:f2ry1, //Pozycja drugiej bramy rY
-	Float:f2rz1, //Pozycja drugiej bramy rZ
-	Float:f2x2, //Pozycja drugiej bramy po przesuniêciu  X
-	Float:f2y2, //Pozycja drugiej bramy po przesuniêciu  Y
-	Float:f2z2, //Pozycja drugiej bramy po przesuniêciu  Z
-	Float:f2rx2, //Pozycja drugiej bramy po przesuniêciu  rX
-	Float:f2ry2, //Pozycja drugiej bramy po przesuniêciu  rY
-	Float:f2rz2, //Pozycja drugiej bramy po przesuniêciu  rZ
-	Float:fspeed, // brama speed
-	Float:frange, // brama range
-	fuprtyp1=0, //Uprawnienia do bram
-	fuprval1=0, //Value (wartoœæ) uprawnieñ
-	accessCard = 0, //Karta dostêpu
-	bool:flg=false);
+DualGateAdd(
+- object1,//Obiekt pierwszej bramy
+- Float:fx1,//Pozycja pierwszej bramy X
+- Float:fy1,//Pozycja pierwszej bramy Y 
+- Float:fz1, //Pozycja pierwszej bramy Z
+- Float:frx1, //Pozycja pierwszej bramy rX
+- Float:fry1, //Pozycja pierwszej bramy rY
+- Float:frz1, //Pozycja pierwszej bramy rZ
+- Float:fx2, //Pozycja pierwszej bramy po przesuniêciu X
+- Float:fy2, //Pozycja pierwszej bramy po przesuniêciu Y
+- Float:fz2, //Pozycja pierwszej bramy po przesuniêciu Z
+- Float:frx2, //Pozycja pierwszej bramy po przesuniêciu RX
+- Float:fry2, //Pozycja pierwszej bramy po przesuniêciu rY
+- Float:frz2, //Pozycja pierwszej bramy po przesuniêciu rZ 
+- object2, //Obiekt pierwszej bramy
+- Float:f2x1, //Pozycja drugiej bramy X
+- Float:f2y1, //Pozycja drugiej bramy Y
+- Float:f2z1, //Pozycja drugiej bramy Z
+- Float:f2rx1, //Pozycja drugiej bramy rX
+- Float:f2ry1, //Pozycja drugiej bramy rY
+- Float:f2rz1, //Pozycja drugiej bramy rZ
+- Float:f2x2, //Pozycja drugiej bramy po przesuniêciu  X
+- Float:f2y2, //Pozycja drugiej bramy po przesuniêciu  Y
+- Float:f2z2, //Pozycja drugiej bramy po przesuniêciu  Z
+- Float:f2rx2, //Pozycja drugiej bramy po przesuniêciu  rX
+- Float:f2ry2, //Pozycja drugiej bramy po przesuniêciu  rY
+- Float:f2rz2, //Pozycja drugiej bramy po przesuniêciu  rZ
+- Float:fspeed, // brama speed
+- Float:frange, // brama range
+- fuprtyp1=0, //Uprawnienia do bram
+- fuprval1=0, //Value (wartoœæ) uprawnieñ
+- accessCard = 0, //Karta dostêpu
+- bool:flg=false);
 
 * WA¯NE! Nie ustawiaj VirtualWorldu obiektu bramy jako -1, to samo z interiorem. Stosuj wartoœci sta³e (0+)
 * WA¯NE! VirtualWorld, który s³u¿y do sprawdzenia czy gracz jest OBOK tej bramy jest wyci¹gany z fobiekt
