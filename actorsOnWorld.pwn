@@ -1,5 +1,19 @@
-//CreateActorEx(actorIDs, const aName[], Float:aX, Float:aY, Float:aZ, Float:aR, aInvulnerable, aStreamDistance, aVW, aINT, aPlayer)
+/*
+Aby stworzyæ na serwerze Actora wykorzystaj poni¿sz¹ funkcjê, a nastêpnie wklep j¹ w PushActors. 
 
+CreateActorEx(actorIDs, const aName[], Float:aX, Float:aY, Float:aZ, Float:aR, aInvulnerable, aStreamDistance, aVW, aINT, aPlayer)
+
+Objaœnienia argumentów:
+actorIDs - ID skina actora,
+aName - nick (MAXPLAYERNAME)
+aX, aY, aZ - pozycje gdzie Actor ma domyœlnie staæ x,y,z
+aR - pozycja obrócenia actora
+aInvulnerable - nieœmiertelnoœæ
+aStreamDistance - odleg³oœæ w jakiej Actor bêdzie "narysowany"/"widoczny" 
+aVw - Virtual World actora
+aINT - Interior actora
+aPlayer - dla jakiego gracza ma zostaæ stworzony, ustaw -1 jeœli dla wszystkich, b¹dŸ poszczególne wartoœci na ID. 
+*/ 
 //Load:
 PushActors()
 {
