@@ -27,6 +27,7 @@ MelinaLasColinas_Init()
 	return 1;
 }
 
+MelinaLasColinas_Connect(playerid)
 {
 	UsunObiekty(playerid);
 	return 1;
