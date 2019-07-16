@@ -152,12 +152,14 @@
 #include "nowe\SanNews/interiorSN.pwn"
 #include "nowe\Sad/interiorSCOSA.pwn"
 #include "nowe\SanNews/interiorVINYL.pwn"
-//#include "nowe\MelinaLasColinas/interior.pwn"
 #include "nowe\SanNews/mma-event.pwn"
 
 //*****************************************************
 //Aktualizacja 2.6.1 - By Simeone & skPembleton
 //*****************************************************
+#include "nowe\MelinaLasColinas/interior.pwn"
+#include "nowe\TheRealIra/interiorira.pwn"
+#include "nowe\MonsterGarage/monsterint.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
