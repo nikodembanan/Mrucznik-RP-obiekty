@@ -806,6 +806,6 @@ return 1;
 static StworzBudynki()
 {
 	DodajWejscie(1145.0645,-1131.4569,23.8281,1139.1377,-1125.5361,45.6488,0,0,11,0,"The Real Ira","Wyjœcie");//wejdz do budynku
-	DodajWejscie(1138.5581,-1108.5294,45.6650,1145.4115,-1110.1014,94.0919,0,0,11,0,"Biuro","Wyjœcie na salê");//wejdz do biura
+	DodajWejscie(1138.5581,-1108.5294,45.6650,1145.4115,-1110.1014,94.0919,11,0,11,0,"Biuro","Wyjœcie na salê");//wejdz do biura
 	return 1;
 }
