@@ -543,13 +543,15 @@ static StworzObiekty()
 
 static StworzBudynki()
 {
-	DodajWejscie(2351.8245,-1169.4460,29.7219,2346.5525,-1172.3639,28.2258,0,0,20,0,"Melina Las Colinas","Wyjœcie");
+	DodajWejscie(2351.9143,-1169.6990,28.0277,2346.5525,-1172.3639,28.2258,0,0,20,0,"Melina Las Colinas","Wyjœcie");
 	return 1;
 }
 
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 17928, 2337.159, -1179.800, 31.984, 0.250);
+	RemoveBuildingForPlayer(playerid, 17593, 2337.159, -1179.800, 31.984, 0.250);
 	RemoveBuildingForPlayer(playerid, 17552, 2337.159, -1179.800, 31.984, 0.250);
+	RemoveBuildingForPlayer(playerid, 17593, 2337.159, -1179.800, 31.984, 0.250);
 	return 1;
 }
