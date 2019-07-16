@@ -214,7 +214,7 @@ obiekty_OnGameModeInit()
 	intSN_Init(); 
 	interiorSCOSA_Init();
 	interiorVINYL_Init(); 
-	//MelinaLasColinas_Init();
+	MelinaLasColinas_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
@@ -256,6 +256,7 @@ obiekty_OnGameModeInit()
 	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
 	StudioIdleext_Init();//studio nagran idlewood, exterior
 	mmaevent_Init(); 
+	realIra_Init();
 	return 1;
 }
 
@@ -298,7 +299,7 @@ obiekty_OnPlayerConnect(playerid)
 	FBIPARKING_Connect(playerid);
 	carniceria_Connect(playerid);//interior el pueblo
 //	wjedz_Connect(playerid); 
-	//MelinaLasColinas_Connect(playerid);
+	MelinaLasColinas_Connect(playerid);
 	
 	return 1;
 }
