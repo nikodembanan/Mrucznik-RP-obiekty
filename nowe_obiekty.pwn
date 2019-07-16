@@ -257,6 +257,7 @@ obiekty_OnGameModeInit()
 	StudioIdleext_Init();//studio nagran idlewood, exterior
 	mmaevent_Init(); 
 	realIra_Init();
+	monster_Init();
 	return 1;
 }
 
