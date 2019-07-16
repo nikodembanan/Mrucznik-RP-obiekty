@@ -38,7 +38,7 @@ realIra_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	skgang = CreateDynamicObject(19327, 1141.441894, -1107.242675, 47.297634, 0.000000, 38.999988, 0.000000, 11, 0, -1, 380.00, 380.00); 
+skgang = CreateDynamicObject(19327, 1141.441894, -1107.242675, 47.297634, 0.000000, 38.999988, 0.000000, 11, 0, -1, 380.00, 380.00); 
 SetDynamicObjectMaterialText(skgang, 0, "{000000}Bourbon", 120, "Ariel", 20, 1, 0x00000000, 0x00000000, 1);
 skgang = CreateDynamicObject(19353, 1139.310791, -1127.235595, 46.367111, 0.000022, 0.000000, 89.999931, 11, 0, -1, 380.00, 380.00); 
 SetDynamicObjectMaterial(skgang, 0, 12850, "cunte_block1", "ws_redbrickold", 0x00000000);
@@ -77,7 +77,7 @@ SetDynamicObjectMaterial(skgang, 0, 14387, "dr_gsnew", "mp_gs_wall", 0x00000000)
 skgang = CreateDynamicObject(19074, 1141.581420, -1118.221801, 51.327148, 0.000000, 360.000000, 0.000000, 11, 0, -1, 380.00, 380.00); 
 SetDynamicObjectMaterial(skgang, 0, 16644, "a51_detailstuff", "steel256128", 0x00000000);
 SetDynamicObjectMaterial(skgang, 1, 16644, "a51_detailstuff", "steel256128", 0x00000000);
-skgang = CreateDynamicObject(19426, 1147.278930, -1126.670532, 46.367111, -0.000007, 0.000022, -0.000007, 11, 0, -1, 380.00, 380.00); 
+skgang = CreateDynamicObject(19426, 1147.278930, -1126.670532, 46.367111, -0.000007, 0.000022, -0.000007, 11, 0, -1, 380.00, 380.00);
 SetDynamicObjectMaterial(skgang, 0, 12850, "cunte_block1", "ws_redbrickold", 0x00000000);
 skgang = CreateDynamicObject(19353, 1147.278930, -1124.260620, 43.527107, -0.000007, 0.000022, -0.000007, 11, 0, -1, 380.00, 380.00); 
 SetDynamicObjectMaterial(skgang, 0, 12850, "cunte_block1", "ws_redbrickold", 0x00000000);
@@ -800,12 +800,12 @@ skgang = CreateDynamicObject(1731, 1140.819335, -1105.112304, 95.501930, 0.00000
 skgang = CreateDynamicObject(1731, 1147.231201, -1105.112304, 95.501930, 0.000000, 0.000000, 360.000000, 11, 0, -1, 380.00, 380.00); 
 skgang = CreateDynamicObject(1731, 1147.231201, -1110.152465, 95.501930, 0.000000, 0.000000, 360.000000, 11, 0, -1, 380.00, 380.00); 
 
-    return 1;
+return 1;
 }
 
 static StworzBudynki()
 {
-	DodajWejscie(1145.0645,-1131.4569,23.8281,1139.1377,-1125.5361,45.6488,0,0,11,0;"The Real Ira","Wyjœcie");//wejdz do budynku
-	DodajWejscie(1138.5581,-1108.5294,45.6650,1145.4115,-1110.1014,94.0919,0,0,11,0;"Biuro","Wyjœcie na salê");//wejdz do biura
+	DodajWejscie(1145.0645,-1131.4569,23.8281,1139.1377,-1125.5361,45.6488,0,0,11,0,"The Real Ira","Wyjœcie");//wejdz do budynku
+	DodajWejscie(1138.5581,-1108.5294,45.6650,1145.4115,-1110.1014,94.0919,0,0,11,0,"Biuro","Wyjœcie na salê");//wejdz do biura
 	return 1;
 }

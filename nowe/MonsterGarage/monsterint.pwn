@@ -38,7 +38,7 @@ monster_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	skgang = CreateDynamicObject(19445, 1928.387207, -1865.203247, 17.780532, 0.000014, 0.000000, 89.999954, 12, 0, -1, 380.00, 380.00); 
+skgang = CreateDynamicObject(19445, 1928.387207, -1865.203247, 17.780532, 0.000014, 0.000000, 89.999954, 12, 0, -1, 380.00, 380.00); 
 SetDynamicObjectMaterial(skgang, 0, 9515, "bigboxtemp1", "lombard_build2_2", 0x00000000);
 skgang = CreateDynamicObject(13028, 1921.293945, -1865.192260, 14.460074, 0.000000, 0.000000, 90.000000, 12, 0, -1, 380.00, 380.00); 
 SetDynamicObjectMaterial(skgang, 0, 18065, "ab_sfammumain", "shelf_glas", 0xFF0099FF);
@@ -390,11 +390,11 @@ skgang = CreateDynamicObject(1886, 1917.277343, -1867.107788, 17.753074, 19.5999
 skgang = CreateDynamicObject(1886, 1945.021972, -1878.625122, 17.811510, 22.900001, 0.000000, -128.800048, 12, 0, -1, 380.00, 380.00); 
 skgang = CreateDynamicObject(19955, 1921.749633, -1874.314819, 12.034212, 0.000000, 0.000000, 180.000000, 12, 0, -1, 380.00, 380.00); 
 
-    return 1;
+return 1;
 }
 
 static StworzBudynki()
 {
-	DodajWejscie(1921.3878,-1863.4750,13.5604,1921.3020,-1866.9325,13.5742,0,0,12,0;"Monster Garage","Wyjœcie");//wejdz do budynku
+	DodajWejscie(1921.3878,-1863.4750,13.5604,1921.3020,-1866.9325,13.5742,0,0,12,0,"Monster Garage","Wyjœcie");//wejdz do budynku
 	return 1;
 }
