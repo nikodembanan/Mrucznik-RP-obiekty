@@ -303,6 +303,7 @@ obiekty_OnPlayerConnect(playerid)
 	carniceria_Connect(playerid);//interior el pueblo
 //	wjedz_Connect(playerid); 
 	MelinaLasColinas_Connect(playerid);
+	monster_Connect(playerid);
 	
 	return 1;
 }

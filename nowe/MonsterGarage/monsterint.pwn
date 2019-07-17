@@ -1,7 +1,7 @@
-//exampleObjects.pwn
+//monster.pwn
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Modu³: exampleObjects.pwn ]--------------------------------------------//
+//-----------------------------------------[ Modu³: monster.pwn ]--------------------------------------------//
 //Autor: Charlie112
 //Data utworzenia: 16.07.2019
 //Za³¹czono plik .DB: TAK
@@ -33,6 +33,11 @@ monster_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 	StworzObiekty();//To wykorzystujemy, je¿eli chcemy stworzyæ jakieœ obiekty
 
 	StworzBudynki();//To wykorzystujemy je¿eli chcemy stworzyæ jakieœ wejœcia 
+	return 1;
+}
+monster_Connect(playerid) //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnPlayerConnect(playerid)
+{
+	UsunObiekty(playerid);//To wykorzystujemy, je¿eli chcemy usun¹æ jakieœ obiekty z mapy
 	return 1;
 }
 //-----------------<[ Funkcje: ]>-------------------
@@ -389,6 +394,8 @@ skgang = CreateDynamicObject(2886, 1923.969116, -1866.081054, 13.954216, 0.00000
 skgang = CreateDynamicObject(1886, 1917.277343, -1867.107788, 17.753074, 19.599994, 0.000000, 48.299999, 12, 0, -1, 380.00, 380.00); 
 skgang = CreateDynamicObject(1886, 1945.021972, -1878.625122, 17.811510, 22.900001, 0.000000, -128.800048, 12, 0, -1, 380.00, 380.00); 
 skgang = CreateDynamicObject(19955, 1921.749633, -1874.314819, 12.034212, 0.000000, 0.000000, 180.000000, 12, 0, -1, 380.00, 380.00); 
+skgang = CreateDynamicObject(4848, 1931.000000, -1871.390014, 15.843795, 0.000000, 0.000000, -179.999984, 0, 0, -1, 500.00, 500.00); 
+
 
 return 1;
 }
@@ -396,5 +403,11 @@ return 1;
 static StworzBudynki()
 {
 	DodajWejscie(1921.3878,-1863.4750,13.5604,1921.3020,-1866.9325,13.5742,0,0,12,0,"Monster Garage","Wyjœcie");//wejdz do budynku
+	return 1;
+}
+static UsunObiekty()
+{
+	RemoveBuildingForPlayer(playerid, 4848, 1931.000, -1871.390, 15.843, 0.250);
+	RemoveBuildingForPlayer(playerid, 4976, 1931.000, -1871.390, 15.843, 0.250);
 	return 1;
 }
