@@ -921,8 +921,7 @@ static StworzBramy()
     5, 
     11.5, 
     BRAMA_UPR_TYPE_FRACTION, 
-    7, 
-    0); 
+    7); 
 	return 1;
 }
 
