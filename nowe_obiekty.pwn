@@ -160,6 +160,8 @@
 #include "nowe\MelinaLasColinas/interior.pwn"
 #include "nowe\TheRealIra/interiorira.pwn"
 #include "nowe\MonsterGarage/monsterint.pwn"
+#include "nowe\stanowe\stanoweint.pwn"
+#include "nowe\stanowe\stanoweext.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -260,6 +262,8 @@ obiekty_OnGameModeInit()
 	mmaevent_Init(); 
 	realIra_Init();
 	monster_Init();
+	stanoweEXT_Init();
+	stanoweINT_Init(); 
 	return 1;
 }
 
@@ -304,6 +308,7 @@ obiekty_OnPlayerConnect(playerid)
 //	wjedz_Connect(playerid); 
 	MelinaLasColinas_Connect(playerid);
 	monster_Connect(playerid);
+	stanoweINT_Connect(playerid);  
 	
 	return 1;
 }
