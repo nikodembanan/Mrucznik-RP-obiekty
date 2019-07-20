@@ -312,6 +312,7 @@ obiekty_OnPlayerConnect(playerid)
 	MelinaLasColinas_Connect(playerid);
 	monster_Connect(playerid);
 	stanoweINT_Connect(playerid);  
+	usss_Connect(playerid);
 	
 	return 1;
 }
