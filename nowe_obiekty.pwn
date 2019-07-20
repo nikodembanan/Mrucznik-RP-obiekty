@@ -162,6 +162,8 @@
 #include "nowe\MonsterGarage/monsterint.pwn"
 #include "nowe\stanowe\stanoweint.pwn"
 #include "nowe\stanowe\stanoweext.pwn"
+#include "nowe\USSS/usssext.pwn"
+#include "nowe\USSS/usssint.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -264,6 +266,7 @@ obiekty_OnGameModeInit()
 	monster_Init();
 	stanoweEXT_Init();
 	stanoweINT_Init(); 
+	usss_Init();
 	return 1;
 }
 
