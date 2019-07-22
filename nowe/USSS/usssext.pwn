@@ -31,7 +31,7 @@
 usss_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
-    StworzBramy();
+    //StworzBramy();
 	StworzBudynki();
     
 	return 1;
@@ -143,7 +143,7 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(3934, 1509.625732, -1457.026367, 62.869342, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(3934, 1522.774536, -1457.026367, 62.869342, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(3934, 1537.885864, -1457.026367, 62.869342, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
-
+/*
 static StworzBramy()
 {
     skgang = CreateDynamicObject(19911, 1534.666748, -1451.257812, 15.522806, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
@@ -151,7 +151,7 @@ static StworzBramy()
     //Brama do gara¿u
 	return 1;
 }
-
+*/
 return 1;
 }
 
