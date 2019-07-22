@@ -28,7 +28,7 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-usss_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+usssext_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();
     //StworzBramy();

@@ -267,6 +267,7 @@ obiekty_OnGameModeInit()
 	stanoweEXT_Init();
 	stanoweINT_Init(); 
 	usss_Init();
+	usssext_Init();
 	return 1;
 }
 
