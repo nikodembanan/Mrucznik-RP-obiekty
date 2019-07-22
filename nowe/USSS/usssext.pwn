@@ -152,7 +152,7 @@ static StworzBramy()
 	return 1;
 }
 */
-return 1;
+	return 1;
 }
 
 static StworzBudynki()
