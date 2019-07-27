@@ -31,6 +31,7 @@
 usss_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();//To wykorzystujemy, je¿eli chcemy stworzyæ jakieœ obiekty
+    StworzBramy();
 	return 1;
 }
 
@@ -3363,10 +3364,10 @@ static StworzBramy()
 
 static UsunObiekty(playerid)
 {
-    RemoveBuildingForPlayer(playerid, 3999, 1785.979, -1564.859, 25.250, 0.250);
+    //RemoveBuildingForPlayer(playerid, 3999, 1785.979, -1564.859, 25.250, 0.250);
     RemoveBuildingForPlayer(playerid, 4058, 1529.500, -1470.530, 32.453, 0.250);
     RemoveBuildingForPlayer(playerid, 4062, 1529.500, -1470.530, 32.453, 0.250);
-    RemoveBuildingForPlayer(playerid, 4180, 1502.609, -1467.130, 24.015, 0.250);
+   // RemoveBuildingForPlayer(playerid, 4180, 1502.609, -1467.130, 24.015, 0.250);
     //Tutaj wstawiamy usuwanie obiektów z mapy GTA w formacie:
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
 
