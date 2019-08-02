@@ -4111,13 +4111,43 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(drzwilsmc12, 0, 3857, "ottos_glass", "carshowroom1", 0x00000000);
 	SetDynamicObjectMaterial(drzwilsmc12, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
 	SetDynamicObjectMaterial(drzwilsmc12, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(drzwilsmc12, 1169.610229, -1331.893066, 191.711532, -0.000007, 0.000000, 1170.000000,1169.610229, -1331.893066, 191.711532, -0.000007, 0.000000, 1080.000000,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);
+	//DodajBrame(drzwilsmc12, 1169.610229, -1331.893066, 191.711532, -0.000007, 0.000000, 1170.000000,1169.610229, -1331.893066, 191.711532, -0.000007, 0.000000, 1080.000000,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);
 
 	new drzwilsmc13 = CreateDynamicObject(3089, 1169.610229, -1329.280517, 191.711532, 0.000007, 0.000000, -90.000000, 90, 0, -1, 200.00, 200.00);//door2
 	SetDynamicObjectMaterial(drzwilsmc13, 0, 3857, "ottos_glass", "carshowroom1", 0x00000000);
 	SetDynamicObjectMaterial(drzwilsmc13, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
 	SetDynamicObjectMaterial(drzwilsmc13, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DodajBrame(drzwilsmc13,1169.610229, -1329.280517, 191.711532, 0.000007, 0.000000, -90.000000,1169.610229, -1329.280517, 191.711532, 0.000007, 0.000000, -360.000000,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);
+	//DodajBrame(drzwilsmc13,1169.610229, -1329.280517, 191.711532, 0.000007, 0.000000, -90.000000,1169.610229, -1329.280517, 191.711532, 0.000007, 0.000000, -360.000000,2, 2, BRAMA_UPR_TYPE_FRACTION, 4);
+	DualGateAdd(drzwilsmc12,
+    169.610229,
+	-1331.893066,
+	191.711532,
+	-0.000007,
+	0.000000,
+	1170.000000,1169.610229,
+	-1331.893066,
+	191.711532,
+	-0.000007,
+	0.000000,
+	1080.000000
+    drzwilsmc13, 
+    1169.610229,
+	-1329.280517,
+	191.711532,
+	0.000007,
+	0.000000,
+	-90.000000,
+	1169.610229,
+	-1329.280517,
+	191.711532,
+	0.000007,
+	0.000000,
+	-360.000000
+    2, 
+    2, 
+    BRAMA_UPR_TYPE_FRACTION, 
+    4); 
+	
 //Pkostnica
 
 	tmpobjid = CreateDynamicObject(19450, -2798.135009, 2598.270507, -97.522941, 0.000000, 0.000000, 90.000000, 90, 0, -1, 200.00, 200.00);
