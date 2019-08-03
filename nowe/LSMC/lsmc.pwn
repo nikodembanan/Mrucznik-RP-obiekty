@@ -4146,7 +4146,8 @@ static StworzObiekty()
     2, 
     2, 
     BRAMA_UPR_TYPE_FRACTION, 
-    4); 
+    4,
+	0); 
 	
 //Pkostnica
 
