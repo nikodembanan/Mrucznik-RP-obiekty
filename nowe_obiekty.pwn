@@ -46,7 +46,7 @@
 //	#include "nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
 #include "nowe\DMV\DMV.pwn"
 #include "nowe\FBI\FBI.pwn"
-#include "nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
+//#include "nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
 #include "nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
 #include "nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn"
 //	#include "nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
@@ -180,7 +180,7 @@ obiekty_OnGameModeInit()
 //	barierkiDillimore_Init();
 	DMV_Init();
 	FBI_Init();
-	centralaGSA_Init();
+	//centralaGSA_Init();
 	obiektyCiekawostki_Init();
 	poprawkiRockstar_Init();
 	//bazaNG_Init();
@@ -282,7 +282,7 @@ obiekty_OnPlayerConnect(playerid)
 	siedzibaMechanikow_Connect(playerid);
 //	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);
-	centralaGSA_Connect(playerid);
+	//centralaGSA_Connect(playerid);
 	//bazaNG_Connect(playerid);
 	pomnik_Connect(playerid);
 	skracaneZakrety_Connect(playerid);
