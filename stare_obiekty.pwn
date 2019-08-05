@@ -5,7 +5,7 @@
 #include "stare/admin.pwn"
 #include "stare/ballas.pwn"
 #include "stare/basen.pwn"
-#include "stare/bor.pwn"
+//#include "stare/bor.pwn"
 #include "stare/bramy.pwn"
 #include "stare/bs.pwn"
 #include "stare/bus.pwn"
@@ -58,7 +58,7 @@ public obiekty_timer(wartosc)
     INT_AT400();
     INT_AirTowerLS();
     PC_UM();
-    BOR_Load();
+    //BOR_Load();
     Basen_Load();
     WPS_Load();
     KT_Lotniska();
