@@ -46,4 +46,5 @@ PushActors()
 	CreateActorEx(287, "Pavlo_Rudovy", -556.6976,2594.1780,86.1356,277.4148, 1, 50.0, 1, 0, -1); //Winda 1
 	CreateActorEx(287, "Micha³_Zachód", -556.5135,2599.4041,86.1356,271.4614, 1, 50.0, 1, 0, -1);//Winda 2
 	CreateActorEx(287, "Jeffrey_Dog", -547.5727,2589.8755,86.1356,1.0523, 1, 50.0, 1, 0, -1);//Wyjscie na spacerniak
+	CreateActorEx(76, "Dominika_Czaders", 503.0299,-1490.4990,14.6606, 269.4052, 1, 50.0, 61, -1, -1);
 }
