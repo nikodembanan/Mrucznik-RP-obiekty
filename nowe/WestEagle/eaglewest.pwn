@@ -1082,7 +1082,7 @@ static StworzBramy()
 
 static StworzBudynki()
 {
-	DodajWejscie(512.0784,-1486.8660,14.5098,509.7650,-1486.8225,14.6606, vw1=0, int1=0, vw2=61, int2=0, "West Eagle", "Wyjœcie"); 
+	DodajWejscie(512.0784,-1486.8660,14.5098,509.7650,-1486.8225,14.6606, 0, 0, 61, 0, "West Eagle", "Wyjœcie"); 
 
 	return 1;
 }
