@@ -4460,7 +4460,7 @@ static StworzBramy()
 	skgang = CreateDynamicObject(19802, 1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000, 51, 0, -1, 350.00, 350.00); // DP.Socjal.Zamkniete
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	new skgang2 = CreateDynamicObject(19802, 1504.036621, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000, 51, 0, -1, 350.00, 350.00); // DL.Socjal.Zamkniete
-	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
+	SetDynamicObjectMaterial(skgang2, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DualGateAdd(skgang,//Obiekt pierwszej bramy
 	1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000, //zamkniete1
 	1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 180.000000,//otwarte1
@@ -4476,7 +4476,7 @@ static StworzBramy()
 	skgang = CreateDynamicObject(19802, 1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, 51, 0, -1, 350.00, 350.00); // SKL.Zamkniete
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	skgang2 = CreateDynamicObject(19802, 1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 0.000000, 51, 0, -1, 350.00, 350.00); // SKP.Zamkniete
-	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
+	SetDynamicObjectMaterial(skgang2, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DualGateAdd(skgang,//Obiekt pierwszej bramy
 	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, //zamkniete1
 	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 90.000000,//otwarte1
@@ -4503,7 +4503,7 @@ static StworzBramy()
 	skgang = CreateDynamicObject(19802, 1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000, 51, 0, -1, 350.00, 350.00); // BBP.Zamkniete
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	skgang2 = CreateDynamicObject(19802, 1432.086914, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000, 51, 0, -1, 350.00, 350.00); // BBL.Zamkniete
-	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
+	SetDynamicObjectMaterial(skgang2, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	DualGateAdd(skgang,//Obiekt pierwszej bramy
 	1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000, //zamkniete1
 	1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, 0.000000,//otwarte1
