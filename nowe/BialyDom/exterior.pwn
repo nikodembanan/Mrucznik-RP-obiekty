@@ -784,39 +784,39 @@ static StworzObiekty()
 	
 	
 	//By simeone i santiago - podmiana tekstur
-	pevori2 = CreateDynamicObject(4851, 1182.010009, -1987.630004, 39.992198, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4851, 1182.010009, -1987.630004, 39.992198+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 13691, "bevcunto2_lahills", "stonewall3_la", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 2, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 3, 12869, "ce_ground04", "carpark_128", 0x00000000);
-	pevori2 = CreateDynamicObject(4812, 1023.400024, -2166.100097, 23.101600, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4812, 1023.400024, -2166.100097, 23.101600+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 1, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
 	pevori2 = CreateDynamicObject(4823, 1338.329956, -1976.660034, 36.609401, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 5, 10756, "airportroads_sfse", "sf_road5", 0x00000000);
-	pevori2 = CreateDynamicObject(4852, 1401.459960, -1994.589965, 35.437500, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4852, 1401.459960, -1994.589965, 35.437500+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 2, 13691, "bevcunto2_lahills", "stonewall3_la", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 6, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 7, 12869, "ce_ground04", "carpark_128", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 9, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-	pevori2 = CreateDynamicObject(4811, 1069.670043, -2270.899902, 23.101600, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4811, 1069.670043, -2270.899902, 23.101600+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 1, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
-	pevori2 = CreateDynamicObject(4845, 1222.829956, -2291.229980, 7.070310, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4845, 1222.829956, -2291.229980, 7.070310+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 2, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
-	pevori2 = CreateDynamicObject(4810, 1095.060058, -2214.219970, 41.726600, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4810, 1095.060058, -2214.219970, 41.726600+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 5, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 6, 12869, "ce_ground04", "carpark_128", 0x00000000);
-	pevori2 = CreateDynamicObject(4876, 1582.300048, -2002.229980, 26.609399, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4876, 1582.300048, -2002.229980, 26.609399+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 13691, "bevcunto2_lahills", "stonewall3_la", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 1, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
-	pevori2 = CreateDynamicObject(4878, 1530.829956, -1969.130004, 26.390600, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4878, 1530.829956, -1969.130004, 26.390600+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 3, 13691, "bevcunto2_lahills", "stonewall3_la", 0x00000000);
-	pevori2 = CreateDynamicObject(4888, 1236.199951, -1876.160034, 21.453100, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4888, 1236.199951, -1876.160034, 21.453100+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 11, 13691, "bevcunto2_lahills", "stonewall3_la", 0x00000000);
-	pevori2 = CreateDynamicObject(4813, 1042.270019, -2029.800048, 23.101600, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4813, 1042.270019, -2029.800048, 23.101600+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 1, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
-	pevori2 = CreateDynamicObject(4875, 1270.689941, -2196.790039, 42.562500, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4875, 1270.689941, -2196.790039, 42.562500+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 5, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 6, 12869, "ce_ground04", "carpark_128", 0x00000000);
-	pevori2 = CreateDynamicObject(4872, 1610.930053, -2010.630004, 23.132799, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
+	pevori2 = CreateDynamicObject(4872, 1610.930053, -2010.630004, 23.132799+0.0015, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 		
 	return 1;
 }
@@ -848,7 +848,7 @@ static UsunObiekty(playerid)
 	
 	//By simeone i santiago - podmiana tekstur
 	
-	RemoveBuildingForPlayer(playerid, 4851, 1182.010, -1987.630, 39.992, 0.250);
+	/* RemoveBuildingForPlayer(playerid, 4851, 1182.010, -1987.630, 39.992, 0.250);
 	RemoveBuildingForPlayer(playerid, 4902, 1182.010, -1987.630, 39.992, 0.250);
 	RemoveBuildingForPlayer(playerid, 4812, 1023.400, -2166.100, 23.101, 0.250);
 	RemoveBuildingForPlayer(playerid, 4908, 1023.400, -2166.100, 23.101, 0.250);
@@ -870,7 +870,7 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 4926, 1530.829, -1969.130, 26.390, 0.250);
 	RemoveBuildingForPlayer(playerid, 4813, 1042.270, -2029.800, 23.101, 0.250);
 	RemoveBuildingForPlayer(playerid, 4903, 1042.270, -2029.800, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4916, 1270.689, -2196.790, 42.562, 0.250);
+	RemoveBuildingForPlayer(playerid, 4916, 1270.689, -2196.790, 42.562, 0.250);*/
 	return 1;
 }
 
