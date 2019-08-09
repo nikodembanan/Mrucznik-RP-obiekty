@@ -18,7 +18,6 @@ new skgang;//Zmienna dla skLolsy+skTom
 */
 
 new hitmans;//Zmienna obiektow dla Hitmanów 
-new ramirezext;//Zmienna dla ramirez car service exterior
 new ramint;//Zmienna dla ramirez car service interior
 new dossantos;//Zmienna dla Dos Santos Car sercice
 new hellsy;//Zmienna dla Hells Angels MC
