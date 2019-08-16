@@ -273,7 +273,7 @@ obiekty_OnGameModeInit()
 	usssext_Init();
 	bilb03_Init(); 
 	westeagle_Init();
-	firmab_Init()
+	firmab_Init();
 	return 1;
 }
 
@@ -322,7 +322,7 @@ obiekty_OnPlayerConnect(playerid)
 	usss_Connect(playerid);
 	bilb03_Connect(playerid); 
 	westeagle_Connect(playerid);
-	firmab_Connect(playerid)
+	firmab_Connect(playerid);
 	
 	return 1;
 }
