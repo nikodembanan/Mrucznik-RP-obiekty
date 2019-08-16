@@ -48,4 +48,6 @@ PushActors()
 	CreateActorEx(287, "Jeffrey_Dog", -547.5727,2589.8755,86.1356,1.0523, 1, 50.0, 1, 0, -1);//Wyjscie na spacerniak
 	//West Eagle Pub
 	CreateActorEx(76, "Dominika_Czaders", 503.0299,-1490.4990,14.6606, 269.4052, 1, 50.0, 61, -1, -1);
+	//Firma Budowlana
+	CreateActorEx(76, "Frank_Pletenburg", 947.5116,-1738.7377,13.5754,88.3839, 1, 50.0, 61, 41, -1);
 }
