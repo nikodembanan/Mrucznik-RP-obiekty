@@ -167,6 +167,7 @@
 #include "nowe\Globalne\bilboardy/bilb03dl.pwn"
 #include "nowe\WestEagle/eaglewest.pwn"
 #include "nowe\FirmaBudowlana/firmab.pwn"
+#include "nowe\Ibiza/ibiza.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -274,6 +275,7 @@ obiekty_OnGameModeInit()
 	bilb03_Init(); 
 	westeagle_Init();
 	firmab_Init();
+	ibizamrn_Init();
 	return 1;
 }
 
