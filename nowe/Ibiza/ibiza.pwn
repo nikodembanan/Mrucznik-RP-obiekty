@@ -3160,7 +3160,7 @@ static StworzObiekty()
 	mrn = CreateDynamicObject(1512, 279.972808, -1766.716796, -16.855958, 0.000000, 0.000000, 76.999992, 24, 0 , -1, 300.00, 300.00); 
 //SUPER VIP
 
-mrn = CreateDynamicObject(18981, 211.676635, -1542.133544, -17.497495, 0.000000, 90.000000, 0.000000, 25, 0, -1, 300.00, 300.00); 
+	mrn = CreateDynamicObject(18981, 211.676635, -1542.133544, -17.497495, 0.000000, 90.000000, 0.000000, 25, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 14758, "sfmansion1", "AH_flroortile6", 0x00000000);
 	mrn = CreateDynamicObject(19447, 223.253784, -1548.847290, -15.297482, 0.000000, 0.000000, 0.000000, 25, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0xFFDEB887);
