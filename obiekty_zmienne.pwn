@@ -9,7 +9,8 @@ new simeonel;//Zmienna Simeone
 new lukesqly;//Zmienna LukeSQL
 new charlie112;//Zmienna dla Charllie112
 new ubunteq;//Zmienna dla UbunteQ
-new skgang;//Zmienna dla skLolsy+skTom
+new skgang;//Zmienna dla skLolsy+skTom+skPembleton
+new mrn;//zmienna dla mrN
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -18,7 +19,6 @@ new skgang;//Zmienna dla skLolsy+skTom
 */
 
 new hitmans;//Zmienna obiektow dla Hitmanów 
-new ramirezext;//Zmienna dla ramirez car service exterior
 new ramint;//Zmienna dla ramirez car service interior
 new dossantos;//Zmienna dla Dos Santos Car sercice
 new hellsy;//Zmienna dla Hells Angels MC

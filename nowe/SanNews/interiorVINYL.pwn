@@ -5805,8 +5805,8 @@ static StworzObiekty()
 
 	//Wejœcia
 	DodajWejscie(815.8209, -1386.7086, 13.6066, 819.4261, -1421.9343, -22.6193, 0, 0, 72, 0, "Vinyl Club", "Wyjœcie", 10, PLOCAL_ORG_SN, true);//G³ówne wejœcie do Vinyl 
-	DodajWejscie(816.5667, -1415.4117, -22.5834, 816.4222, -1413.7644, -22.5834, 72, 0, 71, 0, "Vinyl Club", "Powrót", 13, PLOCAL_ORG_SN, true); //Wejœcie do sali
-	DodajWejscie(799.0230, -1401.3804, -22.6193, 688.4263, -1396.5901, -22.6093, 71, 0, 72, 0, "Strefa V.I.P", "Powrót", 13, PLOCAL_ORG_SN, true);//Strefa VIP 
+	DodajWejscie(816.5667, -1415.4117, -22.5834, 816.4222, -1413.7644, -22.5834, 72, 0, 71, 0, "Vinyl Club", "Powrót", 7, PLOCAL_ORG_SN, true); //Wejœcie do sali
+	DodajWejscie(799.0230, -1401.3804, -22.6193, 688.4263, -1396.5901, -22.6093, 71, 0, 72, 0, "Strefa V.I.P", "Powrót", 8, PLOCAL_ORG_SN, true);//Strefa VIP 
 
 	DodajWejscie(683.2280, -1394.7244, -22.6093, 798.6897, -1401.5966, -17.6433, 72, 0, 71, 0, "", "", 13, PLOCAL_ORG_SN, true); //Przejœcie na szczyt dla VIP
 	DodajWejscie(834.9537, -1409.9796, -17.6433, 889.1844, -1410.8748, -17.6433, 71, 0, 72, 0, "", "", 13, PLOCAL_ORG_SN, true);//Przejœcie do d¿akuzi kuraw

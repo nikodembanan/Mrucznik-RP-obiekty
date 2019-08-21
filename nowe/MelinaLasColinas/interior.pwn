@@ -536,6 +536,9 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(2256, 2338.431640, -1186.465454, 32.515754, 0.000000, -4.799997, 90.000000, 20,0,-1, 300.00, 300.00); 
 	skgang = CreateDynamicObject(19328, 2346.647705, -1181.750122, 32.569606, 0.000000, 3.199990, 180.000000, 20,0,-1, 300.00, 300.00); 
 	skgang = CreateDynamicObject(2695, 2342.556396, -1177.258911, 28.695825, 0.000000, 0.000000, 180.000000, 20,0,-1, 300.00, 300.00); 
+	skgang = CreateDynamicObject(17928, 2337.159912, -1179.800048, 31.984399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
+    skgang = CreateDynamicObject(17552, 2337.159912, -1179.800048, 31.984399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
+	skgang = CreateDynamicObject(17593, 2337.159912, -1179.800048, 31.984399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00);
 	return 1;
 }
 
@@ -543,13 +546,15 @@ static StworzObiekty()
 
 static StworzBudynki()
 {
-	DodajWejscie(2351.8245,-1169.4460,29.7219,2346.5525,-1172.3639,28.2258,0,0,20,0,"Melina Las Colinas","Wyjœcie");
+	DodajWejscie(2351.9143,-1169.6990,28.0277,2346.5525,-1172.3639,28.2258,0,0,20,0,"Melina Las Colinas","Wyjœcie");
 	return 1;
 }
 
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 17928, 2337.159, -1179.800, 31.984, 0.250);
+	RemoveBuildingForPlayer(playerid, 17593, 2337.159, -1179.800, 31.984, 0.250);
 	RemoveBuildingForPlayer(playerid, 17552, 2337.159, -1179.800, 31.984, 0.250);
+	RemoveBuildingForPlayer(playerid, 17593, 2337.159, -1179.800, 31.984, 0.250);
 	return 1;
 }

@@ -41,10 +41,10 @@ static StworzBudynki()
 	DodajWejscie(695.07702636719,-499.34088134766,16.3359375, 703.78033447266,-497.16967773438,23.36548614502, 0, 0, 35, 0, "Rada Miasta Dillimore", "Powrót"); //Rada miasta Dillimore
 	DodajWejscie(2495.576171875,-1689.9849853516,14.765625, 2495.9689941406,-1692.6496582031,1014.7421875, 0, 0, 0, 3, "CJ House", "Follow CJ");//Dom CJ
 	DodajWejscie(2165.9409179688,-1671.8609619141,15.074726104736, 318.75366210938,1115.3836669922,1083.8828125, 0, 0, 0, 5, "", "Follow! Anyway, give me this drugs!");//Melina dragów
-	DodajWejscie(2351.8894042969,-1169.4614257813,28.001684188843,  2352.0139160156,-1180.8870849609,1027.9765625, 0, 0, 0, 5, "", "");//Dom Las Collinas
+	//DodajWejscie(2351.8894042969,-1169.4614257813,28.001684188843,  2352.0139160156,-1180.8870849609,1027.9765625, 0, 0, 0, 5, "", "");//Dom Las Collinas
 	DodajWejscie(1698.8944091797,-1667.6840820313,20.194225311279, 1701.4025878906,-1667.9442138672,20.21875, 0, 0, 18, 0, "", "Wyjœcie");//Muzeum sztuki
 	DodajWejscie(1727.1125488281,-1635.5847167969,20.216684341431, 1727.076171875,-1638.8159179688,20.223419189453, 0, 0, 18, 0, "", "Wyjœcie");//Muzeum sztuki 2
-	DodajWejscie(1172.6564, -1323.4110, 15.6034, 1171.9703, -1322.4764, 31.6913, 0, 0, 90,0, "Szpital im. Wszystkich Œwiêtych", "Powrót", 11, PLOCAL_FRAC_LSMC);//Szpital LSMC
+	//DodajWejscie(1172.6564, -1323.4110, 15.6034, 1171.9703, -1322.4764, 31.6913, 0, 0, 90,0, "Szpital im. Wszystkich Œwiêtych", "Powrót", 11, PLOCAL_FRAC_LSMC);//Szpital LSMC
 	DodajWejscie(1763.4033,-1129.7128,24.0859, 1763.4243,-1128.0543,224.1499, 0, 0, 22, 0, "Remiza im. Œwiêtego Krzysztofa", "Powrót"); //Remiza
 	DodajWejscie(1711.3928, -1130.0851, 24.1741, 1751.6058, -1118.3661, 46.8055, 0, 0, 0, 0, "Dach", "Powrót"); //LSFD DACH
 	DodajWejscie(725.4005,-1450.4960,17.695, -794.97491455078, 489.89901733398, 1376.195312, 0, 0, 0, 1, "Przejœcie do œrodka", "Wyjœcie na taras", 12); //LCN przez taras do œrodka

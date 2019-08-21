@@ -46,7 +46,7 @@
 //	#include "nowe\Dillimore\BarierkiDillimore\barierkiDillimore.pwn"
 #include "nowe\DMV\DMV.pwn"
 #include "nowe\FBI\FBI.pwn"
-#include "nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
+//#include "nowe\GSA\centralaGSA.pwn" //TODO: Rozdziel
 #include "nowe\Globalne\ObiektyCiekawostki\obiektyCiekawostki.pwn"
 #include "nowe\Globalne\PoprawkiRockstar\poprawkiRockstar.pwn"
 //	#include "nowe\NG\bazaNG.pwn"  //TODO: Rozdziel
@@ -152,8 +152,22 @@
 #include "nowe\SanNews/interiorSN.pwn"
 #include "nowe\Sad/interiorSCOSA.pwn"
 #include "nowe\SanNews/interiorVINYL.pwn"
-//#include "nowe\MelinaLasColinas/interior.pwn"
 #include "nowe\SanNews/mma-event.pwn"
+
+//*****************************************************
+//Aktualizacja 2.6.1 - By Simeone & skPembleton
+//*****************************************************
+#include "nowe\MelinaLasColinas/interior.pwn"
+#include "nowe\TheRealIra/interiorira.pwn"
+#include "nowe\MonsterGarage/monsterint.pwn"
+#include "nowe\stanowe\stanoweint.pwn"
+#include "nowe\stanowe\stanoweext.pwn"
+#include "nowe\USSS/usssext.pwn"
+#include "nowe\USSS/usssint.pwn"
+#include "nowe\Globalne\bilboardy/bilb03dl.pwn"
+#include "nowe\WestEagle/eaglewest.pwn"
+#include "nowe\FirmaBudowlana/firmab.pwn"
+#include "nowe\Ibiza/ibiza.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -169,7 +183,7 @@ obiekty_OnGameModeInit()
 //	barierkiDillimore_Init();
 	DMV_Init();
 	FBI_Init();
-	centralaGSA_Init();
+	//centralaGSA_Init();
 	obiektyCiekawostki_Init();
 	poprawkiRockstar_Init();
 	//bazaNG_Init();
@@ -210,7 +224,7 @@ obiekty_OnGameModeInit()
 	intSN_Init(); 
 	interiorSCOSA_Init();
 	interiorVINYL_Init(); 
-	//MelinaLasColinas_Init();
+	MelinaLasColinas_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
@@ -252,6 +266,16 @@ obiekty_OnGameModeInit()
 	MelinaIdleint_Init();//Melina na Idlewood - przy domie big smoke, interior
 	StudioIdleext_Init();//studio nagran idlewood, exterior
 	mmaevent_Init(); 
+	realIra_Init();
+	monster_Init();
+	stanoweEXT_Init();
+	stanoweINT_Init(); 
+	usss_Init();
+	usssext_Init();
+	bilb03_Init(); 
+	westeagle_Init();
+	firmab_Init();
+	ibizamrn_Init();
 	return 1;
 }
 
@@ -264,7 +288,7 @@ obiekty_OnPlayerConnect(playerid)
 	siedzibaMechanikow_Connect(playerid);
 //	radaMiasta_Connect(playerid);
 	DMV_Connect(playerid);
-	centralaGSA_Connect(playerid);
+	//centralaGSA_Connect(playerid);
 	//bazaNG_Connect(playerid);
 	pomnik_Connect(playerid);
 	skracaneZakrety_Connect(playerid);
@@ -294,7 +318,13 @@ obiekty_OnPlayerConnect(playerid)
 	FBIPARKING_Connect(playerid);
 	carniceria_Connect(playerid);//interior el pueblo
 //	wjedz_Connect(playerid); 
-	//MelinaLasColinas_Connect(playerid);
+	MelinaLasColinas_Connect(playerid);
+	monster_Connect(playerid);
+	stanoweINT_Connect(playerid);  
+	usss_Connect(playerid);
+	bilb03_Connect(playerid); 
+	westeagle_Connect(playerid);
+	firmab_Connect(playerid);
 	
 	return 1;
 }
