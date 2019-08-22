@@ -1019,7 +1019,7 @@ static StworzObiekty()
 
 static StworzBudynki()
 {
-	DodajWejscie(943.0061, -1742.5830, 13.7069, 943.5983, -1740.7950, 13.5832, 0, 0, 41, 0, "Firma Budowlana", "Wyjœcie");
+	DodajWejscie(943.0061, -1742.5830, 13.7069, 943.8870,-1741.3004,13.5832, 0, 0, 41, 0, "Firma Budowlana", "Wyjœcie");
     return 1;
 }
 
