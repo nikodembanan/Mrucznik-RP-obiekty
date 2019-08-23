@@ -1069,6 +1069,8 @@ static StworzObiekty()
 //Obiekty usuniête na ulicy	
 	skgang = CreateDynamicObject(6322, 496.273010, -1500.140014, 16.664100, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	skgang = CreateDynamicObject(6376, 496.273010, -1500.140014, 16.664100, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00);
+	skgang = CreateDynamicObject(6332, 504.390991, -1504.839965, 29.000000, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
+	skgang = CreateDynamicObject(6478, 504.390991, -1504.839965, 29.000000, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
 
 	return 1;
 }
@@ -1101,6 +1103,9 @@ static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 6322, 496.273, -1500.140, 16.664, 0.250);
 	RemoveBuildingForPlayer(playerid, 6376, 496.273, -1500.140, 16.664, 0.250);
+	RemoveBuildingForPlayer(playerid, 6332, 504.390, -1504.839, 29.000, 0.250);
+	RemoveBuildingForPlayer(playerid, 6478, 504.390, -1504.839, 29.000, 0.250);
+
 	
 	return 1;
 }
