@@ -4056,7 +4056,7 @@ static StworzBudynki()
     DodajWejscie(422.2131, -1831.5657, -65.5105, 221.530426, -1546.261352, -15.997495, 22, 0, 25, 0,"SuperVIP", "Powrót na salê");//Do super vip2
     DodajWejscie(413.5745, -1850.3945, -61.9043, 297.5301, -1676.3397, -34.2172, 22, 0, 23, 0,"Krêgielnia", "Powrót na salê");//Do krêgielni
     DodajWejscie(410.8377, -1850.2888, -61.9043, 277.5942, -1772.7822, -16.5560, 22, 0, 24, 0,"Palarnia", "Powrót na salê");//Do palarni
-	DodajWejscie(403.3954,-1843.4607,-65.5105, 416.8028,-1850.4160,-61.9043, 22, 0, 22, 0,"Lo¿a VIP", "Powrót na salê");//Na piêtro VIP
+	DodajWejscie(403.3954,-1843.4607,-65.5105, 416.8028, -1850.4160, -61.9043, 22, 0, 22, 0,"Lo¿a VIP", "Powrót na salê");//Na piêtro VIP
 
 	return 1;
 }

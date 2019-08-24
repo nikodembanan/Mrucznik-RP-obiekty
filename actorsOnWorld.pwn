@@ -49,8 +49,10 @@ PushActors()
 	//West Eagle Pub
 	CreateActorEx(76, "Dominika_Czaders", 503.0299,-1490.4990,14.6606, 269.4052, 1, 50.0, 61, -1, -1);
 	//Firma Budowlana
-	CreateActorEx(76, "Frank_Pletenburg", 947.5116,-1738.7377,13.5754,88.3839, 1, 50.0, 61, 41, -1);
+	CreateActorEx(76, "Frank_Pletenburg", 947.5116,-1738.7377,13.5754,88.3839, 1, 50.0, 61, -1, -1);
 	//IBIZA
-	CreateActorEx(172, "Nancy_Pig", 402.8168, -1807.7854, 7.8789, 90.0, 1, 50.0, 61, 21, -1);
-	CreateActorEx(194, "Lillie_Pen", 402.6997, -1810.4082, 7.8789, 90.0, 1, 50.0, 61, 21, -1);
+	CreateActorEx(172, "Nancy_Pig", 402.8168, -1807.7854, 7.8789, 90.0, 1, 50.0, 21, -1, -1);
+	CreateActorEx(194, "Lillie_Pen", 402.6997, -1810.4082, 7.8789, 90.0, 1, 50.0, 21, -1, -1);
+	//Power Gym
+	CreateActorEx(291, "Michael_Karmowsky", 900.2252, -1341.4918, 13.5940, 324.5591, 1, 50.0, 21, -1, -1);
 }

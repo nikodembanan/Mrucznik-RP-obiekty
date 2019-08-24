@@ -1058,7 +1058,19 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(1893, 497.825958, -1490.043823, 17.050571, 0.000000, 0.000000, 0.000000, 61, 0, -1, 300.00, 300.00); 
 	skgang = CreateDynamicObject(1893, 497.826080, -1493.333374, 17.050571, 0.000000, 0.000000, 0.000000, 61, 0, -1, 300.00, 300.00); 
 	skgang = CreateDynamicObject(1893, 497.826080, -1483.543579, 17.050571, 0.000000, 0.000000, 0.000000, 61, 0, -1, 300.00, 300.00);
+	skgang = CreateDynamicObject(6372, 599.093994, -1435.400024, 19.882799, 0.000000, 0.000000, 0.000000, 61, 0, -1, 170.00, 170.00);
+	skgang = CreateDynamicObject(6520, 599.109008, -1458.760009, 45.062500, 0.000000, 0.000000, 0.000000, 61, 0, -1, 300.00, 300.00); 
+	skgang = CreateDynamicObject(1260, 591.726989, -1508.930053, 25.304700, 0.000000, 0.000000, -179.827163, 61, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(skgang, 6, 1714, "cj_office", "CJ_DESK", 0x00000000);
+	skgang = CreateDynamicObject(6371, 585.281005, -1456.719970, 45.898399, 0.000000, 0.000000, 0.000000, 61, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(skgang, 12, 9515, "bigboxtemp1", "poshground_sfw", 0x00000000);
+	skgang = CreateDynamicObject(6340, 588.179992, -1530.469970, 25.593799, 0.000000, 0.000000, 0.000000, 61, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(skgang, 4, 9514, "711_sfw", "ws_carpark2", 0x00000000);
+//Obiekty usuniête na ulicy	
 	skgang = CreateDynamicObject(6322, 496.273010, -1500.140014, 16.664100, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	skgang = CreateDynamicObject(6376, 496.273010, -1500.140014, 16.664100, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00);
+	skgang = CreateDynamicObject(6332, 504.390991, -1504.839965, 29.000000, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
+	skgang = CreateDynamicObject(6478, 504.390991, -1504.839965, 29.000000, 0.000000, 0.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
 
 	return 1;
 }
@@ -1090,6 +1102,10 @@ static StworzBudynki()
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 6322, 496.273, -1500.140, 16.664, 0.250);
+	RemoveBuildingForPlayer(playerid, 6376, 496.273, -1500.140, 16.664, 0.250);
+	RemoveBuildingForPlayer(playerid, 6332, 504.390, -1504.839, 29.000, 0.250);
+	RemoveBuildingForPlayer(playerid, 6478, 504.390, -1504.839, 29.000, 0.250);
+
 	
 	return 1;
 }
