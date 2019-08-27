@@ -403,6 +403,7 @@ return 1;
 static StworzBudynki()
 {
 	DodajWejscie(1921.3878,-1863.4750,13.5604,1921.3020,-1866.9325,13.5742,0,0,12,0,"Monster Garage","Wyjœcie");//wejdz do budynku
+	StwórzWjedz(1921.1761, -1862.3473, 13.4351, 1921.3132, -1868.8387, 13.4492, 8, 12, "Wjazd do gara¿u", "Wyjazd");
 	return 1;
 }
 static UsunObiekty(playerid)
