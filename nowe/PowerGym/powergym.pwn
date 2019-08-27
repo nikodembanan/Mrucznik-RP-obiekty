@@ -909,7 +909,7 @@ static StworzBramy()
 
 static StworzBudynki()
 {
-    DodajWejscie(904.3210, -1336.2767, 13.5469, 905.1098, -1339.5757, 13.5940, 0, 0, 21, 0, "Power Gym", "Wyjœcie");
+    DodajWejscie(904.3210, -1336.2767, 13.5469, 904.2039, -1339.7623, 13.5940, 0, 0, 21, 0, "Power Gym", "Wyjœcie");
 	return 1;
 }
 
