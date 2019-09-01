@@ -638,7 +638,7 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(994, 1351.176879, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 199.00, 199.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(19329, 1372.311767, -1790.124267, 13.494655, 0.200005, 0.099992, 450.000000, 0, 0, -1, 199.00, 199.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Sko?ne", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Skoœne", 80, "Ariel", 20, 1, 0xFFFFFFFF, 0x00000000, 1);
 	placdmv = CreateDynamicObject(994, 1348.947265, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 199.00, 199.00); 
 	SetDynamicObjectMaterial(placdmv, 0, 19278, "skydiveplatforms", "hazardtile19-2", 0x00000000);
 	placdmv = CreateDynamicObject(994, 1344.046142, -1791.801269, 12.532039, 0.000000, 0.000000, 270.000000, 0, 0, -1, 199.00, 199.00); 
@@ -660,9 +660,9 @@ static StworzObiekty()
 	placdmv = CreateDynamicObject(19329, 1350.046752, -1804.453613, 14.015938, 360.000000, 360.000000, 180.000000, 0, 0, -1, 199.00, 199.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Symulator", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1350.046752, -1804.453613, 13.705934, 360.000000, 360.000000, 180.000000, 0, 0, -1, 199.00, 199.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro?enia", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro¿enia", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1346.556640, -1793.253540, 12.605952, 450.000000, 360.000000, 180.000000, 0, 0, -1, 199.00, 199.00); 
-	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro?enie HAMUJ!", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Zagro¿enie HAMUJ!", 80, "Ariel", 25, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(19329, 1346.556640, -1805.304443, 12.675954, 450.000000, 360.000000, 180.000000, 0, 0, -1, 199.00, 199.00); 
 	SetDynamicObjectMaterialText(placdmv, 0, "{FFFFFF}Start", 80, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	placdmv = CreateDynamicObject(18762, 1347.123657, -1824.905517, 13.536890, 0.000000, 0.000000, 0.000000, 0, 0, -1, 199.00, 199.00); 
@@ -876,12 +876,5 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1220, 1340.890, -1835.369, 12.929, 0.250);
 	RemoveBuildingForPlayer(playerid, 1230, 1340.130, -1835.040, 12.976, 0.250);
 	RemoveBuildingForPlayer(playerid, 1265, 1337.260, -1841.880, 13.000, 0.250);
-//lokal wyborczy
-
-	RemoveBuildingForPlayer(playerid, 4002, 1479.869, -1790.400, 56.023, 0.250);
-	RemoveBuildingForPlayer(playerid, 4024, 1479.869, -1790.400, 56.023, 0.250);
-	RemoveBuildingForPlayer(playerid, 4003, 1481.079, -1747.030, 33.523, 0.250);
-	RemoveBuildingForPlayer(playerid, 3980, 1481.189, -1785.069, 22.382, 0.250);
-	RemoveBuildingForPlayer(playerid, 4044, 1481.189, -1785.069, 22.382, 0.250);
 	return 1;
 }
