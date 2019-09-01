@@ -25,7 +25,7 @@
 DMV_exterior_Init()
 {
 	StworzObiekty();
-//	StworzBramy();
+	//StworzBramy();
 	return 1;
 }
 
@@ -821,7 +821,7 @@ static StworzObiekty()
     return 1;
 }
 
-
+/*
 static StworzBramy()
 {
 
@@ -837,7 +837,7 @@ static StworzBramy()
     DodajBrame(placbrama3, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 90.000000, 1378.911621, -1812.582275, 12.546875, 0.000000, 0.000000, 175.7999, 2, 3, BRAMA_UPR_TYPE_FRACTION, 11);//Brama poboczna
 
     return 1;
-}
+}**/
 
 static UsunObiekty(playerid)
 {
