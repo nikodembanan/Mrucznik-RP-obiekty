@@ -145,7 +145,7 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(3934, 1537.885864, -1457.026367, 62.869342, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00);
 	skgang = CreateDynamicObject(19911, 1534.666748, -1451.257812, 15.522806, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00);
 	skgang = CreateDynamicObject(-1004, 1525.624145, -1450.937866, 15.848242, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
-/*
+
 static StworzBramy()
 {
     skgang = CreateDynamicObject(19911, 1534.666748, -1451.257812, 15.522806, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
@@ -153,12 +153,13 @@ static StworzBramy()
     //Brama do gara¿u
 	return 1;
 }
-*/
+
 	return 1;
 }
 
 static StworzBudynki()
 {
 	DodajWejscie(1519.0331,-1453.3848,14.2066,1520.2440,-1455.4647,14.2133,0,0,41,0,"United States Secret Service","Wyjœcie");//wejdz do budynku
+	StwórzWjedz(1534.5028, -1448.1556, 13.2578, 1535.1587, -1457.1097, 12.3404, 8, 0, "Wjazd do gara¿u", "Wyjazd");
 	return 1;
 }

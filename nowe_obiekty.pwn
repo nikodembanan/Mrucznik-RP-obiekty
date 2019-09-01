@@ -168,6 +168,8 @@
 #include "nowe\WestEagle/eaglewest.pwn"
 #include "nowe\FirmaBudowlana/firmab.pwn"
 #include "nowe\Ibiza/ibiza.pwn"
+#include "nowe\PowerGym/powergym.pwn"
+#include "nowe\AmmunationWillowfield/ammunationw.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -276,6 +278,8 @@ obiekty_OnGameModeInit()
 	westeagle_Init();
 	firmab_Init();
 	ibizamrn_Init();
+	powergym_Init();
+	ammuwill_Init();
 	return 1;
 }
 
@@ -325,6 +329,7 @@ obiekty_OnPlayerConnect(playerid)
 	bilb03_Connect(playerid); 
 	westeagle_Connect(playerid);
 	firmab_Connect(playerid);
+	powergym_Connect(playerid);
 	
 	return 1;
 }

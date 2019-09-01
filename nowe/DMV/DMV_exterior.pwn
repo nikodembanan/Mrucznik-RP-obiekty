@@ -821,7 +821,7 @@ static StworzObiekty()
     return 1;
 }
 
-/*
+
 static StworzBramy()
 {
 
@@ -838,7 +838,7 @@ static StworzBramy()
 
     return 1;
 }
-*/
+
 static UsunObiekty(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 1527, 1448.2344, -1755.8984, 14.5234, 0.25);
