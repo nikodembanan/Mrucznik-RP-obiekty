@@ -775,17 +775,17 @@ static StworzBramy()
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    Dodajbrame(mrn, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 0.000000, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 0);
+    DodajBrame(mrn, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 0.000000, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 0);
     mrn = CreateDynamicObject(1495, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 31, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    Dodajbrame(mrn, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 0);
+    DodajBrame(mrn, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 0);
     mrn = CreateDynamicObject(1495, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 31, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    Dodajbrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 0);
+    DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 0);
     //Tutaj wstawiamy bramy w formacie: 
 		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
 		// fuprtyp - TYPY UPRAWNIEÑ:
