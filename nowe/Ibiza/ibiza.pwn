@@ -1739,7 +1739,7 @@ static StworzObiekty()
 	mrn = CreateDynamicObject(19328, 410.529602, -1830.978637, -66.260551, 0.000000, 0.000014, 0.000000, 22, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(mrn, 0, "Biagio Tieri", 140, "Ariel", 60, 0, 0xFFFFFFFF, 0x00000000, 0);
 	mrn = CreateDynamicObject(19328, 410.639648, -1830.978637, -66.470565, 0.000000, 0.000014, 0.000000, 22, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(mrn, 0, "(() mrN ))", 140, "Ariel", 60, 0, 0xFF000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(mrn, 0, "(( mrN ))", 140, "Ariel", 60, 0, 0xFF000000, 0x00000000, 0);
 	mrn = CreateDynamicObject(19325, 407.960052, -1858.154174, -65.720535, 0.000000, 0.000000, 180.000000, 22, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 18757, "vcinteriors", "dt_office_gls_text", 0x00000000);
 	mrn = CreateDynamicObject(19325, 404.649810, -1854.833251, -65.720535, 0.000000, 0.000000, 270.000000, 22, 0, -1, 300.00, 300.00); 
@@ -1879,7 +1879,7 @@ static StworzObiekty()
 	mrn = CreateDynamicObject(1897, 422.278198, -1857.673828, -66.140563, -0.000014, 0.000007, 0.000014, 22, 0, -1, 300.00, 300.00); 
 	mrn = CreateDynamicObject(1897, 425.698211, -1859.723632, -66.140563, 0.000014, -0.000007, 179.999877, 22, 0, -1, 300.00, 300.00); 
 	mrn = CreateDynamicObject(1897, 425.678192, -1857.673828, -66.140563, -0.000014, 0.000007, 0.000014, 22, 0, -1, 300.00, 300.00); 
-	mrn = CreateDynamicObject(2232, 415.612030, -1830.877685, -65.810539, 0.000000, -0.000007, -0.000015, 22, 0, -1, 300.00, 300.00); 
+	//mrn = CreateDynamicObject(2232, 415.612030, -1830.877685, -65.810539, 0.000000, -0.000007, -0.000015, 22, 0, -1, 300.00, 300.00); 
 	mrn = CreateDynamicObject(2229, 402.653900, -1840.561889, -64.500541, 0.000000, 0.000000, 90.000000, 22, 0, -1, 300.00, 300.00); 
 	mrn = CreateDynamicObject(1897, 405.172851, -1853.688964, -66.140563, 0.000007, -0.000014, -90.000083, 22, 0, -1, 300.00, 300.00); 
 	mrn = CreateDynamicObject(1897, 403.123046, -1853.708862, -66.140563, -0.000007, 0.000014, 89.999961, 22, 0, -1, 300.00, 300.00); 
@@ -3938,7 +3938,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(mrn, 1, 18901, "matclothes", "bandanathingy", 0x00000000);
 	SetDynamicObjectMaterial(mrn, 2, 10765, "airportgnd_sfse", "white", 0x00000000);
 	mrn = CreateDynamicObject(19328, 292.312225, -1785.255126, -34.70000, 0.000007, -0.000007, 89.999938, 26, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(mrn, 0, "M ØCZYèNI", 140, "Ariel", 100, 0, 0xFF000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(mrn, 0, "M ØCZYèNI", 120, "Ariel", 100, 0, 0xFF000000, 0x00000000, 0);
 	mrn = CreateDynamicObject(19939, 292.277801, -1785.506591, -33.746772, 0.000007, 90.000007, -0.000022, 26, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	mrn = CreateDynamicObject(19328, 295.510559, -1788.979980, -34.596744, 0.000014, 0.000007, 179.999954, 26, 0, -1, 300.00, 300.00); 

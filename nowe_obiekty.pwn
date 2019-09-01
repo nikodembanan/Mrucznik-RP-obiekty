@@ -169,6 +169,7 @@
 #include "nowe\FirmaBudowlana/firmab.pwn"
 #include "nowe\Ibiza/ibiza.pwn"
 #include "nowe\PowerGym/powergym.pwn"
+#include "nowe\AmmunationWillowfield/ammunationw.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -278,6 +279,7 @@ obiekty_OnGameModeInit()
 	firmab_Init();
 	ibizamrn_Init();
 	powergym_Init();
+	ammuwill_Init();
 	return 1;
 }
 
