@@ -1926,7 +1926,7 @@ static StworzBramy()
     //Klatka
     skgang = CreateDynamicObject(19870, 1005.926574, -1165.657470, 71.699546, 0.000000, 0.000004, -179.999984, 22, 0, -1, 700.00, 700.00); 
     SetDynamicObjectMaterial(skgang, 1, 3899, "hospital2", "black", 0x00000000);
-    SetDynamicObjectMaterial(skgang, 2, 19063, "xmasorbs", "foil5-128x128", 0x00000000);
+    SetDynamicObjectMaterial(skgang, 2, 1613, "alleyprop", "stuffdirtcol", 0x00000000);
     DodajBrame(skgang,1005.926574, -1165.657470, 71.699546, 0.000000, 0.000004, -179.999984,  1005.926574, -1165.657470, 68.019523, 0.000000, 0.000004, -179.999984, 2, 2, 0);
 	return 1;
 }
