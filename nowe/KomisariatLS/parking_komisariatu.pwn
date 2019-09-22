@@ -20,7 +20,7 @@
 //----------------------------------------------------*------------------------------------------------------//
 //BY: SIMEONE, DEDUIR, SANTIAGO, FARAON
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ Gï¿½ï¿½wne funkcje: ]>-------------------
 KomisariatLS_parking_Init()
 {
 	StworzObiekty();
@@ -510,7 +510,7 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(19353, 1564.463867, -1605.954589, 10.634795, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	pevori2 = CreateDynamicObject(4988, 1516.773925, -1583.739257, 39.206859, -0.000000, -0.000007, -170.099914, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFF00}Zrobimy to razem!\n{FF0000}Wydzia³ Ulepszeñ", 120, "Ariel", 50, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(pevori2, 0, "{FFFF00}Zrobimy to razem!\n{FF0000}Wydziaï¿½ Ulepszeï¿½", 120, "Ariel", 50, 1, 0x00000000, 0x00000000, 1);
 	pevori2 = CreateDynamicObject(19353, 1561.602050, -1605.954589, 10.634795, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	pevori2 = CreateDynamicObject(19353, 1558.750976, -1605.954589, 10.634795, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00);
@@ -939,6 +939,7 @@ static StworzObiekty()
 	pevori2 =	CreateDynamicObject(1491, 1582.60486, -1638.01831, 14.83310,   0.00000, 0.00000, 0.00000, 0, 0);
 	pevori2 =	CreateDynamicObject(1491, 1582.60486, -1638.01831, 12.35310,   0.00000, 0.00000, 0.00000, 0, 0);
 	pevori2 = CreateDynamicObject(1569, 1582.61621, -1638.09863, 12.38380,   0.00000, 0.00000, 0.00000, 2, 0);
+	pevori2 = CreateDynamicObject(1499, 1582.61621, -1638.09863, 12.38380,   0.00000, 0.00000, 0.00000, 0, 0);
 
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
