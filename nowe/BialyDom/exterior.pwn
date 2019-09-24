@@ -21,7 +21,7 @@
 //By Sergio
 //
 
-//-----------------<[ Gï¿½ï¿½wne funkcje: ]>-------------------
+//-----------------<[ G˜˜wne funkcje: ]>-------------------
 WhiteHouseExt_Init()
 {
 	StworzObiekty();
@@ -931,7 +931,7 @@ static StworzBramy()
 
 static StworzBudynki()
 {
-	DodajWejscie(207.8708, -61.8387, 1.9766, 208.8030, -52.6623, 15.0643, 0, 0, 20, 0, "Rada Miasta\nBlueberry", "Wyjï¿½cie");
+	DodajWejscie(207.8708, -61.8387, 1.9766, 208.8030, -52.6623, 15.0643, 0, 0, 20, 0, "Rada Miasta\nBlueberry", "Wyj˜cie");
 	
 	return 1;
 }*/

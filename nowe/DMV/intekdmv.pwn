@@ -519,9 +519,9 @@ static StworzObiekty()
 	gldmv = CreateDynamicObject(19327, 1446.343383, -1804.628540, 78.945281, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-Plakietce", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
 	gldmv = CreateDynamicObject(19327, 1446.343383, -1804.628540, 78.785278, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-Sï¿½uï¿½bie {ffff00}(/duty)", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-S˜u˜bie {ffff00}(/duty)", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
 	gldmv = CreateDynamicObject(4988, 1445.007080, -1742.494018, 86.122009, 0.000000, 0.000000, -170.999969, 50, -1, -1, 400.00, 400.00); 
-	SetDynamicObjectMaterialText(gldmv, 0, "Wydziaï¿½ Ulepszeï¿½\nZrï¿½bmy to razem!", 90, "Ariel", 32, 1, 0xFFFF0000, 0x80808080, 1);
+	SetDynamicObjectMaterialText(gldmv, 0, "Wydzia˜ Ulepsze˜\nZr˜bmy to razem!", 90, "Ariel", 32, 1, 0xFFFF0000, 0x80808080, 1);
 	gldmv = CreateDynamicObject(19327, 1446.343383, -1804.628540, 78.615257, 0.000000, 0.000000, 270.000000, 50, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterialText(gldmv, 0, "{ff0000}-Regulaminie!", 140, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
 	gldmv = CreateDynamicObject(18762, 1460.182861, -1845.195556, 81.475242, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00); 
@@ -4254,13 +4254,13 @@ static StworzObiekty()
 
 
 	
-//NOWE PIï¿½TRA
+//NOWE PI˜TRA
 
 
 	
 	DodajWejscie(1481.2196,-1769.8477,18.7958, 1450.6495,-1772.9926,76.5013, 0, 0, 50, 0, "", "", 1, PLOCAL_FRAC_DMV);
 	DodajWejscie(1481.2196,-1769.8477,18.7958, 1450.6495,-1772.9926,76.5013, 0, 0, 50, 0, "", "", 2);
-	//DodajWejscie(1473.0519,-1771.7616,18.7957, 1473.2267,-1744.1360,13.7169, 0, 0, 49, 0, "Lokal Wyborczy", "Wyjï¿½cie"); 
+	//DodajWejscie(1473.0519,-1771.7616,18.7957, 1473.2267,-1744.1360,13.7169, 0, 0, 49, 0, "Lokal Wyborczy", "Wyj˜cie"); 
 	
 
 	return 1;
