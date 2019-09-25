@@ -4277,11 +4277,11 @@ static StworzBramy()
 	DodajBrame(bramausss, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 90.00000, 1454.71655, -1789.19434, 78.06720,   0.00000, 0.00000, 0.00000, 2, 1, BRAMA_UPR_TYPE_FRACTION, 7);//BRAMA OTWIERANA TYLKO DLA GSA 
 	
 	//DUAL GATE:
-	dudmv3 = CreateDynamicObject(3089, 1420.936035, -1815.156494, 78.095230, 0.000000, 0.000000, -90.000000, 50, -1, -1, 400.00, 400.00);
+	dudmv3 = CreateDynamicObject(3089, 1420.936035, -1815.156494, 78.095230, 0.000000, 0.000000, 190.000000, 50, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(dudmv3, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(dudmv3, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(dudmv3, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	dudmv4 = CreateDynamicObject(3089, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 90.000000, 50, -1, -1, 400.00, 400.00);
+	dudmv4 = CreateDynamicObject(3089, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 190.000000, 50, -1, -1, 400.00, 400.00);
 	SetDynamicObjectMaterial(dudmv4, 0, 1649, "wglass", "carshowwin2", 0x00000000);
 	SetDynamicObjectMaterial(dudmv4, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
 	SetDynamicObjectMaterial(dudmv4, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
