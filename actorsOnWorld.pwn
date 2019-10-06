@@ -71,4 +71,11 @@ PushActors()
 	CreateActorEx(88, "Bo¿ena_Kromka", 1515.5507,-1470.4158,14.2133, 175.0911, 1, 40.0, 41, -1, -1, AGROUP_DEFAULT); 
 	CreateActorEx(93, "Betty_Boost", 1525.1969,-1460.8966,14.2133,83.2602, 1, 40.0, 41, -1, -1, AGROUP_DEFAULT, "INT_OFFICE", "OFF_Sit_Type_Loop"); 
 	CreateActorEx(20305, "Zroy_Rea", 1527.0894,-1461.7399,21.7028,180.2978, 1, 40.0, 43, -1, -1, AGROUP_DEFAULT, "PED", "SEAT_idle"); 
+	//Hippie Club
+	CreateActorEx(151, "Katarina_Barmanov", 1260.5381,-1549.7122,3.1509,6.0556, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT); 
+	CreateActorEx(158, "Simon_Mountain", 1270.5703,-1538.4010,3.1410,148.9137, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT);
+	CreateActorEx(178, "Sabrina_Puta", 1258.4135,-1530.4537,0.8010,215.9444, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT);
+	CreateActorEx(191, "Carla_Huawei", 1264.1796,-1519.7985,-0.3290,12.6125, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT); 
+	CreateActorEx(165, "Jacob_Horseradi", 1263.7649,-1522.7013,-0.3350,177.9090, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT);
+	CreateActorEx(166, "Joe_Pea", 1265.3063,-1547.7554,3.1350,269.1132, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT); 
 }
