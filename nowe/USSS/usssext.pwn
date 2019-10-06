@@ -157,7 +157,7 @@ static StworzBramy()
 }
 static StworzBudynki()
 {
-	DodajWejscie(1519.0331,-1453.3848,14.2066,1520.2440,-1455.4647,14.2133,0,0,41,0,"United States Secret Service","Wyjœcie");//wejdz do budynku
+	DodajWejscie(1519.0331,-1453.3848,14.2066,1520.2440,-1455.4647,14.2133,0,0,41,0,"Government Security Agency","Wyjœcie");//wejdz do budynku
 	//StworzWjedz(1534.5028, -1448.1556, 13.2578, 1535.1587, -1457.1097, 12.3404, 8, 0, "Wjazd do gara¿u", "Wyjazd");
 	StworzWjedz(1534.5028, -1448.1556, 13.2578, 1535.1587, -1457.1097, 12.3404, 8.5, 0, "Wjazd do gara¿u", "Wyjazd", FRAC_BOR, 0, PLOCAL_DEFAULT);
 	return 1;

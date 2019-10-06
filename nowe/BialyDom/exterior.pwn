@@ -21,7 +21,7 @@
 //By Sergio
 //
 
-//-----------------<[ G³ówne funkcje: ]>-------------------
+//-----------------<[ G˜˜wne funkcje: ]>-------------------
 WhiteHouseExt_Init()
 {
 	StworzObiekty();
@@ -784,6 +784,7 @@ static StworzObiekty()
 	
 	
 	//By simeone i santiago - podmiana tekstur
+	/*
 	pevori2 = CreateDynamicObject(4851, 1182.010009, -1987.630004, 39.992198+0.0035, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
 	SetDynamicObjectMaterial(pevori2, 0, 13691, "bevcunto2_lahills", "stonewall3_la", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 2, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
@@ -817,7 +818,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(pevori2, 5, 4835, "airoads_las", "grassdry_128HV", 0x00000000);
 	SetDynamicObjectMaterial(pevori2, 6, 12869, "ce_ground04", "carpark_128", 0x00000000);
 	pevori2 = CreateDynamicObject(4872, 1610.930053, -2010.630004, 23.132799+0.0035, 0.000000, 0.000000, 0.000000, -1, -1, -1, 400.00, 400.00); 
-		
+	*/
 	return 1;
 }
 
@@ -930,7 +931,7 @@ static StworzBramy()
 
 static StworzBudynki()
 {
-	DodajWejscie(207.8708, -61.8387, 1.9766, 208.8030, -52.6623, 15.0643, 0, 0, 20, 0, "Rada Miasta\nBlueberry", "Wyjœcie");
+	DodajWejscie(207.8708, -61.8387, 1.9766, 208.8030, -52.6623, 15.0643, 0, 0, 20, 0, "Rada Miasta\nBlueberry", "Wyj˜cie");
 	
 	return 1;
 }*/
