@@ -1,10 +1,10 @@
 //ammunationw.pwn
 
 //----------------------------------------------<< Source >>-------------------------------------------------//
-//-----------------------------------------[ Moduï¿½: ammunationw.pwn ]--------------------------------------------//
+//-----------------------------------------[ Modu³: ammunationw.pwn ]--------------------------------------------//
 //Autor: mrN
 //Data utworzenia: 25.08.2019
-//Zaï¿½ï¿½czono plik .DB: TAK
+//Za³¹czono plik .DB: TAK
 /*
 	
 */
@@ -27,8 +27,8 @@
 
 //
 
-//-----------------<[ Gï¿½ï¿½wne funkcje: ]>-------------------
-ammuwill_Init() //tï¿½ metodï¿½ wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+//-----------------<[ G³ówne funkcje: ]>-------------------
+ammuwill_Init() 
 {
 	StworzObiekty();//To wykorzystujemy, jeï¿½eli chcemy stworzyï¿½ jakieï¿½ obiekty
 	StworzBramy();//To wykorzystujemy jeï¿½eli chcemy stworzyï¿½ jakieï¿½ bramy
@@ -788,14 +788,14 @@ static StworzBramy()
     DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 2, 21);
     //Tutaj wstawiamy bramy w formacie: 
 		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEï¿½:
+		// fuprtyp - TYPY UPRAWNIEÑ½:
 			//0 - BRAK
 			//1 - FRAKCJA
 			//2 - RODZINA
 			//3 - BIZNES
 		// fuprval - numer frakcji/rodziny
 	
-		//DualGateAdd(...rozpisane w gï¿½ï¿½wnym README) 
+		//DualGateAdd(...rozpisane w gï³ównywnym README) 
 	return 1;
 }
 

@@ -5,7 +5,7 @@
 //Opis: NOWE OBIEKTY - TWORZONE W NOWYM FORMACIE
 /*
 
-	Plik zawierajacy dolaczenia wszystkich obiektï¿½w w nowym formacie
+	Plik zawierajacy dolaczenia wszystkich obiektów w nowym formacie
 
 */
 //----------------------------------------------------*------------------------------------------------------//
@@ -26,10 +26,10 @@
 //----------------------------------------------------*------------------------------------------------------//
 
 
-//Zapamietac! - Naprawic skrypt dla hitman agency - Dodac nowego #include i nowï¿½ zmienna new hitmansb 
+//Zapamietac! - Naprawic skrypt dla hitman agency - Dodac nowego #include i now¹ zmienna new hitmansb 
 //Notka dla Simeone ^^ 
 
-//TODO: USUNï¿½ï¿½ TO
+//TODO: USUN¥Æ TO
 
 #define SetDynamicObjectMaterialText_Kolejnosc(%0,%1,%2,%3,%4,%5,%6,%7,%8,%9) SetDynamicObjectMaterialText(%0,%2,%1,%3,%4,%5,%6,%7,%8,%9)
 
@@ -170,7 +170,7 @@
 #include "nowe\Ibiza/ibiza.pwn"
 #include "nowe\PowerGym/powergym.pwn"
 #include "nowe\AmmunationWillowfield/ammunationw.pwn"
-#include "Octagon/octagon.pwn"
+#include "nowe\Octagon/octagon.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -254,8 +254,8 @@ obiekty_OnGameModeInit()
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
 	simeonedom_Init();//Domek Simeone
-	bankomaty_Init();//Obiekty bankomatï¿½w na SA
-	WhiteHouseExt_Init();//Exterior biaï¿½ego domu
+	bankomaty_Init();//Obiekty bankomatów na SA
+	WhiteHouseExt_Init();//Exterior bia³ego domu
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
 	biznesy_Init();
@@ -319,7 +319,7 @@ obiekty_OnPlayerConnect(playerid)
 	chinskiejedzenie_Connect(playerid);//Chinese food
 	wpsint_Connect(playerid);//Interior WPS
 	simeonedom_Connect(playerid);//Domek simeone
-	WhiteHouseExt_Connect(playerid);//Extterior biaï¿½ego domu
+	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
 	FBIPARKING_Connect(playerid);
 	carniceria_Connect(playerid);//interior el pueblo

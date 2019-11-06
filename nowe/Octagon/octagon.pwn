@@ -4,7 +4,7 @@
 //-----------------------------------------[ Modu˜: octagon.pwn ]--------------------------------------------//
 //Autor: skPembleton
 //Data utworzenia: 06.09.2019r
-//Za˜˜czono plik .DB: TAK
+//Za³¹czono plik .DB: TAK
 /*
 	
 */
@@ -27,7 +27,7 @@
 
 //
 
-//-----------------<[ G˜˜wne funkcje: ]>-------------------
+//-----------------<[ G³ówne funkcje: ]>-------------------
 octagon_Init()
 {
 	StworzObiekty();
@@ -1916,7 +1916,7 @@ static StworzBramy()
     2,
     2,
     0);
-    //g˜˜wna sala
+    //g³ówna sala
     skgang = CreateDynamicObject(3089, 1007.664672, -1195.131591, 73.791656, 0.000000, 0.000000, 90.000000, 22, 0, -1, 700.00, 700.00); 
     SetDynamicObjectMaterial(skgang, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
     DodajBrame(skgang, 1007.664672, -1195.131591, 73.791656, 0.000000, 0.000000, 90.000000, 1007.664672, -1195.131591, 73.791656, 0.000000, 0.000000, 180.000000, 2, 2, 0);
@@ -1933,9 +1933,9 @@ static StworzBramy()
 
 static StworzBudynki()
 {
-    DodajWejscie(1000.5499, -1209.5043, 16.9375, 1014.1556, -1208.7256, 56.9881, 0, 0, 21, 0, "Octagon", "Wyj˜cie");//Wej˜cie do budynku
-    DodajWejscie(1014.8603, -1198.8278, 56.9881, 998.7009, -1181.1715, 64.4555, 0, 0, 21, 0, "Wej˜cie dla zawodnik˜w", "Wyj˜cie");//Wej˜cie zawodnicy
-    DodajWejscie(1020.5494, -1198.8302, 56.9881, 995.5788, -1209.9037, 66.9297, 21, 0, 22, 0, "Wej˜cie dla go˜ci", "Wyj˜cie");//Wej˜cie go˜˜
-    DodajWejscie(997.7321, -1195.3616, 70.2156, 1001.2153, -1193.6960, 70.2796, 21, 0, 22, 0, "Bar", "Wyj˜cie");//Wej˜cie na bar
+    DodajWejscie(1000.5499, -1209.5043, 16.9375, 1014.1556, -1208.7256, 56.9881, 0, 0, 21, 0, "Octagon", "Wyjœcie");//Wejœcie do budynku
+    DodajWejscie(1014.8603, -1198.8278, 56.9881, 998.7009, -1181.1715, 64.4555, 0, 0, 21, 0, "Wejœcie dla zawodników", "Wyjœcie");//Wejœcie zawodnicy
+    DodajWejscie(1020.5494, -1198.8302, 56.9881, 995.5788, -1209.9037, 66.9297, 21, 0, 22, 0, "Wejœcie dla goœci", "Wyjœcie");//Wejœcie goœci
+    DodajWejscie(997.7321, -1195.3616, 70.2156, 1001.2153, -1193.6960, 70.2796, 21, 0, 22, 0, "Bar", "Wyjœcie");//Wejœcie na bar
 	return 1;
 }
