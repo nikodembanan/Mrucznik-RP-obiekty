@@ -30,9 +30,9 @@
 //-----------------<[ G³ówne funkcje: ]>-------------------
 ammuwill_Init() 
 {
-	StworzObiekty();//To wykorzystujemy, jeï¿½eli chcemy stworzyï¿½ jakieï¿½ obiekty
-	StworzBramy();//To wykorzystujemy jeï¿½eli chcemy stworzyï¿½ jakieï¿½ bramy
-	StworzBudynki();//To wykorzystujemy jeï¿½eli chcemy stworzyï¿½ jakieï¿½ wejï¿½cia 
+	StworzObiekty();
+	StworzBramy();
+	StworzBudynki();
 	return 1;
 }
 //-----------------<[ Funkcje: ]>-------------------
@@ -786,23 +786,14 @@ static StworzBramy()
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
     DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 2, 21);
-    //Tutaj wstawiamy bramy w formacie: 
-		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEÑ½:
-			//0 - BRAK
-			//1 - FRAKCJA
-			//2 - RODZINA
-			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
-	
-		//DualGateAdd(...rozpisane w gï³ównywnym README) 
+
 	return 1;
 }
 
 static StworzBudynki()
 {
-	DodajWejscie(2400.4897, -1981.2577, 13.5469, 2402.0996, -1983.2571, 33.5663, 0, 0, 31, 0, "Ammunation Willowfield", "Wyjï¿½cie");
-    //Tutaj wstawiamy wejï¿½cia w formacie:
+	DodajWejscie(2400.4897, -1981.2577, 13.5469, 2402.0996, -1983.2571, 33.5663, 0, 0, 31, 0, "Ammunation Willowfield", "Wyjœcie");
+    //Tutaj wstawiamy wejœcia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
 	return 1;
 }
