@@ -28,11 +28,11 @@
 //
 
 //-----------------<[ G³ówne funkcje: ]>-------------------
-ammuwill_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+ammuwill_Init() 
 {
-	StworzObiekty();//To wykorzystujemy, je¿eli chcemy stworzyæ jakieœ obiekty
-	StworzBramy();//To wykorzystujemy je¿eli chcemy stworzyæ jakieœ bramy
-	StworzBudynki();//To wykorzystujemy je¿eli chcemy stworzyæ jakieœ wejœcia 
+	StworzObiekty();
+	StworzBramy();
+	StworzBudynki();
 	return 1;
 }
 //-----------------<[ Funkcje: ]>-------------------
@@ -764,7 +764,7 @@ static StworzObiekty()
     mrn = CreateDynamicObject(358, 2397.841796, -1994.773681, 34.120811, -5.299995, -81.100105, -173.200103, 31, 0, -1, 300.00, 300.00); 
     mrn = CreateDynamicObject(358, 2397.841796, -1994.173706, 34.120811, -5.299995, -81.100105, -173.200103, 31, 0, -1, 300.00, 300.00); 
 
-    //Tutaj wstawiamy obiekty w nastêpuj¹cym formacie:
+    //Tutaj wstawiamy obiekty w nastï¿½pujï¿½cym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
 	return 1;
 }
@@ -775,27 +775,18 @@ static StworzBramy()
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    DodajBrame(mrn, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 0.000000, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 0);
+    DodajBrame(mrn, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 0.000000, 2401.265136, -1996.072265, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 2, 21);
     mrn = CreateDynamicObject(1495, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 31, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    DodajBrame(mrn, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 0);
+    DodajBrame(mrn, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 0.000000, 2390.614990, -1988.792358, 32.496303, 0.000000, 0.000000, 90.000000, 2, 2, 2, 21);
     mrn = CreateDynamicObject(1495, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 31, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(mrn, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
     SetDynamicObjectMaterial(mrn, 1, 18835, "mickytextures", "metal013", 0x00000000);
     SetDynamicObjectMaterial(mrn, 2, 1560, "7_11_door", "cj_sheetmetal2", 0x00000000);
-    DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 0);
-    //Tutaj wstawiamy bramy w formacie: 
-		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEÑ:
-			//0 - BRAK
-			//1 - FRAKCJA
-			//2 - RODZINA
-			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
-	
-		//DualGateAdd(...rozpisane w g³ównym README) 
+    DodajBrame(mrn, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, -90.000000, 2390.284667, -1983.131835, 32.496303, 0.000000, 0.000000, 0.000000, 2, 2, 2, 21);
+
 	return 1;
 }
 

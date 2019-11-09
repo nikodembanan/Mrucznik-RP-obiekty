@@ -170,6 +170,7 @@
 #include "nowe\Ibiza/ibiza.pwn"
 #include "nowe\PowerGym/powergym.pwn"
 #include "nowe\AmmunationWillowfield/ammunationw.pwn"
+#include "nowe\Octagon/octagon.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -280,6 +281,7 @@ obiekty_OnGameModeInit()
 	ibizamrn_Init();
 	powergym_Init();
 	ammuwill_Init();
+	octagon_Init();
 	return 1;
 }
 
