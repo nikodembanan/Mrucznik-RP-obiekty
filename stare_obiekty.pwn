@@ -49,11 +49,11 @@ public obiekty_timer(wartosc)
     EXT_Yakuza();
     BazaNG();
 	LSPDintek();
-	BazaKT();
+	//BazaKT();
 	Risto();
     SN_Load();
     Int_BarBallas();
-  //  VinylClub();
+    //VinylClub();
   	JettyLounge();
     INT_AT400();
     INT_AirTowerLS();
@@ -313,7 +313,7 @@ DeleteObjects(playerid)
     RemoveBuildingForPlayer(playerid, 3256, 2658.7188, -2073.3750, 12.4453, 0.25);
     RemoveBuildingForPlayer(playerid, 3256, 2671.5000, -2073.3750, 12.4453, 0.25);
 	//KT SWAG
-	BazaKTDestroyObjects(playerid);
+	//BazaKTDestroyObjects(playerid);
 	
 	//baza NG by Dywan
 	/*RemoveBuildingForPlayer(playerid, 5156, 2838.0391, -2423.8828, 10.9609, 0.25);

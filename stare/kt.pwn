@@ -1,4 +1,4 @@
-BazaKTDestroyObjects(playerid)
+/*BazaKTDestroyObjects(playerid)
 {
 	RemoveBuildingForPlayer(playerid, 3244, 2535.0938, -2131.8750, 12.9922, 0.25);
 	RemoveBuildingForPlayer(playerid, 3244, 2532.0313, -2074.6250, 12.9922, 0.25);
@@ -621,7 +621,7 @@ BazaKT()
 	SetDynamicObjectMaterial(obiekt, 0, 988, "ws_apgatex", "Gen_Meshfencing", 0xFFFFFFFF);
 
     //STARY PARKING KT SWAG
-	/*ktlawka[0] = CreateDynamicObject(1256, 2423.25, -2076.72, 13.17,   0.00, 0.00, 0.00, -1, -1, -1, 200.0, 200.0);
+	*ktlawka[0] = CreateDynamicObject(1256, 2423.25, -2076.72, 13.17,   0.00, 0.00, 0.00, -1, -1, -1, 200.0, 200.0);
     ktlawka[1] = CreateDynamicObject(1256, 2423.25, -2071.72, 13.17,   0.00, 0.00, 0.00, -1, -1, -1, 200.0, 200.0);
     ktlawka[2] = CreateDynamicObject(1256, 2423.25, -2066.72, 13.17,   0.00, 0.00, 0.00, -1, -1, -1, 200.0, 200.0);
     ktlawka[3] = CreateDynamicObject(1256, 2423.35, -2101.70, 13.17,   0.00, 0.00, 0.00, -1, -1, -1, 200.0, 200.0);
@@ -818,9 +818,10 @@ BazaKT()
     for(new i=0;i<8;i++)
     {
         SetDynamicObjectMaterialText(ktlawka[i], 0, "Korporacja\nTransportowa", OBJECT_MATERIAL_SIZE_256x128, "Arial", 60, 1, 0xFFFFFFFF, 0xFFFCCE00, 1);
-    }*/
+    }*
 	return 1;
 }
+*/
 
 KT_Lotniska()
 {
