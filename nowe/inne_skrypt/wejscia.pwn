@@ -14,7 +14,7 @@ static StworzBudynki()
 	DodajWejscie(1285.5134, -1329.1538, 13.5492,1303.2700,-1330.7017,48.8789, 0, 0, 18, 0, "", "Wyjœcie");//Wejœcie do s¹du (Ewakuacyjne)
 	DodajWejscie(2327.0959,-74.9949,39.2946, 2251.5554,-89.0488,26.4844, 50, 0, 0, 0, "Przejœcie na plac manewrowy", "Powrót", 2, 255); //Przejœcie na plac manewrory z DMV
 	DodajWejscie(-2474.1194,2232.1296,5.7156, -2063.9272460938,547.01922607422,1172.2559814453, 0, 0, 7, 0, "Ratusz BaySide", "Wyjœcie"); 
-	DodajWejscie(2518.0, -2127.0, 13.5, 2452.1274, -2117.2329, 32.2572, 0, 0, 3, 0, "Korporacja Transportowa", "Wyjœcie"); 
+	//DodajWejscie(2518.0, -2127.0, 13.5, 2452.1274, -2117.2329, 32.2572, 0, 0, 3, 0, "Korporacja Transportowa", "Wyjœcie"); 
 	DodajWejscie(608.19793701172, -1458.9837646484, 14.387271881104, 592.71991, -1487.62439, 89.30576, 0, 0, 1, 0, "", "Wyjœcie", 3, PLOCAL_FRAC_FBI);
 	DodajWejscie(2447.8284,-1963.1549,13.5469, 2455.1021,-1958.0905,120.8159, 0, 0, 1, 0, "BoneHead Club", "Wyjœcie", 6, PLOCAL_ORG_BONEHEAD);
 	DodajWejscie(1673.3000488281, 1447.8000488281, 10.89999961853, 1673, 1447.5, 14.800000190735, 0, 0, 0, 1, "Lotnisko Los Santos", "Wyjœcie"); 

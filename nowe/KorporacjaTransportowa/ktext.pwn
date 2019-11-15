@@ -605,7 +605,7 @@ static StworzBramy()
 
 static StworzBudynki()
 {
-    DodajWejscie(2474.8691, -2085.2122, 14.1538, 2463.4041, -2085.2954, 14.0479, 0, 0, 33, 0, "Korporacja Transportowa", "Wyjdü"); 
+    DodajWejscie(2474.3645, -2085.3296, 14.1538, 2463.4041, -2085.2954, 14.0479, 0, 0, 33, 0, "Korporacja Transportowa", "Wyjdü"); 
 	//Tutaj wstawiamy wejúcia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
 	return 1;
