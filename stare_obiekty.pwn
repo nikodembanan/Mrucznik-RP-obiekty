@@ -18,7 +18,7 @@
 #include "stare/kt-interiory.pwn"
 #include "stare/lsfd.pwn"
 #include "stare/lspd.pwn"
-#include "stare/ng.pwn"
+//#include "stare/ng.pwn"
 #include "stare/pc.pwn"
 #include "stare/sad.pwn"
 #include "stare/sn.pwn"
@@ -47,7 +47,7 @@ public obiekty_timer(wartosc)
     BS_Ext();
     Dillimore_Load();
     EXT_Yakuza();
-    BazaNG();
+    //BazaNG();
 	LSPDintek();
 	Risto();
     SN_Load();
