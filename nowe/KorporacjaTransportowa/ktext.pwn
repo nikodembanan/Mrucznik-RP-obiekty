@@ -248,12 +248,6 @@ static StworzObiekty()
     SetDynamicObjectMaterial(skgang, 0, 15041, "bigsfsave", "walp73S", 0x00000000);
     skgang = CreateDynamicObject(18762, 2497.052734, -2069.827148, 10.979010, 0.000000, 0.000000, 0.000000, 0,  0, -1, 500.00, 500.00); 
     SetDynamicObjectMaterial(skgang, 0, 15041, "bigsfsave", "walp73S", 0x00000000);
-    skgang = CreateDynamicObject(19483, 2475.976318, -2101.784912, 12.188011, 0.000000, 0.000000, 180.000000, 0,  0, -1, 500.00, 500.00); 
-    SetDynamicObjectMaterialText(skgang, 0, "a John Macitnosh cwel", 130, "Ariel", 15, 1, 0xFFFFFFFF, 0x00000000, 0);
-    skgang = CreateDynamicObject(19483, 2475.976318, -2101.724853, 12.358015, 0.000000, 0.000000, 180.000000, 0,  0, -1, 500.00, 500.00); 
-    SetDynamicObjectMaterialText(skgang, 0, "exterior zrobi? Roman Fallaci", 130, "Ariel", 15, 1, 0xFFFFFFFF, 0x00000000, 0);
-    skgang = CreateDynamicObject(19483, 2475.976318, -2101.724853, 12.278013, 0.000000, 0.000000, 180.000000, 0,  0, -1, 500.00, 500.00); 
-    SetDynamicObjectMaterialText(skgang, 0, "pozdrowienia dla Scott White", 130, "Ariel", 15, 1, 0xFFFFFFFF, 0x00000000, 0);
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
