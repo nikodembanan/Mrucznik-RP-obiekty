@@ -598,7 +598,7 @@ static StworzObiekty()
     SetDynamicObjectMaterial(skgang, 0, 14674, "civic02cj", "sl_hotelwallplain1", 0x00000000);
     skgang = CreateDynamicObject(19483, 2489.791992, -2095.731689, 18.045822, 0.000014, -0.000022, 89.999832, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
-    SetDynamicObjectMaterialText(skgang, 0, "Dbaj o porz?dek", 130, "Ariel", 20, 1, 0xFF888888, 0x00000000, 0);
+    SetDynamicObjectMaterialText(skgang, 0, "Dbaj o porz¹dek", 130, "Ariel", 20, 1, 0xFF888888, 0x00000000, 0);
     skgang = CreateDynamicObject(19483, 2489.892089, -2095.731689, 17.945819, 0.000014, -0.000022, 89.999832, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
     SetDynamicObjectMaterialText(skgang, 0, "na stanowisku pracy", 130, "Ariel", 20, 1, 0xFF888888, 0x00000000, 0);
@@ -607,7 +607,7 @@ static StworzObiekty()
     SetDynamicObjectMaterialText(skgang, 0, "!", 130, "Ariel", 160, 1, 0xFF999999, 0x00000000, 0);
     skgang = CreateDynamicObject(19483, 2489.796875, -2095.732666, 18.040821, 0.000014, -0.000022, 89.999832, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
-    SetDynamicObjectMaterialText(skgang, 0, "Dbaj o porz?dek", 130, "Ariel", 20, 1, 0xFF111111, 0x00000000, 0);
+    SetDynamicObjectMaterialText(skgang, 0, "Dbaj o porz¹dek", 130, "Ariel", 20, 1, 0xFF111111, 0x00000000, 0);
     skgang = CreateDynamicObject(19483, 2489.896972, -2095.732666, 17.940820, 0.000014, -0.000022, 89.999832, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
     SetDynamicObjectMaterialText(skgang, 0, "na stanowisku pracy", 130, "Ariel", 20, 1, 0xFF111111, 0x00000000, 0);
@@ -790,7 +790,7 @@ static StworzObiekty()
     SetDynamicObjectMaterial(skgang, 0, 2254, "picture_frame_clip", "CJ_PAINTING26", 0x00000000);
     skgang = CreateDynamicObject(19483, 2518.808837, -2086.439453, 19.265817, 0.000000, -0.000001, 179.999908, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
-    SetDynamicObjectMaterialText(skgang, 0, "Interior i exterior wykona?", 130, "Ariel", 35, 1, 0xFF000000, 0x00000000, 0);
+    SetDynamicObjectMaterialText(skgang, 0, "Interior i exterior wykona³", 130, "Ariel", 35, 1, 0xFF000000, 0x00000000, 0);
     skgang = CreateDynamicObject(19483, 2518.808837, -2086.809814, 19.055812, 0.000000, -0.000007, 179.999908, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
     SetDynamicObjectMaterialText(skgang, 0, "Roman Fallaci", 130, "Ariel", 35, 1, 0xFF000000, 0x00000000, 0);
@@ -798,7 +798,7 @@ static StworzObiekty()
     SetDynamicObjectMaterial(skgang, 0, 2266, "picture_frame", "CJ_PAINTING30", 0x00000000);
     skgang = CreateDynamicObject(19483, 2518.807861, -2086.429443, 19.275817, 0.000000, -0.000001, 179.999908, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
-    SetDynamicObjectMaterialText(skgang, 0, "Interior i exterior wykona?", 130, "Ariel", 35, 1, 0xFFFFFFFF, 0x00000000, 0);
+    SetDynamicObjectMaterialText(skgang, 0, "Interior i exterior wykona³", 130, "Ariel", 35, 1, 0xFFFFFFFF, 0x00000000, 0);
     skgang = CreateDynamicObject(19483, 2518.807861, -2086.799804, 19.065811, 0.000000, -0.000007, 179.999908, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
     SetDynamicObjectMaterialText(skgang, 0, "Roman Fallaci", 130, "Ariel", 35, 1, 0xFFFFFFFF, 0x00000000, 0);
@@ -825,7 +825,7 @@ static StworzObiekty()
     SetDynamicObjectMaterial(skgang, 1, 14650, "ab_trukstpc", "mp_CJ_WOOD5", 0x00000000);
     skgang = CreateDynamicObject(19483, 2488.649658, -2083.017333, 19.995830, -0.000022, -0.000022, -90.000038, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, -1, "none", "none", 0xFFFFFFFF);
-    SetDynamicObjectMaterialText(skgang, 0, "Sala wyk?adowa", 130, "Ariel", 35, 1, 0xFF888888, 0x00000000, 0);
+    SetDynamicObjectMaterialText(skgang, 0, "Sala wyk³adowa", 130, "Ariel", 35, 1, 0xFF888888, 0x00000000, 0);
     skgang = CreateDynamicObject(19940, 2487.929199, -2082.992431, 20.575815, -0.000018, 90.000038, 90.000000, 33, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(skgang, 0, 14650, "ab_trukstpc", "mp_CJ_WOOD5", 0x00000000);
     skgang = CreateDynamicObject(18766, 2491.209716, -2077.830078, 17.266874, 89.999992, 224.801940, 45.198028, 33, 0, -1, 300.00, 300.00); 

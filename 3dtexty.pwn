@@ -55,8 +55,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Studio tatua¿u", COLOR_BLUE, 2292.3088,-1723.3538,13.5469, 10.0);
     CreateDynamic3DTextLabel("Verte Bank\nOddzia³ Los Santos", COLOR_BLUE, 1462.395751,-1012.391174,26.843799, 10.0);
     CreateDynamic3DTextLabel("Verte Bank\nOddzia³ Palomino Creek", COLOR_BLUE, 2302.7798,-15.9637,26.4844, 10.0);
-    CreateDynamic3DTextLabel("Biuro\nKorporacji Transportowej", COLOR_BLUE, 2518.0, -2127.0, 13.5, 7.0);
-    CreateDynamic3DTextLabel("Tylne wejœcie", COLOR_BLUE, 595.6168,-1489.4412, 15.5205, 5.0);
+     CreateDynamic3DTextLabel("Tylne wejœcie", COLOR_BLUE, 595.6168,-1489.4412, 15.5205, 5.0);
 	//--------------[Pickupy odnoœnie systemu biletów KT]----------------------
 	//Ticket machine
 	CreateDynamic3DTextLabel("Maszyna do biletów\n[/kupbiletpociag]", COLOR_BLUE, 1747.0645,-1944.3795,13.5668, 10.0);
@@ -240,7 +239,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Przystanek \n Commerce - Dworzec Autobusowy\nBasen 'Tsunami'\n Kursuje linia: {FFFF00}82  {FFFF00}82A  {008000}96", COLOR_BLUE, 1167.5377197266,-1825.7144775391,15.588569641113, 20.0);
     CreateDynamic3DTextLabel("Przystanek \nCommerce - Dworzec Autobusowy\nBasen 'Tsunami'\n Kursuje linia: {FFFF00}82  {FFFF00}82A  {008000}96", COLOR_BLUE, 1186.3753662109,-1750.328125,16.239440917969, 20.0);
     CreateDynamic3DTextLabel("Los Santos Bus Department\n{FF8C00}Zajezdnia Autobusowa Commerce\n{808080}Przystanek dla wysiadaj¹cych!", COLOR_BLUE , 1140.800048828,-1732.9000244141,16.10000038147, 20.0);
-    CreateDynamic3DTextLabel("{FFFF00}Korporacja Transportowa\n{FF8C00}Zajezdnia Autobusowa Ocean Docks\nBaza taksówkarska\nHangary dla helikopterów", COLOR_BLUE , 2424.0740,-2089.3833,16.0, 20.0);
 
 	CreateDynamic3DTextLabel("Biurowiec\n'Mrucznik Tower'", COLOR_BROWN, 330.6893,-1513.0613,35.8672, 100.0);
     CreateDynamic3DTextLabel("Kancelaria Prawnicza", COLOR_LIGHTGREEN, 315.4501953125, -1501.822265625, 13.820824623108, 10.0);
