@@ -248,7 +248,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Lista nagród [/wanted]", COLOR_LIGHTGREEN, 325.0463,306.9240,999.1484, 5.0);
 
 	//3d texty dynamicznych interioró
-	CreateDynamic3DTextLabel("Dom na Grove Street", COLOR_BLUE, 2495.576171875,-1689.9849853516,14.765625, 15.0);
+	//CreateDynamic3DTextLabel("Dom na Grove Street", COLOR_BLUE, 2495.576171875,-1689.9849853516,14.765625, 15.0);
 	CreateDynamic3DTextLabel("Melina", COLOR_BLUE, 2165.9409179688,-1671.8609619141,15.074726104736, 15.0);
 	CreateDynamic3DTextLabel("Szamboa Gym", COLOR_BLUE, 2229.2248535156,-1721.9586181641,13.567801475525, 15.0);
 	//CreateDynamic3DTextLabel("Pizzeria", COLOR_BLUE, 2104.4970703125,-1806.3927001953,13.5546875, 15.0);
