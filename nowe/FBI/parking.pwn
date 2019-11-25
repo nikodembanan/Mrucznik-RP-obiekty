@@ -48,7 +48,7 @@ static UsunObiekty(playerid)
 	//RemoveBuildingForPlayer(playerid, 6371, 585.281, -1456.719, 45.898, 0.250);
 	//RemoveBuildingForPlayer(playerid, 6479, 585.281, -1456.719, 45.898, 0.250);
 	RemoveBuildingForPlayer(playerid, 1529, 583.460, -1502.109, 16.000, 0.250);
-	RemoveBuildingForPlayer(playerid, 6340, 588.179, -1530.469, 25.593, 0.250);
+	//RemoveBuildingForPlayer(playerid, 6340, 588.179, -1530.469, 25.593, 0.250); // pod³oga parkingu, nie usuwac!!
 	RemoveBuildingForPlayer(playerid, 6480, 588.179, -1530.469, 25.593, 0.250);
 	RemoveBuildingForPlayer(playerid, 1260, 591.726, -1508.930, 25.304, 0.250);
 	RemoveBuildingForPlayer(playerid, 1529, 583.460, -1502.109, 16.000, 0.250);
@@ -343,8 +343,8 @@ static StworzObiekty()
 //FIX OD skPembleton
 	extfbi = CreateDynamicObject(6371, 585.281005, -1456.719970, 45.898399, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(extfbi, 12, 9515, "bigboxtemp1", "poshground_sfw", 0x00000000);
-	extfbi = CreateDynamicObject(6340, 588.179992, -1530.469970, 25.593799, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
-	SetDynamicObjectMaterial(extfbi, 4, 9514, "711_sfw", "ws_carpark2", 0x00000000);
+	/*extfbi = CreateDynamicObject(6340, 588.179992, -1530.469970, 25.593799, 0.000000, 0.000000, 0.000000, 0, 0, -1, 170.00, 170.00); 
+	SetDynamicObjectMaterial(extfbi, 4, 9514, "711_sfw", "ws_carpark2", 0x00000000);*/ //fa³szywa pod³oga
 	extfbi = CreateDynamicObject(1260, 591.726989, -1508.930053, 25.304700, 0.000000, 0.000000, -179.827163, 0, 0, -1, 170.00, 170.00); 
 	SetDynamicObjectMaterial(extfbi, 6, 1714, "cj_office", "CJ_DESK", 0x00000000);
 	extfbi = CreateDynamicObject(19457, 611.116394, -1489.993652, 16.087205, 0.000000, -0.000010, 0.000000, 0, 0, -1, 500.00, 500.00); 
