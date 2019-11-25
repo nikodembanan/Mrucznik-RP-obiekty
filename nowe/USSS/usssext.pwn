@@ -195,8 +195,10 @@ static StworzObiekty()
 }
 static StworzBramy()
 {
+	//DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0, bool:flag=false)
+	
     skgang = CreateDynamicObject(19911, 1534.666748, -1451.257812, 15.522806, 0.000000, 0.000000, 90.000000, 0, 0, -1, 500.00, 500.00); 
-	DodajBrame(skgang, 11534.666748, -1451.257812, 15.522806, 0.000000, 0.000000, 90.000000, 1534.666748, -1451.257812, 17.132835, 0.000000, 90.000000, 90.000000, 2, 2, 1, 7);
+	DodajBrame(skgang, 1534.666748, -1451.257812, 15.522806, 0.000000, 0.000000, 90.000000, 1534.666748, -1451.257812, 17.132835, 0.000000, 90.000000, 90.000000, 2, 10, BRAMA_UPR_TYPE_FRACTION, 7);
     //Brama do gara¿u
 	return 1;
 }
