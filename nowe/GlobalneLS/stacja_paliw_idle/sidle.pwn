@@ -54,10 +54,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(faraon, 0, 5397, "barrio1_lae", "concretenewgery256", 0x00000000);
 	faraon = CreateDynamicObject(19377, 1916.925048, -1802.115722, 12.476884, 0.000000, 90.000053, 0.000000, 0, 0, -1, 350.00, 350.00);
 	SetDynamicObjectMaterial(faraon, 0, 5397, "barrio1_lae", "concretenewgery256", 0x00000000);
-	faraon = CreateDynamicObject(19805, 1919.750244, -1766.251098, 14.749075, 0.000000, 29.100013, 180.000000, 0, 0, -1, 350.00, 350.00);
-	SetDynamicObjectMaterialText(faraon, 0, "{000000}YOU WILL BE NEXT.. HATOSY", 120, "Calibri", 30, 1, 0x00000000, 0x00000000, 1);
-	faraon = CreateDynamicObject(19805, 1919.394409, -1766.253662, 14.276882, 0.000000, 14.299999, 180.000000, 0, 0, -1, 350.00, 350.00);
-	SetDynamicObjectMaterialText(faraon, 0, "{ff0000}666", 10, "Engravers MT", 10, 1, 0x00000000, 0x00000000, 1);
 	faraon = CreateDynamicObject(19361, 1947.992919, -1815.303588, 10.832818, 0.000000, 0.000036, 0.000000, 0, 0, -1, 350.00, 350.00);
 	SetDynamicObjectMaterial(faraon, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	faraon = CreateDynamicObject(19434, 1947.992919, -1812.903076, 10.832818, 0.000000, 0.000036, 0.000000, 0, 0, -1, 350.00, 350.00);
@@ -66,8 +62,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(faraon, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	faraon = CreateDynamicObject(19434, 1944.412109, -1812.903076, 10.832818, 0.000000, 0.000044, 0.000000, 0, 0, -1, 350.00, 350.00);
 	SetDynamicObjectMaterial(faraon, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-	faraon = CreateDynamicObject(19805, 1914.405639, -1781.713378, 14.377901, 0.000000, 4.100002, 630.000000, 0, 0, -1, 350.00, 350.00);
-	SetDynamicObjectMaterialText(faraon, 0, "{000000}L. Cotta + S. Derminto = ", 80, "Engravers MT", 15, 1, 0x00000000, 0x00000000, 1);
 	faraon = CreateDynamicObject(2677, 1935.773925, -1795.272827, 12.832815, 0.000000, 0.000007, 0.000000, 0, 0, -1, 350.00, 350.00);
 	SetDynamicObjectMaterial(faraon, 0, 19480, "signsurf", "sign", 0x00000000);
 	SetDynamicObjectMaterial(faraon, 3, 19480, "signsurf", "sign", 0x00000000);
@@ -120,10 +114,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(faraon, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	faraon = CreateDynamicObject(19377, 2053.117187, 1333.027221, 9.680310, 0.000000, 90.000000, 0.000000, 0, 0, -1, 350.00, 350.00);
 	SetDynamicObjectMaterialText(faraon, 0, "None", 10, "Ariel", 20, 0, 0x00000000, 0x00000000, 0);
-	faraon = CreateDynamicObject(19805, 1914.405639, -1782.390991, 14.319308, 0.000000, 4.100002, 630.000000, 0, 0, -1, 350.00, 350.00);
-	SetDynamicObjectMaterialText(faraon, 0, "{FF0000}<", 80, "Engravers MT", 15, 1, 0x00000000, 0x00000000, 1);
-	faraon = CreateDynamicObject(19805, 1914.405639, -1782.450927, 14.315017, 0.000000, 4.100002, 630.000000, 0, 0, -1, 350.00, 350.00);
-	SetDynamicObjectMaterialText(faraon, 0, "{FF0000}3", 80, "Engravers MT", 15, 1, 0x00000000, 0x00000000, 1);
 	faraon = CreateDynamicObject(19434, 1919.529052, -1812.903076, 10.832818, 0.000000, 0.000075, 0.000000, 0, 0, -1, 350.00, 350.00);
 	SetDynamicObjectMaterial(faraon, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -303,13 +293,8 @@ static StworzObiekty()
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	skgang = CreateDynamicObject(19805, 1919.750244, -1766.251098, 14.749074, 0.000000, 29.100013, 180.000000, 0, 0, -1, 500.00, 500.00); 
-	skgang = CreateDynamicObject(19805, 1919.394409, -1766.253662, 14.276882, 0.000000, 14.299999, 180.000000, 0, 0, -1, 500.00, 500.00); 
-	skgang = CreateDynamicObject(19805, 1914.405639, -1781.713378, 14.377901, 0.000000, 4.100001, 630.000000, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(997, 1946.811645, -1773.957275, 12.721831, -0.599999, 0.000000, 269.700073, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(19377, 2053.117187, 1333.027221, 9.680310, 0.000000, 90.000000, 0.000000, 0, 0, -1, 500.00, 500.00); 
-	skgang = CreateDynamicObject(19805, 1914.405639, -1782.390991, 14.319308, 0.000000, 4.100001, 630.000000, 0, 0, -1, 500.00, 500.00); 
-	skgang = CreateDynamicObject(19805, 1914.405639, -1782.450927, 14.315016, 0.000000, 4.100001, 630.000000, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(997, 1946.836425, -1768.324584, 12.721831, -0.599999, 0.000000, 269.700073, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(997, 1946.863769, -1762.672851, 12.721831, -0.599999, 0.000000, 269.700073, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(997, 1956.417480, -1773.707031, 12.721831, -0.600006, -0.000000, -90.299903, 0, 0, -1, 500.00, 500.00); 
@@ -369,8 +354,6 @@ static StworzObiekty()
 	skgang = CreateDynamicObject(1216, 1951.260620, -1802.729858, 13.252822, 0.000000, 0.000000, 270.000000, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(1216, 1951.260620, -1802.149780, 13.252822, 0.000000, 0.000000, 270.000000, 0, 0, -1, 500.00, 500.00); 
 	skgang = CreateDynamicObject(997, 1920.614501, -1797.402099, 12.662288, 3.700004, 0.000000, -179.899978, 0, 0, -1, 500.00, 500.00); 
-
-
 
 	return 1;
 }
