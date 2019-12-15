@@ -4289,21 +4289,24 @@ static StworzBramy()
 	dudmv4, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 90.000000, 1420.932739, -1818.127075, 78.095237, 0.000000, 0.000000, 190.000000,
 	35, 3.5, BRAMA_UPR_TYPE_FRACTION, 7);
 	
-	new bramawej1 = CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramawej1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 3, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 4, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej1, 5, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	new bramawej2 = CreateDynamicObject(3089, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 50, -1, -1, 400.00, 400.00);
-	SetDynamicObjectMaterial(bramawej2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
-	SetDynamicObjectMaterial(bramawej2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
-	SetDynamicObjectMaterial(bramawej2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
-	DualGateAdd(bramawej1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 90.000000, 
-	bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, 90.000000, 35, 3, BRAMA_UPR_TYPE_FRACTION, 11);
-	DualGateAdd(bramawej1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 90.000000, 
-	bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, 90.000000, 35, 3, BRAMA_UPR_TYPE_FRACTION, 7);
+
+	//USUNIÊTO BRAME WEJŒCIOW¥ DLA NOWEGO SYSTEMU DMV
+
+	// new bramawej1 = CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00);
+	// SetDynamicObjectMaterial(bramawej1, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej1, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej1, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej1, 3, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej1, 4, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej1, 5, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	// new bramawej2 = CreateDynamicObject(3089, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 50, -1, -1, 400.00, 400.00);
+	// SetDynamicObjectMaterial(bramawej2, 0, 1649, "wglass", "carshowwin2", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej2, 1, 18646, "matcolours", "grey-90-percent", 0x00000000);
+	// SetDynamicObjectMaterial(bramawej2, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
+	// DualGateAdd(bramawej1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 90.000000, 
+	// bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, 90.000000, 35, 3, BRAMA_UPR_TYPE_FRACTION, 11);
+	// DualGateAdd(bramawej1, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 90.000000, 
+	// bramawej2, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, -180.000000, 1453.097045, -1784.160522, 78.235260, 0.000000, 0.000000, 90.000000, 35, 3, BRAMA_UPR_TYPE_FRACTION, 7);
  
  /* To jest to samo co bramwej1 i bramawej2
 	new dualgdmv1 = CreateDynamicObject(3089, 1450.117919, -1784.158203, 78.235244, 0.000000, 0.000000, 0.000000, 50, -1, -1, 400.00, 400.00); 
