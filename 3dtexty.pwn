@@ -322,7 +322,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Verona Mall #13", 0xFFFFFFFF, 1096.8696,-1522.0790,25.7450, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 	CreateDynamic3DTextLabel("Verona Mall #14", 0xFFFFFFFF, 1094.1958,-1451.0001,25.7605, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 
-    CreateDynamic3DTextLabel("{333399}Tymczasowe wiêzienie stanowe FBI\n{FFFFFF}[/aresztuj]", COLOR_BLUE, NG_JAIL_X,NG_JAIL_Y,NG_JAIL_Z, 5.0);
     //SN
     CreateDynamic3DTextLabel("Dach San News", 0xFFA500FF, 297.7128,-1612.1783,114.4219, 15.0);
     CreateDynamic3DTextLabel("Parking San News", 0xFFA500FF, 288.0914,-1609.7465,17.9994, 10.0);
