@@ -248,7 +248,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("Lista nagród [/wanted]", COLOR_LIGHTGREEN, 325.0463,306.9240,999.1484, 5.0);
 
 	//3d texty dynamicznych interioró
-	CreateDynamic3DTextLabel("Dom na Grove Street", COLOR_BLUE, 2495.576171875,-1689.9849853516,14.765625, 15.0);
+	//CreateDynamic3DTextLabel("Dom na Grove Street", COLOR_BLUE, 2495.576171875,-1689.9849853516,14.765625, 15.0);
 	CreateDynamic3DTextLabel("Melina", COLOR_BLUE, 2165.9409179688,-1671.8609619141,15.074726104736, 15.0);
 	CreateDynamic3DTextLabel("Szamboa Gym", COLOR_BLUE, 2229.2248535156,-1721.9586181641,13.567801475525, 15.0);
 	//CreateDynamic3DTextLabel("Pizzeria", COLOR_BLUE, 2104.4970703125,-1806.3927001953,13.5546875, 15.0);
@@ -322,7 +322,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Verona Mall #13", 0xFFFFFFFF, 1096.8696,-1522.0790,25.7450, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 	CreateDynamic3DTextLabel("Verona Mall #14", 0xFFFFFFFF, 1094.1958,-1451.0001,25.7605, 10.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1);
 
-    CreateDynamic3DTextLabel("{333399}Tymczasowe wiêzienie stanowe FBI\n{FFFFFF}[/stanowe]", COLOR_BLUE, NG_JAIL_X,NG_JAIL_Y,NG_JAIL_Z, 5.0);
     //SN
     CreateDynamic3DTextLabel("Dach San News", 0xFFA500FF, 297.7128,-1612.1783,114.4219, 15.0);
     CreateDynamic3DTextLabel("Parking San News", 0xFFA500FF, 288.0914,-1609.7465,17.9994, 10.0);

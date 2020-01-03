@@ -177,6 +177,10 @@
 //*****************************************************
 #include "nowe\KorporacjaTransportowa\ktext.pwn"
 #include "nowe\KorporacjaTransportowa\ktint.pwn"
+//*****************************************************
+//Aktualizacja 2.6.15 - By Creative & skPembleton
+//*****************************************************
+#include "nowe\Piwnica/piwnica.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -290,6 +294,7 @@ obiekty_OnGameModeInit()
 	octagon_Init();
 	ktext_Init();
 	ktint_Init();
+	piwnica_Init();
 	return 1;
 }
 
