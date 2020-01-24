@@ -78,4 +78,6 @@ PushActors()
 	CreateActorEx(191, "Carla_Huawei", 1264.1796,-1519.7985,-0.3290,12.6125, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT); 
 	CreateActorEx(165, "Jacob_Horseradi", 1263.7649,-1522.7013,-0.3350,177.9090, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT);
 	CreateActorEx(166, "Joe_Pea", 1265.3063,-1547.7554,3.1350,269.1132, 1, 40.0, 40, -1, -1, AGROUP_DEFAULT); 
+	//LSPD komisariat
+	CreateActorEx(281, "Josh_Camert", -1677.7097,893.5458,-48.9141,93.7861, 1, 40.0, 0, -1, -1, AGROUP_DEFAULT, "COP_AMBIENT", "Coplook_loop");
 }
