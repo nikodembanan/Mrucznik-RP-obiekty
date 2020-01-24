@@ -582,7 +582,7 @@ static StworzObiekty()
 static StworzBramy()
 {
     skgang = CreateDynamicObject(968, 2445.194580, -2105.291992, 13.335743, 0.000000, 360.000000, 180.000000, 0,  0, -1, 500.00, 500.00); 
-    DodajBrame(skgang, 2445.194580, -2105.291992, 13.335743, 0.000000, 360.000000, 180.000000, 2445.194580, -2105.291992, 13.335743, 0.000000, 270.000000, 180.000000, 2, 5, 1, 10);
+    DodajBrame(skgang, 2445.194580, -2105.291992, 13.335743, 0.000000, 360.000000, 180.000000, 2445.194580, -2105.291992, 13.335743, 0.000000, 270.000000, 180.000000, 2, 10, 1, 10);
 	//Tutaj wstawiamy bramy w formacie: 
 		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
 		// fuprtyp - TYPY UPRAWNIEÑ:
