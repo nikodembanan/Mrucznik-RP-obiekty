@@ -64,7 +64,6 @@ PushActors()
 	CreateActorEx(20426, "Susan_Water", 1445.2773,-1794.7145,77.9612+10,269.9041, 1, 40.0, 50, -1, -1,  AGROUP_DMV); //6
 	CreateActorEx(20416, "Peter_Joe", 1445.3197,-1797.8114,77.9612+10,269.9041, 1, 40.0, 50, -1, -1,  AGROUP_DMV); //7
 	CreateActorEx(20424, "Harry_Brown", 1445.2811,-1801.1071,77.9612+10,269.9041, 1, 40.0, 50, -1, -1,  AGROUP_DMV); //8
-	CreateActorEx(20002, "Bezdomny_Pies", 1457.3152,-1750.6495,13.5469,359.2838, 1, 40.0, 0, -1, -1,  AGROUP_DEFAULT);  //Przed urzêdem
 
 	//GSA
 	CreateActorEx(20002, "Reksio_Szary", 1541.1328,-1452.5272,21.7028, 157.9058, 1, 40.0, 43, -1, -1, AGROUP_DEFAULT); 
