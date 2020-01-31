@@ -20,11 +20,13 @@
 // Data utworzenia: 30.01.2020
 
 //W przypadku dodania parkingu [ILOŒÆ PARKINGÓW][Argumenty]
-//- Zwiêksz iloœæ parkingów (+1)
+//- Zwiêksz iloœæ parkingów (COUNT_CARPARKS) (+1)
 //WprowadŸ poprawnie argumenty (X,Y,Z, RANGE)
 //UWAGI: 
 //- NIE USTAWIAÆ ZA DU¯EGO RANGE, w przeciwnym razie wprowadzisz wiele bugów!
+#define COUNT_CARPARKS 1
+new Float:TempCarPark[MAX_CARS][3]; 
 
-new Float:carParks[1][4] = {
+new Float:carParks[COUNT_CARPARKS][4] = {
 {-1976.5912, 166.1818, 36.9623, 20.0}//TESTOWY (ZAST¥PIÆ)
 };
