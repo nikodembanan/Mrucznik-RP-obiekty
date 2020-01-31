@@ -4045,7 +4045,6 @@ static StworzBudynki()
 	//Tutaj wstawiamy wejœcia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
     DodajWejscie(397.3062, -1805.8008, 7.8380, 397.8007, -1807.3466, 7.8789, 0, 0, 21, 0,"Ibiza Club", "Wyjœcie");//Do LOBBY
-    DodajWejscie(396.1093, -1811.1696, 7.8789, 417.3976, -1858.9402, -65.3905, 21, 0, 22, 0,"Sala G³ówna", "Lobby");//Do sali g³ównej
     DodajWejscie(429.9828, -1852.9122, -65.5105, 438.3038, -1731.6410, -46.0520, 22, 0, 27, 0,"Biura", "Powrót na salê");//Do biur
     DodajWejscie(430.4849,-1837.2827,-65.5105, 434.7581, -1841.0632, -64.2206, 22, 0, 22, 0,"Wejœcie na scenê", "Powrót na salê"); //Na VIP
     DodajWejscie(425.9001, -1854.8367, -65.5105, 428.3247, -1855.9178, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
