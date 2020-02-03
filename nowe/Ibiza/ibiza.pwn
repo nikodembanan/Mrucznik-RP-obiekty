@@ -4045,18 +4045,17 @@ static StworzBudynki()
 	//Tutaj wstawiamy wejœcia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
     DodajWejscie(397.3062, -1805.8008, 7.8380, 397.8007, -1807.3466, 7.8789, 0, 0, 21, 0,"Ibiza Club", "Wyjœcie");//Do LOBBY
-    DodajWejscie(396.1093, -1811.1696, 7.8789, 417.3976, -1858.9402, -65.3905, 21, 0, 22, 0,"Sala G³ówna", "Lobby");//Do sali g³ównej
     DodajWejscie(429.9828, -1852.9122, -65.5105, 438.3038, -1731.6410, -46.0520, 22, 0, 27, 0,"Biura", "Powrót na salê");//Do biur
-    DodajWejscie(430.4849,-1837.2827,-65.5105, 434.7581, -1841.0632, -64.2206, 22, 0, 22, 0,"Wejœcie na scenê", "Powrót na salê"); //Na VIP
-    DodajWejscie(425.9001, -1854.8367, -65.5105, 428.3247, -1855.9178, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
-    DodajWejscie(408.6968, -1855.0348, -65.5105, 406.8980, -1856.6122, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
-    DodajWejscie(408.8490, -1835.8851, -65.5105, 406.3426, -1835.0138, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
+   // DodajWejscie(430.4849,-1837.2827,-65.5105, 434.7581, -1841.0632, -64.2206, 22, 0, 22, 0,"Wejœcie na scenê", "Powrót na salê"); //Na VIP
+   // DodajWejscie(425.9001, -1854.8367, -65.5105, 428.3247, -1855.9178, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
+  //  DodajWejscie(408.6968, -1855.0348, -65.5105, 406.8980, -1856.6122, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
+  //  DodajWejscie(408.8490, -1835.8851, -65.5105, 406.3426, -1835.0138, -65.2092, 22, 0, 22, 0,"VIP", "Powrót na salê");//Na VIP
     DodajWejscie(403.3957, -1847.1060, -65.5105, 296.8685, -1784.2827, -34.3768, 22, 0, 26, 0,"Toalety", "Powrót na salê");//Do toalety
-    DodajWejscie(424.0322, -1837.0964, -65.5105, 426.7242, -1834.9066, -65.2102, 22, 0, 22, 0,"SuperVIP", "Powrót na salê");//Do super vip
-    DodajWejscie(422.2131, -1831.5657, -65.5105, 221.530426, -1546.261352, -15.997495, 22, 0, 25, 0,"SuperVIP", "Powrót na salê");//Do super vip2
+   // DodajWejscie(424.0322, -1837.0964, -65.5105, 426.7242, -1834.9066, -65.2102, 22, 0, 22, 0,"SuperVIP", "Powrót na salê");//Do super vip
+   // DodajWejscie(422.2131, -1831.5657, -65.5105, 221.530426, -1546.261352, -15.997495, 22, 0, 25, 0,"SuperVIP", "Powrót na salê");//Do super vip2
     DodajWejscie(413.5745, -1850.3945, -61.9043, 297.5301, -1676.3397, -34.2172, 22, 0, 23, 0,"Krêgielnia", "Powrót na salê");//Do krêgielni
     DodajWejscie(410.8377, -1850.2888, -61.9043, 277.5942, -1772.7822, -16.5560, 22, 0, 24, 0,"Palarnia", "Powrót na salê");//Do palarni
-	DodajWejscie(403.3954,-1843.4607,-65.5105, 416.8028, -1850.4160, -61.9043, 22, 0, 22, 0,"Lo¿a VIP", "Powrót na salê");//Na piêtro VIP
+//	DodajWejscie(403.3954,-1843.4607,-65.5105, 416.8028, -1850.4160, -61.9043, 22, 0, 22, 0,"Lo¿a VIP", "Powrót na salê");//Na piêtro VIP
 
 	return 1;
 }

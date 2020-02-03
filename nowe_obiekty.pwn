@@ -181,6 +181,10 @@
 //Aktualizacja 2.6.15 - By Creative & skPembleton
 //*****************************************************
 #include "nowe\Piwnica/piwnica.pwn"
+//*****************************************************
+//Aktualizacja 2.6.18 - By Sanda³ & Rozalka(deduir)
+//*****************************************************
+#include "nowe\sekta/interior.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -289,6 +293,7 @@ obiekty_OnGameModeInit()
 	westeagle_Init();
 	firmab_Init();
 	ibizamrn_Init();
+	interiorSEKTA_Init();
 	powergym_Init();
 	ammuwill_Init();
 	octagon_Init();
