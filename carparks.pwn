@@ -25,8 +25,20 @@
 //UWAGI: 
 //- NIE USTAWIAÆ ZA DU¯EGO RANGE, w przeciwnym razie wprowadzisz wiele bugów!
 #define COUNT_CARPARKS 1
-new Float:TempCarPark[MAX_CARS][3]; 
+//new Float:TempCarPark[MAX_CARS][3]; 
 
 new Float:carParks[COUNT_CARPARKS][4] = {
 {-1976.5912, 166.1818, 36.9623, 20.0}//TESTOWY (ZAST¥PIÆ)
 };
+
+IsVehicleInCarPark(vehicleid)
+{
+	for(new i; i <= COUNT_CARPARKS; i++)
+	{
+		if(IsVehicleInRangeOfPoint(vehicleid, carParks[i][3], carParks[i][0], carParks[i][1], carParks[i][2]))
+		{
+			return true;
+		}
+	}
+	return false; 
+}
