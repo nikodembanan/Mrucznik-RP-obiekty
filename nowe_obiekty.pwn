@@ -189,6 +189,7 @@
 //Aktualizacja 2.6.19 - By Sanda³ & Kvbuœ
 //*****************************************************
 #include "nowe\GoldenPalms/interior.pwn"
+#include "nowe\GoldenPalms/exterior.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -299,6 +300,7 @@ obiekty_OnGameModeInit()
 	ibizamrn_Init();
 	interiorSEKTA_Init();
 	GoldenPalms_Init();
+	GoldenPalmsExterior_Init();
 	powergym_Init();
 	ammuwill_Init();
 	octagon_Init();
