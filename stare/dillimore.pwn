@@ -11,7 +11,6 @@ DodajWejscia_Dillimore()
 Bramy_Dillimore()
 {
 	new brama;
-	DodajBrame(bramabiur1, 1452.955932, -1834.270385, 81.565254, 0.000000, 0.000000, -90.599929, 1452.955932, -1834.270385, 81.565254, 0.000000, 0.000000, -1.4999, 2, 3, BRAMA_UPR_TYPE_FRACTION, 7);//Brama do kibli obok biura burmistrza USSS
 	
 	//intek SASP Ÿ
 	brama = CreateDynamicObject(1569, 222.16035, 68.89352, 1004.04041,   0.00000, 0.00000, 90.00000);
