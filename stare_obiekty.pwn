@@ -46,6 +46,7 @@ public obiekty_timer(wartosc)
     PC_Ext();
     BS_Ext();
     Dillimore_Load();
+	Bramy_Dillimore();
     EXT_Yakuza();
     BazaNG();
 	LSPDintek();
