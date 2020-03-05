@@ -71,19 +71,19 @@ SprawdzWejscia(playerid)
 	{
 		if(GetPlayerInterior(playerid) == wejscia[i][w_int1] && GetPlayerVirtualWorld(playerid) == wejscia[i][w_vw1] && IsPlayerInRangeOfPoint(playerid, 2.0, wejscia[i][w_x1],  wejscia[i][w_y1], wejscia[i][w_z1]))
 		{
+			Wchodzenie(playerid);
 			SetPlayerPos(playerid,  wejscia[i][w_x2],  wejscia[i][w_y2], wejscia[i][w_z2]);
 			SetPlayerInterior(playerid, wejscia[i][w_int2]);
 			SetPlayerVirtualWorld(playerid, wejscia[i][w_vw2]);
-			Wchodzenie(playerid);
 			return 1;
 		}
 		else if(GetPlayerInterior(playerid) == wejscia[i][w_int2] && GetPlayerVirtualWorld(playerid) == wejscia[i][w_vw2] && IsPlayerInRangeOfPoint(playerid, 2.0, wejscia[i][w_x2],  wejscia[i][w_y2], wejscia[i][w_z2]))
 		{
+			Wchodzenie(playerid);
 			SetPlayerPos(playerid,  wejscia[i][w_x1],  wejscia[i][w_y1], wejscia[i][w_z1]);
 			SetPlayerInterior(playerid, wejscia[i][w_int1]);
 			SetPlayerVirtualWorld(playerid, wejscia[i][w_vw1]);
 			PlayerInfo[playerid][pLocal] = 255;
-			Wchodzenie(playerid);
 			return 1;
 		}
 	}

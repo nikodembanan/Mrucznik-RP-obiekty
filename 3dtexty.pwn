@@ -17,6 +17,8 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("WeŸ zlecenie - PIZZA", 0xFFA500AA, 2103.8123,-1798.7085,13.6504,30.0);//PizzaJob
 	//nowe domy 3dtext biznesów
 	CreateDynamic3DTextLabel("Oczysczanie z zarzutow", 0x33CCFFAA, 246.3568,120.3933,1003.2682, 10.0); //Clear icon in Police Station
+	CreateDynamic3DTextLabel("/kuppozwolenie", 0x42F5C5AA, -1679.18, 893.36, -47.58, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
+	CreateDynamic3DTextLabel("/kupbilet", 0x42F5C5AA, 401.07, -1809.11, 9.41, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 21);
 	CreateDynamic3DTextLabel("Urz¹d Miasta", 0x9ACD32AA, 1481.1531,-1770.0277,18.7958, 50.0); //City Hall
 	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall
 	CreateDynamic3DTextLabel("Praca £owcy Nagród", 0xFFA500AA, 322.3034,317.0233,999.1484, 30.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 0, 5); //Detective Registration
