@@ -130,8 +130,7 @@
 //Aktualizacja 2.6 - By Simeone & Sergio & deduir
 //*****************************************************
 #include "nowe\Globalne\bankomaty.pwn"
-//#include "nowe\BialyDom/exterior.pwn"
-#include "nowe\BialyDom/exterior_temporary.pwn"
+#include "nowe\BialyDom/exterior.pwn"
 #include "nowe\basen/interior.pwn"
 #include "nowe\basen/exterior.pwn"
 #include "nowe\Globalne\biznesy\biznesy_obj.pwn"
@@ -345,7 +344,7 @@ obiekty_OnPlayerConnect(playerid)
 	chinskiejedzenie_Connect(playerid);//Chinese food
 	wpsint_Connect(playerid);//Interior WPS
 	simeonedom_Connect(playerid);//Domek simeone
-	// WY£¥CZONE TYMCZASOWO WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
+	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
 	FBIPARKING_Connect(playerid);
 	carniceria_Connect(playerid);//interior el pueblo
