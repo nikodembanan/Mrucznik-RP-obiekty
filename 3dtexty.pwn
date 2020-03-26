@@ -288,7 +288,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Pas startowy w Los Santos", COLOR_BLUE, 1605,-2282.9,-74.90, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy", COLOR_BLUE, 1675.8, 1455.4, 14.9, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
 	CreateDynamic3DTextLabel("Lotnisko w Las Venturas", COLOR_BLUE, 1673.3, 1447.8, 10.9, 25.0);
-	CreateDynamic3DTextLabel("Lotnisko w Las Venturas", COLOR_BLUE, 1597.7, 1448.3, 10.9, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w San Fierro", COLOR_BLUE, -1421.4,-287.3,14.1, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w San Fierro", COLOR_BLUE, -1376.3,-261.1,14.3, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy", COLOR_BLUE, -1390,-294.6,-74.6, 25.0);
