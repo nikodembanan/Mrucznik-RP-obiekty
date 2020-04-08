@@ -334,7 +334,7 @@ INT_AT400()
     CreateDynamicObject(19466, -4.99730, 3.27870, 1.32010,   0.00000, 0.00000, 0.00000, 2);
     CreateDynamicObject(19466, -4.99730, 0.07770, 1.32010,   0.00000, 0.00000, 0.00000, 2);
     //Bagaze maskowanie
-    obj = CreateDynamicObject(8322, -5.14916, 7.22615, 7.39730,   0.00000, 180.00000, 286.14999);
+    obj = CreateDynamicObject(8322, -5.14916, 7.22615, 7.39730,   0.00000, 180.00000, 286.14999,2 );
     SetDynamicObjectMaterial(obj, 0, 14838, "lee_stripclub", "cl_floornew_256");
     obj = CreateDynamicObject(8322, 5.18663, 7.35608, 7.39734,   0.00000, 180.00000, 106.15000, 2);
     SetDynamicObjectMaterial(obj, 0, 14838, "lee_stripclub", "cl_floornew_256");
@@ -460,7 +460,7 @@ INT_AT400()
     CreateDynamicObject(2688, -0.92775, 24.62453, 1.50139,   0.00000, 0.00000, 0.00000, 2);
     CreateDynamicObject(2688, 0.92770, 24.62450, 1.50140,   0.00000, 0.00000, 0.00000, 2);
     CreateDynamicObject(2690, -1.32853, 24.97836, -0.10138,   0.00000, 0.00000, 131.28000, 2);
-    CreateDynamicObject(2690, 1.41596, 24.94683, -0.10138,   0.00000, 0.00000, 213.95999);
+    CreateDynamicObject(2690, 1.41596, 24.94683, -0.10138,   0.00000, 0.00000, 213.95999, 2);
     CreateDynamicObject(2528, 3.69570, 26.17320, -0.45800,   0.00000, 0.00000, 270.00000, 2);
     CreateDynamicObject(2528, -3.69570, 26.17320, -0.45800,   0.00000, 0.00000, 90.00000, 2);
     CreateDynamicObject(2523, 2.53770, 27.13876, -0.45809,   0.00000, 0.00000, 0.00000, 2);

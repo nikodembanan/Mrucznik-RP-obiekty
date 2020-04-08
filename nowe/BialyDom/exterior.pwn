@@ -26,7 +26,6 @@ WhiteHouseExt_Init()
 {
 	StworzObiekty();
 	StworzBramy();
-	//StworzBudynki();
 	return 1;
 }
 
@@ -846,32 +845,6 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 4824, 1224.430, -2037.010, 62.929, 0.250);
 	RemoveBuildingForPlayer(playerid, 4920, 1224.430, -2037.010, 62.929, 0.250);
 	RemoveBuildingForPlayer(playerid, 1280, 1204.4922, -2039.8047, 68.3750, 0.25);
-	
-	//By simeone i santiago - podmiana tekstur
-	
-	/* RemoveBuildingForPlayer(playerid, 4851, 1182.010, -1987.630, 39.992, 0.250);
-	RemoveBuildingForPlayer(playerid, 4902, 1182.010, -1987.630, 39.992, 0.250);
-	RemoveBuildingForPlayer(playerid, 4812, 1023.400, -2166.100, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4908, 1023.400, -2166.100, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4823, 1338.329, -1976.660, 36.609, 0.250);
-	RemoveBuildingForPlayer(playerid, 4919, 1338.329, -1976.660, 36.609, 0.250);
-	RemoveBuildingForPlayer(playerid, 4852, 1401.459, -1994.589, 35.437, 0.250);
-	RemoveBuildingForPlayer(playerid, 4918, 1401.459, -1994.589, 35.437, 0.250);
-	RemoveBuildingForPlayer(playerid, 4811, 1069.670, -2270.899, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4913, 1069.670, -2270.899, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4845, 1222.829, -2291.229, 7.070, 0.250);
-	RemoveBuildingForPlayer(playerid, 4914, 1222.829, -2291.229, 7.070, 0.250);
-	RemoveBuildingForPlayer(playerid, 4872, 1610.930, -2010.630, 23.132, 0.250);
-	RemoveBuildingForPlayer(playerid, 4924, 1610.930, -2010.630, 23.132, 0.250);
-	RemoveBuildingForPlayer(playerid, 4810, 1095.060, -2214.219, 41.726, 0.250);
-	RemoveBuildingForPlayer(playerid, 4915, 1095.060, -2214.219, 41.726, 0.250);
-	RemoveBuildingForPlayer(playerid, 4876, 1582.300, -2002.229, 26.609, 0.250);
-	RemoveBuildingForPlayer(playerid, 4925, 1582.300, -2002.229, 26.609, 0.250);
-	RemoveBuildingForPlayer(playerid, 4878, 1530.829, -1969.130, 26.390, 0.250);
-	RemoveBuildingForPlayer(playerid, 4926, 1530.829, -1969.130, 26.390, 0.250);
-	RemoveBuildingForPlayer(playerid, 4813, 1042.270, -2029.800, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4903, 1042.270, -2029.800, 23.101, 0.250);
-	RemoveBuildingForPlayer(playerid, 4916, 1270.689, -2196.790, 42.562, 0.250);*/
 	return 1;
 }
 
@@ -926,12 +899,3 @@ static StworzBramy()
 	0); 
 	return 1;
 }
-
-/*
-
-static StworzBudynki()
-{
-	DodajWejscie(207.8708, -61.8387, 1.9766, 208.8030, -52.6623, 15.0643, 0, 0, 20, 0, "Rada Miasta\nBlueberry", "Wyj˜cie");
-	
-	return 1;
-}*/

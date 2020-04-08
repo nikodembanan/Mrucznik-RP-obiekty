@@ -164,7 +164,6 @@
 #include "nowe\stanowe\stanoweext.pwn"
 #include "nowe\USSS/usssext.pwn"
 #include "nowe\USSS/usssint.pwn"
-#include "nowe\Globalne\bilboardy/bilb03dl.pwn"
 #include "nowe\WestEagle/eaglewest.pwn"
 #include "nowe\FirmaBudowlana/firmab.pwn"
 #include "nowe\Ibiza/ibiza.pwn"
@@ -294,7 +293,6 @@ obiekty_OnGameModeInit()
 	stanoweINT_Init(); 
 	usss_Init();
 	usssext_Init();
-	bilb03_Init(); 
 	westeagle_Init();
 	firmab_Init();
 	ibizamrn_Init();
@@ -353,7 +351,6 @@ obiekty_OnPlayerConnect(playerid)
 	monster_Connect(playerid);
 	stanoweINT_Connect(playerid);  
 	usss_Connect(playerid);
-	bilb03_Connect(playerid); 
 	westeagle_Connect(playerid);
 	firmab_Connect(playerid);
 	powergym_Connect(playerid);

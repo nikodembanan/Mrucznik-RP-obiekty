@@ -72,8 +72,6 @@ Zaladuj3DTexty()
 	//--------------[Moje Pickupy i 3D moje 3d texty]---------------- {9ACD32}
 
 	CreateDynamic3DTextLabel("Komisariat", 0x0080FFFF, 1553.3929,-1675.4796,16.1953, 40.0); //Wejœcie do komisariatu
-    CreateDynamic3DTextLabel("Jetty Lounge", 0x9ACD32AA, 725.7198,-1439.3527,13.5391, 30.0);
-    CreateDynamic3DTextLabel("Taras", 0x9ACD32AA, 725.4005,-1450.4960,17.6953, 30.0);
     new str2[512];
     str2 = "{FFA500}Dowód osobisty - {9ACD32}5000$ +akt urodz.\n{FFA500}Wydanie Prawa Jazdy - {9ACD32}20 000$ +zal. egz.\n {FFA500}Patent ¯eglarski - {9ACD32}350 000$\n {FFA500}Pozwolenie na bron - {9ACD32}500 000$\n {FFA500}Licencja Pilota - {9ACD32}5 000 000$\n {FFA500}Karta wêdkarska - {9ACD32}10 000$\n{9ACD32}Egzamin teoretyczny - 10 000${FFA500}\n{9ACD32}Egzamin praktyczny- {9ACD32} 15 000$";
     CreateDynamic3DTextLabel(str2, COLOR_NEWS, 1447.46899, -1785.40881, 79.21838,12,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 0);//Cennik DMV
@@ -289,8 +287,6 @@ Zaladuj3DTexty()
 	CreateDynamic3DTextLabel("Lotnisko w Los Santos", COLOR_BLUE, 1886.1,-2286.4,14, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy w Los Santos", COLOR_BLUE, 1605,-2282.9,-74.90, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy", COLOR_BLUE, 1675.8, 1455.4, 14.9, 25.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
-	CreateDynamic3DTextLabel("Lotnisko w Las Venturas", COLOR_BLUE, 1673.3, 1447.8, 10.9, 25.0);
-	CreateDynamic3DTextLabel("Lotnisko w Las Venturas", COLOR_BLUE, 1597.7, 1448.3, 10.9, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w San Fierro", COLOR_BLUE, -1421.4,-287.3,14.1, 25.0);
 	CreateDynamic3DTextLabel("Lotnisko w San Fierro", COLOR_BLUE, -1376.3,-261.1,14.3, 25.0);
 	CreateDynamic3DTextLabel("Pas startowy", COLOR_BLUE, -1390,-294.6,-74.6, 25.0);

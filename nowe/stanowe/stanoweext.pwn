@@ -372,7 +372,7 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(3334, 1235.451660, 2205.362792, 9.357274, 0.000000, 0.000000, 270.000000, 0, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterial(simeonel, 0, 19962, "samproadsigns", "greenbackgroundsign", 0x00000000);
 	SetDynamicObjectMaterial(simeonel, 1, 19962, "samproadsigns", "greenbackgroundsign", 0x00000000);
-	simeonel = CreateDynamicObject(3334, 942.454711, 2611.354248, 13.357274, 0.000001, -0.000007, -50.000015, 0, 0, -1, 350.00, 350.00); 
+	simeonel = CreateDynamicObject(3334, 942.2177, 2611.5510, 10.6766, 0.000001, -0.000007, -50.000015, 0, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterial(simeonel, 0, 19962, "samproadsigns", "greenbackgroundsign", 0x00000000);
 	SetDynamicObjectMaterial(simeonel, 1, 19962, "samproadsigns", "greenbackgroundsign", 0x00000000);
 	SetDynamicObjectMaterialText(simeonel, 0, "Do wiêzienia\nStanowego\n{FF00FF}Prosto", 100, "Ariel", 42, 1, 0xFFFFFFFF, 0x00000000, 1);
@@ -591,5 +591,6 @@ static StworzBramy()
 	DodajBrame(simeonel, -517.766052, 2592.802978, 53.607868, 0.000000, 0.000000, 90.000000, -517.766052, 2592.802978, -30.607868, 0.000000, 0.000000, 90.000000, 4, 4, BRAMA_UPR_TYPE_FRACTION, 2);//FBI
 	DodajBrame(simeonel, -517.766052, 2592.802978, 53.607868, 0.000000, 0.000000, 90.000000, -517.766052, 2592.802978, -30.607868, 0.000000, 0.000000, 90.000000, 4, 4, BRAMA_UPR_TYPE_FRACTION, 7);//BOR
 	DodajBrame(simeonel, -517.766052, 2592.802978, 53.607868, 0.000000, 0.000000, 90.000000, -517.766052, 2592.802978, -30.607868, 0.000000, 0.000000, 90.000000, 4, 4, BRAMA_UPR_TYPE_FRACTION, 4);//ERS
+	DodajBrame(simeonel, -517.766052, 2592.802978, 53.607868, 0.000000, 0.000000, 90.000000, -517.766052, 2592.802978, -30.607868, 0.000000, 0.000000, 90.000000, 4, 4, BRAMA_UPR_TYPE_FRACTION, 3);//NG
 	return 1;
 }
