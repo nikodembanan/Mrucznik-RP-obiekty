@@ -25,6 +25,7 @@
 simeonedom_Init()
 {
 	StworzObiekty();
+	StworzBramy();
 	return 1;
 }
 simeonedom_Connect(playerid)
@@ -33,7 +34,6 @@ simeonedom_Connect(playerid)
 	return 1;
 
 }
-
 //-----------------<[ Funkcje ]>---------------------------
 
 static StworzObiekty()
@@ -112,7 +112,6 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(19473, 2527.057373, 145.390472, 25.474374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(19473, 2529.057373, 145.390472, 25.474374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(19473, 2529.057373, 143.990463, 25.474374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
-	simeonel = CreateDynamicObject(2909, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(2909, 2528.161865, 121.854942, 24.234361, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(2895, 2538.789550, 125.797775, 25.937164, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(2895, 2538.789550, 124.797775, 25.937164, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
@@ -159,5 +158,12 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 1408, 2523.689, 142.483, 27.015, 0.250);
 	RemoveBuildingForPlayer(playerid, 782, 2536.090, 122.789, 25.250, 0.250);
 
+	return 1;
+}
+
+static StworzBramy()
+{
+	simeonel = CreateDynamicObject(2909, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
+	DodajBrame(simeonel, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 2528.161865, 121.854942, 24.234361, 0.000000, 0.000000, 90.000000, 2, 8, BRAMA_UPR_TYPE_HOUSEOWNER, 1783); 
 	return 1;
 }
