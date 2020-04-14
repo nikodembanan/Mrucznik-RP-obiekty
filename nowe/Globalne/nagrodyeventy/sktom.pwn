@@ -46,9 +46,9 @@ static StworzObiekty()
 
 
 
-	eventob = CreateDynamicObject(19482, 1094.401855, -682.391235, 112.318466, 540.000000, 900.000000, 630.000000, 0, 0, -1, 300.00, 300.00); 
+	/*eventob = CreateDynamicObject(19482, 1094.401855, -682.391235, 112.318466, 540.000000, 900.000000, 630.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(eventob, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-	SetDynamicObjectMaterialText(eventob, 0, "{FFFFFF}RUSSELL", 140, "Ariel", 125, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(eventob, 0, "{FFFFFF}RUSSELL", 140, "Ariel", 125, 1, 0x00000000, 0x00000000, 1);*/
 	eventob = CreateDynamicObject(3498, 1082.750366, -678.401306, 111.008415, 0.000000, 0.000019, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(eventob, 0, 10765, "airportgnd_sfse", "ws_bridgepavement2", 0x00000000);
 	eventob = CreateDynamicObject(1472, 1102.136596, -673.411682, 112.898658, 0.000000, 0.000000, 450.000000, 0, 0, -1, 300.00, 300.00); 
