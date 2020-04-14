@@ -61,7 +61,7 @@ DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Flo
 - frz1 - pozycja naszej bramy otwarta RZ
 - fspeed - szybkoœæ otwierania bramy 
 - frange - odleg³oœæ w jakiej zadzia³a komenda /brama
-- fuprtyp - TYP (BRAMA_UPR_TYPE_FRACTION, BRAMA_UPR_TYPE_FAMILY, BRAMA_UPR_TYPE_NONE, BRAMA_UPR_TYPE_BUSINESS)
+- fuprtyp - TYP (BRAMA_UPR_TYPE_FRACTION, BRAMA_UPR_TYPE_FAMILY, BRAMA_UPR_TYPE_ALLPLAYERS, BRAMA_UPR_TYPE_BUSINESS)
 - fuprval - wartoœæ typu, je¿eli chcemy dopisaæ bramê dla frakcji nr 1 - ustawiamy to jako "1"
 - flag - pozycja otwarta/zamkniêta (domyœlnie tego nie dopisywaæ)
 

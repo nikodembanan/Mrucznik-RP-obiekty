@@ -163,7 +163,9 @@ static UsunObiekty(playerid)
 
 static StworzBramy()
 {
+	//(ZMIENNA, X,Y,Z,XX,XY,XZ, OX,OY,YZ,OXX,OXY,OXZ, Speed (otwierania bramy), range(odleg³oœæ /brama), TYP(rodziny,frakcja,nikt), Numer); 
+
 	simeonel = CreateDynamicObject(2909, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
-	DodajBrame(simeonel, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 2528.161865, 121.854942, 24.234361, 0.000000, 0.000000, 90.000000, 2, 8, BRAMA_UPR_TYPE_HOUSEOWNER, 1783); 
+	DodajBrame(simeonel, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 2528.161865, 121.854942, 24.234361, 0.000000, 0.000000, 90.000000, 2, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1783); 
 	return 1;
 }

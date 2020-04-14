@@ -65,7 +65,7 @@ SprawdzBramy(playerid)
 				(bramy[i][b_uprtyp] == BRAMA_UPR_TYPE_FAMILY && GetPlayerOrg(playerid) == bramy[i][b_uprval]) || 
 				(bramy[i][b_uprtyp] == BRAMA_UPR_TYPE_UID && PlayerInfo[playerid][pUID] == bramy[i][b_uprval]) ||
 				(bramy[i][b_uprtyp] == BRAMA_UPR_TYPE_HOUSEOWNER && PlayerInfo[playerid][pDom] == bramy[i][b_uprval]) ||
-				bramy[i][b_uprtyp] == BRAMA_UPR_TYPE_NONE
+				bramy[i][b_uprtyp] == BRAMA_UPR_TYPE_ALLPLAYERS
 			)
 			{
 				if(bramy[i][b_flaga])
