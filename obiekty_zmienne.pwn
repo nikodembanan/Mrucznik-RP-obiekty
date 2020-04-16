@@ -11,6 +11,7 @@ new charlie112;//Zmienna dla Charllie112
 new ubunteq;//Zmienna dla UbunteQ
 new skgang;//Zmienna dla skLolsy+skTom+skPembleton
 new mrn;//zmienna dla mrN
+new creativeobj;//zmienna dla creative
 
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
