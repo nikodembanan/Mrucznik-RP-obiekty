@@ -5811,7 +5811,7 @@ static StworzObiekty()
 	DodajWejscie(834.9537, -1409.9796, -17.6433, 889.1844, -1410.8748, -17.6433, 71, 0, 72, 0, "", "", 13, PLOCAL_ORG_SN, true);//Przejœcie do d¿akuzi kuraw
 	DodajWejscie(832.1622, -1413.6786, -17.6433, 831.6823, -1469.8435, -17.6374, 71, 0, 72, 0, "", "", 13, PLOCAL_ORG_SN, true);//Przejœcie na palarnie 
 
-	DodajWejscie(687.4208,-1395.1754,-22.6093, 813.7278, -1378.7817, -20.1095, 72, 0, 71, 0, "", "", 13, PLOCAL_ORG_SN, true);  //Wejœcie na scene
+	DodajWejscie(687.4208,-1395.1754,-22.6093, 813.7278, -1378.7817, -20.1095, 72, 0, 71, 0, "", "", 9, PLOCAL_ORG_SN, true);  //Wejœcie na scene
 	DodajWejscie(834.5144,-1401.5120,-22.6193, 837.6127,-1401.2562,-22.6193, 71, 0, 72, 0, "Toalety", "Powrót", 13, PLOCAL_ORG_SN); //Przejœcie do toalet
 	return 1;
 }
