@@ -192,7 +192,7 @@
 //*****************************************************
 //Aktualizacja 2.7.4 - By Sanda³ & Chlor
 //*****************************************************
-#include "nowe\Dillimore\farma\exterior.pwn"
+#include "nowe\Dillimore\farma/exterior.pwn"
 // Wadliwe obiekty GTA SA (usuniête na zawsze)
 #include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
 // Bramy domow
