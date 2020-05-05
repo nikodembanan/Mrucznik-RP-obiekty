@@ -29,7 +29,6 @@ farmadillmore_Init()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-    new tmpobjid;
     tmpobjid = CreateDynamicObject(12921, 1022.080505, -363.170135, 76.118804, 0.000000, 0.000000, 0.000000, -1, -1, -1, 200.00, 200.00); 
     SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
     tmpobjid = CreateDynamicObject(1437, 1021.062133, -283.866485, 72.038558, -6.799997, 0.000000, 179.700012, -1, -1, -1, 200.00, 200.00); 
