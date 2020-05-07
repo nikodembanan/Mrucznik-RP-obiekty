@@ -197,6 +197,8 @@
 #include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
 // Bramy domow
 #include "nowe\Globalne/bramy_domow/bramy_domow.pwn"
+//Dildos Club
+#include "nowe\DildosClub\DildosClub.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -285,6 +287,7 @@ obiekty_OnGameModeInit()
 	WhiteHouseExt_Init();//Exterior bia³ego domu
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
+	DildosClub_Init();//Dildos Club
 	biznesy_Init();
 	wejsciaSkrypt_Init();
 	stripclub_Init();
