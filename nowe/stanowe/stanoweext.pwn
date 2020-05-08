@@ -580,7 +580,7 @@ static StworzBramy()
 	simeonel = CreateDynamicObject(971, -505.676635, 2593.513671, 53.547885, 0.000000, 0.000000, 90.000000, 0, 0, -1, 350.00, 350.00); 
 	SetDynamicObjectMaterial(simeonel, 1, 19297, "matlights", "invisible", 0x00000000);
 	SetDynamicObjectMaterial(simeonel, 3, 19297, "matlights", "invisible", 0x00000000);
-	DodajBrame(simeonel, -505.676635, 2593.513671, 53.547885, 0.000000, 0.000000, 90.000000, -505.676635, 2593.513671, -30.547885, 0.000000, 0.000000, 90.000000, 4, 4, BRAMA_UPR_TYPE_NONE, 0); 
+	DodajBrame(simeonel, -505.676635, 2593.513671, 53.547885, 0.000000, 0.000000, 90.000000, -505.676635, 2593.513671, -30.547885, 0.000000, 0.000000, 90.000000, 4, 4, BRAMA_UPR_TYPE_ALLPLAYERS, 0); 
 
 	//Druga BRAMA WJAZD
 	simeonel = CreateDynamicObject(971, -517.766052, 2592.802978, 53.607868, 0.000000, 0.000000, 90.000000, 0, 0, -1, 350.00, 350.00); 

@@ -33,7 +33,6 @@ simeonedom_Connect(playerid)
 	return 1;
 
 }
-
 //-----------------<[ Funkcje ]>---------------------------
 
 static StworzObiekty()
@@ -77,7 +76,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(simeonel, 1, 18646, "matcolours", "grey", 0x00000000);
 	SetDynamicObjectMaterial(simeonel, 2, 14650, "ab_trukstpc", "mp_CJ_WOOD5", 0x00000000);
 	simeonel = CreateDynamicObject(19329, 2543.968750, 146.245910, 27.124378, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "Cotta", 100, "Ariel", 82, 1, 0xFFFF0000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(simeonel, 0, "Shoji", 100, "Ariel", 82, 1, 0xFFFF0000, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19329, 2545.239013, 146.245910, 26.774372, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	SetDynamicObjectMaterialText(simeonel, 0, "House", 100, "Ariel", 82, 1, 0xFF44FF00, 0x00000000, 1);
 	simeonel = CreateDynamicObject(18762, 2536.918457, 124.010200, 25.168819, 90.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
@@ -112,7 +111,6 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(19473, 2527.057373, 145.390472, 25.474374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(19473, 2529.057373, 145.390472, 25.474374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(19473, 2529.057373, 143.990463, 25.474374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
-	simeonel = CreateDynamicObject(2909, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(2909, 2528.161865, 121.854942, 24.234361, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(2895, 2538.789550, 125.797775, 25.937164, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(2895, 2538.789550, 124.797775, 25.937164, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 

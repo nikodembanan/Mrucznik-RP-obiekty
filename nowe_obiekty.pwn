@@ -189,6 +189,18 @@
 //*****************************************************
 #include "nowe\GoldenPalms/interior.pwn"
 #include "nowe\GoldenPalms/exterior.pwn"
+//*****************************************************
+//Aktualizacja 2.7.4 - By Sanda³ & Chlor
+//*****************************************************
+#include "nowe\Dillimore\farma/exterior.pwn"
+// Wadliwe obiekty GTA SA (usuniête na zawsze)
+#include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
+// Bramy domow
+#include "nowe\Globalne/bramy_domow/bramy_domow.pwn"
+//Dildos Club
+#include "nowe\DildosClub\DildosClub.pwn"
+//SASC2020
+#include "nowe\SASC2020\SASC2020.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -259,6 +271,7 @@ obiekty_OnGameModeInit()
 	carinterior_Init();
 	carexterior_Init();
 	bramydmvext_Init();//Bramy DMV (?) 
+	BramyDomow_Init();//Bramy dla domow
 	wpsext_Init();//WPS
 	pcexterior_Init();//DMV w PC
 	inteksasd_Init();//Interior SASD w PC
@@ -276,6 +289,8 @@ obiekty_OnGameModeInit()
 	WhiteHouseExt_Init();//Exterior bia³ego domu
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
+	DildosClub_Init();//Dildos Club
+	SASC2020_Init();//Dildos Club
 	biznesy_Init();
 	wejsciaSkrypt_Init();
 	stripclub_Init();
@@ -305,6 +320,7 @@ obiekty_OnGameModeInit()
 	ktext_Init();
 	ktint_Init();
 	piwnica_Init();
+	farmadillmore_Init();
 	return 1;
 }
 
@@ -356,5 +372,6 @@ obiekty_OnPlayerConnect(playerid)
 	powergym_Connect(playerid);
 	ktext_Connect(playerid);
 	ktint_Connect(playerid);
+	WadliweObiekty_Connect(playerid);
 	return 1;
 }

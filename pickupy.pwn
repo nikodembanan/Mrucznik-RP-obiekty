@@ -81,7 +81,7 @@ ZaladujPickupy()
 	CreateDynamicPickup(1239, 2, 341.01486206,-1517.85717773,32.83914185 , -1);//bankomat
 	CreateDynamicPickup(1239, 2, 2701.67407227,-2417.54223633,13.27571201 , -1);//bankomat
 	CreateDynamicPickup(1239, 2, 1186.23657227,-1368.89025879,13.30330658 , -1);//bankomat
-	CreateDynamicPickup(1239, 2, 2422.64990, -2066.10449, 13.06690, -1); //PAèDZIOCH - bankomat
+	CreateDynamicPickup(1239, 2, 2422.64990, -2066.10449, 13.06690, -1); // bankomat
 	CreateDynamicPickup(1239, 2, 2273.19409, -76.92720, 26.13300, -1);//bankomat
 	CreateDynamicPickup(1239, 2, 660.66510, -575.86359, 15.97310, -1);//bankomat
 	CreateDynamicPickup(1239, 2, 646.56738, -1368.89001, 13.34690, -1);//bankomat
