@@ -199,6 +199,8 @@
 #include "nowe\Globalne/bramy_domow/bramy_domow.pwn"
 //Dildos Club
 #include "nowe\DildosClub\DildosClub.pwn"
+//SASC2020
+#include "nowe\SASC2020\SASC2020.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -288,6 +290,7 @@ obiekty_OnGameModeInit()
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
 	DildosClub_Init();//Dildos Club
+	SASC2020_Init();//Dildos Club
 	biznesy_Init();
 	wejsciaSkrypt_Init();
 	stripclub_Init();
