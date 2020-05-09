@@ -290,7 +290,7 @@ obiekty_OnGameModeInit()
 	basenint_Init();//interior basenu
 	basenext_Init();//exteriorbasenu
 	DildosClub_Init();//Dildos Club
-	SASC2020_Init();//Dildos Club
+	SASC2020_Init();//SASC2020
 	biznesy_Init();
 	wejsciaSkrypt_Init();
 	stripclub_Init();
