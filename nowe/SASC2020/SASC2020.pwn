@@ -627,7 +627,7 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(19329, 1066.434570, 1542.187866, 55.268604, 0.000000, 0.000000, 90.000000, 83, 83, -1, 200.00, 200.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{ff0080} Czosnek \n Car Repair \n Shop", 130, "Calibri", 60, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(19329, 1066.434570, 1536.578369, 55.268604, 0.000000, 0.000000, 90.000000, 83, 83, -1, 200.00, 200.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{ff0080} ERS", 130, "Calibri", 80, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{ff0080} LSRS", 130, "Calibri", 80, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(19329, 1066.434570, 1523.187744, 55.268604, 0.000000, 0.000000, 90.000000, 83, 83, -1, 200.00, 200.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{e6005c} Komis Aut \n Mortiz", 130, "Calibri", 57, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(19329, 1066.434570, 1517.437866, 55.268604, 0.000000, 0.000000, 90.000000, 83, 83, -1, 200.00, 200.00); 
