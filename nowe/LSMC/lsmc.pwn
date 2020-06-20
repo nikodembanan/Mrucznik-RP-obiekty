@@ -48,22 +48,22 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1144.74988, -1291.45923, 15.84580,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1145.74194, -1291.45923, 10.88980,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1145.74194, -1291.45923, 15.84580,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.08081, -1305.24744, 13.07240,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.08105, -1295.62915, 13.07240,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.08081, -1305.24744, 13.07240,   0.00000, 0.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.08105, -1295.62915, 13.07240,   0.00000, 0.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1146.05688, -1291.06445, 14.37040,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1149.24194, -1291.05884, 13.10140,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1149.24194, -1291.05884, 16.57540,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1146.03772, -1291.05884, 16.57540,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1112.90320, -1295.76709, 18.29014,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1112.90112, -1305.40271, 18.29014,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1123.40820, -1295.76709, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1123.40820, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1133.88818, -1295.76709, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1133.88818, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1144.35925, -1295.76709, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1144.35925, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1154.84094, -1295.75952, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1154.84094, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1112.90320, -1295.76709, 18.29014,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1112.90112, -1305.40271, 18.29014,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1123.40820, -1295.76709, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1123.40820, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1133.88818, -1295.76709, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1133.88818, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1144.35925, -1295.76709, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1144.35925, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1154.84094, -1295.75952, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1154.84094, -1305.40271, 18.29010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1150.06384, -1311.77002, 14.37040,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1150.04602, -1314.96338, 14.37040,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1150.02661, -1318.15564, 14.37040,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
@@ -72,9 +72,9 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1145.50574, -1318.11511, 14.37040,   0.00000, 0.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1147.20166, -1318.39429, 14.37040,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	SetDynamicObjectMaterial(CreateDynamicObject(19362, 1150.37573, -1318.40100, 14.37040,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.68616, -1314.86804, 16.06410,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.69128, -1314.84802, 12.64010,   0.00000, 90.00000, 0.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1136.39343, -1354.92847, 14.64040,   0.00000, 0.00000, 90.00000, 0, 0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.68616, -1314.86804, 16.06410,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1150.69128, -1314.84802, 12.64010,   0.00000, 90.00000, 0.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
+	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1136.39343, -1354.92847, 14.64040,   0.00000, 0.00000, 90.00000, 0, 0, -1, 200.0, 200.0), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
     CreateDynamicObject(19377, 1089.95996, -1330.90002, 13.07240, 0.00000, 0.00000, 0.00000, 0, 0);//
 	//Reszta
 	CreateDynamicObject(1649, 1147.73096, -1310.08459, 16.70520,   0.00000, 0.00000, 180.00000, 0, 0);
