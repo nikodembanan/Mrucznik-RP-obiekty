@@ -362,7 +362,7 @@ obiekty_OnPlayerConnect(playerid)
 	opmont_Connect(playerid);
 	idleop_Connect(playerid);
 	sidle_Connect(playerid);
-	ammuNationCommerce_Connect(playerid)
+	ammuNationCommerce_Connect(playerid);
 	lv_Connect(playerid);
 	
 	pcexterior_Connect(playerid);//exterior urzedu w pc
