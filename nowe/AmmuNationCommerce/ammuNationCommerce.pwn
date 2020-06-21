@@ -27,6 +27,12 @@ ammuNationCommerce_Init()
 	StworzObiekty();
 	return 1;
 }
+
+ammuNationCommerce_Connect(playerid)
+{
+    UsunObiekty(playerid);
+    return 1;
+}
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
@@ -57,5 +63,12 @@ static StworzObiekty()
     
     tmpobjid = CreateDynamicObject(968, 1668.31201, -1551.10815, 13.23390, 0.00000, 90.00000, 90.00000);
     DodajBrame(tmpobjid, 1668.31201, -1551.10815, 13.23390, 0.00000, 90.00000, 90.00000, 1668.31201, -1551.10815, 13.23390, 0.00000, 0.00000, 90.00000, 2, 2, BRAMA_UPR_TYPE_FAMILY, 22);
+    return 1;
+}
+
+static UsunObiekty(playerid)
+{
+    RemoveBuildingForPlayer(playerid, 1283, 1670.8906, -1548.5313, 15.6250, 0.25);
+    RemoveBuildingForPlayer(playerid, 1283, 1670.3594, -1480.9375, 15.6250, 0.25);
     return 1;
 }

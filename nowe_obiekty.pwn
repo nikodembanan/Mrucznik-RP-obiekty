@@ -192,6 +192,10 @@
 //*****************************************************
 //Aktualizacja 2.7.4 - By Sanda³ & Chlor
 //*****************************************************
+//*****************************************************
+//Aktualizacja 2.7.7 - By Sanda³ & Nieznany autor :(
+//*****************************************************
+#include "nowe\AmmuNationCommerce/ammuNationCommerce.pwn"
 #include "nowe\Dillimore\farma/exterior.pwn"
 // Wadliwe obiekty GTA SA (usuniête na zawsze)
 #include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
@@ -264,6 +268,7 @@ obiekty_OnGameModeInit()
 	interiorSCOSA_Init();
 	interiorVINYL_Init(); 
 	MelinaLasColinas_Init();
+	ammuNationCommerce_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
@@ -357,7 +362,7 @@ obiekty_OnPlayerConnect(playerid)
 	opmont_Connect(playerid);
 	idleop_Connect(playerid);
 	sidle_Connect(playerid);
-	
+	ammuNationCommerce_Connect(playerid)
 	lv_Connect(playerid);
 	
 	pcexterior_Connect(playerid);//exterior urzedu w pc
