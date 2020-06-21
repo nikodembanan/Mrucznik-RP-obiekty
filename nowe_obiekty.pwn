@@ -201,6 +201,12 @@
 #include "nowe\DildosClub\DildosClub.pwn"
 //SASC2020
 #include "nowe\SASC2020\SASC2020.pwn"
+
+//*****************************************************
+//Aktualizacja 2.7.7
+//*****************************************************
+#include "nowe\ISISObjects\ISISObjects.pwn"
+
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -321,6 +327,8 @@ obiekty_OnGameModeInit()
 	ktint_Init();
 	piwnica_Init();
 	farmadillmore_Init();
+
+	ISISObjects_Init();
 	return 1;
 }
 
