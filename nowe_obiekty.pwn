@@ -192,10 +192,6 @@
 //*****************************************************
 //Aktualizacja 2.7.4 - By Sanda³ & Chlor
 //*****************************************************
-//*****************************************************
-//Aktualizacja 2.7.7 - By Sanda³ & Nieznany autor :(
-//*****************************************************
-#include "nowe\AmmuNationCommerce/ammuNationCommerce.pwn"
 #include "nowe\Dillimore\farma/exterior.pwn"
 // Wadliwe obiekty GTA SA (usuniête na zawsze)
 #include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
@@ -210,7 +206,11 @@
 //Aktualizacja 2.7.7
 //*****************************************************
 #include "nowe\ISISObjects\ISISObjects.pwn"
-
+#include "nowe\AmmuNationCommerce/ammuNationCommerce.pwn"
+//*****************************************************
+//EVENTOWE BY RAHIM
+//*****************************************************
+#include "nowe\event_Rahim/event1.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -332,7 +332,7 @@ obiekty_OnGameModeInit()
 	ktint_Init();
 	piwnica_Init();
 	farmadillmore_Init();
-
+	rahim1_Init();
 	ISISObjects_Init();
 	return 1;
 }
@@ -364,6 +364,7 @@ obiekty_OnPlayerConnect(playerid)
 	sidle_Connect(playerid);
 	ammuNationCommerce_Connect(playerid);
 	lv_Connect(playerid);
+	rahim1_Connect(playerid);
 	
 	pcexterior_Connect(playerid);//exterior urzedu w pc
 	extsasd_Connect(playerid);//exterior sasd
