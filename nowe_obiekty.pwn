@@ -206,7 +206,11 @@
 //Aktualizacja 2.7.7
 //*****************************************************
 #include "nowe\ISISObjects\ISISObjects.pwn"
-
+#include "nowe\AmmuNationCommerce/ammuNationCommerce.pwn"
+//*****************************************************
+//EVENTOWE BY RAHIM
+//*****************************************************
+#include "nowe\event_Rahim/event1.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -264,6 +268,7 @@ obiekty_OnGameModeInit()
 	interiorSCOSA_Init();
 	interiorVINYL_Init(); 
 	MelinaLasColinas_Init();
+	ammuNationCommerce_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
@@ -327,7 +332,7 @@ obiekty_OnGameModeInit()
 	ktint_Init();
 	piwnica_Init();
 	farmadillmore_Init();
-
+//	rahim1_Init();
 	ISISObjects_Init();
 	return 1;
 }
@@ -357,8 +362,9 @@ obiekty_OnPlayerConnect(playerid)
 	opmont_Connect(playerid);
 	idleop_Connect(playerid);
 	sidle_Connect(playerid);
-	
+	ammuNationCommerce_Connect(playerid);
 	lv_Connect(playerid);
+//	rahim1_Connect(playerid);
 	
 	pcexterior_Connect(playerid);//exterior urzedu w pc
 	extsasd_Connect(playerid);//exterior sasd

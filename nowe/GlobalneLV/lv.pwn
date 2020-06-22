@@ -112,6 +112,7 @@ static StworzObiekty()
 	CreateDynamicObject(19921, 2510.81250, 71.38990, 26.16163,   0.00000, 0.00000, 0.00000);
 	CreateDynamicObject(19903, 2511.21802, 66.97530, 26.07882,   0.00000, 0.00000, 90.18001);
 	
+	DodajWejscie(1062.0458,2075.2344,10.8203, 1061.9384,2079.2380,10.8203, 0, 0, 0, 0, "Wejœcie", "Wyjœcie"); 
 	return 1;
 }
 
@@ -125,6 +126,5 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 779, 2523.5391, 65.0938, 25.4297, 0.25);
 	RemoveBuildingForPlayer(playerid, 1446, 2523.8125, 57.6406, 26.2734, 0.25);
 	RemoveBuildingForPlayer(playerid, 1446, 2523.8125, 62.3516, 26.2734, 0.25);
-	
 	return 1;
 }
