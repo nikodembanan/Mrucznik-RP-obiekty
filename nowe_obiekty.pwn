@@ -332,7 +332,7 @@ obiekty_OnGameModeInit()
 	ktint_Init();
 	piwnica_Init();
 	farmadillmore_Init();
-	rahim1_Init();
+//	rahim1_Init();
 	ISISObjects_Init();
 	return 1;
 }
@@ -364,7 +364,7 @@ obiekty_OnPlayerConnect(playerid)
 	sidle_Connect(playerid);
 	ammuNationCommerce_Connect(playerid);
 	lv_Connect(playerid);
-	rahim1_Connect(playerid);
+//	rahim1_Connect(playerid);
 	
 	pcexterior_Connect(playerid);//exterior urzedu w pc
 	extsasd_Connect(playerid);//exterior sasd
