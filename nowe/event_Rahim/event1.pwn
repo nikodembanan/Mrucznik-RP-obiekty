@@ -35,7 +35,7 @@ rahim1_Connect(playerid)
     UsunObiekty(playerid);
     return 1;
 }
-
+new rahim_event[195];
 rahim1_Unload()
 {
     for(new i=0; i<194; i++) DestroyDynamicObject(rahim_event[i]);
@@ -44,7 +44,6 @@ rahim1_Unload()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-    new rahim_event[195];
     rahim_event[0] = CreateDynamicObject(9958, 469.957580, -1905.350708, 8.233180, -4.000000, -33.700000, 540.000000, -1, -1, -1, 300.00, 300.00); 
     rahim_event[1] = CreateDynamicObject(845, 481.176330, -1864.707397, 3.344852, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
     rahim_event[2] = CreateDynamicObject(835, 475.476501, -1847.497192, 5.396376, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
