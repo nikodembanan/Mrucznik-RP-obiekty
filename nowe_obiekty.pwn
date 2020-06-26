@@ -214,6 +214,14 @@
 
 #include "nowe\sa_bahamas/sa_bahamas.pwn"
 #include "nowe\bar_HA/bar_HA.pwn"
+
+#include "nowe\julia_dom1\julia_dom1.pwn"
+#include "nowe\julia_dom2\julia_dom2.pwn"
+#include "nowe\julia_dom3\julia_dom3.pwn"
+#include "nowe\julia_dom4\julia_dom4.pwn"
+#include "nowe\julia_dom5\julia_dom5.pwn"
+#include "nowe\julia_dom6\julia_dom6.pwn"
+#include "nowe\villa_Jensena\villa_Jensena.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
