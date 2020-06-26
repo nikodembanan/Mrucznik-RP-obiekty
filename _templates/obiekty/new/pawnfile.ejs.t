@@ -73,7 +73,7 @@ static StworzBudynki()
 	return 1;
 }
 
-static UsunObiekty()
+static UsunObiekty(playerid)
 {
 	//Tutaj wstawiamy usuwanie obiektow z mapy GTA w formacie:
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
