@@ -211,6 +211,8 @@
 //EVENTOWE BY RAHIM
 //*****************************************************
 #include "nowe\event_Rahim/event1.pwn"
+
+#include "nowe\sa_bahamas/sa_bahamas.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -334,6 +336,8 @@ obiekty_OnGameModeInit()
 	farmadillmore_Init();
 //	rahim1_Init();
 	ISISObjects_Init();
+
+	sa_bahamas_Init();
 	return 1;
 }
 
@@ -387,5 +391,6 @@ obiekty_OnPlayerConnect(playerid)
 	ktext_Connect(playerid);
 	ktint_Connect(playerid);
 	WadliweObiekty_Connect(playerid);
+	sa_bahamas_Connect(playerid);
 	return 1;
 }
