@@ -213,6 +213,7 @@
 #include "nowe\event_Rahim/event1.pwn"
 
 #include "nowe\sa_bahamas/sa_bahamas.pwn"
+#include "nowe\bar_HA/bar_HA.pwn"
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -338,6 +339,7 @@ obiekty_OnGameModeInit()
 	ISISObjects_Init();
 
 	sa_bahamas_Init();
+	bar_HA_Init();
 	return 1;
 }
 
