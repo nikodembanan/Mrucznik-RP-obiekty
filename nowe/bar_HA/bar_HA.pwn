@@ -376,7 +376,7 @@ static StworzBudynki()
 {
 	//Tutaj wstawiamy wejscia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
-	DodajWejscie(292.4474,-195.3832,1.5781, 293.7954,-195.7626,14.1287, 0, 0, 0, 1, "Bar", ""); 
-	DodajWejscie(294.1698,-187.3298,1.5781, 293.5556,-185.1613,14.0982, 0, 0, 0, 1, "Sk³adzik", ""); 
+	DodajWejscie(292.4474,-195.3832,1.5781, 293.7954,-195.7626,14.1287, 0, 0, 1, 0, "Bar", ""); 
+	DodajWejscie(294.1698,-187.3298,1.5781, 293.5556,-185.1613,14.0982, 0, 0, 1, 0, "Sk³adzik", ""); 
 	return 1;
 }
