@@ -34,7 +34,7 @@ interiorSCOSA_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeI
 	return 1;
 }
 
-interiorSCOSA_OnPlayerConnect(playerid)
+interiorSCOSA_Connect(playerid)
 {
     //Sad
     RemoveBuildingForPlayer(playerid, 620, 1330.6016, -1340.9844, 6.1094, 0.25); //SaD

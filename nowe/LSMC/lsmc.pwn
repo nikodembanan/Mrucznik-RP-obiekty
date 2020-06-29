@@ -16,7 +16,7 @@ LoadLSMCElevatorDoor()
     }
 }
 
-LSMC_OnPlayerConnect(playerid)
+LSMC_Connect(playerid)
 {
     //LSMC ext
     RemoveBuildingForPlayer(playerid, 5935, 1120.1563, -1303.4531, 18.5703, 0.25);

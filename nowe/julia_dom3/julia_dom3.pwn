@@ -43,9 +43,6 @@ julia_dom3_Connect(playerid) //ta metode wklejamy do nowe_obiekty -> obiekty_OnP
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	//Tutaj wstawiamy obiekty w nastepujacym formacie:
-	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
-	new tmpobjid;
 	tmpobjid = CreateDynamicObject(19426, 2126.877929, -1319.532104, 27.306493, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 14534, "ab_wooziea", "walp72S", 0x00000000);
 	tmpobjid = CreateDynamicObject(19399, 2124.482910, -1319.531738, 27.308446, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); 

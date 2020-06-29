@@ -29,6 +29,7 @@
 Yakuza_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();//To wykorzystujemy, jezeli chcemy stworzyc jakies obiekty
+	StworzBudynki();
 	return 1;
 }
 

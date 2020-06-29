@@ -33,7 +33,7 @@ VeronalMall_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeIni
 	return 1;
 }
 
-VeronalMall_OnPlayerConnect(playerid)
+VeronalMall_Connect(playerid)
 {
 	//verona mall
 	RemoveBuildingForPlayer(playerid, 6130, 1117.5859, -1490.0078, 32.7188, 0.25);

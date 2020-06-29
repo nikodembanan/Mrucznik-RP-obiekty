@@ -413,6 +413,15 @@ obiekty_OnGameModeInit()
 	sa_bahamas_Init();
 	bar_HA_Init();
 
+	//domy julii
+	julia_dom1_Init();
+	julia_dom2_Init();
+	julia_dom3_Init();
+	julia_dom4_Init();
+	julia_dom5_Init();
+	julia_dom6_Init();
+	villa_Jensena_Init();
+
 	//Porz¹dki:
 	ZniszczoneStudioTatuazu_Init();
 	ZajezdniaCommerce_Init();
@@ -528,6 +537,22 @@ obiekty_OnPlayerConnect(playerid)
 	ktint_Connect(playerid);
 	WadliweObiekty_Connect(playerid);
 	sa_bahamas_Connect(playerid);
+
+	//porz¹dki
+	Vagos_Connect(playerid);
+	VeronalMall_Connect(playerid);
+	interiorSCOSA_Connect(playerid);
+	BazaMechanikow_Connect(playerid);
+	DomSejciak_Connect(playerid);
+	LSMC_Connect(playerid);
+	ObiektyDillimore_Connect(playerid);
+	julia_dom1_Connect(playerid);
+	julia_dom2_Connect(playerid);
+	julia_dom3_Connect(playerid);
+	julia_dom4_Connect(playerid);
+	julia_dom5_Connect(playerid);
+	julia_dom6_Connect(playerid);
+	villa_Jensena_Connect(playerid);
 
 	// OLD
     //Trucker job

@@ -32,7 +32,7 @@ DomSejciak_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit
 	return 1;
 }
 
-DomSejciak_OnPlayerConnect(playerid)
+DomSejciak_Connect(playerid)
 {
 	//dom - wygrana w konkursie
 	RemoveBuildingForPlayer(playerid, 3778, 553.3516, -1875.0000, 4.7891, 0.25);

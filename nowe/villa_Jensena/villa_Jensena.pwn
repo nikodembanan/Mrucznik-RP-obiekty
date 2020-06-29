@@ -43,9 +43,6 @@ villa_Jensena_Connect(playerid) //ta metode wklejamy do nowe_obiekty -> obiekty_
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	//Tutaj wstawiamy obiekty w nastepujacym formacie:
-	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
-	new tmpobjid;
 	tmpobjid = CreateDynamicObjectEx(19379, 1355.514526, -1562.255859, 84.486854, 0.000000, 90.000000, 0.000000, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 3819, "baseball_sfsx", "telepole128", 0x00000000);
 	tmpobjid = CreateDynamicObjectEx(19379, 1345.015136, -1562.255859, 84.486854, 0.000000, 90.000000, 0.000000, 300.00, 300.00); 

@@ -32,7 +32,7 @@ Vagos_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 	return 1;
 }
 
-Vagos_OnPlayerConnect()
+Vagos_Connect(playerid)
 {
     //VagosPub
     RemoveBuildingForPlayer(playerid, 5629, 2131.0859, -1029.3750, 50.1563, 0.25);

@@ -43,9 +43,6 @@ julia_dom2_Connect(playerid) //ta metode wklejamy do nowe_obiekty -> obiekty_OnP
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
-	//Tutaj wstawiamy obiekty w nastepujacym formacie:
-	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
-	new tmpobjid;
 	tmpobjid = CreateDynamicObject(19383, 2150.230468, -1284.622436, 24.876474, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 4828, "airport3_las", "gnhotelwall02_128", 0x00000000);
 	tmpobjid = CreateDynamicObject(19399, 2147.018554, -1284.629028, 24.876474, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); 
