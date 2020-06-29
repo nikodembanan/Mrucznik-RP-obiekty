@@ -38,6 +38,23 @@ DMV_exterior_Connect(playerid)
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {
+	//obiekty DMV wystroj zewnetrzny - znaki drogowe (by Dywan)
+	CreateDynamicObject(19073, 1304.75708, -1716.70325, 11.35780,   0.00000, 0.00000, 0.00000);
+	CreateDynamicObject(19073, 1305.01172, -1772.52588, 11.35780,   0.00000, 0.00000, 0.00000);
+	CreateDynamicObject(19073, 1305.05261, -1813.29785, 11.35780,   0.00000, 0.00000, 0.00000);
+	CreateDynamicObject(7615, 1304.44312, -1782.39990, 14.39020,   0.00000, 0.00000, 90.00000);
+	CreateDynamicObject(7615, 1304.40710, -1665.50110, 14.39020,   0.00000, 0.00000, 90.00000);
+	CreateDynamicObject(7615, 1305.61719, -1785.33350, 14.39020,   0.00000, 0.00000, 270.00000);
+	CreateDynamicObject(7615, 1305.61243, -1668.46216, 14.39020,   0.00000, 0.00000, 270.00000);
+	//znaki jazda tylko w prawo
+	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1306.95044, -1730.01416, 13.85790,   0.00000, 0.00000, 90.00000), 0,";", 10,"Wingdings 3", 30, 0, 0xFFFFFFFF, 0xFF0000BF, 1);
+	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1322.61694, -1726.89478, 13.64590,   0.00000, 0.00000, 90.00000), 0,";", 10,"Wingdings 3", 30, 0, 0xFFFFFFFF, 0xFF0000BF, 1);
+	//znak National Speed Limit
+	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1306.95044, -1730.01416, 13.00990,   0.00000, 0.00000, 90.00000), 0,"X", 10,"Wingdings 2", 40, 1, 0xFF000000, 0xFFFFFFFF, 1);
+	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1322.61694, -1726.89478, 13.00990,   0.00000, 0.00000, 90.00000), 0,"X", 10,"Wingdings 2", 40, 1, 0xFF000000, 0xFFFFFFFF, 1);
+
+
+	// nwoe
 	pevori2 = CreateDynamicObject(3980, 1481.189941, -1785.069946, 22.382799, 0.000000, 0.000000, -0.000009, 0, -1, -1, 350.00, 350.00); 
 	pevori2 = CreateDynamicObject(1226, 1485.170043, -1727.670043, 16.421899, 0.000000, 0.000000, 89.999992, 0, -1, -1, 350.00, 350.00); 
 	pevori2 = CreateDynamicObject(4003, 1481.079956, -1747.030029, 33.523399, 0.000000, 0.000000, 0.000000, 0, -1, -1, 350.00, 350.00); 

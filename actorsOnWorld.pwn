@@ -19,13 +19,6 @@
 // Autor: Simeone
 // Data utworzenia: W ciul dawno
 
-
-
-
-
-
-
-
 /*
 Aby stworzyæ na serwerze Actora wykorzystaj poni¿sz¹ funkcjê, a nastêpnie wklep j¹ w PushActors. 
 

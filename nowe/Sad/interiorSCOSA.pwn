@@ -34,6 +34,20 @@ interiorSCOSA_Init() //t¹ metodê wklejamy do nowe_obiekty -> obiekty_OnGameModeI
 	return 1;
 }
 
+interiorSCOSA_OnPlayerConnect(playerid)
+{
+    //Sad
+    RemoveBuildingForPlayer(playerid, 620, 1330.6016, -1340.9844, 6.1094, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 620, 1326.6953, -1316.0078, 8.7266, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 620, 1327.5938, -1333.6719, 6.1094, 0.25); //SAD
+	RemoveBuildingForPlayer(playerid, 620, 1332.0000, -1309.4297, 8.7266, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 620, 1321.5234, -1374.4297, 12.5859, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 620, 1292.0000, -1374.2969, 12.3672, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 620, 1300.5859, -1374.2969, 12.3672, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 620, 1329.4766, -1374.4297, 12.5859, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 1312, 1307.6172, -1394.4766, 16.5000, 0.25); //SaD
+	RemoveBuildingForPlayer(playerid, 1297, 1309.8984, -1390.1172, 15.6406, 0.25); //SaD
+}
 
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()

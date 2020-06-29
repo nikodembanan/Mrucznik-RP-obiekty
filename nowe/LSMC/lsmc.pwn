@@ -16,6 +16,21 @@ LoadLSMCElevatorDoor()
     }
 }
 
+LSMC_OnPlayerConnect(playerid)
+{
+    //LSMC ext
+    RemoveBuildingForPlayer(playerid, 5935, 1120.1563, -1303.4531, 18.5703, 0.25);
+	RemoveBuildingForPlayer(playerid, 1440, 1141.9844, -1346.1094, 13.2656, 0.25);
+	RemoveBuildingForPlayer(playerid, 1440, 1148.6797, -1385.1875, 13.2656, 0.25);
+	RemoveBuildingForPlayer(playerid, 1294, 1115.0781, -1285.3672, 17.0781, 0.25);
+	RemoveBuildingForPlayer(playerid, 5737, 1120.1563, -1303.4531, 18.5703, 0.25);
+	RemoveBuildingForPlayer(playerid, 1294, 1133.1094, -1276.7109, 17.0781, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1140.8984, -1280.1172, 15.7109, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1161.5859, -1281.3594, 15.7109, 0.25);
+	RemoveBuildingForPlayer(playerid, 1283, 1150.5078, -1269.9375, 15.7109, 0.25);
+	RemoveBuildingForPlayer(playerid, 1297, 1190.7734, -1320.8594, 15.9453, 0.25);
+}
+
 static StworzObiekty()
 {
     LoadLSMCElevatorDoor(); //Kubi

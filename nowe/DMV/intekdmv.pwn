@@ -4517,15 +4517,27 @@ static StworzBramy()
 	11); //Value (warto??) uprawnie?
 
 
-
-
-	
-
-
-
-
-
-
-
+	//bramy parter
+	bramadmv[0] = CreateDynamicObject(3089, 1062.3588, 1063.4921, -17.5000,   0.00, 0.00, 0.00,50,5);
+	bramadmv[1] = CreateDynamicObject(3089, 1073.50, 1071.06, -17.50,   0.00, 0.00, 45.00,50,5);//brama BOR
+	bramadmv[2] = CreateDynamicObject(3089, 1074.55, 1060.86, -17.50,   0.00, 0.00, 135.00,50,5);//brama BOR
+	bramadmv[18] = CreateDynamicObject(3089, 1088.73, 1088.59, -17.47,   0.00, 0.00, 90.00,50,5);
+	//bramy 1st floor
+	bramadmv[3] = CreateDynamicObject(3089, 1473.85, -1770.23, 162.58,   0.00, 0.00, 90.00,60);
+	bramadmv[4] = CreateDynamicObject(3089, 1473.85, -1776.59, 162.58,   0.00, 0.00, 90.00,60);
+	bramadmv[5] = CreateDynamicObject(3089, 1473.85, -1783.00, 162.58,   0.00, 0.00, 90.00,60);
+	bramadmv[6] = CreateDynamicObject(3089, 1479.01, -1786.16, 162.58,   0.00, 0.00, 0.00,60);
+	bramadmv[7] = CreateDynamicObject(3089, 1486.09, -1783.00, 162.58,   0.00, 0.00, 90.00,60);
+	bramadmv[8] = CreateDynamicObject(3089, 1486.09, -1776.59, 162.58,   0.00, 0.00, 90.00,60);
+	bramadmv[9] = CreateDynamicObject(3089, 1486.09, -1770.18, 162.58,   0.00, 0.00, 90.00,60);
+	//bramy 2nd floor
+	bramadmv[10] = CreateDynamicObject(3089, -1779.78, 499.82, -20.84,   0.00, 0.00, 0.00,75,8);
+	bramadmv[11] = CreateDynamicObject(3089, -1792.44, 513.13, -20.84,   0.00, 0.00, 90.00,75,8);
+	bramadmv[12] = CreateDynamicObject(3089, -1779.79, 528.52, -20.84,   0.00, 0.00, 0.00,75,8);
+	bramadmv[13] = CreateDynamicObject(3089, -1783.05, 532.78, -20.84,   0.00, 0.00, 90.00,75,8);
+	bramadmv[14] = CreateDynamicObject(3089, -1783.08, 542.32, -20.84,   0.00, 0.00, 90.00,75,8);
+	bramadmv[15] = CreateDynamicObject(3089, -1775.29, 542.32, -20.84,   0.00, 0.00, 90.00,75,8);
+	bramadmv[16] = CreateDynamicObject(3089, -1775.28, 532.77, -20.84,   0.00, 0.00, 90.00,75,8);
+	bramadmv[17] = CreateDynamicObject(3089, -1817.47, 505.95, -19.46,   0.00, 0.00, 90.00,75,8);
 	return 1;
 }
