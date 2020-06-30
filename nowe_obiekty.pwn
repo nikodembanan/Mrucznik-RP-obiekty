@@ -208,7 +208,12 @@
 #include "nowe\ISISObjects\ISISObjects.pwn"
 #include "nowe\AmmuNationCommerce/ammuNationCommerce.pwn"
 //*****************************************************
-//EVENTOWE BY RAHIM
+//Aktualizacja 2.7.8
+//*****************************************************
+#include "nowe\rafineriaLV/interior.pwn"
+#include "nowe\rafineriaLV/exterior.pwn"
+//*****************************************************
+//EVENTOWE
 //*****************************************************
 #include "nowe\event_Rahim/event1.pwn"
 //-----------------<[ Funkcje: ]>-------------------
@@ -233,6 +238,8 @@ obiekty_OnGameModeInit()
 	pomnik_Init();
 	skracaneZakrety_Init();
 	znakiUpiekszenia_Init();
+	rafineriaLVext_Init();
+	rafineriaLVint_Init();
 	centrumRozrywkiLS_Init();
 	gunShop_Init();
 	//parkingObokSzpitala_Init();
