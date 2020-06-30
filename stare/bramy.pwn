@@ -17,21 +17,21 @@ ZaladujBramy()
 	DrzwiPDKomi3 = CreateDynamicObject(1569,238.32324219,119.16503906,1002.21875000,0.00000000,0.00000000,179.99450684); //brama pd3 stary komisariat (old komi)
 	DrzwiPDKomi4 = CreateDynamicObject(3089,220.67187500,118.53125000,1010.50921631,0.00000000,0.00000000,270.00000000); //brama pd4 (drzwi FBI)
 	//nowe komi
-	bramalspd1 = CreateDynamicObject(1495, -1673.90, 876.96, -49.90,   0.00, 0.00, 90.00,1);
-	bramalspd2 = CreateDynamicObject(1495, -1673.90, 902.57, -49.90,   0.00, 0.00, 90.00,1);
-	bramalspd3 = CreateDynamicObject(1495, -1670.67, 904.90, -49.90,   0.00, 0.00, 0.00,1);
-	bramalspd4 = CreateDynamicObject(1495, -1670.57, 876.07, -49.90,   0.00, 0.00, 0.00,1);
-	bramalspd5 = CreateDynamicObject(3089, -1673.90, 891.26, -48.60,   0.00, 0.00, 270.00,1);
-	bramalspd6 = CreateDynamicObject(3089, -1616.80, 829.67, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd7 = CreateDynamicObject(3089, -1626.40, 829.67, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd8 = CreateDynamicObject(3089, -1626.40, 823.28, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd9 = CreateDynamicObject(3089, -1616.80, 823.28, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd10 = CreateDynamicObject(3089, -1745.86, 784.40, -44.20,   0.00, 0.00, 0.00,1);
-	bramalspd11 = CreateDynamicObject(1569, -1606.47, 817.80, -30.50,   0.00, 0.00, 0.00,1);
-	bramalspd12 = CreateDynamicObject(1569, -1745.87, 805.20, -45.50,   0.00, 0.00, 0.00,1);
-	bramalspd13 = CreateDynamicObject(971, -1671.50, 918.00, -49.80,   0.00, 0.00, 90.00,1);
-	celalspd1 = CreateDynamicObject(19302, -1682.70, 923.10, -52.20,   0.00, 0.00, 90.00,1);
-	celalspd2 = CreateDynamicObject(19302, -1682.70, 926.30, -52.20,   0.00, 0.00, 90.00,1);
+	// bramalspd1 = CreateDynamicObject(1495, -1673.90, 876.96, -49.90,   0.00, 0.00, 90.00,1);
+	// bramalspd2 = CreateDynamicObject(1495, -1673.90, 902.57, -49.90,   0.00, 0.00, 90.00,1);
+	// bramalspd3 = CreateDynamicObject(1495, -1670.67, 904.90, -49.90,   0.00, 0.00, 0.00,1);
+	// bramalspd4 = CreateDynamicObject(1495, -1670.57, 876.07, -49.90,   0.00, 0.00, 0.00,1);
+	// bramalspd5 = CreateDynamicObject(3089, -1673.90, 891.26, -48.60,   0.00, 0.00, 270.00,1);
+	// bramalspd6 = CreateDynamicObject(3089, -1616.80, 829.67, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd7 = CreateDynamicObject(3089, -1626.40, 829.67, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd8 = CreateDynamicObject(3089, -1626.40, 823.28, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd9 = CreateDynamicObject(3089, -1616.80, 823.28, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd10 = CreateDynamicObject(3089, -1745.86, 784.40, -44.20,   0.00, 0.00, 0.00,1);
+	// bramalspd11 = CreateDynamicObject(1569, -1606.47, 817.80, -30.50,   0.00, 0.00, 0.00,1);
+	// bramalspd12 = CreateDynamicObject(1569, -1745.87, 805.20, -45.50,   0.00, 0.00, 0.00,1);
+	// bramalspd13 = CreateDynamicObject(971, -1671.50, 918.00, -49.80,   0.00, 0.00, 90.00,1);
+	// celalspd1 = CreateDynamicObject(19302, -1682.70, 923.10, -52.20,   0.00, 0.00, 90.00,1);
+	// celalspd2 = CreateDynamicObject(19302, -1682.70, 926.30, -52.20,   0.00, 0.00, 90.00,1);
 	//koniec
 	Izba = CreateDynamicObject(2930, 266.57534790039, 112.58443450928, 1006.2540283203, 0.000000, 0.000000, 270); //object (chinatgate) (2) 18
     BramaCortez = CreateDynamicObject(969, 1240.9154052734, -767.32855224609, 91.052940368652, 0, 0, 0);//25
