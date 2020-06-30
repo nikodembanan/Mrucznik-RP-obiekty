@@ -287,13 +287,6 @@ static StworzObiekty()
     SetDynamicObjectMaterial(charlie112, 0, 3979, "civic01_lan", "crazy paving", 0x00000000);
     charlie112 = CreateDynamicObject(19379, 1583.257812, -1670.128051, 61.150321, 0.000000, 270.000000, 0.000000, 25, -1, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(charlie112, 0, 3979, "civic01_lan", "crazy paving", 0x00000000);
-    charlie112 = CreateDynamicObject(3089, 1574.564331, -1687.620971, 65.200172, 0.000000, 0.000022, 0.000000, 25, -1, -1, 300.00, 300.00); 
-    SetDynamicObjectMaterial(charlie112, 1, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
-    SetDynamicObjectMaterial(charlie112, 2, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
-    charlie112 = CreateDynamicObject(3089, 1577.545654, -1687.620971, 65.200172, 0.000000, -0.000022, 179.999862, 25, -1, -1, 300.00, 300.00); 
-    SetDynamicObjectMaterial(charlie112, 0, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
-    SetDynamicObjectMaterial(charlie112, 1, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
-    SetDynamicObjectMaterial(charlie112, 2, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
     charlie112 = CreateDynamicObject(1247, 1579.025878, -1680.738281, 66.736267, 0.000000, 0.000000, 90.000000, 25, -1, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(charlie112, 0, 10028, "copshop_sfe", "dt_cops_US_flag", 0x00000000);
     charlie112 = CreateDynamicObject(19327, 1579.007080, -1679.669433, 66.770278, 0.000000, 0.000000, 270.000000, 25, -1, -1, 300.00, 300.00); 
@@ -719,8 +712,6 @@ static StworzObiekty()
     charlie112 = CreateDynamicObject(19176, 1567.469726, -1679.860107, 62.676971, 0.000000, 0.000000, 90.000000, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(1897, 1571.176025, -1687.651245, 61.186264, 89.999992, 180.000000, -89.999992, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(1897, 1578.787231, -1687.651245, 61.186264, 90.000000, 90.000000, 0.000000, 25, -1, -1, 300.00, 300.00); 
-    charlie112 = CreateDynamicObject(3089, 1574.564331, -1687.630981, 62.530208, 0.000000, 0.000007, 0.000004, 25, -1, -1, 300.00, 300.00); 
-    charlie112 = CreateDynamicObject(3089, 1577.545654, -1687.630981, 62.530208, 0.000000, -0.000007, 179.999954, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(11245, 1567.518432, -1677.382690, 65.586288, 0.000000, 0.000000, 0.000000, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(11245, 1567.518432, -1682.112915, 65.586288, 0.000000, 0.000000, 0.000000, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(2412, 1567.615356, -1681.437866, 61.236259, 0.000000, 0.000000, 90.000000, 25, -1, -1, 300.00, 300.00); 
@@ -757,7 +748,7 @@ static StworzObiekty()
     charlie112 = CreateDynamicObject(1671, 1583.996826, -1682.706787, 61.670246, 0.000000, 0.000000, 150.800018, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(11710, 1567.345092, -1679.871704, 64.386260, 0.000000, 0.000000, 90.000000, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(19173, 1582.100952, -1687.529174, 66.646240, 0.000000, 0.000000, 0.000000, 25, -1, -1, 300.00, 300.00); 
-    charlie112 = CreateDynamicObject(3089, 1585.855834, -1683.201049, 62.530208, 0.000000, -0.000007, 89.599868, 25, -1, -1, 300.00, 300.00); 
+    
     charlie112 = CreateDynamicObject(2614, 1570.899291, -1696.115234, 66.192161, 0.000000, 0.000000, 90.000000, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(1897, 1581.007446, -1687.651245, 61.186264, 90.000000, 90.000000, 0.000000, 25, -1, -1, 300.00, 300.00); 
     charlie112 = CreateDynamicObject(1897, 1578.787231, -1687.651245, 64.776229, -89.999992, 183.398788, 93.398765, 25, -1, -1, 300.00, 300.00); 
@@ -781,43 +772,18 @@ return 1;
 static StworzBramy()
 {
 
-//=======================<[BRAMY NA PIERWSZYM PIÊTRZE]>==========================
-	pdbramy1 = CreateDynamicObject(3089, 1617.589233, -1620.354003, 2299.610839, 0.000000, 0.000000, 90.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
-	DodajBrame(pdbramy1, 1617.589233, -1620.354003, 2299.610839, 0.000000, 0.000000, 90.000000, 1617.589233, -1620.354003, 2299.610839, 0.000000, 0.000000, 0.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	
-	pdbramy1 = CreateDynamicObject(3089, 1615.009155, -1611.733520, 2299.610839, 0.000000, 0.000000, 180.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
-	DodajBrame(pdbramy1, 1615.009155, -1611.733520, 2299.610839, 0.000000, 0.000000, 180.000000, 1615.009155, -1611.733520, 2299.610839, 0.000000, 0.000000, -80.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	pdbramy1 = CreateDynamicObject(3089, 1609.812133, -1615.653442, 2299.610839, 0.000000, 0.000000, 90.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);//
-	DodajBrame(pdbramy1, 1609.812133, -1615.653442, 2299.610839, 0.000000, 0.000000, 90.000000, 1609.812133, -1615.653442, 2299.610839, 0.000000, 0.000000, 0.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	pdbramy1 = CreateDynamicObject(3089, 1593.871459, -1611.741577, 2299.580810, 0.000000, 0.000000, 0.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
-	DodajBrame(pdbramy1, 1593.871459, -1611.741577, 2299.580810, 0.000000, 0.000000, 0.000000, 1593.871459, -1611.741577, 2299.580810, 0.000000, 0.000000, 90.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	pdbramy1 = CreateDynamicObject(3089, 1600.210449, -1611.732177, 2299.610839, 0.000000, 0.000000, 180.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);//
-	DodajBrame(pdbramy1, 1600.210449, -1611.732177, 2299.610839, 0.000000, 0.000000, 180.000000, 1600.210449, -1611.732177, 2299.610839, 0.000000, 0.000000, -90.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	pdbramy1 = CreateDynamicObject(3089, 1595.342041, -1625.802490, 2299.610839, 0.000000, 0.000000, 180.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
-	DodajBrame(pdbramy1, 1595.342041, -1625.802490, 2299.610839, 0.000000, 0.000000, 180.000000, 1595.342041, -1625.802490, 2299.610839, 0.000000, 0.000000, -90.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	pdbramy1 = CreateDynamicObject(3089, 1617.453002, -1629.792724, 2299.610839, 0.000000, 0.000000, 90.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14581, "ab_mafiasuitea", "barbersmir1", 0x00000000);//
-	DodajBrame(pdbramy1, 1617.453002, -1629.792724, 2299.610839, 0.000000, 0.000000, 90.000000, 1617.453002, -1629.792724, 2299.610839, 0.000000, 0.000000, 0.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	pdbramy1 = CreateDynamicObject(3089, 1595.342041, -1631.713012, 2299.610839, 0.000000, 0.000000, 180.000000, 1, -1, -1, 550.00, 550.00); 
-	SetDynamicObjectMaterial(pdbramy1, 0, 14415, "carter_block_2", "mp_carter_cage", 0x00000000);
-	DodajBrame(pdbramy1, 1595.342041, -1631.713012, 2299.610839, 0.000000, 0.000000, 180.000000, 1595.342041, -1631.713012, 2299.610839, 0.000000, 0.000000, -90.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1); 
-	
-	//Ostatnia
-	pdbramy1 = CreateDynamicObject(3089, 1629.411987, -1630.638793, 2297.418945, 0.000000, 0.000000, 180.000000, 1, -1, -1, 550.00, 550.00); 
-	DodajBrame(pdbramy1, 1629.411987, -1630.638793, 2297.418945, 0.000000, 0.000000, 180.000000, 1629.411987, -1630.638793, 2297.418945, 0.000000, 0.000000, 90.000000, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
+//=======================<[BRAMY NA PIERWSZYM PIÊTRZE]>========================== speed, range, upr_type 
+    charlie112 = CreateDynamicObject(3089, 1574.564331, -1687.620971, 65.200172, 0.000000, 0.000022, 0.000000, 25, -1, -1, 300.00, 300.00); 
+    SetDynamicObjectMaterial(charlie112, 1, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
+    SetDynamicObjectMaterial(charlie112, 2, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
+    DodajBrame(charlie112, 1574.564331, -1687.620971, 65.200172, 0.000000, 0.000022, 0.000000, 1574.564331, -1687.620971, 65.200172, 0.000000, 0.000022, 90, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
+    charlie112 = CreateDynamicObject(3089, 1577.545654, -1687.620971, 65.200172, 0.000000, -0.000022, 179.999862, 25, -1, -1, 300.00, 300.00); 
+    SetDynamicObjectMaterial(charlie112, 0, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
+    SetDynamicObjectMaterial(charlie112, 1, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
+    SetDynamicObjectMaterial(charlie112, 2, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
+    DodajBrame(charlie112, 1577.545654, -1687.620971, 65.200172, 0.000000, 0.000022, 180, 1577.545654, -1687.620971, 65.200172, 0.000000, 0.000022, 90, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
+	charlie112 = CreateDynamicObject(3089, 1585.855834, -1683.201049, 62.530208, 0.000000, -0.000007, 180, 25, -1, -1, 300.00, 300.00); 
+    DodajBrame(charlie112, 1585.855834, -1683.201049, 62.530208, 0.000000, 0.000022, 180, 1585.855834, -1683.201049, 62.530208, 0.000000, 0.000022, 90, 3, 1.5, BRAMA_UPR_TYPE_FRACTION, 1);
     return 1;
 }
 
