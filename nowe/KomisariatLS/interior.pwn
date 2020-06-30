@@ -28,6 +28,7 @@ interiorpolicedepartment_Init()
 {
 	StworzObiekty();
 	StworzBramy();
+    StworzWejscia();
 	return 1;
 }
 
@@ -772,7 +773,7 @@ return 1;
 static StworzBramy()
 {
 
-//=======================<[BRAMY NA PIERWSZYM PIÊTRZE]>========================== speed, range, upr_type 
+//=======================<[BRAMY W 1 PIETRZE]>========================== speed, range, upr_type 
     charlie112 = CreateDynamicObject(3089, 1574.564331, -1687.620971, 65.200172, 0.000000, 0.000022, 0.000000, 25, -1, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(charlie112, 1, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
     SetDynamicObjectMaterial(charlie112, 2, 10765, "airportgnd_sfse", "ws_runwaytarmac", 0x00000000);
@@ -784,6 +785,13 @@ static StworzBramy()
     DodajBrame(charlie112, 1577.545654, -1687.620971, 65.200172, 0.000000, 0.000022, 180, 1577.545654, -1687.620971, 65.200172, 0.000000, 0.000022, 90, 3, 3, BRAMA_UPR_TYPE_FRACTION, 1);
 	charlie112 = CreateDynamicObject(3089, 1585.855834, -1683.201049, 62.530208, 0.000000, -0.000007, 180, 25, -1, -1, 300.00, 300.00); 
     DodajBrame(charlie112, 1585.855834, -1683.201049, 62.530208, 0.000000, 0.000022, 180, 1585.855834, -1683.201049, 62.530208, 0.000000, 0.000022, 90, 3, 1.5, BRAMA_UPR_TYPE_FRACTION, 1);
+    return 1;
+}
+
+static StworzWejscia()
+{
+    //stock DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="")
+    DodajWejscie(1554.6169,-1675.8090,16.1953, 1568.6409,-1679.9591,62.2363, 0, 0, 25, 0); //wejœcie g³ówne na 1 piêtro
     return 1;
 }
 
