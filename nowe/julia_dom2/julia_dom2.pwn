@@ -29,8 +29,6 @@
 julia_dom2_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();//To wykorzystujemy, jezeli chcemy stworzyc jakies obiekty
-	StworzBramy();//To wykorzystujemy jezeli chcemy stworzyc jakies bramy
-	StworzBudynki();//To wykorzystujemy jezeli chcemy stworzyc jakies wejscia 
 	return 1;
 }
 
