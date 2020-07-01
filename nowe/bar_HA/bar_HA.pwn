@@ -38,7 +38,6 @@ bar_HA_Init()
 //-----------------<[ Funkcje: ]>-------------------
 static StworzExterior()
 {
-	new tmpobjid;
     tmpobjid = CreateDynamicObject(19911, 290.965789, -196.792846, 0.563695, -0.000003, 89.799934, 0.000000, 0, 0, 0, 300.0);
     SetDynamicObjectMaterial(tmpobjid, 0, 6869, "vegastemp1", "vgnbarb_wall_128", 0x00000000);
     tmpobjid = CreateDynamicObject(19911, 290.976867, -187.194824, 0.563660, -0.000003, 89.799934, -0.099999, 0, 0, 0, 300.0);
