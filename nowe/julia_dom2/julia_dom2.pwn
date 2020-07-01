@@ -137,28 +137,8 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(2751, 2146.547851, -1275.592407, 24.261425, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2251, 2145.850097, -1276.032958, 24.011426, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(1506, 2149.454833, -1284.642700, 23.151409, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
-	return 1;
-}
 
-static StworzBramy()
-{
-	//Tutaj wstawiamy bramy w formacie: 
-		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEN:
-			//0 - BRAK
-			//1 - FRAKCJA
-			//2 - RODZINA
-			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
-	
-		//DualGateAdd(...rozpisane w glownym README) 
-	return 1;
-}
-
-static StworzBudynki()
-{
-	//Tutaj wstawiamy wejscia w formacie:
-	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
+	tmpobjid = CreateDynamicObject(3555, 2150.040039, -1281.130004, 25.593799, 0.000000, 0.000000, -179.999984, 0, 0, -1, 300.00, 300.00);
 	return 1;
 }
 

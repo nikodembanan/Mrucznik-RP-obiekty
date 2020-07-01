@@ -29,8 +29,6 @@
 villa_Jensena_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();//To wykorzystujemy, jezeli chcemy stworzyc jakies obiekty
-	StworzBramy();//To wykorzystujemy jezeli chcemy stworzyc jakies bramy
-	StworzBudynki();//To wykorzystujemy jezeli chcemy stworzyc jakies wejscia 
 	return 1;
 }
 
@@ -493,19 +491,19 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 89.878128, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} W tym domu...", 80, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 89.238113, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Mówimy {000000} Prawd?", 90, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Mówimy {000000} Prawdê", 90, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 88.858116, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} POPELNIAMY {000000} BLEDY", 100, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} POPE£NIAMY {000000} B£EDY", 100, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 88.618125, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} MOWIMY {000000} PRZEPRASZAM", 120, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 88.298141, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} LUBIMY {000000} si? BAWIC", 80, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} LUBIMY {000000} siê BAWIÆ", 80, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 87.848159, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} WYBACZAMY", 80, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 87.398170, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} DAJEMY {000000} druga szanse", 110, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} DAJEMY {000000} drug¹ szanse", 110, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.385864, 86.918159, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} JESTESMY {000000} CIERPLIWI", 90, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} JESTEŒMY {000000} CIERPLIWI", 90, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.939208, -1555.255737, 86.668182, 0.000000, -0.000007, 179.999954, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} KOCHAMY", 40, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1344.057495, -1553.052612, 90.662879, 0.000000, 0.000000, 90.000000, 300.00, 300.00); 
@@ -513,19 +511,19 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObjectEx(19477, 1343.947387, -1553.052612, 90.052856, 0.000000, 0.000000, 90.000000, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} mnie dzisiaj", 50, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1343.887329, -1553.052612, 89.772865, 0.000000, 0.000000, 90.000000, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Bardziej ni? wczoraj", 80, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Bardziej ni¿ wczoraj", 80, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1343.887329, -1553.052612, 89.472877, 0.000000, 0.000000, 90.000000, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} ale nie mniej niz jutro", 80, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} ale nie mniej ni¿ jutro", 80, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1343.297119, -1557.701538, 86.572914, 0.000000, 0.000000, 270.000000, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Wygrywaj walki przed ich rozpoczeciem", 120, "Fixedsys", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Wygrywaj walki przed ich rozpoczêciem", 120, "Fixedsys", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1342.886718, -1546.742187, 89.472885, 0.000000, 0.000000, 90.000000, 300.00, 300.00); 
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} Papierosy, wóda, sex", 70, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1342.698120, -1557.701538, 86.422950, 0.000004, 0.000000, -90.000000, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Nie staraj sie przegrac malo", 70, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Nie staraj sie przegraæ ma³o", 70, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1344.728637, -1557.701538, 86.432968, 0.000004, 0.000000, -90.000000, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} - walcz by wygrac duzo.", 70, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} - walcz by wygraæ du¿o.", 70, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19477, 1350.889160, -1565.557373, 86.438171, 0.000000, -0.000007, 539.999938, 300.00, 300.00); 
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} W tym domu rz?dzi Jensen", 110, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} W tym domu rz¹dzi Jensen", 110, "Engravers MT", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObjectEx(19445, 1351.248657, -1552.645141, 86.302757, 0.000000, 0.000000, 0.000000, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 3314, "ce_burbhouse", "sw_wallbrick_06", 0x00000000);
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -618,35 +616,13 @@ static StworzObiekty()
 	return 1;
 }
 
-static StworzBramy()
-{
-	//Tutaj wstawiamy bramy w formacie: 
-		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEN:
-			//0 - BRAK
-			//1 - FRAKCJA
-			//2 - RODZINA
-			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
-	
-		//DualGateAdd(...rozpisane w glownym README) 
-	return 1;
-}
-
-static StworzBudynki()
-{
-	//Tutaj wstawiamy wejscia w formacie:
-	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
-	return 1;
-}
-
 static UsunObiekty(playerid)
 {
 	//Tutaj wstawiamy usuwanie obiektow z mapy GTA w formacie:
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
 
-	RemoveBuildingForPlayer(playerid, 4113, 1345.630, -1552.959, 48.515, 0.250);
-	RemoveBuildingForPlayer(playerid, 4116, 1345.630, -1552.959, 48.515, 0.250);
+	// RemoveBuildingForPlayer(playerid, 4113, 1345.630, -1552.959, 48.515, 0.250);
+	// RemoveBuildingForPlayer(playerid, 4116, 1345.630, -1552.959, 48.515, 0.250);
 	return 1;
 }
 

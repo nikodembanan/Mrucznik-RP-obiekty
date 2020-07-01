@@ -29,8 +29,6 @@
 julia_dom3_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();//To wykorzystujemy, jezeli chcemy stworzyc jakies obiekty
-	StworzBramy();//To wykorzystujemy jezeli chcemy stworzyc jakies bramy
-	StworzBudynki();//To wykorzystujemy jezeli chcemy stworzyc jakies wejscia 
 	return 1;
 }
 
@@ -298,28 +296,8 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(2026, 2129.739013, -1331.194213, 29.041221, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(18084, 2131.131103, -1330.879516, 27.045925, 0.000000, 0.000000, 450.000000, -1, -1, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2870, 2124.388916, -1327.097778, 26.161066, 0.000000, 0.000000, 450.000000, -1, -1, -1, 300.00, 300.00); 
-	return 1;
-}
 
-static StworzBramy()
-{
-	//Tutaj wstawiamy bramy w formacie: 
-		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEN:
-			//0 - BRAK
-			//1 - FRAKCJA
-			//2 - RODZINA
-			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
-	
-		//DualGateAdd(...rozpisane w glownym README) 
-	return 1;
-}
-
-static StworzBudynki()
-{
-	//Tutaj wstawiamy wejscia w formacie:
-	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
+	tmpobjid = CreateDynamicObject(3580, 2126.780029, -1325.729980, 28.921899, 0.000000, 0.000000, -0.000034, -1, -1, -1, 300.00, 300.00);
 	return 1;
 }
 

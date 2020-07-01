@@ -29,8 +29,6 @@
 julia_dom1_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
 {
 	StworzObiekty();//To wykorzystujemy, jezeli chcemy stworzyc jakies obiekty
-	StworzBramy();//To wykorzystujemy jezeli chcemy stworzyc jakies bramy
-	StworzBudynki();//To wykorzystujemy jezeli chcemy stworzyc jakies wejscia 
 	return 1;
 }
 
@@ -166,28 +164,8 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(1208, 2144.418701, -1328.687500, 24.760068, 0.000000, 0.000000, -90.000000, -1, -1, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2251, 2147.215576, -1329.624267, 25.600078, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(1231, 2150.055419, -1325.130859, 30.322198, 0.000000, 180.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
-	return 1;
-}
 
-static StworzBramy()
-{
-	//Tutaj wstawiamy bramy w formacie: 
-		// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-		// fuprtyp - TYPY UPRAWNIEN:
-			//0 - BRAK
-			//1 - FRAKCJA
-			//2 - RODZINA
-			//3 - BIZNES
-		// fuprval - numer frakcji/rodziny
-	
-		//DualGateAdd(...rozpisane w glownym README) 
-	return 1;
-}
-
-static StworzBudynki()
-{
-	//Tutaj wstawiamy wejscia w formacie:
-	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
+	tmpobjid = CreateDynamicObject(3555, 2148.709960, -1324.000000, 27.140600, 0.000000, 0.000000, 0.000018, -1, -1, -1, 300.00, 300.00);
 	return 1;
 }
 
@@ -197,8 +175,6 @@ static UsunObiekty(playerid)
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
 	RemoveBuildingForPlayer(playerid, 3555, 2148.709, -1324.000, 27.140, 0.250);
 	RemoveBuildingForPlayer(playerid, 3563, 2148.709, -1324.000, 27.140, 0.250);
-	RemoveBuildingForPlayer(playerid, 4513, -2749.409, 2336.929, 72.906, 0.250);
-	RemoveBuildingForPlayer(playerid, 4515, 604.523, 352.539, 19.734, 0.250);
 	return 1;
 }
 

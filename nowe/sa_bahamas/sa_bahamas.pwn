@@ -446,23 +446,23 @@ static StworzBramy()
 	DodajBrame(CreateDynamicObject(1567, 934.44000, -1529.67004, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500),
 		934.44000, -1529.67004, 20.38000, 0.00000, 0.00000, 270.00000,
 		934.42000, -1529.67004, 20.38000, 0.00000, 0.00000, 20.00000,
-		0.1, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 937.51001, -1521.61011, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
 		937.51001, -1521.61011, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1521.61011, 20.38000, 0.00000, 0.00000, 30.00000,
-		0.1, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 940.51001, -1518.37024, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
 		940.51001, -1518.37024, 20.38000, 0.00000, 0.00000, 90.00000,
 		940.49001, -1518.37024, 20.38000, 0.00000, 0.00000, 330.00000,
-		0.1, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 937.51001, -1540.72998, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
 		937.51001, -1540.72998, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1540.72998, 20.38000, 0.00000, 0.00000, 335.00000,
-		0.1, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 936.71997, -1516.06018, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500),
 		936.71997, -1516.06018, 20.38000, 0.00000, 0.00000, 180.00000,
 		936.71997, -1516.08018, 20.38000, 0.00000, 0.00000, 70.00000,
-		0.1, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	return 1;
 }
 
