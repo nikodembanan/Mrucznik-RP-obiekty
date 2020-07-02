@@ -212,6 +212,7 @@
 //*****************************************************
 #include "nowe\rafineriaLV/interior.pwn"
 #include "nowe\rafineriaLV/exterior.pwn"
+#include "nowe\GlobalneLV/pustynialotnisko.pwn"
 //*****************************************************
 //EVENTOWE
 //*****************************************************
@@ -249,6 +250,7 @@ obiekty_OnGameModeInit()
 	komisariatLS_Init();
 	//centralBank_Init();
 	idleop_Init();
+	lvlotnisko_Init();
 	
 	rondo_Init();
 	chinatown_Init();
@@ -370,6 +372,7 @@ obiekty_OnPlayerConnect(playerid)
 	sidle_Connect(playerid);
 	ammuNationCommerce_Connect(playerid);
 	lv_Connect(playerid);
+	lvlotnisko_Connect(playerid);
 	
 	pcexterior_Connect(playerid);//exterior urzedu w pc
 	extsasd_Connect(playerid);//exterior sasd
