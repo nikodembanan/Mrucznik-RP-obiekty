@@ -20,7 +20,7 @@
 //Znajduja sie w pliku obiekty_zmienne.pwn
 
 //-----------------<[ Wyw Funkcje ]>---------------------------
-
+new sandalobj;
 BramyDomow_Init()
 {
 	StworzBramy();
@@ -31,7 +31,22 @@ static StworzBramy()
 {
 	//(ZMIENNA, X,Y,Z,XX,XY,XZ, OX,OY,YZ,OXX,OXY,OXZ, Speed (otwierania bramy), range(odleg³oœæ /brama), TYP(rodziny,frakcja,nikt), Numer); 
 
+
+	//domid = 1783
 	creativeobj = CreateDynamicObject(2909, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
 	DodajBrame(creativeobj, 2528.161865, 121.854942, 25.184370, 0.000000, 0.000000, 90.000000, 2528.161865, 121.854942, 24.234361, 0.000000, 0.000000, 90.000000, 2, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1783); 
+	//domid = 1838
+	sandalobj = CreateDynamicObject(18766, 1076.925048, -765.619689, 103.323432, -0.700003, -95.299949, -5.699997, -1, -1, -1, 250.00, 250.00); 
+	SetDynamicObjectMaterial(sandalobj, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+	sandalobj = CreateDynamicObject(19362, 1077.149780, -735.969116, 105.185485, -2.199999, 0.299998, -5.199998, -1, -1, -1, 250.00, 250.00); 
+	SetDynamicObjectMaterial(sandalobj, 0, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0xFFFFCCCC);
+	sandalobj = CreateDynamicObject(19447, 1104.696777, -720.829040, 100.185562, -5.399997, -1.100000, -64.600059, -1, -1, -1, 250.00, 250.00); 
+	SetDynamicObjectMaterial(sandalobj, 0, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
+	sandalobj = CreateDynamicObject(9333, 1078.538696, -752.526550, 106.026504, 2.000000, 2.600001, 7.499999, -1, -1, -1, 250.00, 250.00); 
+	sandalobj = CreateDynamicObject(9333, 1089.757446, -724.073242, 102.883178, 9.900013, -0.500000, 129.099884, -1, -1, -1, 250.00, 250.00); 
+	sandalobj = CreateDynamicObject(9333, 1110.273315, -722.256347, 99.798713, -0.199998, 171.500091, 75.400428, -1, -1, -1, 250.00, 250.00); 
+	sandalobj = CreateDynamicObject(901, 1102.424804, -716.016235, 100.038925, 0.000000, 6.899994, -36.500011, -1, -1, -1, 250.00, 250.00); 
+	sandalobj = CreateDynamicObject(2933, 1083.417846, -765.727355, 107.320808, -0.099999, -2.799998, 5.099987, -1, -1, -1, 250.00, 250.00); 
+	DodajBrame(sandalobj, 1083.417846, -765.727355, 107.320808, -0.099999, -2.799998, 5.099987, 1092.057006, -764.953918, 107.745140, -0.099999, -2.799998, 5.099987, 1, 15.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1838);
 	return 1;
 }
