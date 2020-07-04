@@ -104,7 +104,6 @@
 #include "nowe\ramirezaservice\ramirezint.pwn"
 #include "nowe\GlobalneLS\banklsext.pwn"
 #include "nowe\GunShop\gunshopls.pwn"
-#include "nowe\Globalne\nagrodyeventy\sktom.pwn"
 
 #include "nowe\DMV\DMV_bramyplac.pwn"
 
@@ -124,7 +123,6 @@
 #include "nowe\FBI/interior.pwn"
 #include "nowe\wps/interior.pwn"
 #include "nowe\Globalne\interiorypojazdow\pociag.pwn"
-#include "nowe\Globalne\nagrodyeventy\simeone.pwn"
 
 //*****************************************************
 //Aktualizacja 2.6 - By Simeone & Sergio & deduir
@@ -195,8 +193,6 @@
 #include "nowe\Dillimore\farma/exterior.pwn"
 // Wadliwe obiekty GTA SA (usuniête na zawsze)
 #include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
-// Bramy domow
-#include "nowe\Globalne/bramy_domow/bramy_domow.pwn"
 //Dildos Club
 #include "nowe\DildosClub\DildosClub.pwn"
 //SASC2020
@@ -213,6 +209,12 @@
 #include "nowe\rafineriaLV/interior.pwn"
 #include "nowe\rafineriaLV/exterior.pwn"
 #include "nowe\GlobalneLV/pustynialotnisko.pwn"
+#include "nowe\Globalne\op_domow/domid197.pwn"
+#include "nowe\Globalne\op_domow/domid326.pwn"
+#include "nowe\Globalne\op_domow/domid997.pwn"
+#include "nowe\Globalne\op_domow/domid1783.pwn"
+#include "nowe\Globalne\op_domow/domid1838.pwn"
+#include "nowe\Globalne\op_domow/domid1929.pwn"
 //*****************************************************
 //EVENTOWE
 //*****************************************************
@@ -287,11 +289,9 @@ obiekty_OnGameModeInit()
 	ramirezint_Init();//RAMIREZ CAR SERVICE
 	banklsext_Init();//Bariekrki przed bankiem LS
 	gunshopls_Init();//GS LS
-	sktomdom_Init();//Dom skTOM'a
 	carinterior_Init();
 	carexterior_Init();
 	bramydmvext_Init();//Bramy DMV (?) 
-	BramyDomow_Init();//Bramy dla domow
 	wpsext_Init();//WPS
 	pcexterior_Init();//DMV w PC
 	inteksasd_Init();//Interior SASD w PC
@@ -304,7 +304,6 @@ obiekty_OnGameModeInit()
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
-	simeonedom_Init();//Domek Simeone
 	bankomaty_Init();//Obiekty bankomatów na SA
 	WhiteHouseExt_Init();//Exterior bia³ego domu
 	basenint_Init();//interior basenu
@@ -342,6 +341,12 @@ obiekty_OnGameModeInit()
 	piwnica_Init();
 	farmadillmore_Init();
 	ISISObjects_Init();
+	domid197_Init();
+    domid326_Init();
+    domid997_Init();
+    domid1783_Init();
+    domid1838_Init();
+    domid1929_Init();
 	return 1;
 }
 
@@ -378,8 +383,7 @@ obiekty_OnPlayerConnect(playerid)
 	extsasd_Connect(playerid);//exterior sasd
 	coffeshop_Connect(playerid);//Coffe shop
 	chinskiejedzenie_Connect(playerid);//Chinese food
-	wpsint_Connect(playerid);//Interior WPS
-	simeonedom_Connect(playerid);//Domek simeone
+	wpsint_Connect(playerid);//Interior WPSs
 	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
 	FBIPARKING_Connect(playerid);
@@ -395,5 +399,8 @@ obiekty_OnPlayerConnect(playerid)
 	ktext_Connect(playerid);
 	ktint_Connect(playerid);
 	WadliweObiekty_Connect(playerid);
+	domid1838_Connect(playerid);
+    domid326_Connect(playerid);
+	domid1783_Connect(playerid);
 	return 1;
 }
