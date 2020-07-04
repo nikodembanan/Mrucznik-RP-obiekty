@@ -25,7 +25,6 @@ domid1838_Init()
 	StworzObiekty();
 	return 1;
 }
-new sandalobj;
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {

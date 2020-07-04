@@ -223,5 +223,5 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 3604, 1079.969, -638.242, 115.015, 0.250);
 	RemoveBuildingForPlayer(playerid, 3737, 1079.969, -638.242, 115.015, 0.250);
 	RemoveBuildingForPlayer(playerid, 710, 1110.630, -680.507, 126.460, 0.250);
-	return 1
+	return 1;
 }

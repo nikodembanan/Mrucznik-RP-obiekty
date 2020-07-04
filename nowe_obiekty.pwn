@@ -403,7 +403,6 @@ obiekty_OnPlayerConnect(playerid)
 	ktext_Connect(playerid);
 	ktint_Connect(playerid);
 	WadliweObiekty_Connect(playerid);
-	domid1838_Connect(playerid);
     domid326_Connect(playerid);
 	domid1783_Connect(playerid);
 	domid1930_Connect(playerid);
