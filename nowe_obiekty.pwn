@@ -215,6 +215,7 @@
 #include "nowe\Globalne\op_domow/domid1783.pwn"
 #include "nowe\Globalne\op_domow/domid1838.pwn"
 #include "nowe\Globalne\op_domow/domid1929.pwn"
+#include "nowe\Globalne\op_domow/domid1335.pwn"
 //*****************************************************
 //EVENTOWE
 //*****************************************************
@@ -347,6 +348,7 @@ obiekty_OnGameModeInit()
     domid1783_Init();
     domid1838_Init();
     domid1929_Init();
+	domid1335_Init();
 	return 1;
 }
 
@@ -378,7 +380,7 @@ obiekty_OnPlayerConnect(playerid)
 	ammuNationCommerce_Connect(playerid);
 	lv_Connect(playerid);
 	lvlotnisko_Connect(playerid);
-	
+	domid1335_Connect(playerid);
 	pcexterior_Connect(playerid);//exterior urzedu w pc
 	extsasd_Connect(playerid);//exterior sasd
 	coffeshop_Connect(playerid);//Coffe shop
