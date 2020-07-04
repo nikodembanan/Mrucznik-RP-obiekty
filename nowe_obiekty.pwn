@@ -216,6 +216,7 @@
 #include "nowe\Globalne\op_domow/domid1838.pwn"
 #include "nowe\Globalne\op_domow/domid1929.pwn"
 #include "nowe\Globalne\op_domow/domid1335.pwn"
+#include "nowe\Globalne\op_domow/domid1930.pwn"
 //*****************************************************
 //EVENTOWE
 //*****************************************************
@@ -349,6 +350,7 @@ obiekty_OnGameModeInit()
     domid1838_Init();
     domid1929_Init();
 	domid1335_Init();
+	domid1930_Init();
 	return 1;
 }
 
@@ -404,5 +406,6 @@ obiekty_OnPlayerConnect(playerid)
 	domid1838_Connect(playerid);
     domid326_Connect(playerid);
 	domid1783_Connect(playerid);
+	domid1930_Connect(playerid);
 	return 1;
 }
