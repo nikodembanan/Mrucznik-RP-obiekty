@@ -407,5 +407,6 @@ obiekty_OnPlayerConnect(playerid)
     domid326_Connect(playerid);
 	domid1783_Connect(playerid);
 	domid1930_Connect(playerid);
+	domid1929_Connect(playerid);
 	return 1;
 }
