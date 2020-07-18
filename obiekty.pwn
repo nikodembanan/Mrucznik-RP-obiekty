@@ -221,7 +221,7 @@
 #include "nowe\julia_dom4\julia_dom4.pwn"
 #include "nowe\julia_dom5\julia_dom5.pwn"
 #include "nowe\julia_dom6\julia_dom6.pwn"
-#include "nowe\villa_Jensena\villa_Jensena.pwn"
+//#include "nowe\villa_Jensena\villa_Jensena.pwn"
 //*****************************************************
 //Porz¹dki
 //*****************************************************
@@ -420,7 +420,7 @@ obiekty_OnGameModeInit()
 	julia_dom4_Init();
 	julia_dom5_Init();
 	julia_dom6_Init();
-	villa_Jensena_Init();
+	//villa_Jensena_Init();
 
 	//Porz¹dki:
 	ZniszczoneStudioTatuazu_Init();
@@ -552,7 +552,7 @@ obiekty_OnPlayerConnect(playerid)
 	julia_dom4_Connect(playerid);
 	julia_dom5_Connect(playerid);
 	julia_dom6_Connect(playerid);
-	villa_Jensena_Connect(playerid);
+	//villa_Jensena_Connect(playerid);
 
 	// OLD
     //Trucker job
