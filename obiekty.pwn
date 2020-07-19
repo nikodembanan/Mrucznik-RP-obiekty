@@ -243,7 +243,7 @@
 #include "nowe\StareSAN\StareSAN.pwn"
 #include "nowe\StareNationalGuard\StareNationalGuard.pwn"
 #include "nowe\StareLSPD\StareLSPD.pwn"
-#include "nowe\StareLSMCS\StareLSMCS.pwn"
+//#include "nowe\StareLSMCS\StareLSMCS.pwn"
 #include "nowe\Samolot\Samolot.pwn"
 #include "nowe\SalaPrzesluchan\SalaPrzesluchan.pwn"
 #include "nowe\RockHotel\RockHotel.pwn"
@@ -441,7 +441,7 @@ obiekty_OnGameModeInit()
 	StareSAN_Init();
 	StareNationalGuard_Init();
 	StareLSPD_Init();
-	StareLSMCS_Init();
+	//StareLSMCS_Init();
 	Samolot_Init();
 	SalaPrzesluchan_Init();
 	RockHotel_Init();
