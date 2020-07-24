@@ -283,6 +283,7 @@
 #include "nowe\AkademiaLSPD\AkademiaLSPD.pwn"
 #include "nowe\Alhambra\Alhambra.pwn"
 #include "nowe\AdminJail\AdminJail.pwn"
+#include "nowe\LilkaDomLV\LilkaDomLV.pwn"
 
 
 
@@ -481,6 +482,7 @@ obiekty_OnGameModeInit()
 	AkademiaLSPD_Init();
 	Alhambra_Init();
 	AdminJail_Init();
+	LilkaDomLV_Init();
 
 	//OLD
 	ZaladujBramy();
