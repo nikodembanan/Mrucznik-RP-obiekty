@@ -284,6 +284,7 @@
 #include "nowe\Alhambra\Alhambra.pwn"
 #include "nowe\AdminJail\AdminJail.pwn"
 #include "nowe\LilkaDomLV\LilkaDomLV.pwn"
+#include "nowe\ClintonDomLS\ClintonDomLS.pwn"
 
 
 
@@ -483,6 +484,7 @@ obiekty_OnGameModeInit()
 	Alhambra_Init();
 	AdminJail_Init();
 	LilkaDomLV_Init();
+	ClintonDomLS_Init();
 
 	//OLD
 	ZaladujBramy();
