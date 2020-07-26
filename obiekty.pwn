@@ -285,6 +285,7 @@
 #include "nowe\AdminJail\AdminJail.pwn"
 #include "nowe\LilkaDomLV\LilkaDomLV.pwn"
 #include "nowe\ClintonDomLS\ClintonDomLS.pwn"
+#include "nowe\ElCoronaAztecasOP\ElCoronaAztecasOP.pwn"
 
 
 
@@ -485,6 +486,8 @@ obiekty_OnGameModeInit()
 	AdminJail_Init();
 	LilkaDomLV_Init();
 	ClintonDomLS_Init();
+	ElCoronaAztecasOP_Init();
+
 
 	//OLD
 	ZaladujBramy();
