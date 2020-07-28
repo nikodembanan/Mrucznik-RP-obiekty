@@ -104,7 +104,6 @@
 #include "nowe\ramirezaservice\ramirezint.pwn"
 #include "nowe\GlobalneLS\banklsext.pwn"
 #include "nowe\GunShop\gunshopls.pwn"
-#include "nowe\Globalne\nagrodyeventy\sktom.pwn"
 
 #include "nowe\DMV\DMV_bramyplac.pwn"
 
@@ -124,7 +123,6 @@
 #include "nowe\FBI/interior.pwn"
 #include "nowe\wps/interior.pwn"
 #include "nowe\Globalne\interiorypojazdow\pociag.pwn"
-#include "nowe\Globalne\nagrodyeventy\simeone.pwn"
 
 //*****************************************************
 //Aktualizacja 2.6 - By Simeone & Sergio & deduir
@@ -195,8 +193,6 @@
 #include "nowe\Dillimore\farma/exterior.pwn"
 // Wadliwe obiekty GTA SA (usuniête na zawsze)
 #include "nowe\Globalne/wadliwe_obiekty/wadliwe_obiekty.pwn"
-// Bramy domow
-#include "nowe\Globalne/bramy_domow/bramy_domow.pwn"
 //Dildos Club
 #include "nowe\DildosClub\DildosClub.pwn"
 //SASC2020
@@ -207,10 +203,6 @@
 //*****************************************************
 #include "nowe\ISISObjects\ISISObjects.pwn"
 #include "nowe\AmmuNationCommerce/ammuNationCommerce.pwn"
-//*****************************************************
-//EVENTOWE BY RAHIM
-//*****************************************************
-#include "nowe\event_Rahim/event1.pwn"
 
 #include "nowe\sa_bahamas/sa_bahamas.pwn"
 #include "nowe\bar_HA/bar_HA.pwn"
@@ -283,11 +275,24 @@
 #include "nowe\AkademiaLSPD\AkademiaLSPD.pwn"
 #include "nowe\Alhambra\Alhambra.pwn"
 #include "nowe\AdminJail\AdminJail.pwn"
+
+//*****************************************************
+//Aktualizacja 2.7.8
+//*****************************************************
 #include "nowe\LilkaDomLV\LilkaDomLV.pwn"
 #include "nowe\ClintonDomLS\ClintonDomLS.pwn"
 #include "nowe\ElCoronaAztecasOP\ElCoronaAztecasOP.pwn"
-
-
+#include "nowe\rafineriaLV/interior.pwn"
+#include "nowe\rafineriaLV/exterior.pwn"
+#include "nowe\GlobalneLV/pustynialotnisko.pwn"
+#include "nowe\Globalne\op_domow/domid197.pwn"
+#include "nowe\Globalne\op_domow/domid326.pwn"
+#include "nowe\Globalne\op_domow/domid997.pwn"
+#include "nowe\Globalne\op_domow/domid1783.pwn"
+#include "nowe\Globalne\op_domow/domid1838.pwn"
+#include "nowe\Globalne\op_domow/domid1929.pwn"
+#include "nowe\Globalne\op_domow/domid1335.pwn"
+#include "nowe\Globalne\op_domow/domid1930.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -356,11 +361,9 @@ obiekty_OnGameModeInit()
 	ramirezint_Init();//RAMIREZ CAR SERVICE
 	banklsext_Init();//Bariekrki przed bankiem LS
 	gunshopls_Init();//GS LS
-	sktomdom_Init();//Dom skTOM'a
 	carinterior_Init();
 	carexterior_Init();
 	bramydmvext_Init();//Bramy DMV (?) 
-	BramyDomow_Init();//Bramy dla domow
 	wpsext_Init();//WPS
 	pcexterior_Init();//DMV w PC
 	inteksasd_Init();//Interior SASD w PC
@@ -373,7 +376,6 @@ obiekty_OnGameModeInit()
 	fbiintek_Init();//Interior FBI
 	wpsint_Init();//Interior WPS
 	interiorpociagu_Init();//interior pociagu
-	simeonedom_Init();//Domek Simeone
 	bankomaty_Init();//Obiekty bankomatów na SA
 	WhiteHouseExt_Init();//Exterior bia³ego domu
 	basenint_Init();//interior basenu
@@ -487,7 +489,17 @@ obiekty_OnGameModeInit()
 	LilkaDomLV_Init();
 	ClintonDomLS_Init();
 	ElCoronaAztecasOP_Init();
-
+	rafineriaLVext_Init();
+	rafineriaLVint_Init();
+	lvlotnisko_Init();
+	domid197_Init();
+    domid326_Init();
+    domid997_Init();
+    domid1783_Init();
+    domid1838_Init();
+    domid1929_Init();
+	domid1335_Init();
+	domid1930_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -528,7 +540,6 @@ obiekty_OnPlayerConnect(playerid)
 	coffeshop_Connect(playerid);//Coffe shop
 	chinskiejedzenie_Connect(playerid);//Chinese food
 	wpsint_Connect(playerid);//Interior WPS
-	simeonedom_Connect(playerid);//Domek simeone
 	WhiteHouseExt_Connect(playerid);//Extterior bia³ego domu
 	basen_Connect(playerid);//basen
 	FBIPARKING_Connect(playerid);
@@ -560,6 +571,11 @@ obiekty_OnPlayerConnect(playerid)
 	julia_dom5_Connect(playerid);
 	julia_dom6_Connect(playerid);
 	//villa_Jensena_Connect(playerid);
+    domid326_Connect(playerid);
+	domid1783_Connect(playerid);
+	domid1930_Connect(playerid);
+	domid1929_Connect(playerid);
+	lvlotnisko_Connect(playerid);
 
 	// OLD
     //Trucker job
@@ -716,21 +732,21 @@ ZaladujBramy()
 	DrzwiPDKomi3 = CreateDynamicObject(1569,238.32324219,119.16503906,1002.21875000,0.00000000,0.00000000,179.99450684); //brama pd3 stary komisariat (old komi)
 	DrzwiPDKomi4 = CreateDynamicObject(3089,220.67187500,118.53125000,1010.50921631,0.00000000,0.00000000,270.00000000); //brama pd4 (drzwi FBI)
 	//nowe komi
-	bramalspd1 = CreateDynamicObject(1495, -1673.90, 876.96, -49.90,   0.00, 0.00, 90.00,1);
-	bramalspd2 = CreateDynamicObject(1495, -1673.90, 902.57, -49.90,   0.00, 0.00, 90.00,1);
-	bramalspd3 = CreateDynamicObject(1495, -1670.67, 904.90, -49.90,   0.00, 0.00, 0.00,1);
-	bramalspd4 = CreateDynamicObject(1495, -1670.57, 876.07, -49.90,   0.00, 0.00, 0.00,1);
-	bramalspd5 = CreateDynamicObject(3089, -1673.90, 891.26, -48.60,   0.00, 0.00, 270.00,1);
-	bramalspd6 = CreateDynamicObject(3089, -1616.80, 829.67, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd7 = CreateDynamicObject(3089, -1626.40, 829.67, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd8 = CreateDynamicObject(3089, -1626.40, 823.28, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd9 = CreateDynamicObject(3089, -1616.80, 823.28, -25.80,   0.00, 0.00, 90.00,1);
-	bramalspd10 = CreateDynamicObject(3089, -1745.86, 784.40, -44.20,   0.00, 0.00, 0.00,1);
-	bramalspd11 = CreateDynamicObject(1569, -1606.47, 817.80, -30.50,   0.00, 0.00, 0.00,1);
-	bramalspd12 = CreateDynamicObject(1569, -1745.87, 805.20, -45.50,   0.00, 0.00, 0.00,1);
-	bramalspd13 = CreateDynamicObject(971, -1671.50, 918.00, -49.80,   0.00, 0.00, 90.00,1);
-	celalspd1 = CreateDynamicObject(19302, -1682.70, 923.10, -52.20,   0.00, 0.00, 90.00,1);
-	celalspd2 = CreateDynamicObject(19302, -1682.70, 926.30, -52.20,   0.00, 0.00, 90.00,1);
+	// bramalspd1 = CreateDynamicObject(1495, -1673.90, 876.96, -49.90,   0.00, 0.00, 90.00,1);
+	// bramalspd2 = CreateDynamicObject(1495, -1673.90, 902.57, -49.90,   0.00, 0.00, 90.00,1);
+	// bramalspd3 = CreateDynamicObject(1495, -1670.67, 904.90, -49.90,   0.00, 0.00, 0.00,1);
+	// bramalspd4 = CreateDynamicObject(1495, -1670.57, 876.07, -49.90,   0.00, 0.00, 0.00,1);
+	// bramalspd5 = CreateDynamicObject(3089, -1673.90, 891.26, -48.60,   0.00, 0.00, 270.00,1);
+	// bramalspd6 = CreateDynamicObject(3089, -1616.80, 829.67, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd7 = CreateDynamicObject(3089, -1626.40, 829.67, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd8 = CreateDynamicObject(3089, -1626.40, 823.28, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd9 = CreateDynamicObject(3089, -1616.80, 823.28, -25.80,   0.00, 0.00, 90.00,1);
+	// bramalspd10 = CreateDynamicObject(3089, -1745.86, 784.40, -44.20,   0.00, 0.00, 0.00,1);
+	// bramalspd11 = CreateDynamicObject(1569, -1606.47, 817.80, -30.50,   0.00, 0.00, 0.00,1);
+	// bramalspd12 = CreateDynamicObject(1569, -1745.87, 805.20, -45.50,   0.00, 0.00, 0.00,1);
+	// bramalspd13 = CreateDynamicObject(971, -1671.50, 918.00, -49.80,   0.00, 0.00, 90.00,1);
+	// celalspd1 = CreateDynamicObject(19302, -1682.70, 923.10, -52.20,   0.00, 0.00, 90.00,1);
+	// celalspd2 = CreateDynamicObject(19302, -1682.70, 926.30, -52.20,   0.00, 0.00, 90.00,1);
 	//koniec
 	Izba = CreateDynamicObject(2930, 266.57534790039, 112.58443450928, 1006.2540283203, 0.000000, 0.000000, 270); //object (chinatgate) (2) 18
     BramaCortez = CreateDynamicObject(969, 1240.9154052734, -767.32855224609, 91.052940368652, 0, 0, 0);//25

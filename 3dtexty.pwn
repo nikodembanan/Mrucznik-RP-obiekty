@@ -17,7 +17,7 @@ Zaladuj3DTexty()
     CreateDynamic3DTextLabel("WeŸ zlecenie - PIZZA", 0xFFA500AA, 2103.8123,-1798.7085,13.6504,30.0);//PizzaJob
 	//nowe domy 3dtext biznesów
 	CreateDynamic3DTextLabel("Oczysczanie z zarzutow", 0x33CCFFAA, 246.3568,120.3933,1003.2682, 10.0); //Clear icon in Police Station
-	CreateDynamic3DTextLabel("/kuppozwolenie", 0x42F5C5AA, -1679.18, 893.36, -47.58, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 1);
+	CreateDynamic3DTextLabel("/kuppozwolenie", 0x42F5C5AA, 1582.4530,-1678.2080,63.5498, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 25);
 	CreateDynamic3DTextLabel("/kupbilet", 0x42F5C5AA, 401.07, -1809.11, 9.41, 5.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 21);
 	CreateDynamic3DTextLabel("Urz¹d Miasta", 0x9ACD32AA, 1481.1531,-1770.0277,18.7958, 50.0); //City Hall
 	CreateDynamic3DTextLabel("Urz¹d Miasta - zaplecze", 0x9ACD32AA, 1412.3348388672, -1790.5777587891, 15.370599746704, 10.0); //City Hall
@@ -71,8 +71,7 @@ Zaladuj3DTexty()
 	
 	//--------------[Moje Pickupy i 3D moje 3d texty]---------------- {9ACD32}
 
-	CreateDynamic3DTextLabel("Komisariat", 0x0080FFFF, 1553.3929,-1675.4796,16.1953, 40.0); //Wejœcie do komisariatu
-    new str2[512];
+	new str2[512];
     str2 = "{FFA500}Dowód osobisty - {9ACD32}5000$ +akt urodz.\n{FFA500}Wydanie Prawa Jazdy - {9ACD32}20 000$ +zal. egz.\n {FFA500}Patent ¯eglarski - {9ACD32}350 000$\n {FFA500}Pozwolenie na bron - {9ACD32}500 000$\n {FFA500}Licencja Pilota - {9ACD32}5 000 000$\n {FFA500}Karta wêdkarska - {9ACD32}10 000$\n{9ACD32}Egzamin teoretyczny - 10 000${FFA500}\n{9ACD32}Egzamin praktyczny- {9ACD32} 15 000$";
     CreateDynamic3DTextLabel(str2, COLOR_NEWS, 1447.46899, -1785.40881, 79.21838,12,INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, 50, 0);//Cennik DMV
     str2 = "BACZNOŒÆ \n{7CFC00}By nie zostaæ oszukanym:\n {8B0000}1. NIGDY NIE GRAJ gdy ktoœ chce graæ o wiêcej ni¿ ma w {FFFFFF}/sprawdzkase [ID]\n{9ACD32}Je¿eli mimo to zostaniesz oszukany NATYCHMIAST zg³oœ ten fakt na {FFFFFF}/report{9ACD32} - oszust otrzyma od razu blocka\nGdy taka osoba otrzyma blokadê ty masz 10min na napisanie na niego skargi\nW ten sposób mo¿esz odzyskaæ nawet 100%% wygranej!!";
