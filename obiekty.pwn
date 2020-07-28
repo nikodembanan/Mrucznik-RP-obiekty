@@ -285,14 +285,14 @@
 #include "nowe\rafineriaLV/interior.pwn"
 #include "nowe\rafineriaLV/exterior.pwn"
 #include "nowe\GlobalneLV/pustynialotnisko.pwn"
-#include "nowe\Globalne\op_domow/domid197.pwn"
-#include "nowe\Globalne\op_domow/domid326.pwn"
-#include "nowe\Globalne\op_domow/domid997.pwn"
-#include "nowe\Globalne\op_domow/domid1783.pwn"
-#include "nowe\Globalne\op_domow/domid1838.pwn"
-#include "nowe\Globalne\op_domow/domid1929.pwn"
-#include "nowe\Globalne\op_domow/domid1335.pwn"
-#include "nowe\Globalne\op_domow/domid1930.pwn"
+#include "nowe\Globalne\op_domow/Sandal197.pwn"
+#include "nowe\Globalne\op_domow/West326.pwn"
+#include "nowe\Globalne\op_domow/Twite997.pwn"
+#include "nowe\Globalne\op_domow/Verone1783.pwn"
+#include "nowe\Globalne\op_domow/Konio1838.pwn"
+#include "nowe\Globalne\op_domow/Pikus1929.pwn"
+#include "nowe\Globalne\op_domow/WestLV1335.pwn"
+#include "nowe\Globalne\op_domow/Miko1930.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
