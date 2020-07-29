@@ -576,6 +576,7 @@ obiekty_OnPlayerConnect(playerid)
 	domid1930_Connect(playerid);
 	domid1929_Connect(playerid);
 	lvlotnisko_Connect(playerid);
+	gunshopls_OnPlayerConnect(playerid);
 
 	// OLD
     //Trucker job
