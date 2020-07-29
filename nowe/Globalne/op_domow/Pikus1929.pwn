@@ -68,8 +68,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicbrikwall01", 0x00000000);
 	tmpobjid = CreateDynamicObject(1468, 1078.595581, -658.841613, 113.515434, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicbrikwall01", 0x00000000);
-	tmpobjid = CreateDynamicObject(3037, 1092.597412, -628.426818, 111.588470, 11.499972, 0.000000, 83.800064, 0, 0, -1, 150.00, 150.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "safetymesh", 0x00000000);
 	tmpobjid = CreateDynamicObject(19482, 1087.222656, -627.676208, 112.442817, 13.900005, 0.000000, 83.200004, 0, 0, -1, 150.00, 150.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicbrikwall01", 0x00000000);
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{FF0000} Pan Pikus", 50, "courier", 20, 0, 0x00000000, 0x00000000, 0);
@@ -215,6 +213,13 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(8674, 1074.059204, -663.328796, 117.578628, 0.000000, 0.000000, 93.900009, 0, 0, -1, 150.00, 150.00); 
 	tmpobjid = CreateDynamicObject(8674, 1074.759887, -673.594787, 117.578628, 0.000000, 0.000000, 93.900009, 0, 0, -1, 150.00, 150.00); 
 	tmpobjid = CreateDynamicObject(8674, 1075.459838, -683.870788, 117.578628, 0.000000, 0.000000, 93.900009, 0, 0, -1, 150.00, 150.00); 
+	
+	tmpobjid = CreateDynamicObject(3037, 1092.595336, -628.427062, 111.578636, 11.499972, 0.000000, 83.800064, -1, -1, -1, 300.00, 300.00); // brama zamknieta
+	SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "safetymesh", 0x00000000);
+	DodajBrame(tmpobjid,
+		1092.595336, -628.427062, 111.578636, 11.499972, 0.000000, 83.800064,
+		1091.756835, -628.334350, 107.423843, 11.499972, 0.000000, 83.800064,
+		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1929);
 	return 1;
 }
 static UsunObiekty(playerid)
