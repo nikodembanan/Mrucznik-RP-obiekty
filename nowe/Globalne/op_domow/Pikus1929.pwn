@@ -214,7 +214,7 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(8674, 1074.759887, -673.594787, 117.578628, 0.000000, 0.000000, 93.900009, 0, 0, -1, 150.00, 150.00); 
 	tmpobjid = CreateDynamicObject(8674, 1075.459838, -683.870788, 117.578628, 0.000000, 0.000000, 93.900009, 0, 0, -1, 150.00, 150.00); 
 	
-	tmpobjid = CreateDynamicObject(3037, 1092.595336, -628.427062, 111.578636, 11.499972, 0.000000, 83.800064, -1, -1, -1, 300.00, 300.00); // brama zamknieta
+	tmpobjid = CreateDynamicObject(3037, 1092.595336, -628.427062, 111.578636, 11.499972, 0.000000, 83.800064, 0, 0, -1, 300.00, 300.00); // brama zamknieta
 	SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "safetymesh", 0x00000000);
 	DodajBrame(tmpobjid,
 		1092.595336, -628.427062, 111.578636, 11.499972, 0.000000, 83.800064,
