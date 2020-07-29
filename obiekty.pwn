@@ -293,6 +293,7 @@
 #include "nowe\Globalne\op_domow/Pikus1929.pwn"
 #include "nowe\Globalne\op_domow/WestLV1335.pwn"
 #include "nowe\Globalne\op_domow/Miko1930.pwn"
+#include "nowe\Globalne\op_domow/Dudson1895.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -500,6 +501,7 @@ obiekty_OnGameModeInit()
     domid1929_Init();
 	domid1335_Init();
 	domid1930_Init();
+	dom1895_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -576,6 +578,7 @@ obiekty_OnPlayerConnect(playerid)
 	domid1930_Connect(playerid);
 	domid1335_Connect(playerid);
 	domid1929_Connect(playerid);
+	dom1895_OnPlayerConnect(playerid);
 	ClintonDomLS_Connect(playerid);
 	lvlotnisko_Connect(playerid);
 	gunshopls_OnPlayerConnect(playerid);
