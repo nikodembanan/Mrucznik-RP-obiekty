@@ -295,6 +295,7 @@
 #include "nowe\Globalne\op_domow/Miko1930.pwn"
 #include "nowe\Globalne\op_domow/Dudson1895.pwn"
 #include "nowe\Globalne\op_domow/Kamil1125.pwn"
+#include "nowe\PlazaLS/PlazaLS.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -504,6 +505,7 @@ obiekty_OnGameModeInit()
 	domid1930_Init();
 	dom1895_Init();
 	dom1125_Init();
+	PlazaLS_Init();
 
 	//OLD
 	ZaladujBramy();
