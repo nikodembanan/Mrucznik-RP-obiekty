@@ -301,6 +301,7 @@
 //Aktualizacja 2.7.10
 //*****************************************************
 #include "nowe\opBarman/opBarman.pwn"
+#include "nowe\opDaniel/opDaniel.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -512,6 +513,7 @@ obiekty_OnGameModeInit()
 	dom1125_Init();
 	PlazaLS_Init();
 	opBarman_Init();
+	opDaniel_Init();
 
 	//OLD
 	ZaladujBramy();
