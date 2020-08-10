@@ -6,7 +6,7 @@
 			"DodajBrame($OBIEKT,",
 			"	$BRAMA_OTWARTA,",
 			"	$BRAMA_ZAMKNIETA,",
-			"2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, $ID_DOMU);"
+			"	2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, $ID_DOMU);"
 		],
 		"description": "Tworzy nową bramę."
 	}
