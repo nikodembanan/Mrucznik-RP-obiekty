@@ -302,6 +302,7 @@
 //*****************************************************
 #include "nowe\opBarman/opBarman.pwn"
 #include "nowe\opDaniel/opDaniel.pwn"
+#include "nowe\opMarkSmith/opMarkSmith.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -514,6 +515,7 @@ obiekty_OnGameModeInit()
 	PlazaLS_Init();
 	opBarman_Init();
 	opDaniel_Init();
+	opMarkSmith_Init();
 
 	//OLD
 	ZaladujBramy();
