@@ -251,7 +251,6 @@
 #include "nowe\LSFD\LSFD.pwn"
 #include "nowe\Lotniska\Lotniska.pwn"
 #include "nowe\Limuzyna\Limuzyna.pwn"
-#include "nowe\LasAgus\LasAgus.pwn"
 #include "nowe\Kosciol\Kosciol.pwn"
 #include "nowe\Kasyno\Kasyno.pwn"
 #include "nowe\JettyLounge\JettyLounge.pwn"
@@ -465,7 +464,6 @@ obiekty_OnGameModeInit()
 	LSFD_Init();
 	Lotniska_Init();
 	Limuzyna_Init();
-	LasAgus_Init();
 	Kosciol_Init();
 	Kasyno_Init();
 	JettyLounge_Init();
