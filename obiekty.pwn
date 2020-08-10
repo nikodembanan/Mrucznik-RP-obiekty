@@ -297,6 +297,11 @@
 #include "nowe\Globalne\op_domow/Kamil1125.pwn"
 #include "nowe\PlazaLS/PlazaLS.pwn"
 
+//*****************************************************
+//Aktualizacja 2.7.10
+//*****************************************************
+#include "nowe\opBarman/opBarman.pwn"
+
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -506,6 +511,7 @@ obiekty_OnGameModeInit()
 	dom1895_Init();
 	dom1125_Init();
 	PlazaLS_Init();
+	opBarman_Init();
 
 	//OLD
 	ZaladujBramy();
