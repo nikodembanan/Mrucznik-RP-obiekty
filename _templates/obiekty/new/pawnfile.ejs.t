@@ -29,7 +29,7 @@ to: nowe/<%= project %>/<%= project %>.pwn
 //
 
 //-----------------<[ Main functions: ]>-------------------
-<%= project %>_Init() //ta metode wklejamy do nowe_obiekty -> obiekty_OnGameModeInit()
+<%= project %>_Init() //ta metode wklejamy do obiekty.pwn -> obiekty_OnGameModeInit()
 {
 	//Tutaj wstawiamy obiekty w nastepujacym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
@@ -51,11 +51,10 @@ to: nowe/<%= project %>/<%= project %>.pwn
 
 	//Tutaj wstawiamy wejscia w formacie:
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
-	
-	return 1;
+
 }
 
-<%= project %>_Connect(playerid) //ta metode wklejamy do nowe_obiekty -> obiekty_OnPlayerConnect(playerid)
+<%= project %>_Connect(playerid) //ta metode wklejamy do obiekty.pwn -> obiekty_OnPlayerConnect(playerid)
 {
 	//Tutaj wstawiamy usuwanie obiektow z mapy GTA w formacie:
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
@@ -70,5 +69,5 @@ to: nowe/<%= project %>/<%= project %>.pwn
 				> W textureStudio swietnie sprawdza sie do tego komenda /swapbuilding (na nowej mapie) 
 	=============================
 	*/ 
-	return 1;
+	
 }
