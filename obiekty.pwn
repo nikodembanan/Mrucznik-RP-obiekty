@@ -305,6 +305,7 @@
 #include "nowe\opMarkSmith/opMarkSmith.pwn"
 #include "nowe\BramaJackVega/BramaJackVega.pwn"
 #include "nowe\opSelect/opSelect.pwn"
+#include "nowe\opDarki/opDarki.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -520,6 +521,7 @@ obiekty_OnGameModeInit()
 	opMarkSmith_Init();
 	BramaJackVega_Init();
 	opSelect_Init();
+	opDarki_Init();
 
 	//OLD
 	ZaladujBramy();
