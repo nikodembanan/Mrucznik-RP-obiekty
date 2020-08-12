@@ -304,6 +304,7 @@
 #include "nowe\opDaniel/opDaniel.pwn"
 #include "nowe\opMarkSmith/opMarkSmith.pwn"
 #include "nowe\BramaJackVega/BramaJackVega.pwn"
+#include "nowe\opSelect/opSelect.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -518,6 +519,7 @@ obiekty_OnGameModeInit()
 	opDaniel_Init();
 	opMarkSmith_Init();
 	BramaJackVega_Init();
+	opSelect_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -600,6 +602,7 @@ obiekty_OnPlayerConnect(playerid)
 	lvlotnisko_Connect(playerid);
 	gunshopls_OnPlayerConnect(playerid);
 	opDaniel_Connect(playerid);
+	opSelect_Connect(playerid);
 
 	// OLD
     //Trucker job
