@@ -1,3 +1,3 @@
 # opBarman
 
-Stworzone przez Barman
+Stworzone przez Lilka

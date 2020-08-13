@@ -28,6 +28,12 @@
 //-----------------<[ Main functions: ]>-------------------
 opMarkSmith_Init()
 {
+	tmpobjid = CreateDynamicObject(19449, 1673.777954, -1678.203125, 20.759677, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 19332, "balloon_texts", "balloon03", 0x00000000);
+	tmpobjid = CreateDynamicObject(19449, 1673.777954, -1668.575439, 20.759679, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 19332, "balloon_texts", "balloon03", 0x00000000);
+	tmpobjid = CreateDynamicObject(19449, 1673.777954, -1687.207885, 20.759677, 0.000000, 0.000000, 0.000000, -1, -1, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 19332, "balloon_texts", "balloon03", 0x00000000);
 	tmpobjid = CreateDynamicObject(3934, 1667.860229, -1714.636474, 19.492010, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(3666, 1671.914062, -1711.045898, 19.342809, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(3666, 1671.894042, -1718.476928, 19.342809, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 

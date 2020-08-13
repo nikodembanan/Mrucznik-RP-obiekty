@@ -52,3 +52,7 @@ opDaniel_Init()
 		1328.211059, -1159.436035, 23.128131, 0.000000, 0.000000, 1.000000,
 		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 450);
 }
+opDaniel_Connect(playerid)
+{
+	RemoveBuildingForPlayer(playerid, 717, 1322.270, -1155.910, 23.000, 0.250);
+}
