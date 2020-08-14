@@ -305,6 +305,7 @@
 #include "nowe\BramaJackVega/BramaJackVega.pwn"
 #include "nowe\opSelect/opSelect.pwn"
 #include "nowe\opDarki/opDarki.pwn"
+#include "nowe\BramyTelehamy/BramyTelehamy.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -520,6 +521,7 @@ obiekty_OnGameModeInit()
 	BramaJackVega_Init();
 	opSelect_Init();
 	opDarki_Init();
+	BramyTelehamy_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -603,6 +605,7 @@ obiekty_OnPlayerConnect(playerid)
 	gunshopls_OnPlayerConnect(playerid);
 	opDaniel_Connect(playerid);
 	opSelect_Connect(playerid);
+	BramyTelehamy_Connect(playerid);
 
 	// OLD
     //Trucker job
