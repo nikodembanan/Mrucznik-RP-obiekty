@@ -26,7 +26,7 @@
 //
 
 //-----------------<[ Main functions: ]>-------------------
-BramyTelehamy_Init() //ta metode wklejamy do obiekty.pwn -> obiekty_OnGameModeInit()
+BramyTelehamy_Init()
 {
 	tmpobjid = CreateDynamicObject(19455, -2803.458251, -311.717468, 7.427357, 0.000000, 0.000000, -4.900003, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
