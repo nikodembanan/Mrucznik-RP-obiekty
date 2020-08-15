@@ -251,7 +251,6 @@
 #include "nowe\LSFD\LSFD.pwn"
 #include "nowe\Lotniska\Lotniska.pwn"
 #include "nowe\Limuzyna\Limuzyna.pwn"
-#include "nowe\LasAgus\LasAgus.pwn"
 #include "nowe\Kosciol\Kosciol.pwn"
 #include "nowe\Kasyno\Kasyno.pwn"
 #include "nowe\JettyLounge\JettyLounge.pwn"
@@ -295,6 +294,18 @@
 #include "nowe\Globalne\op_domow/Miko1930.pwn"
 #include "nowe\Globalne\op_domow/Dudson1895.pwn"
 #include "nowe\Globalne\op_domow/Kamil1125.pwn"
+#include "nowe\PlazaLS/PlazaLS.pwn"
+
+//*****************************************************
+//Aktualizacja 2.7.10
+//*****************************************************
+#include "nowe\opBarman/opBarman.pwn"
+#include "nowe\opDaniel/opDaniel.pwn"
+#include "nowe\opMarkSmith/opMarkSmith.pwn"
+#include "nowe\BramaJackVega/BramaJackVega.pwn"
+#include "nowe\opSelect/opSelect.pwn"
+#include "nowe\opDarki/opDarki.pwn"
+#include "nowe\BramyTelehamy/BramyTelehamy.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -464,7 +475,6 @@ obiekty_OnGameModeInit()
 	LSFD_Init();
 	Lotniska_Init();
 	Limuzyna_Init();
-	LasAgus_Init();
 	Kosciol_Init();
 	Kasyno_Init();
 	JettyLounge_Init();
@@ -504,6 +514,14 @@ obiekty_OnGameModeInit()
 	domid1930_Init();
 	dom1895_Init();
 	dom1125_Init();
+	PlazaLS_Init();
+	opBarman_Init();
+	opDaniel_Init();
+	opMarkSmith_Init();
+	BramaJackVega_Init();
+	opSelect_Init();
+	opDarki_Init();
+	BramyTelehamy_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -585,6 +603,9 @@ obiekty_OnPlayerConnect(playerid)
 	ClintonDomLS_Connect(playerid);
 	lvlotnisko_Connect(playerid);
 	gunshopls_OnPlayerConnect(playerid);
+	opDaniel_Connect(playerid);
+	opSelect_Connect(playerid);
+	BramyTelehamy_Connect(playerid);
 
 	// OLD
     //Trucker job

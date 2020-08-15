@@ -1,3 +1,0 @@
-# LasAgus
-
-Stworzone przez Kubi
