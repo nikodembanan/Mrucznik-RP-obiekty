@@ -306,6 +306,7 @@
 #include "nowe\opSelect/opSelect.pwn"
 #include "nowe\opDarki/opDarki.pwn"
 #include "nowe\BramyTelehamy/BramyTelehamy.pwn"
+#include "nowe\OPdlaRafalka/OPdlaRafalka.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -522,6 +523,7 @@ obiekty_OnGameModeInit()
 	opSelect_Init();
 	opDarki_Init();
 	BramyTelehamy_Init();
+	OPdlaRafalka_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -606,6 +608,7 @@ obiekty_OnPlayerConnect(playerid)
 	opDaniel_Connect(playerid);
 	opSelect_Connect(playerid);
 	BramyTelehamy_Connect(playerid);
+	OPdlaRafalka_Connect(playerid);
 
 	// OLD
     //Trucker job
