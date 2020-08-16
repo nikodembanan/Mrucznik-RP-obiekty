@@ -308,6 +308,11 @@
 #include "nowe\BramyTelehamy/BramyTelehamy.pwn"
 #include "nowe\OPdlaRafalka/OPdlaRafalka.pwn"
 
+//*****************************************************
+//Aktualizacja 2.7.11
+//*****************************************************
+#include "nowe\opWayneSkolds/opWayneSkolds.pwn"
+
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -524,6 +529,7 @@ obiekty_OnGameModeInit()
 	opDarki_Init();
 	BramyTelehamy_Init();
 	OPdlaRafalka_Init();
+	opWayneSkolds_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -609,6 +615,7 @@ obiekty_OnPlayerConnect(playerid)
 	opSelect_Connect(playerid);
 	BramyTelehamy_Connect(playerid);
 	OPdlaRafalka_Connect(playerid);
+	opWayneSkolds_Connect(playerid);
 
 	// OLD
     //Trucker job
