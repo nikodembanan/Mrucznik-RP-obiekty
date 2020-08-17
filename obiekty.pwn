@@ -306,6 +306,13 @@
 #include "nowe\opSelect/opSelect.pwn"
 #include "nowe\opDarki/opDarki.pwn"
 #include "nowe\BramyTelehamy/BramyTelehamy.pwn"
+#include "nowe\OPdlaRafalka/OPdlaRafalka.pwn"
+
+//*****************************************************
+//Aktualizacja 2.7.11
+//*****************************************************
+#include "nowe\opWayneSkolds/opWayneSkolds.pwn"
+#include "nowe\opLuizPuccinii/opLuizPuccinii.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -522,6 +529,9 @@ obiekty_OnGameModeInit()
 	opSelect_Init();
 	opDarki_Init();
 	BramyTelehamy_Init();
+	OPdlaRafalka_Init();
+	opWayneSkolds_Init();
+	opLuizPuccinii_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -606,6 +616,9 @@ obiekty_OnPlayerConnect(playerid)
 	opDaniel_Connect(playerid);
 	opSelect_Connect(playerid);
 	BramyTelehamy_Connect(playerid);
+	OPdlaRafalka_Connect(playerid);
+	opWayneSkolds_Connect(playerid);
+	opLuizPuccinii_Connect(playerid);
 
 	// OLD
     //Trucker job
