@@ -312,6 +312,7 @@
 //Aktualizacja 2.7.11
 //*****************************************************
 #include "nowe\opWayneSkolds/opWayneSkolds.pwn"
+#include "nowe\opLuizPuccinii/opLuizPuccinii.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -530,6 +531,7 @@ obiekty_OnGameModeInit()
 	BramyTelehamy_Init();
 	OPdlaRafalka_Init();
 	opWayneSkolds_Init();
+	opLuizPuccinii_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -616,6 +618,7 @@ obiekty_OnPlayerConnect(playerid)
 	BramyTelehamy_Connect(playerid);
 	OPdlaRafalka_Connect(playerid);
 	opWayneSkolds_Connect(playerid);
+	opLuizPuccinii_Connect(playerid);
 
 	// OLD
     //Trucker job
