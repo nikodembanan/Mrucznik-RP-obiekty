@@ -314,6 +314,7 @@
 #include "nowe\opWayneSkolds/opWayneSkolds.pwn"
 #include "nowe\opLuizPuccinii/opLuizPuccinii.pwn"
 #include "nowe\OPSzklany/OPSzklany.pwn"
+#include "nowe\opWojtus/opWojtus.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -534,6 +535,7 @@ obiekty_OnGameModeInit()
 	opWayneSkolds_Init();
 	opLuizPuccinii_Init();
 	OPSzklany_Init();
+	opWojtus_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -622,6 +624,7 @@ obiekty_OnPlayerConnect(playerid)
 	opWayneSkolds_Connect(playerid);
 	opLuizPuccinii_Connect(playerid);
 	OPSzklany_Connect(playerid);
+	opWojtus_Connect(playerid);
 
 	// OLD
     //Trucker job
