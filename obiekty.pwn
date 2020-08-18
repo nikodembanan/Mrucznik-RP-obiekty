@@ -315,6 +315,7 @@
 #include "nowe\opLuizPuccinii/opLuizPuccinii.pwn"
 #include "nowe\OPSzklany/OPSzklany.pwn"
 #include "nowe\opWojtus/opWojtus.pwn"
+#include "nowe\opWilliam/opWilliam.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -536,6 +537,7 @@ obiekty_OnGameModeInit()
 	opLuizPuccinii_Init();
 	OPSzklany_Init();
 	opWojtus_Init();
+	opWilliam_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -625,6 +627,7 @@ obiekty_OnPlayerConnect(playerid)
 	opLuizPuccinii_Connect(playerid);
 	OPSzklany_Connect(playerid);
 	opWojtus_Connect(playerid);
+	opWilliam_Connect(playerid);
 
 	// OLD
     //Trucker job
