@@ -317,6 +317,7 @@
 #include "nowe\opWojtus/opWojtus.pwn"
 #include "nowe\opWilliam/opWilliam.pwn"
 #include "nowe\opPatryq/opPatryq.pwn"
+#include "nowe\opBeryl/opBeryl.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -540,6 +541,7 @@ obiekty_OnGameModeInit()
 	opWojtus_Init();
 	opWilliam_Init();
 	opPatryq_Init();
+	opBeryl_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -630,6 +632,7 @@ obiekty_OnPlayerConnect(playerid)
 	OPSzklany_Connect(playerid);
 	opWojtus_Connect(playerid);
 	opWilliam_Connect(playerid);
+	opBeryl_Connect(playerid);
 
 	// OLD
     //Trucker job
