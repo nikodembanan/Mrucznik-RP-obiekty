@@ -316,6 +316,7 @@
 #include "nowe\OPSzklany/OPSzklany.pwn"
 #include "nowe\opWojtus/opWojtus.pwn"
 #include "nowe\opWilliam/opWilliam.pwn"
+#include "nowe\opPatryq/opPatryq.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -538,6 +539,7 @@ obiekty_OnGameModeInit()
 	OPSzklany_Init();
 	opWojtus_Init();
 	opWilliam_Init();
+	opPatryq_Init();
 
 	//OLD
 	ZaladujBramy();
