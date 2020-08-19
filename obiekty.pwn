@@ -633,6 +633,7 @@ obiekty_OnPlayerConnect(playerid)
 	opWojtus_Connect(playerid);
 	opWilliam_Connect(playerid);
 	opBeryl_Connect(playerid);
+	Konio1838_Connect(playerid);
 
 	// OLD
     //Trucker job
