@@ -318,6 +318,7 @@
 #include "nowe\opWilliam/opWilliam.pwn"
 #include "nowe\opPatryq/opPatryq.pwn"
 #include "nowe\opBeryl/opBeryl.pwn"
+#include "nowe\opWashington/opWashington.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -542,6 +543,7 @@ obiekty_OnGameModeInit()
 	opWilliam_Init();
 	opPatryq_Init();
 	opBeryl_Init();
+	opWashington_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -634,6 +636,7 @@ obiekty_OnPlayerConnect(playerid)
 	opWilliam_Connect(playerid);
 	opBeryl_Connect(playerid);
 	Konio1838_Connect(playerid);
+	opWashington_Connect(playerid);
 
 	// OLD
     //Trucker job
