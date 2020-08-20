@@ -319,6 +319,7 @@
 #include "nowe\opPatryq/opPatryq.pwn"
 #include "nowe\opBeryl/opBeryl.pwn"
 #include "nowe\opWashington/opWashington.pwn"
+#include "nowe\opSteven/opSteven.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -544,6 +545,7 @@ obiekty_OnGameModeInit()
 	opPatryq_Init();
 	opBeryl_Init();
 	opWashington_Init();
+	opSteven_Init();
 
 	//OLD
 	ZaladujBramy();
