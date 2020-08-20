@@ -834,7 +834,6 @@ static StworzObiekty()
 	StworzWjedz(1433.04944, -1828.65381, 13.39984, 1201.80603, 812.99982, 18.13282, 5.0, 2, "Parking podziemny UM", "Wyjazd", 11, 1, 255);//DMV
 	StworzWjedz(1124.49756, -1329.60229, 13.27335, 1253.43909, 760.75952, 11.12695, 5.0, 2, "Parking podziemny LSMC", "Wyjazd", 4, 0, 255);//LSMC
 
-    return 1;
 	//wysadzone dmf ISIS
 	tmpobjid = CreateObject(1683,1500.792,-1776.177,83.270,-25.500,15.600,-152.000,300.000);
 	tmpobjid = CreateObject(18691,1493.133,-1772.359,83.620,0.000,0.000,0.000,300.000);
