@@ -56,9 +56,10 @@ opWilliam_Init()
 	SetDynamicObjectMaterial(tmpobjid, 1, 14581, "ab_mafiasuitea", "cof_wood2", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0xFFC88C51);
-	DodajBrame(CreateDynamicObject(19870, 2431.261962, -18.220659, 24.704357, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00),
+	tmpobjid = CreateDynamicObject(19870, 2431.261962, -18.220659, 24.704357, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00),
 	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0xFFC88C51);
+	DodajBrame(tmpobjid,
 		2431.261962, -18.220659, 23.144321, 0.000000, 0.000000, 0.000000,
 		2431.261962, -18.220659, 24.704357, 0.000000, 0.000000, 0.000000,
 		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 860);
