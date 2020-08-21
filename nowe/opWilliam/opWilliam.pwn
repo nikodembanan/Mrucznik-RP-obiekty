@@ -31,8 +31,6 @@ opWilliam_Init()
 	tmpobjid = CreateDynamicObject(19433, 2430.504150, -18.218622, 24.714357, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "Grass_128HV", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 2428.902587, -18.218622, 24.714357, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "Grass_128HV", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0xFFC88C51);
 	tmpobjid = CreateDynamicObject(19433, 2436.849853, -18.218622, 24.714357, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "Grass_128HV", 0x00000000);
@@ -59,6 +57,8 @@ opWilliam_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0xFFC88C51);
 	DodajBrame(CreateDynamicObject(19870, 2431.261962, -18.220659, 24.704357, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00),
+	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0xFFC88C51);
 		2431.261962, -18.220659, 23.144321, 0.000000, 0.000000, 0.000000,
 		2431.261962, -18.220659, 24.704357, 0.000000, 0.000000, 0.000000,
 		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 860);
