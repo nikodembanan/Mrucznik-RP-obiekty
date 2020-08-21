@@ -54,8 +54,6 @@ dom1125_Init()
     SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
     tmpobjid = CreateDynamicObject(983, 1443.743286, -648.912414, 95.579521, 0.000000, 0.000000, -0.100036, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 3945, "bistro_alpha", "creme128", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 0, 3945, "bistro_alpha", "creme128", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 0, 3945, "bistro_alpha", "creme128", 0x00000000);
     tmpobjid = CreateDynamicObject(642, 1428.443725, -611.583740, 93.323173, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 8391, "ballys01", "casinolightsblu_128", 0x00000000);
     tmpobjid = CreateDynamicObject(642, 1415.183715, -622.380310, 93.390632, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
@@ -197,8 +195,9 @@ dom1125_Init()
     tmpobjid = CreateDynamicObject(3930, 1433.342041, -633.199157, 91.914154, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     tmpobjid = CreateDynamicObject(3930, 1432.081298, -632.729431, 91.594146, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     tmpobjid = CreateDynamicObject(3930, 1431.911254, -630.018859, 90.794151, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-
-    DodajBrame(CreateDynamicObject(2909, 1439.528076, -651.696166, 96.492301, 0.000000, 0.000000, 85.400001, 0, 0, -1, 300.00, 300.00),
+    tmpobjid = CreateDynamicObject(2909, 1439.528076, -651.696166, 96.492301, 0.000000, 0.000000, 85.400001, 0, 0, -1, 300.00, 300.00);
+    SetDynamicObjectMaterial(tmpobjid, 0, 3945, "bistro_alpha", "creme128", 0x00000000);
+    DodajBrame(tmpobjid,
         1439.528076, -651.696166, 92.562309, 0.000000, 0.000000, 85.400001,
         1439.528076, -651.696166, 96.492301, 0.000000, 0.000000, 85.400001,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1125);

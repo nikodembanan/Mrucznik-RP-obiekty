@@ -144,8 +144,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(pevori2, 0, 10429, "hashblock1_sfs", "Bow_Concrete_drip", 0x00000000);
 	pevori2 = CreateDynamicObject(19361, 1544.681884, -1619.441284, 14.124566, 0.000000, 0.000060, 0.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10429, "hashblock1_sfs", "Bow_Concrete_drip", 0x00000000);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1620.640747, 14.054569, 0.000000, 0.000037, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{0000FF}L", 100, "Ariel", 70, 1, 0x00000000, 0x00000000, 0);
 	pevori2 = CreateDynamicObject(19361, 1544.932128, -1619.441284, 14.124566, 0.000000, -0.000060, 179.999633, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10429, "hashblock1_sfs", "Bow_Concrete_drip", 0x00000000);
 	pevori2 = CreateDynamicObject(19940, 1544.810546, -1623.284057, 15.866888, 0.000000, 0.000022, 0.000000, 0, 0, -1, 150.00, 150.00);
@@ -241,19 +239,7 @@ static StworzObiekty()
 	pevori2 = CreateDynamicObject(19435, 1567.669799, -1638.298583, 14.112841, 0.000000, 0.000000, 180.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 3922, "bistro", "sw_wallbrick_01", 0x00000000);
 	pevori2 = CreateDynamicObject(19361, 1544.673095, -1620.620971, 13.314572, 0.000000, 0.000029, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{0000FF}S", 100, "Ariel", 70, 1, 0x00000000, 0x00000000, 0);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1620.651123, 12.594564, 0.000000, 0.000029, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{0000FF}P", 100, "Ariel", 70, 1, 0x00000000, 0x00000000, 0);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1620.630981, 11.904566, 0.000000, 0.000029, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{0000FF}D", 100, "Ariel", 70, 1, 0x00000000, 0x00000000, 0);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1621.161010, 13.704565, 0.000000, 0.000037, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}os", 100, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1621.140625, 12.994557, 0.000000, 0.000037, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}antos", 100, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1621.130615, 12.294546, 0.000000, 0.000037, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}olice", 100, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
-	pevori2 = CreateDynamicObject(19361, 1544.673095, -1621.150634, 11.604536, 0.000000, 0.000037, 0.000000, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFFFF}epartment", 100, "Ariel", 40, 1, 0x00000000, 0x00000000, 0);
+	SetDynamicObjectMaterial(pevori2, 0, 10429, "hashblock1_sfs", "Bow_Concrete_drip", 0x00000000);
 	pevori2 = CreateDynamicObject(19435, 1543.661254, -1653.858398, 11.886859, 90.000000, 0.000000, 180.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 16398, "desn2_peckers", "vgs_shopwall02_128", 0x00000000);
 	pevori2 = CreateDynamicObject(19940, 1543.969970, -1632.233520, 15.876888, 0.000007, 0.000014, 89.999977, 0, 0, -1, 150.00, 150.00);
@@ -509,8 +495,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(pevori2, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	pevori2 = CreateDynamicObject(19353, 1564.463867, -1605.954589, 10.634795, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
-	pevori2 = CreateDynamicObject(4988, 1516.773925, -1583.739257, 39.206859, -0.000000, -0.000007, -170.099914, 0, 0, -1, 150.00, 150.00);
-	SetDynamicObjectMaterialText(pevori2, 0, "{FFFF00}Zrobimy to razem!\n{FF0000}Wydzia˜ Ulepsze˜", 120, "Ariel", 50, 1, 0x00000000, 0x00000000, 1);
 	pevori2 = CreateDynamicObject(19353, 1561.602050, -1605.954589, 10.634795, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00);
 	SetDynamicObjectMaterial(pevori2, 0, 10765, "airportgnd_sfse", "white", 0x00000000);
 	pevori2 = CreateDynamicObject(19353, 1558.750976, -1605.954589, 10.634795, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00);

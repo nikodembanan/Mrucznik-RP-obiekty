@@ -306,6 +306,21 @@
 #include "nowe\opSelect/opSelect.pwn"
 #include "nowe\opDarki/opDarki.pwn"
 #include "nowe\BramyTelehamy/BramyTelehamy.pwn"
+#include "nowe\OPdlaRafalka/OPdlaRafalka.pwn"
+
+//*****************************************************
+//Aktualizacja 2.7.11
+//*****************************************************
+#include "nowe\opWayneSkolds/opWayneSkolds.pwn"
+#include "nowe\opLuizPuccinii/opLuizPuccinii.pwn"
+#include "nowe\OPSzklany/OPSzklany.pwn"
+#include "nowe\opWojtus/opWojtus.pwn"
+#include "nowe\opWilliam/opWilliam.pwn"
+#include "nowe\opPatryq/opPatryq.pwn"
+#include "nowe\opBeryl/opBeryl.pwn"
+#include "nowe\opWashington/opWashington.pwn"
+#include "nowe\opSteven/opSteven.pwn"
+#include "nowe\opCzolgista/opCzolgista.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -522,6 +537,17 @@ obiekty_OnGameModeInit()
 	opSelect_Init();
 	opDarki_Init();
 	BramyTelehamy_Init();
+	OPdlaRafalka_Init();
+	opWayneSkolds_Init();
+	opLuizPuccinii_Init();
+	OPSzklany_Init();
+	opWojtus_Init();
+	opWilliam_Init();
+	opPatryq_Init();
+	opBeryl_Init();
+	opWashington_Init();
+	opSteven_Init();
+	opCzolgista_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -606,6 +632,16 @@ obiekty_OnPlayerConnect(playerid)
 	opDaniel_Connect(playerid);
 	opSelect_Connect(playerid);
 	BramyTelehamy_Connect(playerid);
+	OPdlaRafalka_Connect(playerid);
+	opWayneSkolds_Connect(playerid);
+	opLuizPuccinii_Connect(playerid);
+	OPSzklany_Connect(playerid);
+	opWojtus_Connect(playerid);
+	opWilliam_Connect(playerid);
+	opBeryl_Connect(playerid);
+	Konio1838_Connect(playerid);
+	opWashington_Connect(playerid);
+	opCzolgista_Connect(playerid);
 
 	// OLD
     //Trucker job
