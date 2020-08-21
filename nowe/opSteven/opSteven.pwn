@@ -42,10 +42,6 @@ opSteven_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, 3603, "bevmans01_la", "sjmlahus26", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, 908.734252, -1515.682495, 12.455513, 0.000000, 0.000000, 540.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 3603, "bevmans01_la", "sjmlahus26", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 2, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 3, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
 	tmpobjid = CreateDynamicObject(2933, 908.746826, -1523.428955, 12.452768, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
