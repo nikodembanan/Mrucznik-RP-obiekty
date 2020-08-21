@@ -28,12 +28,6 @@
 //-----------------<[ Main functions: ]>-------------------
 opBeryl_Init()
 {
-	SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 1, 14668, "711c", "gun_ceiling1128", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 2, 14668, "711c", "sec_camera1", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 3, 14668, "711c", "sec_camera1", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 4, 14668, "711c", "gun_ceiling1128", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 5, 14668, "711c", "gun_ceiling1128", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 2213.831298, 61.230644, 24.874361, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(1492, 2213.840576, 63.546279, 24.114343, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
@@ -88,7 +82,14 @@ opBeryl_Init()
 	tmpobjid = CreateDynamicObject(19121, 2205.922851, 61.038108, 26.683248, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(894, 2212.301757, 76.244819, 25.621732, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(1280, 2197.121093, 59.226989, 27.823772, 0.000000, 0.000000, 0.299970, 0, 0, -1, 300.00, 300.00); 
-	DodajBrame(CreateDynamicObject(2933, 2213.862792, 56.036727, 24.914360, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00),
+	tmpobjid = CreateDynamicObject(2933, 2213.862792, 56.036727, 24.914360, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 14668, "711c", "gun_ceiling1128", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 14668, "711c", "sec_camera1", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 14668, "711c", "sec_camera1", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 14668, "711c", "gun_ceiling1128", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 5, 14668, "711c", "gun_ceiling1128", 0x00000000);
+	DodajBrame(tmpobjid,
 		2213.862792, 56.036727, 23.134319, 0.000000, 0.000000, 90.000000,
 		2213.862792, 56.036727, 24.914360, 0.000000, 0.000000, 90.000000,
 		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 833);

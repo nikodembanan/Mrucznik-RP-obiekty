@@ -24,12 +24,10 @@ new ramint;//Zmienna dla ramirez car service interior
 new dossantos;//Zmienna dla Dos Santos Car sercice
 new hellsy;//Zmienna dla Hells Angels MC
 new banklsext;//Zmienna banku Los Santos
-new gslossantos;//Zmienna dla GunShopaLS
 new placdmv;//Zmienna dla placu DMV
 new ciec;//Parking na odholowane LSPD
 new sasdob;//Zmienna dla ca³ego SASD
 new pcdmv;//Zmienna urzêdu miasta PC
-new eventob;//zmienna eventów
 new basenint;//basen interior
 //new wpsob; zmienna wps
 
@@ -40,7 +38,3 @@ new basenint;//basen interior
 */
 
 new tmpobjid;//Podstawowa zmienna
-new bramawgs1;//Zmienna bramy w Gun Shop LS
-new bramawgs2;//Zmienna bramy w Gun Shop LS
-new bramawgs3;//Zmienna bramy w Gun Shop LS
-new bramawgs4;//Zmienna bramy w Gun Shop LS

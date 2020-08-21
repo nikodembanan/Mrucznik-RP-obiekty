@@ -50,7 +50,6 @@ opWashington_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "adeta", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 2288.163085, 151.783264, 24.762252, -0.099999, 0.099999, 90.099983, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "adeta", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 0, 5631, "apartmentalpha", "ws_railing1", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 2295.610351, 151.796279, 24.785259, -0.099999, 0.099999, 90.099983, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "adeta", 0x00000000);
@@ -174,9 +173,12 @@ opWashington_Init()
 	tmpobjid = CreateDynamicObject(19121, 2286.570556, 179.867767, 26.519762, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19121, 2292.600585, 179.867767, 26.519762, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19121, 2275.160644, 179.867767, 26.519762, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	DodajBrame(CreateDynamicObject(2933, 2291.735107, 151.773986, 20.077329, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00),
-		2291.735107, 151.773986, 24.787334, 0.000000, 0.000000, 0.000000,
+	tmpobjid = CreateDynamicObject(2933, 2291.735107, 151.773986, 24.787334, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5631, "apartmentalpha", "ws_railing1", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
+	DodajBrame(tmpobjid,
 		2291.735107, 151.773986, 20.077329, 0.000000, 0.000000, 0.000000,
+		2291.735107, 151.773986, 24.787334, 0.000000, 0.000000, 0.000000,
 		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 831);
 }
 
