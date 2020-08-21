@@ -197,7 +197,7 @@ dom1125_Init()
     tmpobjid = CreateDynamicObject(3930, 1431.911254, -630.018859, 90.794151, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     tmpobjid = CreateDynamicObject(2909, 1439.528076, -651.696166, 96.492301, 0.000000, 0.000000, 85.400001, 0, 0, -1, 300.00, 300.00);
     SetDynamicObjectMaterial(tmpobjid, 0, 3945, "bistro_alpha", "creme128", 0x00000000);
-     DodajBrame(tmpobjid,
+    DodajBrame(tmpobjid,
         1439.528076, -651.696166, 92.562309, 0.000000, 0.000000, 85.400001,
         1439.528076, -651.696166, 96.492301, 0.000000, 0.000000, 85.400001,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1125);
