@@ -45,10 +45,6 @@ opWojtus_Init()
 	tmpobjid = CreateDynamicObject(2120, 2461.614746, 143.043518, 26.400659, 0.000000, 0.000000, -120.399986, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "ab_blind", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "black64", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
 	tmpobjid = CreateDynamicObject(1446, 2474.056640, 139.283523, 26.702947, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
 	tmpobjid = CreateDynamicObject(1446, 2474.056640, 143.943618, 26.702947, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
@@ -142,6 +138,10 @@ opWojtus_Init()
 	tmpobjid = CreateDynamicObject(2769, 2463.225341, 144.116622, 26.743816, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19870, 2466.441650, 121.764541, 24.713857, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
 	DodajBrame(tmpobjid,
 		2466.441650, 121.764541, 23.213823, 0.000000, 0.000000, 0.000000,
 		2466.441650, 121.764541, 24.713857, 0.000000, 0.000000, 0.000000,
