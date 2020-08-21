@@ -120,9 +120,6 @@ static StworzObiekty()
     tmpobjid = CreateDynamicObject(19433, 1060.051513, -648.347473, 118.367149, 0.000000, 0.000000, 99.099899, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 1597, "centralresac1", "hedge2_128", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 2, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
     tmpobjid = CreateDynamicObject(19447, 1052.113281, -624.973754, 115.995849, 7.099996, 0.000000, 101.399955, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "desgreengrass", 0x00000000);
     tmpobjid = CreateDynamicObject(19447, 1042.747558, -626.862792, 117.186080, 7.099996, 0.000000, 101.399955, 0, 0, -1, 300.00, 300.00); 
@@ -131,9 +128,6 @@ static StworzObiekty()
     SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "desgreengrass", 0x00000000);
     tmpobjid = CreateDynamicObject(19447, 1062.448486, -628.027160, 114.816635, 0.200002, -2.599999, 191.399963, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "desgreengrass", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 2, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
     tmpobjid = CreateDynamicObject(1472, 1033.783569, -661.638549, 119.487281, 0.000000, 0.000000, 96.700111, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
@@ -169,7 +163,11 @@ static StworzObiekty()
     tmpobjid = CreateDynamicObject(631, 1043.815429, -642.982727, 120.037231, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     tmpobjid = CreateDynamicObject(631, 1046.668090, -642.462219, 120.037231, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterialText(tmpobjid, 0, "{FF0066} Miko <3", 120, "courier", 20, 0, 0x00000000, 0x00000000, 0);
-    DodajBrame(CreateDynamicObject(19870, 1061.481567, -623.289794, 114.796684, 0.000000, -7.099996, -171.699722, 0, 0, -1, 300.00, 300.00),
+    tmpobjid =CreateDynamicObject(19870, 1061.481567, -623.289794, 114.796684, 0.000000, -7.099996, -171.699722, 0, 0, -1, 300.00, 300.00);
+    SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 2, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
+    DodajBrame(tmpobjid,
     1061.232543, -623.327148, 112.772117, 0.000000, -7.099996, -171.699722,
     1061.481567, -623.289794, 114.796684, 0.000000, -7.099996, -171.699722,
     2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1930);  
