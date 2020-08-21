@@ -46,9 +46,6 @@ gunshopls_OnPlayerConnect(playerid)
 	RemoveBuildingForPlayer(playerid, 1617, 1831.439, -1146.430, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1215, 1789.489, -1142.839, 23.609, 0.250);
 	RemoveBuildingForPlayer(playerid, 1617, 1831.439, -1114.589, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 717, 1791.800, -1027.920, 23.187, 0.250);
-	RemoveBuildingForPlayer(playerid, 4593, 1847.630, -1120.099, 22.828, 0.250);
-	RemoveBuildingForPlayer(playerid, 4616, 1847.630, -1120.099, 22.828, 0.250);
 }
 
 //-----------------<[ Funkcje ]>---------------------------
