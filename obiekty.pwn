@@ -320,6 +320,7 @@
 #include "nowe\opBeryl/opBeryl.pwn"
 #include "nowe\opWashington/opWashington.pwn"
 #include "nowe\opSteven/opSteven.pwn"
+#include "nowe\opCzolgista/opCzolgista.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -546,6 +547,7 @@ obiekty_OnGameModeInit()
 	opBeryl_Init();
 	opWashington_Init();
 	opSteven_Init();
+	opCzolgista_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -639,6 +641,7 @@ obiekty_OnPlayerConnect(playerid)
 	opBeryl_Connect(playerid);
 	Konio1838_Connect(playerid);
 	opWashington_Connect(playerid);
+	opCzolgista_Connect(playerid);
 
 	// OLD
     //Trucker job
