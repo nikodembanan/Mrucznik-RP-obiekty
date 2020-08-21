@@ -30,8 +30,6 @@ static StworzObiekty()
 {
     tmpobjid = CreateDynamicObject(19433, 1078.459594, -766.466369, 107.114807, 0.000000, 0.000000, 98.999923, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
     tmpobjid = CreateDynamicObject(19433, 1076.887939, -766.715942, 107.114807, 0.000000, 0.000000, 98.999923, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
     tmpobjid = CreateDynamicObject(19433, 1075.325683, -766.964416, 107.114807, 0.000000, 0.000000, 98.999923, 0, 0, -1, 300.00, 300.00); 
@@ -186,11 +184,13 @@ static StworzObiekty()
     SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
-    DodajBrame(CreateDynamicObject(2933, 1083.563964, -765.862182, 107.117294, 0.000000, 0.000000, 6.099998, 0, 0, -1, 300.00, 300.00),
+    tmpobjid = CreateDynamicObject(2933, 1083.563964, -765.862182, 107.117294, 0.000000, 0.000000, 6.099998, 0, 0, -1, 300.00, 300.00);
+    SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
+    DodajBrame(tmpobjid,
         1092.349243, -764.923767, 107.117294, 0.000000, 0.000000, 6.099998,
         1083.563964, -765.862182, 107.117294, 0.000000, 0.000000, 6.099998,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1838);
-    
 }
 
 Konio1838_Connect(playerid)
