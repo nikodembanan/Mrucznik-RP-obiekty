@@ -507,6 +507,7 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 615, 929.0391, -1559.4609, 12.4766, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
 	RemoveBuildingForPlayer(playerid, 1297, 922.1328, -1534.3125, 15.9375, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
 	//usuniêta brama w LV
+	RemoveBuildingForPlayer(playerid, 8229, 1142.030, 1362.500, 12.484, 0.250);
 	return 1;
 }
 
