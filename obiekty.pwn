@@ -322,6 +322,13 @@
 #include "nowe\opSteven/opSteven.pwn"
 #include "nowe\opCzolgista/opCzolgista.pwn"
 
+//*****************************************************
+//Aktualizacja 2.7.12
+//*****************************************************
+#include "nowe\ParkSzpital/ParkSzpital.pwn"
+#include "nowe\opDarkiRichman/opDarkiRichman.pwn"
+#include "nowe\opPeter/opPeter.pwn"
+
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
 {
@@ -548,6 +555,9 @@ obiekty_OnGameModeInit()
 	opWashington_Init();
 	opSteven_Init();
 	opCzolgista_Init();
+	ParkSzpital_Init();
+	opDarkiRichman_Init();
+	opPeter_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -642,6 +652,8 @@ obiekty_OnPlayerConnect(playerid)
 	Konio1838_Connect(playerid);
 	opWashington_Connect(playerid);
 	opCzolgista_Connect(playerid);
+	ParkSzpital_Connect(playerid);
+	opPeter_Connect(playerid);
 
 	// OLD
     //Trucker job
