@@ -326,6 +326,7 @@
 //Aktualizacja 2.7.12
 //*****************************************************
 #include "nowe\ParkSzpital/ParkSzpital.pwn"
+#include "nowe\opDarkiRichman/opDarkiRichman.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -554,7 +555,7 @@ obiekty_OnGameModeInit()
 	opSteven_Init();
 	opCzolgista_Init();
 	ParkSzpital_Init();
-
+	opDarkiRichman_Init();
 	//OLD
 	ZaladujBramy();
 	return 1;
