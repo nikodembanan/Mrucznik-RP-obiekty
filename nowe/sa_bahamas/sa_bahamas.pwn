@@ -236,10 +236,6 @@ static StworzObiekty()
 	CreateDynamicObject(3857, 929.44000, -1534.69995, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3857, 929.44000, -1534.69995, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3857, 929.44000, -1534.69995, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 929.50000, -1529.45996, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 929.53003, -1532.48999, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 940.42999, -1532.48999, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 940.40002, -1529.45996, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(1515, 933.81000, -1526.26001, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(2242, 929.90002, -1528.17004, 20.54000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(651, 929.89001, -1528.21997, 20.00000,   0.00000, 0.00000, 330.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
@@ -437,6 +433,23 @@ static StworzObiekty()
 	CreateDynamicObject(1550, 936.53998, -1506.81995, 20.72000,   0.00000, 0.00000, 455.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 
 	Create3DTextLabel("ALLIBRATORE", 0xFFFFFFFF, 928.2803,-1530.6527,13.5413, 10, 0, 1);//Napis 3D przed zak³adem bukmacherskim by widelec.
+	//obiekty do bramy w LV
+	tmpobjid = CreateDynamicObject(19447, 1136.706542, 1362.799438, 13.420762, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1136.706542, 1362.799438, 9.920737, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.094238, 1362.799438, 9.920737, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.094238, 1362.799438, 13.420740, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.094238, 1362.629272, 13.420740, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1136.702026, 1362.629272, 13.420740, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1136.702026, 1362.629272, 9.930759, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.071899, 1362.629272, 9.930759, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
 	return 1;
 }
 
@@ -446,23 +459,35 @@ static StworzBramy()
 	DodajBrame(CreateDynamicObject(1567, 934.44000, -1529.67004, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500),
 		934.44000, -1529.67004, 20.38000, 0.00000, 0.00000, 270.00000,
 		934.42000, -1529.67004, 20.38000, 0.00000, 0.00000, 20.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 937.51001, -1521.61011, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
 		937.51001, -1521.61011, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1521.61011, 20.38000, 0.00000, 0.00000, 30.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 940.51001, -1518.37024, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
 		940.51001, -1518.37024, 20.38000, 0.00000, 0.00000, 90.00000,
 		940.49001, -1518.37024, 20.38000, 0.00000, 0.00000, 330.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 937.51001, -1540.72998, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
 		937.51001, -1540.72998, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1540.72998, 20.38000, 0.00000, 0.00000, 335.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
 	DodajBrame(CreateDynamicObject(1567, 936.71997, -1516.06018, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500),
 		936.71997, -1516.06018, 20.38000, 0.00000, 0.00000, 180.00000,
 		936.71997, -1516.08018, 20.38000, 0.00000, 0.00000, 70.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+	//Brama w LV
+	tmpobjid = CreateDynamicObject(980, 1147.311767, 1362.695434, 12.385804, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00), // brama zamkni?ta
+	SetDynamicObjectMaterial(tmpobjid, 0, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 5, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	DodajBrame(tmpobjid,
+		1147.311767, 1362.695434, 12.385804, 0.000000, 0.000000, 0.000000,
+		1147.311767, 1362.695434, 5.225762, 0.000000, 0.000000, 0.000000,
+		2.0, 10.0, BRAMA_UPR_TYPE_FRACTION, 5);	
 	return 1;
 }
 
@@ -481,6 +506,7 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 6192, 988.9063, -1487.9063, 24.5391, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
 	RemoveBuildingForPlayer(playerid, 615, 929.0391, -1559.4609, 12.4766, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
 	RemoveBuildingForPlayer(playerid, 1297, 922.1328, -1534.3125, 15.9375, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
+	//usuniêta brama w LV
 	return 1;
 }
 
