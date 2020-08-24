@@ -327,6 +327,7 @@
 //*****************************************************
 #include "nowe\ParkSzpital/ParkSzpital.pwn"
 #include "nowe\opDarkiRichman/opDarkiRichman.pwn"
+#include "nowe\opPeter/opPeter.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -556,6 +557,8 @@ obiekty_OnGameModeInit()
 	opCzolgista_Init();
 	ParkSzpital_Init();
 	opDarkiRichman_Init();
+	opPeter_Init();
+
 	//OLD
 	ZaladujBramy();
 	return 1;
@@ -650,6 +653,7 @@ obiekty_OnPlayerConnect(playerid)
 	opWashington_Connect(playerid);
 	opCzolgista_Connect(playerid);
 	ParkSzpital_Connect(playerid);
+	opPeter_Connect(playerid);
 
 	// OLD
     //Trucker job
