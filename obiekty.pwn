@@ -329,6 +329,7 @@
 #include "nowe\opDarkiRichman/opDarkiRichman.pwn"
 #include "nowe\opPeter/opPeter.pwn"
 #include "nowe\CinemaCar/CinemaCar.pwn"
+#include "nowe\BramaVandet/BramaVandet.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -560,6 +561,7 @@ obiekty_OnGameModeInit()
 	opDarkiRichman_Init();
 	opPeter_Init();
 	CinemaCar_Init();
+	BramaVandet_Init();
 
 	//OLD
 	ZaladujBramy();
