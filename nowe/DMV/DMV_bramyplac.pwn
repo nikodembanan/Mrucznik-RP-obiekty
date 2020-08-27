@@ -27,7 +27,7 @@ static StworzBramy()
 	bramaAlarmu[0] = CreateDynamicObject(19912, 1458.55872, -1781.09436, 84.14751,   0.00000, 0.00000, 0.00000, 50, 0);
 	bramaAlarmu[1] = CreateDynamicObject(19912, 1453.65222, -1822.41931, 87.62315,   0.00000, 0.00000, 0.00000, 50, 0);
 	bramaAlarmu[2] = CreateDynamicObject(19912, 1453.60974, -1822.42871, 87.69519,   0.00000, 0.00000, 180.00000, 50, 0);
-	bramaAlarmu[3] = CreateDynamicObject(18646, 1449.86377, -1807.49780, 79.68960+100,   0.00000, 90.00000, 90.00000, 50, 0);
+	bramaAlarmu[3] = CreateDynamicObject(18646, 1449.86377, -1807.49780, 179.68960,   0.00000, 90.00000, 90.00000, 50, 0);
 
     return 1;
 }
