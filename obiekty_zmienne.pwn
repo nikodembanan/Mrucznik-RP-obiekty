@@ -38,3 +38,4 @@ new basenint;//basen interior
 */
 
 new tmpobjid;//Podstawowa zmienna
+new gateob;
