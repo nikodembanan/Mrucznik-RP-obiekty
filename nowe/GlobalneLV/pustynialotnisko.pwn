@@ -37,9 +37,9 @@ lvlotnisko_Connect(playerid)
 static StworzObiekty()
 {  
     tmpobjid = CreateDynamicObject(3268, 290.521972, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); 
-    SetObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
     tmpobjid = CreateDynamicObject(3268, 323.010711, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); 
-    SetObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
     tmpobjid = CreateDynamicObject(987, 431.608428, 2476.182861, 15.389777, 0.000000, 0.000000, 450.000000); 
     tmpobjid = CreateDynamicObject(987, 431.608428, 2476.182861, 15.389777, 0.000000, 0.000000, 450.000000); 
     tmpobjid = CreateDynamicObject(987, 431.608428, 2488.156494, 15.389777, 0.000000, 0.000000, 450.000000); 
