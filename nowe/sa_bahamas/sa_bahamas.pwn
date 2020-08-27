@@ -456,23 +456,28 @@ static StworzObiekty()
 static StworzBramy()
 {
 	// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-	DodajBrame(CreateDynamicObject(1567, 934.44000, -1529.67004, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500),
+	gateob = CreateDynamicObject(1567, 934.44000, -1529.67004, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		934.44000, -1529.67004, 20.38000, 0.00000, 0.00000, 270.00000,
 		934.42000, -1529.67004, 20.38000, 0.00000, 0.00000, 20.00000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 937.51001, -1521.61011, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
+	gateob = CreateDynamicObject(1567, 937.51001, -1521.61011, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		937.51001, -1521.61011, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1521.61011, 20.38000, 0.00000, 0.00000, 30.00000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 940.51001, -1518.37024, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
+	gateob = CreateDynamicObject(1567, 940.51001, -1518.37024, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		940.51001, -1518.37024, 20.38000, 0.00000, 0.00000, 90.00000,
 		940.49001, -1518.37024, 20.38000, 0.00000, 0.00000, 330.00000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 937.51001, -1540.72998, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
+	gateob = CreateDynamicObject(1567, 937.51001, -1540.72998, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		937.51001, -1540.72998, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1540.72998, 20.38000, 0.00000, 0.00000, 335.00000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 936.71997, -1516.06018, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500),
+	gateob = CreateDynamicObject(1567, 936.71997, -1516.06018, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		936.71997, -1516.06018, 20.38000, 0.00000, 0.00000, 180.00000,
 		936.71997, -1516.08018, 20.38000, 0.00000, 0.00000, 70.00000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.

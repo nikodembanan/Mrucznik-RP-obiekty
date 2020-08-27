@@ -169,15 +169,18 @@ static StworzObiekty()
     obiekt = CreateDynamicObject(8614, 722.79309, -1474.54944, 23.80700,   0.00000, 0.00000, 90.00000, 255); //schody
     SetDynamicObjectMaterial(obiekt, 1, 14771, "int_brothelint3", "gb_nastybar12", 0);
 
-    DodajBrame(CreateDynamicObject(3089, 719.47821, -1469.03955, 22.69330,   0.00000, 0.00000, 0.00000, 255),
+    gateob = CreateDynamicObject(3089, 719.47821, -1469.03955, 22.69330,   0.00000, 0.00000, 0.00000, 255);
+    DodajBrame(gateob,
 	    719.47821, -1469.03955, 22.69330, 0.00000, 0.00000, 0.00000,
       719.47821, -1469.03955, 22.69330, 0.00000, 0.00000, 90.00000,
       2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, FRAC_LCN);
-    DodajBrame(CreateDynamicObject(3089, 738.15009, -1469.26721, 22.69330,   0.00000, 0.00000, 180.00000, 255),
+    gateob = CreateDynamicObject(3089, 738.15009, -1469.26721, 22.69330,   0.00000, 0.00000, 180.00000, 255);
+    DodajBrame(gateob,
 	    738.15009, -1469.26721, 22.69330, 0.00000, 0.00000, 180.00000,
       738.15009, -1469.26721, 22.69330, 0.00000, 0.00000, 90.00000,
       2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, FRAC_LCN);
-    DodajBrame(CreateDynamicObject(3089, 739.86658, -1469.26721, 22.69330,   0.00000, 0.00000, 0.00000, 255),
+    gateob = CreateDynamicObject(3089, 739.86658, -1469.26721, 22.69330,   0.00000, 0.00000, 0.00000, 255);
+    DodajBrame(gateob,
 	    739.86658, -1469.26721, 22.69330, 0.00000, 0.00000, 0.00000,
       739.86658, -1469.26721, 22.69330, 0.00000, 0.00000, 90.00000,
       2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, FRAC_LCN);
