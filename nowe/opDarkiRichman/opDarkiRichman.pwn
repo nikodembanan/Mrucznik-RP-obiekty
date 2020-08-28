@@ -166,7 +166,6 @@ opDarkiRichman_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, -1, "none", "none", 0xFF0033FF);
 	tmpobjid = CreateDynamicObject(869, 204.961395, -1222.171630, 77.745010, 0.000000, 0.000000, -55.599990, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, -1, "none", "none", 0xFF0033FF);
-	tmpobjid = CreateDynamicObject(8221, 101.893592, -1228.783447, 77.361114, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2221, 208.977661, -1224.121215, 78.666275, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(18688, 207.575897, -1220.119262, 77.546234, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19820, 209.888000, -1221.102294, 79.346244, 0.000000, 0.000000, -27.999988, 0, 0, -1, 300.00, 300.00); 

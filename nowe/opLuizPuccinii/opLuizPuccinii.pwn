@@ -29,22 +29,17 @@
 opLuizPuccinii_Init() 
 {
 	tmpobjid = CreateDynamicObject(1446, 1691.996459, -2102.710205, 13.272803, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall02", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(1492, 1683.556518, -2102.743164, 11.408962, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall02", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 14668, "711c", "cj_white_wall2", 0x00000000);
 	tmpobjid = CreateDynamicObject(1446, 1687.385986, -2102.710205, 13.272803, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall02", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 1, 14668, "711c", "cj_white_wall2", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 2, 14668, "711c", "cj_white_wall2", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 3, 14668, "711c", "cj_white_wall2", 0x00000000);
-	SetDynamicObjectMaterial(tmpobjid, 4, 14668, "711c", "cj_white_wall2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(1446, 1681.244750, -2102.710205, 13.272803, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall02", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(1446, 1679.223144, -2100.377929, 13.272803, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall02", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(1446, 1679.223144, -2095.783447, 13.272803, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall02", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	gateob = CreateDynamicObject(19870, 1674.420043, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00);
 	DodajBrame(gateob,
 		1670.016357, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000,

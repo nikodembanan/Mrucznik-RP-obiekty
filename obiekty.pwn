@@ -328,6 +328,10 @@
 #include "nowe\ParkSzpital/ParkSzpital.pwn"
 #include "nowe\opDarkiRichman/opDarkiRichman.pwn"
 #include "nowe\opPeter/opPeter.pwn"
+#include "nowe\CinemaCar/CinemaCar.pwn"
+#include "nowe\BramaVandet/BramaVandet.pwn"
+#include "nowe\opTreylo/opTreylo.pwn"
+#include "nowe\opJeffMatson/opJeffMatson.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -558,6 +562,10 @@ obiekty_OnGameModeInit()
 	ParkSzpital_Init();
 	opDarkiRichman_Init();
 	opPeter_Init();
+	CinemaCar_Init();
+	BramaVandet_Init();
+	opTreylo_Init();
+	opJeffMatson_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -654,6 +662,9 @@ obiekty_OnPlayerConnect(playerid)
 	opCzolgista_Connect(playerid);
 	ParkSzpital_Connect(playerid);
 	opPeter_Connect(playerid);
+	CinemaCar_Connect(playerid);
+	opTreylo_Connect(playerid);
+	opJeffMatson_Connect(playerid);
 
 	// OLD
     //Trucker job

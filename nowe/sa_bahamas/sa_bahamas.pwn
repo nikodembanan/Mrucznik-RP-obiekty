@@ -684,7 +684,10 @@ static StworzBudynki()
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
 	DodajWejscie(928.2803,-1530.6527,13.5413, 930.3282,-1530.9423,21.3859, 0, 0, 120250, 0, "", ""); 
 	DodajWejscie(954.4177,-1556.1593,13.5734, 939.5939,-1530.9329,21.3859, 0, 0, 120250, 0, "", "");
+	DodajWejscie(1062.0242,2075.7725,10.8203, 24.1133, 0, 0, 0, 0, 0, 0); //magazyn LV
+	DodajWejscie(1062.1541,2077.8030,10.8203, 237.7436, 0, 0, 0, 0, 0, 0); //magazyn LV
 	return 1;
+
 }
 
 static UsunObiekty(playerid)

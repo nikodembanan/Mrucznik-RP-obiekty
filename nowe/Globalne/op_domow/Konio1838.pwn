@@ -182,8 +182,6 @@ static StworzObiekty()
     SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
     tmpobjid = CreateDynamicObject(19433, 1118.383056, -750.284240, 100.306877, 0.000000, 0.000000, -2.999999, 0, 0, -1, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
     tmpobjid = CreateDynamicObject(2933, 1083.563964, -765.862182, 107.117294, 0.000000, 0.000000, 6.099998, 0, 0, -1, 300.00, 300.00);
     SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
