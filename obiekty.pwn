@@ -332,6 +332,7 @@
 #include "nowe\BramaVandet/BramaVandet.pwn"
 #include "nowe\opTreylo/opTreylo.pwn"
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
+#include "nowe\opFuBu/opFuBu.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -566,6 +567,7 @@ obiekty_OnGameModeInit()
 	BramaVandet_Init();
 	opTreylo_Init();
 	opJeffMatson_Init();
+	opFuBu_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -665,6 +667,7 @@ obiekty_OnPlayerConnect(playerid)
 	CinemaCar_Connect(playerid);
 	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
+	opFuBu_Connect(playerid);
 
 	// OLD
     //Trucker job
