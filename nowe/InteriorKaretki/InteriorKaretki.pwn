@@ -39,7 +39,8 @@ static StworzObiekty()
 	///KARETKA///
 	/////////////
 	//Podloga
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 1082.92090, -1313.85168, 20.53920,   0.00000, 90.00000, 0.00000, -1, 1), 0, 14383, "burg_1", "wall6", 0);
+	gateob = CreateDynamicObject(19377, 1082.92090, -1313.85168, 20.53920,   0.00000, 90.00000, 0.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 14383, "burg_1", "wall6", 0);
 	//Drzwi
 	new d1 = CreateDynamicObject(3089, 1078.03735, -1309.11047, 21.84780,   0.00000, 0.00000, 0.00000, -1, 1);
 	new d2 = CreateDynamicObject(3089, 1081.02234, -1309.11047, 21.84780,   0.00000, 0.00000, 180.00000, -1, 1);
@@ -48,9 +49,12 @@ static StworzObiekty()
     SetDynamicObjectMaterial(d1, 2, 14383, "burg_1", "wall6", 0);
     SetDynamicObjectMaterial(d2, 2, 14383, "burg_1", "wall6", 0);
 	//sciany
-	SetDynamicObjectMaterial(CreateDynamicObject(19460, 1077.93750, -1313.86328, 21.73170,   0.00000, 0.00000, 0.00000, -1, 1), 0, 14383, "burg_1", "wall6", 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(19460, 1081.09180, -1313.87964, 21.73170,   0.00000, 0.00000, 0.00000, -1, 1), 0, 14383, "burg_1", "wall6", 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(19460, 1079.64441, -1313.25513, 21.73170,   0.00000, 0.00000, 90.00000, -1, 1), 0, 14383, "burg_1", "wall6", 0);
+	gateob = CreateDynamicObject(19460, 1077.93750, -1313.86328, 21.73170,   0.00000, 0.00000, 0.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 14383, "burg_1", "wall6", 0);
+	gateob = CreateDynamicObject(19460, 1081.09180, -1313.87964, 21.73170,   0.00000, 0.00000, 0.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 14383, "burg_1", "wall6", 0);
+	gateob = CreateDynamicObject(19460, 1079.64441, -1313.25513, 21.73170,   0.00000, 0.00000, 90.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 14383, "burg_1", "wall6", 0);
 	//Akcesoria karetki
 	CreateDynamicObject(1997, 1080.54089, -1311.06189, 20.32700,   0.00000, 0.00000, 180.00000, -1, 1);
 	CreateDynamicObject(2154, 1078.22253, -1310.63220, 20.51420,   0.00000, 0.00000, 90.00000, -1, 1);
@@ -67,16 +71,21 @@ static StworzObiekty()
     CreateDynamicObject(3384, 1081.1053, -1311.9226, 21.9358,   0.00000, 180.00000, 180.00000, -1, 1);
 	//Boki bcian
 	//SetDynamicObjectMaterial(, 0, 2151, "cj_kitchen", "CJ_RED", 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1081.49597, -1311.59766, 21.64820,   0.00000, 90.00000, 90.00000, -1, 1), 0, 2151, "cj_kitchen", "CJ_RED", 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1079.51868, -1313.65698, 21.64820,   0.00000, 90.00000, 0.00000, -1, 1), 0, 2151, "cj_kitchen", "CJ_RED", 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(18762, 1077.54077, -1311.59753, 21.64820,   0.00000, 90.00000, 90.00000, -1, 1), 0, 2151, "cj_kitchen", "CJ_RED", 0);
+	gateob = CreateDynamicObject(18762, 1081.49597, -1311.59766, 21.64820,   0.00000, 90.00000, 90.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 2151, "cj_kitchen", "CJ_RED", 0);
+	gateob = CreateDynamicObject(18762, 1079.51868, -1313.65698, 21.64820,   0.00000, 90.00000, 0.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 2151, "cj_kitchen", "CJ_RED", 0);
+	gateob = CreateDynamicObject(18762, 1077.54077, -1311.59753, 21.64820,   0.00000, 90.00000, 90.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  0, 2151, "cj_kitchen", "CJ_RED", 0);
 	//Monitory
 	//SetDynamicObjectMaterial(, 2, 2151, "cj_kitchen", "CJ_WOOD5", 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(2775, 1078.86194, -1313.16626, 22.60070,   0.00000, 0.00000, 180.00000, -1, 1), 2, 2151, "cj_kitchen", "CJ_WOOD5", 0);
+	gateob = CreateDynamicObject(2775, 1078.86194, -1313.16626, 22.60070,   0.00000, 0.00000, 180.00000, -1, 1);
+	SetDynamicObjectMaterial(gateob,  2, 2151, "cj_kitchen", "CJ_WOOD5", 0);
 	//Obraz
 	CreateDynamicObject(19174, 1079.28503, -1309.10339, 22.29109,   0.00000, 0.00000, 0.00000, -1, 1);
 	//Sufit
-    SetDynamicObjectMaterial(CreateDynamicObject(19377, 1082.92090, -1313.85168, 23.29000,   0.00000, 90.00000, 0.00000, -1, 1), 0, 14383, "burg_1", "wall6", 0);
+    gateob = CreateDynamicObject(19377, 1082.92090, -1313.85168, 23.29000,   0.00000, 90.00000, 0.00000, -1, 1);
+    SetDynamicObjectMaterial(gateob,  0, 14383, "burg_1", "wall6", 0);
 
 	return 1;
 }

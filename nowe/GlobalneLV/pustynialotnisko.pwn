@@ -36,10 +36,10 @@ lvlotnisko_Connect(playerid)
 //-----------------<[ Funkcje: ]>-------------------
 static StworzObiekty()
 {  
-    tmpobjid = CreateDynamicObject(3268, 290.521972, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); 
-    SetObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+    tmpobjid = CreateDynamicObject(3268, 290.521972, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); //opuszczone lotnisko
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
     tmpobjid = CreateDynamicObject(3268, 323.010711, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); 
-    SetObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
     tmpobjid = CreateDynamicObject(987, 431.608428, 2476.182861, 15.389777, 0.000000, 0.000000, 450.000000); 
     tmpobjid = CreateDynamicObject(987, 431.608428, 2476.182861, 15.389777, 0.000000, 0.000000, 450.000000); 
     tmpobjid = CreateDynamicObject(987, 431.608428, 2488.156494, 15.389777, 0.000000, 0.000000, 450.000000); 
@@ -145,14 +145,21 @@ static StworzObiekty()
     tmpobjid = CreateDynamicObject(2921, 416.685150, 2530.030761, 20.534084, 0.000000, 0.000000, 158.300048); 
     tmpobjid = CreateDynamicObject(2921, 335.080657, 2534.170898, 22.352869, 0.000000, 0.000000, 83.400268); 
     tmpobjid = CreateDynamicObject(2921, 280.206390, 2534.176513, 21.788549, 0.000000, 6.099996, 90.299942); 
-    
+    tmpobjid = CreateDynamicObject(19433, 417.992034, 2566.073730, 18.574264, 90.000000, 180.000000, -177.599914, 0, 0, -1, 300.00, 300.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+    tmpobjid = CreateDynamicObject(19482, 418.031829, 2567.445556, 17.697122, 0.000000, 0.000000, 2.399999, 0, 0, -1, 300.00, 300.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{6600CC}Lotnisko im. Todd More", 110, "courier", 20, 0, 0x00000000, 0x00000000, 0);
+    tmpobjid = CreateDynamicObject(16052, 417.972595, 2566.080078, 16.436079, 0.000000, 180.000000, 93.100181, 0, 0, -1, 300.00, 300.00); 
 
 	
-    DodajBrame(CreateDynamicObject(2990, 413.746337, 2573.863037, 19.294513, 0.000000, 0.000000, 103.800086, 0, 0, -1, 300.00, 300.00),
+    gateob = CreateDynamicObject(2990, 413.746337, 2573.863037, 19.294513, 0.000000, 0.000000, 103.800086, 0, 0, -1, 300.00, 300.00);
+    DodajBrame(gateob,
         413.746337, 2573.863037, 19.294513, 0.000000, 0.000000, 103.800086,
         415.942901, 2564.918212, 19.294513, 0.000000, 0.000000, 103.800086,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1642);
-    DodajBrame(CreateDynamicObject(2990, -76.188560, 2560.890380, 20.278541, 0.000000, 0.000000, -90.600021, 0, 0, -1, 300.00, 300.00),
+    gateob = CreateDynamicObject(2990, -76.188560, 2560.890380, 20.278541, 0.000000, 0.000000, -90.600021, 0, 0, -1, 300.00, 300.00);
+    DodajBrame(gateob,
         -76.188560, 2560.890380, 20.278541, 0.000000, 0.000000, -90.600021,
         -76.287734, 2551.416748, 20.278541, 0.000000, 0.000000, -90.600021,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1642);

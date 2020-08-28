@@ -29,45 +29,136 @@
 OPdlaRafalka_Init()
 {
 	tmpobjid = CreateDynamicObject(19447, -2568.388183, 2240.623046, 4.774209, 0.000000, 0.000000, 64.299995, 0, 0, -1, 300.00, 300.00); // ogrodzenie 1
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2559.699951, 2236.467041, 4.764210, 0.000000, 0.000000, 64.599990, 0, 0, -1, 300.00, 300.00); // ogrodzenie 2
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2547.484130, 2235.865234, 4.774209, 0.000000, 0.000000, 160.600326, 0, 0, -1, 300.00, 300.00); // ogrodzenie 3
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2543.773925, 2244.541748, 4.774209, 0.000000, 0.000000, 154.899993, 0, 0, -1, 300.00, 300.00); // ogrodzenie 4
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2539.690673, 2253.248291, 4.774209, 0.000000, 0.000000, 154.899993, 0, 0, -1, 300.00, 300.00); // ogrodzenie 5
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2535.630615, 2261.902832, 4.774209, 0.000000, 0.000000, 154.899993, 0, 0, -1, 300.00, 300.00); // ogrodzenie 6
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 5, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2570.979736, 2241.765625, 5.544377, 0.000000, 0.000000, -25.700002, 0, 0, -1, 300.00, 300.00); // ogrodzenie 7
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2568.446533, 2240.617919, 3.384206, 0.000000, 0.000000, 64.199996, 0, 0, -1, 300.00, 300.00); // ogrodzenie 8
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2559.787841, 2236.439208, 3.384206, 0.000000, 0.000000, 64.199996, 0, 0, -1, 300.00, 300.00); // ogrodzenie 9
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2567.292480, 2239.991943, 5.544377, 0.000000, 0.000000, -25.700002, 0, 0, -1, 300.00, 300.00); // ogrodzenie 10
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2563.601806, 2238.208740, 5.544377, 0.000000, 0.000000, -25.700002, 0, 0, -1, 300.00, 300.00); // ogrodzenie 11
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2559.903808, 2236.430419, 5.544377, 0.000000, 0.000000, -25.700002, 0, 0, -1, 300.00, 300.00); // ogrodzenie 12
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2556.231201, 2234.662841, 5.544377, 0.000000, 0.000000, -25.700002, 0, 0, -1, 300.00, 300.00); // ogrodzenie 13
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2552.560546, 2232.896240, 5.544377, 0.000000, 0.000000, -25.700002, 0, 0, -1, 300.00, 300.00); // ogrodzenie 14
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2547.411621, 2235.848632, 3.384206, 0.000000, 0.000000, 160.200241, 0, 0, -1, 300.00, 300.00); // ogrodzenie 15
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2543.943359, 2244.081054, 3.384206, 0.000000, 0.000000, 154.599975, 0, 0, -1, 300.00, 300.00); // ogrodzenie 16
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2539.831298, 2252.752929, 3.384206, 0.000000, 0.000000, 154.599975, 0, 0, -1, 300.00, 300.00); // ogrodzenie 17
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2535.693603, 2261.447509, 3.384206, 0.000000, 0.000000, 154.599975, 0, 0, -1, 300.00, 300.00); // ogrodzenie 18
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2570.866210, 2247.043457, 3.383246, 0.000000, 2.899998, 156.400192, 0, 0, -1, 300.00, 300.00); // ogrodzenie 19
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2566.861083, 2255.792724, 3.396906, 0.000000, 2.899998, 154.700103, 0, 0, -1, 300.00, 300.00); // ogrodzenie 20
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2562.774902, 2264.501953, 3.397918, 0.000000, 2.899998, 155.000122, 0, 0, -1, 300.00, 300.00); // ogrodzenie 22
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2558.705566, 2273.228759, 3.397918, 0.000000, 2.899998, 155.000122, 0, 0, -1, 300.00, 300.00); // ogrodzenie 23
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2570.768798, 2247.021240, 4.774209, 0.000000, 0.000000, 156.300094, 0, 0, -1, 300.00, 300.00); // ogrodzenie 24
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2566.805175, 2255.771972, 4.774209, 0.000000, 0.000000, 154.900024, 0, 0, -1, 300.00, 300.00); // ogrodzenie 25
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2562.743164, 2264.425537, 4.774209, 0.000000, 0.000000, 154.900024, 0, 0, -1, 300.00, 300.00); // ogrodzenie 26
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, -2558.654785, 2273.154052, 4.774209, 0.000000, 0.000000, 154.900024, 0, 0, -1, 300.00, 300.00); // ogrodzenie 27
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19362, -2553.905761, 2233.724121, 4.725379, 0.000000, 0.000000, 64.800003, 0, 0, -1, 300.00, 300.00); // ogrodzenie 28
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19362, -2551.006103, 2232.355712, 4.725379, 0.000000, 0.000000, 64.800003, 0, 0, -1, 300.00, 300.00); // ogrodzenie 29
+	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19362, -2554.001464, 2233.658691, 3.385377, 0.000000, 0.000000, 64.800003, 0, 0, -1, 300.00, 300.00); // ogrodzenie 30
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19362, -2551.114013, 2232.272460, 3.385377, 0.000000, 0.000000, 64.100013, 0, 0, -1, 300.00, 300.00); // ogrodzenie 31
-	tmpobjid = CreateDynamicObject(713, -2549.861816, 2231.586181, 3.984375, 0.000000, 0.000000, -89.800155, 0, 0, -1, 300.00, 300.00); // ogrodzenie 32
+	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "stonewalls2", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2571.988525, 2244.502685, 5.544377, 0.000000, 0.000000, 66.799957, 0, 0, -1, 300.00, 300.00); // ogrodzenie 33
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2570.383056, 2248.257812, 5.544377, 0.000000, 0.000000, 66.799957, 0, 0, -1, 300.00, 300.00); // ogrodzenie 34
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2568.736083, 2251.983154, 5.544377, 0.000000, 0.000000, 65.999969, 0, 0, -1, 300.00, 300.00); // ogrodzenie 35
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2566.995849, 2255.672607, 5.544377, 0.000000, 0.000000, 63.800003, 0, 0, -1, 300.00, 300.00); // ogrodzenie 36
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2565.239990, 2259.355468, 5.544377, 0.000000, 0.000000, 64.699989, 0, 0, -1, 300.00, 300.00); // ogrodzenie 37
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2563.503173, 2263.036376, 5.544377, 0.000000, 0.000000, 64.699989, 0, 0, -1, 300.00, 300.00); // ogrodzenie 38
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2561.776123, 2266.721679, 5.544377, 0.000000, 0.000000, 64.699989, 0, 0, -1, 300.00, 300.00); // ogrodzenie 39
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2560.050292, 2270.438476, 5.544377, 0.000000, 0.000000, 64.699989, 0, 0, -1, 300.00, 300.00); // ogrodzenie 40
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(1419, -2558.304931, 2274.168945, 5.544377, 0.000000, 0.000000, 64.699989, 0, 0, -1, 300.00, 300.00); // ogrodzenie 41
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "sl_vicwall01", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	tmpobjid = CreateDynamicObject(713, -2549.861816, 2231.586181, 3.984375, 0.000000, 0.000000, -89.800155, 0, 0, -1, 300.00, 300.00); // ogrodzenie 32
 	tmpobjid = CreateDynamicObject(19121, -2550.153320, 2232.177490, 4.725711, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); // lampa
 	tmpobjid = CreateDynamicObject(19121, -2548.872070, 2232.587890, 4.725711, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); // lampa2
 	tmpobjid = CreateDynamicObject(19121, -2571.627441, 2242.480957, 5.002279, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); // lampa3

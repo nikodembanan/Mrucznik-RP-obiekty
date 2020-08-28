@@ -44,189 +44,372 @@ sa_bahamas_Connect(playerid)
 static StworzObiekty()
 {
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 934.59998, -1530.45996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 945.09998, -1530.45996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 945.09998, -1540.07996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 945.09998, -1549.69995, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 934.59998, -1540.07996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 934.59998, -1549.69995, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 934.59998, -1520.83997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 934.59998, -1511.21997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 945.09998, -1520.83997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19377, 945.09998, -1511.21997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 929.44000, -1530.45996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1524.04004, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1520.83997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1517.64001, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1514.43994, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 929.44000, -1511.23999, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 929.71997, -1508.12000, 22.12000,   0.00000, 0.00000, 350.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 934.84003, -1506.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 944.46002, -1506.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 949.73999, -1508.02002, 22.12000,   0.00000, 0.00000, 20.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 950.28003, -1511.21997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 950.28003, -1520.83997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 950.28003, -1540.07996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 950.28003, -1530.45996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 950.28003, -1549.69995, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1536.88000, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1540.07996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1543.28003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 943.90002, -1554.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 949.34003, -1553.30005, 22.12000,   0.00000, 0.00000, 320.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19388, 934.44000, -1530.45996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 935.96997, -1535.18005, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 934.44000, -1533.66003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 934.44000, -1527.26001, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 937.48999, -1549.59998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 934.44000, -1550.09998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 935.96997, -1545.36011, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 935.96997, -1525.66016, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 934.44000, -1524.06006, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 934.44000, -1520.86011, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 934.44000, -1517.66016, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19388, 935.96997, -1516.06018, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 937.48999, -1511.16003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 934.44000, -1511.30005, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 937.48999, -1517.66016, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19388, 937.48999, -1520.86011, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 937.48999, -1524.06006, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 937.48999, -1536.78015, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19388, 937.48999, -1539.97998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 937.48999, -1543.18005, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1546.47998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19404, 929.44000, -1549.68005, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 930.34998, -1552.56006, 22.12000,   0.00000, 0.00000, 35.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 937.47998, -1554.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 934.28003, -1554.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 932.40002, -1553.96997, 22.12000,   0.00000, 0.00000, 70.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19388, 940.48999, -1517.62024, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 940.48999, -1511.21997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 940.48999, -1524.04004, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 940.48999, -1533.66003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 940.48999, -1540.08008, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 939.12000, -1541.62000, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19450, 945.32001, -1521.16003, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19358, 949.16998, -1520.04004, 22.12000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500), 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 934.59998, -1511.21997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 945.09998, -1511.21997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 934.59998, -1520.83997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 945.09998, -1520.83997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 945.09998, -1530.45996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 934.59998, -1530.45996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 945.09998, -1540.07996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 945.09998, -1549.69995, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 934.59998, -1549.69995, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19378, 934.59998, -1540.07996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500), 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 934.78003, -1537.78003, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 18006, "genintintbarberA", "barberspic1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 934.78003, -1542.73999, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 18006, "genintintbarberA", "barberspic1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 929.87000, -1538.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 929.87000, -1543.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 929.87000, -1548.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 929.87000, -1519.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 929.87000, -1524.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 929.87000, -1514.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1549.52002, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1547.19995, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1544.43994, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1542.17993, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1539.57996, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1536.95996, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1525.47998, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1523.18005, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1520.52014, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1518.20007, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1515.40015, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2682, 929.87000, -1513.24011, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 931.17999, -1506.82996, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 14640, "chinese_furn", "ab_tv_tricas1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1517.64001, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14785, "gen_offtrackINT", "otb_mural2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1520.83997, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 2611, "POLICE_PROPS_un", "gus", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1524.04004, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 5857, "lawnbuy", "ws_starballs", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1536.88000, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14785, "gen_offtrackINT", "otb_mural1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1540.07996, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 1515, "dsfs", "CJ_POKERSCREEN", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1543.28003, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 1515, "dsfs", "CJ_POKERSCREEN2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1546.47998, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14785, "gen_offtrackINT", "otb_mural3", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1549.68005, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 15040, "cuntcuts", "csnewspaper", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 934.08002, -1549.31995, 23.41000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 11389, "hubint1_sfse", "ws_stdcalendar", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 934.08002, -1547.31995, 23.41000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 14785, "gen_offtrackINT", "otb_mural4", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 934.08002, -1551.31995, 23.41000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 17519, "lae2newtempbx", "lasclean4", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 929.78998, -1514.43994, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 12981, "sw_fact01", "ws_solarin", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 932.17999, -1506.82996, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 6864, "vgnvrock", "vrocksign1_256", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 933.17999, -1506.82996, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 4682, "dtbuil1_lan2", "LAInside_Tracksign2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 933.98999, -1514.09998, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 933.98999, -1509.18005, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(11686, 933.98999, -1549.19995, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2568, 933.81000, -1531.75000, 20.36000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2256, 937.38000, -1537.56995, 22.23000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 14785, "gen_offtrackINT", "otb_mural1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2256, 937.38000, -1542.56995, 22.23000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 14785, "gen_offtrackINT", "otb_mural2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(1825, 931.03003, -1507.68994, 20.37000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(1825, 930.64001, -1510.46997, 20.37000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(1825, 933.57001, -1552.82996, 20.37000,   0.00000, 0.00000, 50.00000,120250,_,_,_,500), 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(1825, 930.90997, -1551.18994, 20.37000,   0.00000, 0.00000, 50.00000,120250,_,_,_,500), 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 938.07001, -1538.19995, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 938.07001, -1537.19995, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 938.07001, -1536.19995, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 935.65997, -1528.39001, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 935.65997, -1533.39001, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 942.84003, -1510.03003, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 942.84003, -1508.93005, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 942.84003, -1511.13000, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 942.84003, -1512.22998, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 947.72000, -1514.40002, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 947.72000, -1513.30005, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 947.72000, -1512.19995, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 945.79999, -1519.53003, 20.38000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 947.29999, -1518.85010, 20.38000,   0.00000, 0.00000, 45.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 947.96997, -1517.37000, 20.38000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2296, 949.09000, -1507.21000, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500), 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 948.46002, -1506.95996, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 949.13000, -1508.80005, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 949.79999, -1510.64001, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 943.72998, -1521.05994, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 941.76001, -1521.05994, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2834, 938.48999, -1507.56995, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19929, 934.96002, -1524.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19929, 934.96002, -1521.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19929, 934.96002, -1518.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19930, 933.92999, -1519.26001, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19930, 933.92999, -1522.47998, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19929, 934.96002, -1513.93994, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19929, 934.96002, -1511.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500), 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 936.90997, -1513.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 936.90997, -1512.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 936.90997, -1511.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 936.90997, -1510.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2063, 934.81000, -1508.14001, 21.29000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2063, 937.13000, -1508.26001, 21.29000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 939.91998, -1510.81006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 939.91998, -1512.81006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING3", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 939.91998, -1514.81006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING4", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 938.06000, -1512.40015, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING8", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 938.06000, -1514.40015, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING9", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 938.06000, -1516.40015, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING27", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 930.01001, -1510.43005, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 930.37000, -1507.71997, 22.41000,   0.00000, 0.00000, 80.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 930.42999, -1551.68005, 22.41000,   0.00000, 0.00000, 125.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING12", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 932.65002, -1553.45996, 22.41000,   0.00000, 0.00000, 160.00000,120250,_,_,_,500), 1, 2262, "picture_frame_clip", "CJ_PAINTING24", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 936.91998, -1517.30005, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 14640, "chinese_furn", "ab_tv_tricas1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 936.91998, -1519.07996, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 12981, "sw_fact01", "ws_solarin", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 936.91998, -1522.68005, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 5857, "lawnbuy", "ws_starballs", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2262, 936.91998, -1524.56006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 1, 12984, "sw_block11", "sw_locals", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2255, 941.06000, -1512.72998, 22.35000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 6354, "sunset03_law2", "billla02", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 941.06000, -1515.66003, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2158, 941.06000, -1514.66003, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2255, 941.06000, -1507.72998, 22.35000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 6354, "sunset03_law2", "billla01", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2255, 941.06000, -1510.22998, 22.35000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 6864, "vgnvrock", "vrocksign1_256", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2255, 941.76001, -1507.05005, 22.35000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14860, "gf1", "mp_apt1_pos1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2255, 943.76001, -1507.05005, 22.35000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14860, "gf1", "mp_apt1_pos2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2255, 945.76001, -1507.05005, 22.35000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500), 0, 14860, "gf1", "mp_apt1_pos3", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 936.79999, -1534.81995, 23.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 935.79999, -1534.81995, 23.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500), 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 935.79999, -1526.01990, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(2700, 936.79999, -1526.01990, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500), 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19893, 934.85999, -1522.93994, 21.30000,   0.00000, 0.00000, 70.00000,120250,_,_,_,500), 1, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19893, 934.85999, -1522.09985, 21.30000,   0.00000, 0.00000, 110.00000,120250,_,_,_,500), 1, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
-	SetDynamicObjectMaterial(CreateDynamicObject(19893, 934.85999, -1519.09985, 21.30000,   0.00000, 0.00000, 110.00000,120250,_,_,_,500), 1, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 934.59998, -1530.45996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 945.09998, -1530.45996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 945.09998, -1540.07996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 945.09998, -1549.69995, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 934.59998, -1540.07996, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 934.59998, -1549.69995, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 934.59998, -1520.83997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 934.59998, -1511.21997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 945.09998, -1520.83997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19377, 945.09998, -1511.21997, 20.30000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14702, "masmall3int2", "hs3_wall6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 929.44000, -1530.45996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1524.04004, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1520.83997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1517.64001, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1514.43994, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 929.44000, -1511.23999, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 929.71997, -1508.12000, 22.12000,   0.00000, 0.00000, 350.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 934.84003, -1506.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 944.46002, -1506.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 949.73999, -1508.02002, 22.12000,   0.00000, 0.00000, 20.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 950.28003, -1511.21997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 950.28003, -1520.83997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 950.28003, -1540.07996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 950.28003, -1530.45996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 950.28003, -1549.69995, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1536.88000, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1540.07996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1543.28003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 943.90002, -1554.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 949.34003, -1553.30005, 22.12000,   0.00000, 0.00000, 320.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19388, 934.44000, -1530.45996, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 935.96997, -1535.18005, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 934.44000, -1533.66003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 934.44000, -1527.26001, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 937.48999, -1549.59998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 934.44000, -1550.09998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 935.96997, -1545.36011, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 935.96997, -1525.66016, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 934.44000, -1524.06006, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 934.44000, -1520.86011, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 934.44000, -1517.66016, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19388, 935.96997, -1516.06018, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 937.48999, -1511.16003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 934.44000, -1511.30005, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 937.48999, -1517.66016, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19388, 937.48999, -1520.86011, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 937.48999, -1524.06006, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 937.48999, -1536.78015, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19388, 937.48999, -1539.97998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 937.48999, -1543.18005, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1546.47998, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19404, 929.44000, -1549.68005, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 930.34998, -1552.56006, 22.12000,   0.00000, 0.00000, 35.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 937.47998, -1554.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 934.28003, -1554.47998, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 932.40002, -1553.96997, 22.12000,   0.00000, 0.00000, 70.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19388, 940.48999, -1517.62024, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 940.48999, -1511.21997, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 940.48999, -1524.04004, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 940.48999, -1533.66003, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 940.48999, -1540.08008, 22.12000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 939.12000, -1541.62000, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19450, 945.32001, -1521.16003, 22.12000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19358, 949.16998, -1520.04004, 22.12000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 13007, "sw_bankint", "bank_wall1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 934.59998, -1511.21997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 945.09998, -1511.21997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 934.59998, -1520.83997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 945.09998, -1520.83997, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 945.09998, -1530.45996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 934.59998, -1530.45996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 945.09998, -1540.07996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 945.09998, -1549.69995, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 934.59998, -1549.69995, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19378, 934.59998, -1540.07996, 23.94000,   0.00000, 90.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4002, "cityhall_lan", "lacityhwal1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 934.78003, -1537.78003, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 18006, "genintintbarberA", "barberspic1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 934.78003, -1542.73999, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 18006, "genintintbarberA", "barberspic1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 929.87000, -1538.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 929.87000, -1543.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 929.87000, -1548.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 929.87000, -1519.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 929.87000, -1524.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 929.87000, -1514.31995, 20.34000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1549.52002, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1547.19995, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1544.43994, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1542.17993, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1539.57996, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1536.95996, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1525.47998, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1523.18005, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1520.52014, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1518.20007, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1515.40015, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2682, 929.87000, -1513.24011, 21.65000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14802, "lee_bdupsflat", "bdup_punters", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 931.17999, -1506.82996, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14640, "chinese_furn", "ab_tv_tricas1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1517.64001, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14785, "gen_offtrackINT", "otb_mural2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1520.83997, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 2611, "POLICE_PROPS_un", "gus", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1524.04004, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 5857, "lawnbuy", "ws_starballs", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1536.88000, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14785, "gen_offtrackINT", "otb_mural1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1540.07996, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 1515, "dsfs", "CJ_POKERSCREEN", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1543.28003, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 1515, "dsfs", "CJ_POKERSCREEN2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1546.47998, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14785, "gen_offtrackINT", "otb_mural3", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1549.68005, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 15040, "cuntcuts", "csnewspaper", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 934.08002, -1549.31995, 23.41000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11389, "hubint1_sfse", "ws_stdcalendar", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 934.08002, -1547.31995, 23.41000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14785, "gen_offtrackINT", "otb_mural4", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 934.08002, -1551.31995, 23.41000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 17519, "lae2newtempbx", "lasclean4", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 929.78998, -1514.43994, 23.41000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12981, "sw_fact01", "ws_solarin", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 932.17999, -1506.82996, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 6864, "vgnvrock", "vrocksign1_256", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 933.17999, -1506.82996, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 4682, "dtbuil1_lan2", "LAInside_Tracksign2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 933.98999, -1514.09998, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 933.98999, -1509.18005, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(11686, 933.98999, -1549.19995, 20.34000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2568, 933.81000, -1531.75000, 20.36000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 18006, "genintintbarberA", "barberspic1", 0x00FFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2256, 937.38000, -1537.56995, 22.23000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14785, "gen_offtrackINT", "otb_mural1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2256, 937.38000, -1542.56995, 22.23000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14785, "gen_offtrackINT", "otb_mural2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1825, 931.03003, -1507.68994, 20.37000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1825, 930.64001, -1510.46997, 20.37000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1825, 933.57001, -1552.82996, 20.37000,   0.00000, 0.00000, 50.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1825, 930.90997, -1551.18994, 20.37000,   0.00000, 0.00000, 50.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 1825, "kbmiscfrn1cj", "htl_tbltop2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 938.07001, -1538.19995, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 938.07001, -1537.19995, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 938.07001, -1536.19995, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 935.65997, -1528.39001, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 935.65997, -1533.39001, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 942.84003, -1510.03003, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 942.84003, -1508.93005, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 942.84003, -1511.13000, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 942.84003, -1512.22998, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 947.72000, -1514.40002, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 947.72000, -1513.30005, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 947.72000, -1512.19995, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 945.79999, -1519.53003, 20.38000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 947.29999, -1518.85010, 20.38000,   0.00000, 0.00000, 45.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 947.96997, -1517.37000, 20.38000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2296, 949.09000, -1507.21000, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 948.46002, -1506.95996, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 949.13000, -1508.80005, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 949.79999, -1510.64001, 20.38000,   0.00000, 0.00000, 290.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 943.72998, -1521.05994, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 941.76001, -1521.05994, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2834, 938.48999, -1507.56995, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14735, "newcrak", "carpet-tile", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19929, 934.96002, -1524.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19929, 934.96002, -1521.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19929, 934.96002, -1518.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19930, 933.92999, -1519.26001, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19930, 933.92999, -1522.47998, 20.38000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19929, 934.96002, -1513.93994, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19929, 934.96002, -1511.02002, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 11686, "int_casinoint3", "GB_midbar08", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 936.90997, -1513.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 936.90997, -1512.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 936.90997, -1511.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 936.90997, -1510.40002, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2063, 934.81000, -1508.14001, 21.29000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2063, 937.13000, -1508.26001, 21.29000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 939.91998, -1510.81006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 939.91998, -1512.81006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING3", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 939.91998, -1514.81006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING4", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 938.06000, -1512.40015, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING8", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 938.06000, -1514.40015, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING9", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 938.06000, -1516.40015, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING27", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 930.01001, -1510.43005, 22.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 930.37000, -1507.71997, 22.41000,   0.00000, 0.00000, 80.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING6", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 930.42999, -1551.68005, 22.41000,   0.00000, 0.00000, 125.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING12", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 932.65002, -1553.45996, 22.41000,   0.00000, 0.00000, 160.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2262, "picture_frame_clip", "CJ_PAINTING24", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 936.91998, -1517.30005, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 14640, "chinese_furn", "ab_tv_tricas1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 936.91998, -1519.07996, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 12981, "sw_fact01", "ws_solarin", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 936.91998, -1522.68005, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 5857, "lawnbuy", "ws_starballs", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2262, 936.91998, -1524.56006, 22.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 12984, "sw_block11", "sw_locals", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2255, 941.06000, -1512.72998, 22.35000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 6354, "sunset03_law2", "billla02", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 941.06000, -1515.66003, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2158, 941.06000, -1514.66003, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 12954, "sw_furniture", "CJ_WOOD5", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2255, 941.06000, -1507.72998, 22.35000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 6354, "sunset03_law2", "billla01", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2255, 941.06000, -1510.22998, 22.35000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 6864, "vgnvrock", "vrocksign1_256", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2255, 941.76001, -1507.05005, 22.35000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14860, "gf1", "mp_apt1_pos1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2255, 943.76001, -1507.05005, 22.35000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14860, "gf1", "mp_apt1_pos2", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2255, 945.76001, -1507.05005, 22.35000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 14860, "gf1", "mp_apt1_pos3", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 936.79999, -1534.81995, 23.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 935.79999, -1534.81995, 23.41000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 935.79999, -1526.01990, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(2700, 936.79999, -1526.01990, 23.41000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 0, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19893, 934.85999, -1522.93994, 21.30000,   0.00000, 0.00000, 70.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19893, 934.85999, -1522.09985, 21.30000,   0.00000, 0.00000, 110.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(19893, 934.85999, -1519.09985, 21.30000,   0.00000, 0.00000, 110.00000,120250,_,_,_,500);
+	SetDynamicObjectMaterial(gateob, 1, 2754, "otb_machine", "ap_screens1", 0xFFFFFFFF);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3858, 929.44000, -1519.18005, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3858, 929.44000, -1519.18005, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3858, 929.44000, -1519.18005, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
@@ -236,10 +419,6 @@ static StworzObiekty()
 	CreateDynamicObject(3857, 929.44000, -1534.69995, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3857, 929.44000, -1534.69995, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(3857, 929.44000, -1534.69995, 24.34000,   0.00000, 0.00000, 315.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 929.50000, -1529.45996, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 929.53003, -1532.48999, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 940.42999, -1532.48999, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
-	CreateDynamicObject(1567, 940.40002, -1529.45996, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(1515, 933.81000, -1526.26001, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(2242, 929.90002, -1528.17004, 20.54000,   0.00000, 0.00000, 0.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 	CreateDynamicObject(651, 929.89001, -1528.21997, 20.00000,   0.00000, 0.00000, 330.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
@@ -437,32 +616,66 @@ static StworzObiekty()
 	CreateDynamicObject(1550, 936.53998, -1506.81995, 20.72000,   0.00000, 0.00000, 455.00000,120250,_,_,_,500);//Obiekt zak³adu bukmacherskiego by widelec.
 
 	Create3DTextLabel("ALLIBRATORE", 0xFFFFFFFF, 928.2803,-1530.6527,13.5413, 10, 0, 1);//Napis 3D przed zak³adem bukmacherskim by widelec.
+	//obiekty do bramy w LV
+	tmpobjid = CreateDynamicObject(19447, 1136.706542, 1362.799438, 13.420762, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1136.706542, 1362.799438, 9.920737, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.094238, 1362.799438, 9.920737, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.094238, 1362.799438, 13.420740, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.094238, 1362.629272, 13.420740, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1136.702026, 1362.629272, 13.420740, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1136.702026, 1362.629272, 9.930759, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 1127.071899, 1362.629272, 9.930759, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
 	return 1;
 }
 
 static StworzBramy()
 {
 	// DodajBrame(fobiekt, Float:fx1, Float:fy1, Float:fz1, Float:frx1, Float:fry1, Float:frz1, Float:fx2, Float:fy2, Float:fz2, Float:frx2, Float:fry2, Float:frz2, Float:fspeed, Float:frange, fuprtyp=0, fuprval=0)
-	DodajBrame(CreateDynamicObject(1567, 934.44000, -1529.67004, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500),
+	gateob = CreateDynamicObject(1567, 934.44000, -1529.67004, 20.38000,   0.00000, 0.00000, 270.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		934.44000, -1529.67004, 20.38000, 0.00000, 0.00000, 270.00000,
 		934.42000, -1529.67004, 20.38000, 0.00000, 0.00000, 20.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 937.51001, -1521.61011, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1567, 937.51001, -1521.61011, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		937.51001, -1521.61011, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1521.61011, 20.38000, 0.00000, 0.00000, 30.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 940.51001, -1518.37024, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1567, 940.51001, -1518.37024, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		940.51001, -1518.37024, 20.38000, 0.00000, 0.00000, 90.00000,
 		940.49001, -1518.37024, 20.38000, 0.00000, 0.00000, 330.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 937.51001, -1540.72998, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500),
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1567, 937.51001, -1540.72998, 20.38000,   0.00000, 0.00000, 90.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		937.51001, -1540.72998, 20.38000, 0.00000, 0.00000, 90.00000,
 		937.49001, -1540.72998, 20.38000, 0.00000, 0.00000, 335.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
-	DodajBrame(CreateDynamicObject(1567, 936.71997, -1516.06018, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500),
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+	gateob = CreateDynamicObject(1567, 936.71997, -1516.06018, 20.38000,   0.00000, 0.00000, 180.00000,120250,_,_,_,500);
+	DodajBrame(gateob,
 		936.71997, -1516.06018, 20.38000, 0.00000, 0.00000, 180.00000,
 		936.71997, -1516.08018, 20.38000, 0.00000, 0.00000, 70.00000,
-		0.1, 1.0, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 5);//Obiekt zak³adu bukmacherskiego by widelec.
+	//Brama w LV
+	tmpobjid = CreateDynamicObject(980, 1147.311767, 1362.695434, 12.385804, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00), // brama zamkni?ta
+	SetDynamicObjectMaterial(tmpobjid, 0, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 1, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 2, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 3, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 4, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 5, 18773, "tunnelsections", "metalflooring44-2", 0x00000000);
+	DodajBrame(tmpobjid,
+		1147.311767, 1362.695434, 12.385804, 0.000000, 0.000000, 0.000000,
+		1147.311767, 1362.695434, 5.225762, 0.000000, 0.000000, 0.000000,
+		2.0, 10.0, BRAMA_UPR_TYPE_FRACTION, 5);	
 	return 1;
 }
 
@@ -471,7 +684,10 @@ static StworzBudynki()
 	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
 	DodajWejscie(928.2803,-1530.6527,13.5413, 930.3282,-1530.9423,21.3859, 0, 0, 120250, 0, "", ""); 
 	DodajWejscie(954.4177,-1556.1593,13.5734, 939.5939,-1530.9329,21.3859, 0, 0, 120250, 0, "", "");
+	DodajWejscie(1062.0242,2075.7725,10.8203, 24.1133, 0, 0, 0, 0, 0, 0); //magazyn LV
+	DodajWejscie(1062.1541,2077.8030,10.8203, 237.7436, 0, 0, 0, 0, 0, 0); //magazyn LV
 	return 1;
+
 }
 
 static UsunObiekty(playerid)
@@ -481,6 +697,8 @@ static UsunObiekty(playerid)
 	RemoveBuildingForPlayer(playerid, 6192, 988.9063, -1487.9063, 24.5391, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
 	RemoveBuildingForPlayer(playerid, 615, 929.0391, -1559.4609, 12.4766, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
 	RemoveBuildingForPlayer(playerid, 1297, 922.1328, -1534.3125, 15.9375, 0.25);//Usuniêty obiekt przed zak³adem bukmacherskim by widelec.
+	//usuniêta brama w LV
+	RemoveBuildingForPlayer(playerid, 8229, 1142.030, 1362.500, 12.484, 0.250);
 	return 1;
 }
 
