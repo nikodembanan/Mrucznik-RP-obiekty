@@ -330,6 +330,7 @@
 #include "nowe\opPeter/opPeter.pwn"
 #include "nowe\CinemaCar/CinemaCar.pwn"
 #include "nowe\BramaVandet/BramaVandet.pwn"
+#include "nowe\opTreylo/opTreylo.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -562,6 +563,7 @@ obiekty_OnGameModeInit()
 	opPeter_Init();
 	CinemaCar_Init();
 	BramaVandet_Init();
+	opTreylo_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -659,6 +661,7 @@ obiekty_OnPlayerConnect(playerid)
 	ParkSzpital_Connect(playerid);
 	opPeter_Connect(playerid);
 	CinemaCar_Connect(playerid);
+	opTreylo_Connect(playerid);
 
 	// OLD
     //Trucker job
