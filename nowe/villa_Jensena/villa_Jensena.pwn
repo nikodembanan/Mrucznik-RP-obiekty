@@ -620,9 +620,6 @@ static UsunObiekty(playerid)
 {
 	//Tutaj wstawiamy usuwanie obiektow z mapy GTA w formacie:
 	//RemoveBuildingForPlayer(playerid, modelid, Float:fX, Float:fY, Float:fZ, Float:fRadius);
-
-	// RemoveBuildingForPlayer(playerid, 4113, 1345.630, -1552.959, 48.515, 0.250);
-	// RemoveBuildingForPlayer(playerid, 4116, 1345.630, -1552.959, 48.515, 0.250);
 	return 1;
 }
 

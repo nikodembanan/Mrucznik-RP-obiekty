@@ -3122,8 +3122,7 @@ static StworzObiekty()
 
 //=======================================[Wejœcia i wyjœcia]=============================
 	
-//	DodajWejscie(607.82227, -1459.06262, 14.67678, 592.71991, -1487.62439, 89.30576, 0, 0, 1, 0, "Biurowiec FBI", "[Wpisz /wyjdz]"); 
-	
+
 	return 1; 
 }
 static StworzBramy()

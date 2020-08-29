@@ -205,8 +205,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 19063, "xmasorbs", "orbcap", 0x00000000);
 	tmpobjid = CreateDynamicObject(18766, 1280.292114, -2020.830932, 58.148914, 0.000000, 0.000000, 90.000000, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 14392, "dr_gsstudio", "woodcabinet01_128", 0x00000000);
-	//tmpobjid = CreateDynamicObject(19325, 1274.800781, -2020.010009, 64.004325, 0.000000, 0.000000, 0.000000, 300.00, 300.00);
-	//SetDynamicObjectMaterialText(tmpobjid, 0, "{C4B01E} Golden Cats \n   2020", 130, "Ariel", 50, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(3935, 1247.787719, -2020.242553, 59.944332, 0.000000, 0.000000, 270.000000, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 19063, "xmasorbs", "foil5-128x128", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 19058, "xmasboxes", "silk9-128x128", 0x00000000);

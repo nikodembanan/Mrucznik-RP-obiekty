@@ -159,13 +159,11 @@ static StworzObiekty()
 	CreateDynamicObject(18863, 1550.04370, -1714.56287, 16.51000,   0.00000, 0.00000, 0.00000,80,0);
 	CreateDynamicObject(18863, 1553.56689, -1698.52942, 16.51000,   0.00000, 0.00000, 0.00000,80,0);
 	////////////POD˜OGI////////////
-	//SetDynamicObjectMaterial(, 0, 14534, "ab_wooziea", "mp_apt1_roomfloor", 0);
 	gateob = CreateDynamicObject(18783, 1504.98584, -1460.11890, 60.82250,   0.00000, 0.00000, 0.00000,80);
 	SetDynamicObjectMaterial(gateob, 1, 18030, "gap", "mp_furn_floor", 0);
 	gateob = CreateDynamicObject(18783, 1519.53918, -1460.07593, 64.33310,   0.00000, 0.00000, 0.00000,80);
 	SetDynamicObjectMaterial(gateob, 1, 18030, "gap", "mp_furn_floor", 0);
 	////////////OKNA////////////
-    //SetDynamicObjectMaterial(, 0, 14602, "papaerchaseoffice", "kit_table", 0);
     gateob = CreateDynamicObject(19414, 1495.05469, -1451.79626, 65.06710,   0.00000, 0.00000, 0.00000,80);
     SetDynamicObjectMaterial(gateob, 0, 14602, "papaerchaseoffice", "kit_table", 0);
     gateob = CreateDynamicObject(19414, 1495.05469, -1453.08325, 65.06710,   0.00000, 0.00000, 0.00000,80);
@@ -175,7 +173,6 @@ static StworzObiekty()
     gateob = CreateDynamicObject(19414, 1495.05469, -1457.52930, 65.06710,   0.00000, 0.00000, 0.00000,80);
     SetDynamicObjectMaterial(gateob, 0, 14602, "papaerchaseoffice", "kit_table", 0);
     ////////////KOLUMNY////////////
-    //SetDynamicObjectMaterial(, 0, 18029, "genintintsmallrest", "GB_restaursmll05", 0);
     gateob = CreateDynamicObject(18762, 1500.38599, -1456.98120, 63.63520,   0.00000, 90.00000, 62.00000,80);
     SetDynamicObjectMaterial(gateob, 0, 18029, "genintintsmallrest", "GB_restaursmll05", 0);
     gateob = CreateDynamicObject(18762, 1501.78662, -1454.33911, 64.31400,   0.00000, 0.00000, 62.00000,80);
@@ -211,7 +208,6 @@ static StworzObiekty()
     gateob = CreateDynamicObject(18762, 1528.89514, -1460.94824, 72.82830,   0.00000, 0.00000, 0.00000,80);
     SetDynamicObjectMaterial(gateob, 0, 18029, "genintintsmallrest", "GB_restaursmll05", 0);
     ////////////˜CIANY HOL WEJ˜CIOWY I BIURO SZEFA////////////
-	//SetDynamicObjectMaterial(, 0, 14602, "papaerchaseoffice", "kit_table", 0);
 	gateob = CreateDynamicObject(19368, 1504.48889, -1464.40930, 65.06710,   0.00000, 0.00000, 0.00000,80);
 	SetDynamicObjectMaterial(gateob, 0, 4079, "civic04_lan", "twintWall1_LAn", 0);
 	gateob = CreateDynamicObject(19460, 1509.21558, -1466.01135, 65.06710,   0.00000, 0.00000, 90.00000,80);
@@ -245,7 +241,6 @@ static StworzObiekty()
 	gateob = CreateDynamicObject(19441, 1501.67188, -1450.83362, 65.06710,   0.00000, 0.00000, 0.00000,80);
 	SetDynamicObjectMaterial(gateob, 0, 4079, "civic04_lan", "twintWall1_LAn", 0);
     ////////////RESZTA BUDYNKU////////////
-    //SetDynamicObjectMaterial(, 0, 14707, "labig3int2", "skirtingb", 0);
 	gateob = CreateDynamicObject(19461, 1509.45276, -1450.10840, 68.56740,   0.00000, 0.00000, 90.00000,80);
 	SetDynamicObjectMaterial(gateob, 0, 14534, "ab_wooziea", "walp45S", 0);
 	gateob = CreateDynamicObject(19461, 1519.06836, -1450.11719, 66.39040,   0.00000, 0.00000, 90.00000,80);
@@ -318,7 +313,6 @@ static StworzObiekty()
     gateob = CreateDynamicObject(14409, 1507.70215, -1452.03381, 63.64320,   0.00000, 0.00000, 90.00000,80);
     SetDynamicObjectMaterial(gateob, 0, 14534, "ab_wooziea", "mp_apt1_roomfloor", 0);
 	//////˜AZIENKA//////
-    //SetDynamicObjectMaterial(, 0, 15058, "svvgmid", "ah_utilbor1", 0);
     gateob = CreateDynamicObject(19457, 1507.93408, -1459.55945, 68.56740,   0.00000, 0.00000, 90.00000,80);
     SetDynamicObjectMaterial(gateob, 0, 15058, "svvgmid", "ah_utilbor1", 0);
     gateob = CreateDynamicObject(19394, 1512.74561, -1464.30115, 68.56740,   0.00000, 0.00000, 0.00000,80);
@@ -498,7 +492,6 @@ static StworzObiekty()
 	CreateDynamicObject(1502, 1512.84546, -1465.03491, 66.81510,   0.00000, 0.00000, 90.00000,80,0);
 	CreateDynamicObject(1502, 1525.44263, -1460.50562, 66.81510,   0.00000, 0.00000, 0.00000,80,0);
 	//////SUFIT//////
-    //SetDynamicObjectMaterial(, 0, 14534, "ab_wooziea", "mp_burn_ceiling", 0);
     gateob = CreateDynamicObject(19377, 1499.77258, -1465.61926, 66.79120,   0.00000, 90.00000, 90.00000,80,0);
     SetDynamicObjectMaterial(gateob, 0, 14709, "lamidint2.", "mp_apt1_kitchfloor", 0);
     gateob = CreateDynamicObject(19377, 1524.79907, -1455.19275, 70.33280,   0.00000, 90.00000, 90.00000,80,0);

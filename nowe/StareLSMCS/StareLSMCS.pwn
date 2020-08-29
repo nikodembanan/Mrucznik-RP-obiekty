@@ -146,9 +146,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(gateob, 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	gateob = CreateDynamicObject(19377, 1150.69128, -1314.84802, 12.64010,   0.00000, 90.00000, 0.00000);
 	SetDynamicObjectMaterial(gateob, 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	//SetDynamicObjectMaterial(CreateDynamicObject(19377, 1128.81384, -1324.55945, 13.07240,   0.00000, 0.00000, 0.00000), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	//SetDynamicObjectMaterial(CreateDynamicObject(19377, 1128.81384, -1314.96838, 13.07240,   0.00000, 0.00000, 0.00000), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
-	//SetDynamicObjectMaterial(CreateDynamicObject(19377, 1128.82458, -1334.14307, 13.07240,   0.00000, 0.00000, 0.00000), 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
 	gateob = CreateDynamicObject(19377, 1136.39343, -1354.92847, 14.64040,   0.00000, 0.00000, 90.00000);
 	SetDynamicObjectMaterial(gateob, 0, 10945, "skyscrap_sfse", "concpanel_la", 0xFFFFFFFF);
     CreateDynamicObject(19377, 1089.95996, -1330.90002, 13.07240, 0.00000, 0.00000, 0.00000);//
@@ -487,9 +484,7 @@ static StworzObiekty()
 	gateob = CreateDynamicObject(18762, 1117.68103, -1362.43225, 23.95260,   0.00000, 90.00000, 0.00000,91);
 	SetDynamicObjectMaterial(gateob, 0, 18762, "concretebits", "StoneWallTile1-3", 0xFFFF0000);
 	//Winda:
-	//CreateDynamicObject(18756, 1134.34131, -1358.80530, 26.37290,   0.00000, 0.00000, 0.00000,91);
 	CreateDynamicObject(18755, 1134.34131, -1358.80530, 26.37290,   0.00000, 0.00000, 0.00000,91);
-	//CreateDynamicObject(18757, 1134.34131, -1358.80530, 26.37290,   0.00000, 0.00000, 0.00000,91);
 	//Monitorki:
 	gateob = CreateDynamicObject(2775, 1117.67664, -1341.49133, 27.15310,   0.00000, 0.00000, 0.00000,91);
 	SetDynamicObjectMaterialText(gateob, 0, "Wyniki bada˜:", OBJECT_MATERIAL_SIZE_256x128, "Times New Roman", 40, 0, 0xFFC7151C, 0xFFFFFFFF , OBJECT_MATERIAL_TEXT_ALIGN_CENTER);

@@ -70,7 +70,6 @@ static StworzObiekty()
 	CreateDynamicObject(2687, 1078.07739, -1311.30884, 21.83970,   0.00000, 0.00000, 90.00000, -1, 1);
     CreateDynamicObject(3384, 1081.1053, -1311.9226, 21.9358,   0.00000, 180.00000, 180.00000, -1, 1);
 	//Boki bcian
-	//SetDynamicObjectMaterial(, 0, 2151, "cj_kitchen", "CJ_RED", 0);
 	gateob = CreateDynamicObject(18762, 1081.49597, -1311.59766, 21.64820,   0.00000, 90.00000, 90.00000, -1, 1);
 	SetDynamicObjectMaterial(gateob,  0, 2151, "cj_kitchen", "CJ_RED", 0);
 	gateob = CreateDynamicObject(18762, 1079.51868, -1313.65698, 21.64820,   0.00000, 90.00000, 0.00000, -1, 1);
@@ -78,7 +77,6 @@ static StworzObiekty()
 	gateob = CreateDynamicObject(18762, 1077.54077, -1311.59753, 21.64820,   0.00000, 90.00000, 90.00000, -1, 1);
 	SetDynamicObjectMaterial(gateob,  0, 2151, "cj_kitchen", "CJ_RED", 0);
 	//Monitory
-	//SetDynamicObjectMaterial(, 2, 2151, "cj_kitchen", "CJ_WOOD5", 0);
 	gateob = CreateDynamicObject(2775, 1078.86194, -1313.16626, 22.60070,   0.00000, 0.00000, 180.00000, -1, 1);
 	SetDynamicObjectMaterial(gateob,  2, 2151, "cj_kitchen", "CJ_WOOD5", 0);
 	//Obraz

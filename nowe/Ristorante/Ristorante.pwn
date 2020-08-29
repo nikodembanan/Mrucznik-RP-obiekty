@@ -908,6 +908,5 @@ static StworzObiekty()
 	CreateDynamic3DTextLabel("{6699FF}Biura\n Wloskiej Restauracji",0x80FF0084,738.8545, -1428.7880, 13.5927,25);
 	// znak na risto
 	gateob = CreateDynamicObject(6056, 701.43750, -1417.12500, 17.66410,   0.00000, 0.00000, 180.00000);
-	//SetDynamicObjectMaterialText(gateob,  2,"Wloska Restauracja\n Zaprasza", 100,"Algerian", 20, 0, 0xFF70DB93, 0xFF473C8B, 1);
 	return 1;
 }

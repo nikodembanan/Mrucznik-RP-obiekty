@@ -127,10 +127,6 @@ static StworzObiekty()
     LaptopDMV[1] = CreateDynamicObject(19893, 1500.37231, -1794.10376, 1003.67670,   0.00000, 0.00000, 90.00000);
     LaptopDMV[2] = CreateDynamicObject(19893, 1500.34094, -1791.09143, 1003.67670,   0.00000, 0.00000, 90.00000);
     LaptopDMV[3] = CreateDynamicObject(19893, 1500.34290, -1788.12512, 1003.67670,   0.00000, 0.00000, 90.00000);
-    //SetDynamicObjectMaterialText(LaptopDMV[0], 1, "{000000}DMV",130,"Arial",54,1,0x00000000,0xFFFFFFFF,1);
-    //SetDynamicObjectMaterialText(LaptopDMV[1], 1, "{000000}DMV",130,"Arial",54,1,0x00000000,0xFFFFFFFF,1);
-    //SetDynamicObjectMaterialText(LaptopDMV[2], 1, "{000000}DMV",130,"Arial",54,1,0x00000000,0xFFFFFFFF,1);
-    //SetDynamicObjectMaterialText(LaptopDMV[3], 1, "{000000}DMV",130,"Arial",54,1,0x00000000,0xFFFFFFFF,1);
    
     SetDynamicObjectMaterial(LaptopDMV[0], 1, 2255, "picture_frame_clip", "CJ_PAINTING9", 0xFFFFFFFF);
     SetDynamicObjectMaterial(LaptopDMV[1], 1, 2255, "picture_frame_clip", "CJ_PAINTING9", 0xFFFFFFFF);
