@@ -4426,42 +4426,42 @@ static StworzBramy()
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	new skgang2 = CreateDynamicObject(19802, 1504.036621, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000, 51, 0, -1, 350.00, 350.00); // DL.Socjal.Zamkniete
 	SetDynamicObjectMaterial(skgang2, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
-	DualGateAdd(skgang,//Obiekt pierwszej bramy
-	1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000, //zamkniete1
-	1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 180.000000,//otwarte1
-	skgang2, //Obiekt drugiej bramy
-	1504.036621, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000,//zamkniete2
-	1504.036621, -1828.097778, 57.656356, 0.000000, 0.000000, 180.000000,//otwarte2
-	2, // brama speed
-	4, // brama range
-	BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
-	11); //Value (warto??) uprawnie?
+	DualGateAdd(skgang,
+	1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000, 
+	1504.086669, -1831.127807, 57.656352, 0.000000, 0.000000, 180.000000,
+	skgang2,
+	1504.036621, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000,
+	1504.036621, -1828.097778, 57.656356, 0.000000, 0.000000, 180.000000,
+	2,
+	4,
+	BRAMA_UPR_TYPE_FRACTION,
+	11);
 
 
 	skgang = CreateDynamicObject(19802, 1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, 51, 0, -1, 350.00, 350.00); // SKL.Zamkniete
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	skgang2 = CreateDynamicObject(19802, 1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 0.000000, 51, 0, -1, 350.00, 350.00); // SKP.Zamkniete
 	SetDynamicObjectMaterial(skgang2, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
-	DualGateAdd(skgang,//Obiekt pierwszej bramy
-	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, //zamkniete1
-	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 90.000000,//otwarte1
-	skgang2, //Obiekt drugiej bramy
-	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 0.000000,//zamkniete2
-	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 90.000000,//otwarte2
-	2, // brama speed
-	4, // brama range
-	BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
-	11); //Value (warto??) uprawnie?
-	DualGateAdd(skgang,//Obiekt pierwszej bramy
-	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, //zamkniete1
-	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 90.000000,//otwarte1
-	skgang2, //Obiekt drugiej bramy
-	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 0.000000,//zamkniete2
-	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 90.000000,//otwarte2
-	2, // brama speed
-	4, // brama range
-	BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
-	7); //Value (warto??) uprawnie?
+	DualGateAdd(skgang,
+	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, 
+	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 90.000000,
+	skgang2, 
+	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 0.000000,
+	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 90.000000,
+	2, 
+	4, 
+	BRAMA_UPR_TYPE_FRACTION,
+	11); 
+	DualGateAdd(skgang,
+	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 180.000000, 
+	1482.975341, -1836.289550, 57.026367, 0.000000, -0.000001, 90.000000,
+	skgang2, 
+	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 0.000000,
+	1479.945312, -1836.339599, 57.026371, 0.000000, -0.000001, 90.000000,
+	2, 
+	4, 
+	BRAMA_UPR_TYPE_FRACTION,
+	7); 
 
 
 
@@ -4469,16 +4469,16 @@ static StworzBramy()
 	SetDynamicObjectMaterial(skgang, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	skgang2 = CreateDynamicObject(19802, 1432.086914, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000, 51, 0, -1, 350.00, 350.00); // BBL.Zamkniete
 	SetDynamicObjectMaterial(skgang2, 1, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
-	DualGateAdd(skgang,//Obiekt pierwszej bramy
-	1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000, //zamkniete1
-	1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, 0.000000,//otwarte1
-	skgang2, //Obiekt drugiej bramy
-	1432.086914, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000,//zamkniete2
-	1432.086914, -1831.127807, 57.656352, 0.000000, 0.000000, 0.000000,//otwarte2
-	2, // brama speed
-	4, // brama range
-	BRAMA_UPR_TYPE_FRACTION, //Uprawnienia do bram
-	11); //Value (warto??) uprawnie?
+	DualGateAdd(skgang,
+	1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, -90.000000, 
+	1432.036865, -1828.097778, 57.656356, 0.000000, 0.000000, 0.000000,
+	skgang2, 
+	1432.086914, -1831.127807, 57.656352, 0.000000, 0.000000, 90.000000,
+	1432.086914, -1831.127807, 57.656352, 0.000000, 0.000000, 0.000000,
+	2, 
+	4, 
+	BRAMA_UPR_TYPE_FRACTION,
+	11); 
 
 
 	//bramy parter
