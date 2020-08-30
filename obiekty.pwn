@@ -335,6 +335,8 @@
 #include "nowe\opFuBu/opFuBu.pwn"
 #include "nowe\RestauracjaLS/RestauracjaLS.pwn"
 #include "nowe\opMichelPowell/opMichelPowell.pwn"
+#include "nowe\Jefferson/Jefferson.pwn"
+
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -572,6 +574,7 @@ obiekty_OnGameModeInit()
 	opJeffMatson_Init();
 	opFuBu_Init();
 	opMichelPowell_Init();
+	Jefferson_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -674,6 +677,7 @@ obiekty_OnPlayerConnect(playerid)
 	opFuBu_Connect(playerid);
 	RestauracjaLS_Connect(playerid);
 	opMichelPowell_Connect(playerid);
+	Jefferson_Connect(playerid);
 
 	// OLD
     //Trucker job
