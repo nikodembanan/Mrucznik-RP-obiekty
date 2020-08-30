@@ -61,10 +61,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(simeonel, 0, 18646, "matcolours", "grey", 0x00000000);
 	SetDynamicObjectMaterial(simeonel, 1, 18646, "matcolours", "grey", 0x00000000);
 	SetDynamicObjectMaterial(simeonel, 2, 14650, "ab_trukstpc", "mp_CJ_WOOD5", 0x00000000);
-	simeonel = CreateDynamicObject(19329, 2543.968750, 146.245910, 27.124378, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "Shoji", 100, "Ariel", 82, 1, 0xFFFF0000, 0x00000000, 1);
-	simeonel = CreateDynamicObject(19329, 2545.239013, 146.245910, 26.774372, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
-	SetDynamicObjectMaterialText(simeonel, 0, "House", 100, "Ariel", 82, 1, 0xFF44FF00, 0x00000000, 1);
 	simeonel = CreateDynamicObject(18762, 2536.918457, 124.010200, 25.168819, 90.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
 	SetDynamicObjectMaterial(simeonel, 0, 16093, "a51_ext", "des_dirt1", 0x00000000);
 	simeonel = CreateDynamicObject(18762, 2536.918457, 124.980194, 25.208820, 90.000000, 0.000000, 90.000000, 0, 0, -1, 150.00, 150.00); 
@@ -82,9 +78,6 @@ static StworzObiekty()
 	SetDynamicObjectMaterialText(simeonel, 0, "Jeffrey", 100, "Ariel", 40, 1, 0xFFFFFFFF, 0x00000000, 1);
 	simeonel = CreateDynamicObject(19329, 2546.182861, 104.773193, 25.991590, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	SetDynamicObjectMaterialText(simeonel, 0, "KEBAP", 100, "Ariel", 72, 1, 0xFF00FF00, 0x00000000, 1);
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	simeonel = CreateDynamicObject(673, 2533.268798, 124.522727, 25.489044, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(673, 2542.389892, 124.522727, 25.489044, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(673, 2547.500976, 124.522727, 25.489044, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
@@ -128,7 +121,23 @@ static StworzObiekty()
 	simeonel = CreateDynamicObject(1215, 2543.430908, 130.953918, 25.980360, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(1215, 2543.430908, 127.953918, 25.980360, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
 	simeonel = CreateDynamicObject(1215, 2543.430908, 124.953918, 25.980360, 0.000000, 0.000000, 0.000000, 0, 0, -1, 150.00, 150.00); 
+	tmpobjid = CreateDynamicObject(870, 2533.562500, 130.708511, 25.929910, 0.000000, -17.200002, 16.700000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 11413, "fosterflowers", "starflower3", 0xFFFFFF80);
+	tmpobjid = CreateDynamicObject(870, 2533.496826, 132.943191, 25.961805, 0.000000, -17.200002, 16.700000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 11413, "fosterflowers", "starflower1", 0x00000000);
+	tmpobjid = CreateDynamicObject(870, 2533.692871, 134.642547, 25.962951, 0.000000, -17.200002, 16.700000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 11413, "fosterflowers", "starflower3", 0xFFFFFF80);
+	tmpobjid = CreateDynamicObject(870, 2533.640869, 137.125350, 25.920005, 0.000000, -17.200002, 16.700000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 11413, "fosterflowers", "starflower1", 0x00000000);
+	tmpobjid = CreateDynamicObject(870, 2533.669677, 139.678878, 26.090379, 0.000000, -17.200002, 16.700000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 11413, "fosterflowers", "starflower3", 0xFFFFFF80);
+	tmpobjid = CreateDynamicObject(870, 2533.602294, 141.565078, 25.940485, 0.000000, -17.200002, 16.700000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 11413, "fosterflowers", "starflower1", 0x00000000);
+	tmpobjid = CreateDynamicObject(19482, 2545.877441, 146.276123, 25.854372, 0.000000, 0.000000, 270.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{000080}Welcome to Vincent place", 120, "courier", 20, 0, 0x00000000, 0x00000000, 0);
 	return 1;
+
 }
 static UsunObiekty(playerid)
 {

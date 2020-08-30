@@ -333,6 +333,10 @@
 #include "nowe\opTreylo/opTreylo.pwn"
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
 #include "nowe\opFuBu/opFuBu.pwn"
+#include "nowe\RestauracjaLS/RestauracjaLS.pwn"
+#include "nowe\opMichelPowell/opMichelPowell.pwn"
+#include "nowe\Jefferson/Jefferson.pwn"
+
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -392,6 +396,7 @@ obiekty_OnGameModeInit()
 	interiorVINYL_Init(); 
 	MelinaLasColinas_Init();
 	ammuNationCommerce_Init();
+	RestauracjaLS_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
@@ -568,6 +573,8 @@ obiekty_OnGameModeInit()
 	opTreylo_Init();
 	opJeffMatson_Init();
 	opFuBu_Init();
+	opMichelPowell_Init();
+	Jefferson_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -668,6 +675,9 @@ obiekty_OnPlayerConnect(playerid)
 	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
+	RestauracjaLS_Connect(playerid);
+	opMichelPowell_Connect(playerid);
+	Jefferson_Connect(playerid);
 
 	// OLD
     //Trucker job

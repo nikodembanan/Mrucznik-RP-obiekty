@@ -133,7 +133,6 @@ opBeryl_Init()
 	tmpobjid = CreateDynamicObject(19121, 2205.922851, 63.458065, 26.683248, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19121, 2205.922851, 61.038108, 26.683248, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(894, 2212.301757, 76.244819, 25.621732, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	tmpobjid = CreateDynamicObject(1280, 2197.121093, 59.226989, 27.823772, 0.000000, 0.000000, 0.299970, 0, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2933, 2213.862792, 56.036727, 24.914360, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 2989, "imy_skylx", "skylightkb", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 14668, "711c", "gun_ceiling1128", 0x00000000);
