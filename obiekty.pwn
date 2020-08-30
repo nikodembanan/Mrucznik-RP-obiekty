@@ -334,6 +334,7 @@
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
 #include "nowe\opFuBu/opFuBu.pwn"
 #include "nowe\RestauracjaLS/RestauracjaLS.pwn"
+#include "nowe\opMichelPowell/opMichelPowell.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -570,6 +571,7 @@ obiekty_OnGameModeInit()
 	opTreylo_Init();
 	opJeffMatson_Init();
 	opFuBu_Init();
+	opMichelPowell_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -670,7 +672,8 @@ obiekty_OnPlayerConnect(playerid)
 	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
-	RestauracjaLS_Connect(playerid) ;
+	RestauracjaLS_Connect(playerid);
+	opMichelPowell_Connect(playerid);
 
 	// OLD
     //Trucker job
