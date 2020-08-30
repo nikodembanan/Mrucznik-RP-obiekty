@@ -1,3 +1,0 @@
-# opTreylo
-
-Stworzone przez JustMiko
