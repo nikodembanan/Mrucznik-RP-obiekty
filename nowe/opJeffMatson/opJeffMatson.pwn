@@ -28,16 +28,16 @@
 //-----------------<[ Main functions: ]>-------------------
 opJeffMatson_Init() 
 {
-	tmpobjid = CreateDynamicObject(1408, 2268.333740, 151.780075, 26.030950, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
-	tmpobjid = CreateDynamicObject(1408, 2262.893554, 151.780075, 26.030950, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19447, 2266.602294, 151.749771, 24.744857, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6867, "vgnpwrmainbld", "sw_wallbrick_02", 0x00000000);
+	tmpobjid = CreateDynamicObject(19433, 2260.987060, 151.748535, 24.744358, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6867, "vgnpwrmainbld", "sw_wallbrick_02", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 2247.527832, 151.748535, 24.744358, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 6867, "vgnpwrmainbld", "sw_wallbrick_02", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 2257.887207, 151.748535, 24.744358, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 5458, "macpark1tr_lae", "grasslong256", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 6867, "vgnpwrmainbld", "sw_wallbrick_02", 0x00000000);
 	tmpobjid = CreateDynamicObject(1492, 2258.680419, 151.729888, 24.014341, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	SetDynamicObjectMaterial(tmpobjid, 0, 6867, "vgnpwrmainbld", "sw_wallbrick_02", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(2933, 2252.715087, 151.724090, 24.784374, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); // br zam
 	SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
