@@ -633,6 +633,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19447, 1127.071899, 1362.629272, 9.930759, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6908, "vgndwntwn21", "vgnlawbuild1_256", 0x00000000);
+
 	return 1;
 }
 
@@ -686,6 +687,9 @@ static StworzBudynki()
 	DodajWejscie(954.4177,-1556.1593,13.5734, 939.5939,-1530.9329,21.3859, 0, 0, 120250, 0, "", "");
 	DodajWejscie(1062.0242,2075.7725,10.8203, 24.1133, 0, 0, 0, 0, 0, 0); //magazyn LV
 	DodajWejscie(1062.1541,2077.8030,10.8203, 237.7436, 0, 0, 0, 0, 0, 0); //magazyn LV
+
+	StworzWjedz(1051.3000,2089.0740,10.5250, 1060.4646,2086.0378,10.5248, 5.0, 0, "Magazyn LV", "Wyjazd", 5, 0, 255);
+	//(Float:wjedzX, Float:wjedzY, Float:wjedzZ, Float:wyjedzX, Float:wyjedzY, Float:wyjedzZ, Float:RangePoint, VW, MessageIN[]=" ", MessageOut[]=" ", FracOwner=0, OrgOwner=0, local)
 	return 1;
 
 }
