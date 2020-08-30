@@ -162,14 +162,6 @@ static StworzObiekty()
     tmpobjid = CreateDynamicObject(714, 1062.593261, -634.053222, 116.751350, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     tmpobjid = CreateDynamicObject(631, 1043.815429, -642.982727, 120.037231, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
     tmpobjid = CreateDynamicObject(631, 1046.668090, -642.462219, 120.037231, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
-    tmpobjid =CreateDynamicObject(19870, 1061.481567, -623.289794, 114.796684, 0.000000, -7.099996, -171.699722, 0, 0, -1, 300.00, 300.00);
-    SetDynamicObjectMaterial(tmpobjid, 0, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-    SetDynamicObjectMaterial(tmpobjid, 2, 2755, "ab_dojowall", "ab_trellis", 0x00000000);
-    DodajBrame(tmpobjid,
-    1061.232543, -623.327148, 112.772117, 0.000000, -7.099996, -171.699722,
-    1061.481567, -623.289794, 114.796684, 0.000000, -7.099996, -171.699722,
-    2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1930);  
     return 1;
 }
 
