@@ -28,9 +28,11 @@
 //-----------------<[ Main functions: ]>-------------------
 RestauracjaLS_Init() 
 {
-	//DodajWejscie(Float:fx1, Float:fy1, Float:fz1, Float:fx2, Float:fy2, Float:fz2, vw1=0, int1=0, vw2=0, int2=0, nazwain[]="", nazwaout[]="", wejdzUID=0, playerLocal=255, bool:specialCome=false); 
-	DodajWejscie(1567.9381,-1897.4001,13.5607,181.2768,0,0,0,0,1,1 "", ""); 
-	DodajWejscie(1567.7368,-1901.1498,14.8900,181.2768,0,0,1,1,0,0) "", "");
+	DodajWejscie(1567.9381,-1897.4001,13.5607,181.2768,0,0,0,0,0,0,
+		1567.7368,-1901.1498,14.8900,181.2768,0,0,0,0,0,0,
+		0, 0,
+		1, 1,
+		Restauracja LS, Wyjœcie);
 	//Interior Restauracji
 	tmpobjid = CreateDynamicObject(6959, 1567.423461, -1917.727539, 26.203651, 0.000000, 0.000000, 0.000000, 1, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
