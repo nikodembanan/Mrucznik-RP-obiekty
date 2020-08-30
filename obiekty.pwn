@@ -333,6 +333,7 @@
 #include "nowe\opTreylo/opTreylo.pwn"
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
 #include "nowe\opFuBu/opFuBu.pwn"
+#include "nowe\RestauracjaLS/RestauracjaLS.pwn"
 
 //-----------------<[ Funkcje: ]>-------------------
 obiekty_OnGameModeInit()
@@ -392,6 +393,7 @@ obiekty_OnGameModeInit()
 	interiorVINYL_Init(); 
 	MelinaLasColinas_Init();
 	ammuNationCommerce_Init();
+	RestauracjaLS_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
@@ -668,6 +670,7 @@ obiekty_OnPlayerConnect(playerid)
 	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
+	RestauracjaLS_Connect(playerid) ;
 
 	// OLD
     //Trucker job
