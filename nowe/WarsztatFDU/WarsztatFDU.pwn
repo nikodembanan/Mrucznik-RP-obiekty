@@ -214,7 +214,7 @@ static StworzObiekty()
 	CreateDynamicObject(1726, 1111.29761, -1228.11438, 14.84590,   0.00000, 0.00000, 270.00000);
 	CreateDynamicObject(1727, 1107.85010, -1230.74036, 14.84590,   0.00000, 0.00000, -225.00000);
 	gateob = CreateDynamicObject(19172, 1106.74500, -1228.80969, 16.99910,   0.00000, 0.00000, 270.00000);
-	SetDynamicObjectMaterial(gateob,1, 14738, "whorebar", "ah_whoredoor", 0xFF000000F);
+	SetDynamicObjectMaterial(gateob,1, 14738, "whorebar", "ah_whoredoor", 0xFF00000F);
 	gateob = CreateDynamicObject(19327, 1106.77271, -1228.81848, 17.01710,   0.00000, 0.00000, 90.00000);
 	SetDynamicObjectMaterial(gateob,0, 14860, "gf1", "mp_apt1_pos4", 0xFFFFFFFF);
 	gateob = CreateDynamicObject(19327, 1106.77271, -1228.81848, 16.33710,   0.00000, 0.00000, 90.00000);
@@ -342,7 +342,7 @@ static StworzObiekty()
 	gateob = CreateDynamicObject(2267, 1092.21582, -1187.74768, 23.29810,   0.00000, 0.00000, 270.00000);
 	SetDynamicObjectMaterial(gateob, 1, 14530, "estate2", "auto_feltzer", 0);
 	gateob = CreateDynamicObject(19172, 1082.88049, -1188.08325, 23.11320,   0.00000, 0.00000, 270.00000);
-	SetDynamicObjectMaterial(gateob,1, 14738, "whorebar", "ah_whoredoor", 0xFF000000F);
+	SetDynamicObjectMaterial(gateob,1, 14738, "whorebar", "ah_whoredoor", 0xFF00000F);
 	gateob = CreateDynamicObject(19327, 1082.90247, -1188.07813, 23.12950,   0.00000, 0.00000, 90.00000);
 	SetDynamicObjectMaterial(gateob,0, 14860, "gf1", "mp_apt1_pos4", 0xFFFFFFFF);
 	gateob = CreateDynamicObject(19327, 1082.90247, -1188.07813, 22.44950,   0.00000, 0.00000, 90.00000);

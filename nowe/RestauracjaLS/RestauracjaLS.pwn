@@ -32,7 +32,7 @@ RestauracjaLS_Init()
 		1570.2384,-1899.0830,27.1724,3.4331,
 		0, 0,
 		1, 1,
-		''Restauracja LS'', ''Wyjœcie'');
+		"Restauracja LS", "Wyjœcie");
 	//Interior Restauracji
 	tmpobjid = CreateDynamicObject(6959, 1567.423461, -1917.727539, 26.203651, 0.000000, 0.000000, 0.000000, 1, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
