@@ -37,9 +37,9 @@ lvlotnisko_Connect(playerid)
 static StworzObiekty()
 {  
     tmpobjid = CreateDynamicObject(3268, 290.521972, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); //opuszczone lotnisko
-    SetObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
     tmpobjid = CreateDynamicObject(3268, 323.010711, 2544.099853, 15.650949, 0.000000, 0.000000, 90.000000); 
-    SetObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "Bow_Abattoir_Floor_Clean", 0x00000000);
     tmpobjid = CreateDynamicObject(987, 431.608428, 2476.182861, 15.389777, 0.000000, 0.000000, 450.000000); 
     tmpobjid = CreateDynamicObject(987, 431.608428, 2476.182861, 15.389777, 0.000000, 0.000000, 450.000000); 
     tmpobjid = CreateDynamicObject(987, 431.608428, 2488.156494, 15.389777, 0.000000, 0.000000, 450.000000); 
@@ -153,11 +153,13 @@ static StworzObiekty()
     tmpobjid = CreateDynamicObject(16052, 417.972595, 2566.080078, 16.436079, 0.000000, 180.000000, 93.100181, 0, 0, -1, 300.00, 300.00); 
 
 	
-    DodajBrame(CreateDynamicObject(2990, 413.746337, 2573.863037, 19.294513, 0.000000, 0.000000, 103.800086, 0, 0, -1, 300.00, 300.00),
+    gateob = CreateDynamicObject(2990, 413.746337, 2573.863037, 19.294513, 0.000000, 0.000000, 103.800086, 0, 0, -1, 300.00, 300.00);
+    DodajBrame(gateob,
         413.746337, 2573.863037, 19.294513, 0.000000, 0.000000, 103.800086,
         415.942901, 2564.918212, 19.294513, 0.000000, 0.000000, 103.800086,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1642);
-    DodajBrame(CreateDynamicObject(2990, -76.188560, 2560.890380, 20.278541, 0.000000, 0.000000, -90.600021, 0, 0, -1, 300.00, 300.00),
+    gateob = CreateDynamicObject(2990, -76.188560, 2560.890380, 20.278541, 0.000000, 0.000000, -90.600021, 0, 0, -1, 300.00, 300.00);
+    DodajBrame(gateob,
         -76.188560, 2560.890380, 20.278541, 0.000000, 0.000000, -90.600021,
         -76.287734, 2551.416748, 20.278541, 0.000000, 0.000000, -90.600021,
         2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 1642);

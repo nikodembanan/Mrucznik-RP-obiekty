@@ -56,7 +56,8 @@ opLuizPuccinii_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, 7509, "vgwestretail1", "hedge2_256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 1694.782836, -2102.724365, 12.276868, 0.000000, 0.000000, 180.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 7509, "vgwestretail1", "hedge2_256", 0x00000000);
-	DodajBrame(CreateDynamicObject(19870, 1674.420043, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00),
+	gateob = CreateDynamicObject(19870, 1674.420043, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00);
+	DodajBrame(gateob,
 		1670.016357, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000,
 		1674.420043, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000,
 		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 12);

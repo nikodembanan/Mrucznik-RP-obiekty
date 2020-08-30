@@ -180,10 +180,6 @@ static StworzObiekty()
 	CreateDynamicObject(1229,2825.1000977,-1573.0000000,11.6999998,0.0000000,0.0000000,140.0000000,0,0); //object(bussign1) (1)
 	CreateDynamicObject(1229,2821.8000488,-1584.8000488,11.6999998,0.0000000,0.0000000,15.9987793,0,0); //object(bussign1) (2)
 	CreateDynamicObject(2431,2820.3999023,-1579.0999756,13.3999996,346.0000000,0.0000000,71.7500000,0,0); //napis2 BM petla
-	//SetDynamicObjectMaterialText(BMpetla, "Baza Mechanikow (petla)", 0, OBJECT_MATERIAL_SIZE_256x128,"Arial", 28, 1, 0xFFFFFFFF, 0, OBJECT_MATERIAL_TEXT_ALIGN_CENTER);
-	//SetDynamicObjectMaterialText(,0,"{000000}Przystanek\nBaza Mechanikow (petla)\nKursuje linia: 72",28,"Ariel",30,0,0xFFFFFFFF,0x000000FF,0);
-	//new obiekt_petla = CreateDynamicObject(19466, 2820.3999023,-1579.0999756,13.3999996,346.0000000,0.0000000,71.7500000,0);
-	//SetDynamicObjectMaterialText(obiekt_petla, 0, "{000000}Przystanek\nBaza Mechanikow (petla)\nKursuje linia: 72",OBJECT_MATERIAL_SIZE_256x128, "Arial", 24, 1,0xFFFFFFFF, 0, 0);
 	CreateDynamicObject(970,2834.5000000,-1580.3000488,10.6000004,0.0000000,0.0000000,58.0000000,0,0); //object(fencesmallb) (1)
 	CreateDynamicObject(949,2822.5000000,-1576.8000488,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (1)
 	CreateDynamicObject(949,2821.3999023,-1580.5000000,10.6999998,0.0000000,0.0000000,0.0000000,0,0); //object(plant_pot_4) (2)teraz

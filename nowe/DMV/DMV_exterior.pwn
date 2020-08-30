@@ -47,11 +47,15 @@ static StworzObiekty()
 	CreateDynamicObject(7615, 1305.61719, -1785.33350, 14.39020,   0.00000, 0.00000, 270.00000);
 	CreateDynamicObject(7615, 1305.61243, -1668.46216, 14.39020,   0.00000, 0.00000, 270.00000);
 	//znaki jazda tylko w prawo
-	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1306.95044, -1730.01416, 13.85790,   0.00000, 0.00000, 90.00000), 0,";", 10,"Wingdings 3", 30, 0, 0xFFFFFFFF, 0xFF0000BF, 1);
-	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1322.61694, -1726.89478, 13.64590,   0.00000, 0.00000, 90.00000), 0,";", 10,"Wingdings 3", 30, 0, 0xFFFFFFFF, 0xFF0000BF, 1);
+	gateob = CreateDynamicObject(8548, 1306.95044, -1730.01416, 13.85790,   0.00000, 0.00000, 90.00000);
+	SetDynamicObjectMaterialText(gateob, 0,";", 10,"Wingdings 3", 30, 0, 0xFFFFFFFF, 0xFF0000BF, 1);
+	gateob = CreateDynamicObject(8548, 1322.61694, -1726.89478, 13.64590,   0.00000, 0.00000, 90.00000);
+	SetDynamicObjectMaterialText(gateob, 0,";", 10,"Wingdings 3", 30, 0, 0xFFFFFFFF, 0xFF0000BF, 1);
 	//znak National Speed Limit
-	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1306.95044, -1730.01416, 13.00990,   0.00000, 0.00000, 90.00000), 0,"X", 10,"Wingdings 2", 40, 1, 0xFF000000, 0xFFFFFFFF, 1);
-	SetDynamicObjectMaterialText(CreateDynamicObject(8548, 1322.61694, -1726.89478, 13.00990,   0.00000, 0.00000, 90.00000), 0,"X", 10,"Wingdings 2", 40, 1, 0xFF000000, 0xFFFFFFFF, 1);
+	gateob = CreateDynamicObject(8548, 1306.95044, -1730.01416, 13.00990,   0.00000, 0.00000, 90.00000);
+	SetDynamicObjectMaterialText(gateob, 0,"X", 10,"Wingdings 2", 40, 1, 0xFF000000, 0xFFFFFFFF, 1);
+	gateob = CreateDynamicObject(8548, 1322.61694, -1726.89478, 13.00990,   0.00000, 0.00000, 90.00000);
+	SetDynamicObjectMaterialText(gateob, 0,"X", 10,"Wingdings 2", 40, 1, 0xFF000000, 0xFFFFFFFF, 1);
 
 
 	// nwoe

@@ -37,12 +37,18 @@ static StworzObiekty()
 {
 	//Tutaj wstawiamy obiekty w nastepujacym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(18765, -79.05870, -317.98309, 2.88600,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(18765, -79.05870, -327.98590, 2.88600,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(18765, -79.05870, -338.00989, 2.88600,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(18765, -78.97021, -390.97354, 1.90200,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(18765, -78.97090, -380.98471, 1.90200,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
-	SetDynamicObjectMaterial(CreateDynamicObject(18765, -78.95335, -371.00409, 1.90200,   0.00000, 0.00000, 0.00000),0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(18765, -79.05870, -317.98309, 2.88600,   0.00000, 0.00000, 0.00000);
+	SetDynamicObjectMaterial(gateob, 0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(18765, -79.05870, -327.98590, 2.88600,   0.00000, 0.00000, 0.00000);
+	SetDynamicObjectMaterial(gateob, 0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(18765, -79.05870, -338.00989, 2.88600,   0.00000, 0.00000, 0.00000);
+	SetDynamicObjectMaterial(gateob, 0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(18765, -78.97021, -390.97354, 1.90200,   0.00000, 0.00000, 0.00000);
+	SetDynamicObjectMaterial(gateob, 0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(18765, -78.97090, -380.98471, 1.90200,   0.00000, 0.00000, 0.00000);
+	SetDynamicObjectMaterial(gateob, 0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(18765, -78.95335, -371.00409, 1.90200,   0.00000, 0.00000, 0.00000);
+	SetDynamicObjectMaterial(gateob, 0, 18202, "w_towncs_t", "concretebig4256128", 0xFFFFFFFF);
 	CreateDynamicObject(967, -76.71897, -342.21167, 5.37470,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(967, -76.68366, -366.78696, 4.39070,   0.00000, 0.00000, 90.00000);
 	CreateDynamicObject(18745, -79.05870, -338.00989, 2.88600,   0.00000, 0.00000, 0.00000);
@@ -170,7 +176,6 @@ static StworzObiekty()
 	CreateDynamicObject(1829,-55.3000000,-229.8999900,4.9000000,0.0000000,0.0000000,270.0000000); //object(man_safenew)(1)
 	CreateDynamicObject(2984,-45.7000000,-213.0000000,5.8000000,0.0000000,0.0000000,264.0000000); //object(portaloo)(1)
 	CreateDynamicObject(14532,-55.1000000,-228.8999900,5.4000000,0.0000000,0.0000000,90.0000000); //object(tv_stand_driv)(1)
-	//CreateDynamicObject(3089,-60.3850000,-227.3999900,5.7300000,0.0000000,0.0000000,0.0000000); //object(ab_casdorlok)(1)
 	CreateDynamicObject(1721,-10.3000000,-269.3999900,4.4000000,0.0000000,0.0000000,250.0000000); //object(est_chair1)(2)
 	CreateDynamicObject(11631,-55.3000000,-231.6000100,5.7000000,0.0000000,0.0000000,270.0000000); //object(ranch_desk)(1)
 	CreateDynamicObject(2612,-54.9000000,-211.8150000,6.0000000,0.0000000,0.0000000,354.0000000); //object(police_nb2)(1)

@@ -43,15 +43,24 @@ static StworzObiekty()
 {
 	//Tutaj wstawiamy obiekty w nastepujacym formacie:
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
-	SetDynamicObjectMaterial(CreateDynamicObject(1569, 2133.81543, -1020.22284, 67.07730,   0.00000, -90.00000, 72.0000,37),0,2312,"cj_tv_stand","CJ_TV_SCREEN",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(19378, 2132.10449, -1012.01471, 65.86860,   0.00000, 90.00000, -18.00000,37),0,18028,"cj_bar2","GB_nastybar10",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(19378, 2142.09814, -1015.24768, 66.24860,   0.00000, 90.00000, -18.00000,37),0,18028,"cj_bar2","GB_nastybar10",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(19378, 2128.14844, -1020.81494, 65.86860,   0.00000, 90.00000, -18.00000,37),0,18028,"cj_bar2","GB_nastybar10",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(1728, 2138.60522, -1009.85205, 66.39390,   0.00000, 0.00000, -18.00000,37),0,1726,"mrk_couches2","kb_sofa5_256",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(1728, 2139.68945, -1013.20862, 66.35390,   0.00000, 0.00000, 162.00000, 37),0,1726,"mrk_couches2","kb_sofa5_256",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(1728, 2136.96191, -1015.08508, 66.35390,   0.00000, 0.00000, -18.00000, 37),0,1726,"mrk_couches2","kb_sofa5_256",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(1728, 2138.01709, -1018.26282, 66.35390,   0.00000, 0.00000, 162.00000, 37),0,1726,"mrk_couches2","kb_sofa5_256",0);
-    SetDynamicObjectMaterial(CreateDynamicObject(16151, 2128.22412, -1010.81781, 66.29270,   0.00000, 0.00000, 161.00000, 37),7,18028,"cj_bar2","GB_nastybar01",0);
+	gateob = CreateDynamicObject(1569, 2133.81543, -1020.22284, 67.07730,   0.00000, -90.00000, 72.0000,37);
+	SetDynamicObjectMaterial(gateob, 0,2312,"cj_tv_stand","CJ_TV_SCREEN",0);
+    gateob = CreateDynamicObject(19378, 2132.10449, -1012.01471, 65.86860,   0.00000, 90.00000, -18.00000,37);
+    SetDynamicObjectMaterial(gateob, 0,18028,"cj_bar2","GB_nastybar10",0);
+    gateob = CreateDynamicObject(19378, 2142.09814, -1015.24768, 66.24860,   0.00000, 90.00000, -18.00000,37);
+    SetDynamicObjectMaterial(gateob, 0,18028,"cj_bar2","GB_nastybar10",0);
+    gateob = CreateDynamicObject(19378, 2128.14844, -1020.81494, 65.86860,   0.00000, 90.00000, -18.00000,37);
+    SetDynamicObjectMaterial(gateob, 0,18028,"cj_bar2","GB_nastybar10",0);
+    gateob = CreateDynamicObject(1728, 2138.60522, -1009.85205, 66.39390,   0.00000, 0.00000, -18.00000,37);
+    SetDynamicObjectMaterial(gateob, 0,1726,"mrk_couches2","kb_sofa5_256",0);
+    gateob = CreateDynamicObject(1728, 2139.68945, -1013.20862, 66.35390,   0.00000, 0.00000, 162.00000, 37);
+    SetDynamicObjectMaterial(gateob, 0,1726,"mrk_couches2","kb_sofa5_256",0);
+    gateob = CreateDynamicObject(1728, 2136.96191, -1015.08508, 66.35390,   0.00000, 0.00000, -18.00000, 37);
+    SetDynamicObjectMaterial(gateob, 0,1726,"mrk_couches2","kb_sofa5_256",0);
+    gateob = CreateDynamicObject(1728, 2138.01709, -1018.26282, 66.35390,   0.00000, 0.00000, 162.00000, 37);
+    SetDynamicObjectMaterial(gateob, 0,1726,"mrk_couches2","kb_sofa5_256",0);
+    gateob = CreateDynamicObject(16151, 2128.22412, -1010.81781, 66.29270,   0.00000, 0.00000, 161.00000, 37);
+    SetDynamicObjectMaterial(gateob, 7,18028,"cj_bar2","GB_nastybar01",0);
     CreateDynamicObject(19453, 2139.76147, -1014.57043, 67.68930,   0.00000, 0.00000, -18.00000,37);
     CreateDynamicObject(19361, 2130.20020, -1006.45337, 67.68930,   0.00000, 0.00000, 72.00000,37);
     CreateDynamicObject(19361, 2139.33789, -1009.40637, 67.68930,   0.00000, 0.00000, 72.00000,37);

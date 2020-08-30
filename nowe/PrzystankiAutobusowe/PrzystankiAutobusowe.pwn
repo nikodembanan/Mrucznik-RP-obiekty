@@ -39,14 +39,10 @@ static StworzObiekty()
 	//CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, worldid = -1, interiorid = -1, playerid = -1, Float:streamdistance = STREAMER_OBJECT_SD, Float:drawdistance = STREAMER_OBJECT_DD, STREAMER_TAG_AREA areaid = STREAMER_TAG_AREA -1, priority = 0);
 
 	//Przystanki autobusowe NOWE
-	//CreateDynamicObject(1257,2446.08154297,-1667.00268555,13.75020123,0.00000000,0.00000000,270.00000000,0,0); //groove strren patelnia
-	//CreateDynamicObject(1257,2451.39599609,-1666.95190430,13.75020123,0.00000000,0.00000000,270.00000000,0,0); //groove strren patelnia
 	CreateDynamicObject(1229,2295.09033203,-1652.61071777,15.38277817,0.00000000,0.00000000,90.00000000,0,0); //$name
 	CreateDynamicObject(1229,2317.75537109,-1665.34545898,14.77035427,0.00000000,0.00000000,270.00000000,0,0); //$name
 	CreateDynamicObject(1229,2179.38354492,-1712.51281738,14.07325935,0.00000000,0.00000000,180.00000000,0,0); //$name przystanek silownia przy melinie
 	CreateDynamicObject(1229,2163.78027344,-1758.03161621,14.10687828,0.00000000,0.00000000,270.00000000,0,0); //$name przystanek przy si˜owni motelu
-	//CreateDynamicObject(1229,2246.10009766,-1725.50000000,14.10000038,0.00000000,0.00000000,78.00000000,0,0); //object(bussign1) (1) //nowy przystanek przy si˜owni ko˜o si˜owni
-	//CreateDynamicObject(1280,2248.30004883,-1723.19995117,12.89999962,0.00000000,0.00000000,102.00000000,0,0); //object(parkbench1) (1) to j/w
 	CreateDynamicObject(1280,2177.94506836,-1710.48571777,12.90383053,0.00000000,0.00000000,180.00000000,0,0); //$name lawka przy melinie (do przystanku)
 	CreateDynamicObject(1280,2161.50732422,-1759.49597168,12.95034695,0.00000000,0.00000000,270.00000000,0,0); //$name
 	CreateDynamicObject(1280,2315.78344727,-1668.13903809,13.68884182,0.00000000,0.00000000,270.00000000,0,0); //$name
@@ -75,9 +71,6 @@ static StworzObiekty()
 	CreateDynamicObject(1280,2513.58032227,-1497.47045898,23.40135574,0.00000000,0.00000000,91.99951172,0,0); //object(parkbench1) (3)
 	CreateDynamicObject(1229,2511.17285156,-1498.53015137,24.55968094,0.00000000,0.00000000,100.00000000,0,0); //object(bussign1) (1)
 	CreateDynamicObject(1229,2490.19897461,-1509.79565430,24.55968094,0.00000000,0.00000000,269.99755859,0,0); //object(bussign1) (2)
-	//CreateDynamicObject(1257,2651.45703125,-2397.18701172,13.90674782,0.00000000,0.00000000,90.00000000,0,0); //object(bustopm) (3)
-	//CreateDynamicObject(1257,2657.99096680,-2412.11352539,13.90674782,0.00000000,0.00000000,270.00000000,0,0); //object(bustopm) (4)
-	//CreateDynamicObject(1257,804.14440918,-1350.93408203,13.82606697,0.00000000,0.00000000,0.00000000,0,0); //object(bustopm) (5) przystanek przy market station na zakr˜cie
 	CreateDynamicObject(1257,837.22930908,-1311.57873535,13.82606697,0.00000000,0.00000000,92.00000000,0,0); //object(bustopm) (6)
 	CreateDynamicObject(1257,1104.95263672,-1580.49206543,13.84978676,0.00000000,0.00000000,270.00000000,0,0); //object(bustopm) (7)
 	CreateDynamicObject(1257,1083.98950195,-1563.86157227,13.84978676,0.00000000,0.00000000,90.00000000,0,0); //object(bustopm) (8)
