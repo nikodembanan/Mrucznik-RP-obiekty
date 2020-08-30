@@ -404,7 +404,12 @@ RestauracjaLS_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, 18643, "laserpointer1", "laserbeam64x64", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 1559.383422, -1924.691040, 29.092468, 180.000000, 90.000000, 90.000000, 1, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 18643, "laserpointer1", "laserbeam64x64", 0x00000000);
-	tmpobjid = CreateDynamicObject(977, 1568.978271, -1897.794677, 27.682432, 0.000000, 0.000000, 11.200004, 1, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(977, 1568.978271, -1897.794677, 27.682432, 0.000000, 0.000000, 11.200004, 1, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 6060, "shops2_law", "biffoffwin_law", 0x00000000); 
+	tmpobjid = CreateDynamicObject(1959, 1563.613891, -1917.535400, 27.102403, 0.000000, 0.000000, 0.000000, 1, 0, -1, 300.00, 300.00); // kasa
+	SetDynamicObjectMaterial(tmpobjid, 1, 14581, "ab_mafiasuitea", "ab_blind", 0x00000000);
+	tmpobjid = CreateDynamicObject(1959, 1560.503784, -1917.535400, 27.102403, 0.000000, 0.000000, 0.000000, 1, 0, -1, 300.00, 300.00); // kasa2
+	SetDynamicObjectMaterial(tmpobjid, 1, 14581, "ab_mafiasuitea", "ab_blind", 0x00000000);
 	tmpobjid = CreateDynamicObject(19929, 1582.766967, -1918.656860, 26.172401, 0.000000, 0.000000, 180.000000, 1, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19929, 1582.766967, -1921.515625, 26.172401, 0.000000, 0.000000, 180.000000, 1, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19929, 1582.766967, -1924.367309, 26.172401, 0.000000, 0.000000, 180.000000, 1, 0, -1, 300.00, 300.00); 
