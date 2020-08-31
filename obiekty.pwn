@@ -330,7 +330,6 @@
 #include "nowe\opPeter/opPeter.pwn"
 #include "nowe\CinemaCar/CinemaCar.pwn"
 #include "nowe\BramaVandet/BramaVandet.pwn"
-#include "nowe\opTreylo/opTreylo.pwn"
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
 #include "nowe\opFuBu/opFuBu.pwn"
 #include "nowe\RestauracjaLS/RestauracjaLS.pwn"
