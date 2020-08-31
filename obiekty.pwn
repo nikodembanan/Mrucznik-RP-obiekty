@@ -570,7 +570,6 @@ obiekty_OnGameModeInit()
 	opPeter_Init();
 	CinemaCar_Init();
 	BramaVandet_Init();
-	opTreylo_Init();
 	opJeffMatson_Init();
 	opFuBu_Init();
 	opMichelPowell_Init();
@@ -674,7 +673,6 @@ obiekty_OnPlayerConnect(playerid)
 	opPeter_Connect(playerid);
 	CinemaCar_Connect(playerid);
 	opTreylo_Connect(playerid);
-	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
 	RestauracjaLS_Connect(playerid);
 	opMichelPowell_Connect(playerid);
