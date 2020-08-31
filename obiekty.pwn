@@ -330,12 +330,12 @@
 #include "nowe\opPeter/opPeter.pwn"
 #include "nowe\CinemaCar/CinemaCar.pwn"
 #include "nowe\BramaVandet/BramaVandet.pwn"
-#include "nowe\opTreylo/opTreylo.pwn"
 #include "nowe\opJeffMatson/opJeffMatson.pwn"
 #include "nowe\opFuBu/opFuBu.pwn"
 #include "nowe\RestauracjaLS/RestauracjaLS.pwn"
 #include "nowe\opMichelPowell/opMichelPowell.pwn"
 #include "nowe\Jefferson/Jefferson.pwn"
+#include "nowe\PlazuEastBeach/PlazuEastBeach.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -570,11 +570,11 @@ obiekty_OnGameModeInit()
 	opPeter_Init();
 	CinemaCar_Init();
 	BramaVandet_Init();
-	opTreylo_Init();
 	opJeffMatson_Init();
 	opFuBu_Init();
 	opMichelPowell_Init();
 	Jefferson_Init();
+	PlazuEastBeach_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -672,12 +672,12 @@ obiekty_OnPlayerConnect(playerid)
 	ParkSzpital_Connect(playerid);
 	opPeter_Connect(playerid);
 	CinemaCar_Connect(playerid);
-	opTreylo_Connect(playerid);
 	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
 	RestauracjaLS_Connect(playerid);
 	opMichelPowell_Connect(playerid);
 	Jefferson_Connect(playerid);
+	PlazuEastBeach_Connect(playerid);
 
 	// OLD
     //Trucker job
