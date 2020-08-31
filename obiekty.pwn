@@ -336,6 +336,7 @@
 #include "nowe\RestauracjaLS/RestauracjaLS.pwn"
 #include "nowe\opMichelPowell/opMichelPowell.pwn"
 #include "nowe\Jefferson/Jefferson.pwn"
+#include "nowe\PlazuEastBeach/PlazuEastBeach.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -575,6 +576,7 @@ obiekty_OnGameModeInit()
 	opFuBu_Init();
 	opMichelPowell_Init();
 	Jefferson_Init();
+	PlazuEastBeach_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -678,6 +680,7 @@ obiekty_OnPlayerConnect(playerid)
 	RestauracjaLS_Connect(playerid);
 	opMichelPowell_Connect(playerid);
 	Jefferson_Connect(playerid);
+	PlazuEastBeach_Connect(playerid);
 
 	// OLD
     //Trucker job
