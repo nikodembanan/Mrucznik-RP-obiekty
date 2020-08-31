@@ -672,7 +672,7 @@ obiekty_OnPlayerConnect(playerid)
 	ParkSzpital_Connect(playerid);
 	opPeter_Connect(playerid);
 	CinemaCar_Connect(playerid);
-	opTreylo_Connect(playerid);
+	opJeffMatson_Connect(playerid);
 	opFuBu_Connect(playerid);
 	RestauracjaLS_Connect(playerid);
 	opMichelPowell_Connect(playerid);
