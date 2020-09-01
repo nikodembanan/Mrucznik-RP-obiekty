@@ -1,0 +1,3 @@
+# SklepVeronaMall
+
+Stworzone przez JustMiko

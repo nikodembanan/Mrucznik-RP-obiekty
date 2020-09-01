@@ -336,6 +336,7 @@
 #include "nowe\opMichelPowell/opMichelPowell.pwn"
 #include "nowe\Jefferson/Jefferson.pwn"
 #include "nowe\PlazuEastBeach/PlazuEastBeach.pwn"
+#include "nowe\SklepVeronaMall/SklepVeronaMall.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -397,6 +398,7 @@ obiekty_OnGameModeInit()
 	MelinaLasColinas_Init();
 	ammuNationCommerce_Init();
 	RestauracjaLS_Init();
+	SklepVeronaMall_Init();
 
 	lv_Init();
 	intekdmv_Init();//INTERIOR DMV
