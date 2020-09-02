@@ -342,6 +342,7 @@
 //*****************************************************
 #include "nowe\SklepVeronaMall/SklepVeronaMall.pwn"
 #include "nowe\opTymbark/opTymbark.pwn"
+#include "nowe\opJoker/opJoker.pwn"
 
 
 
@@ -584,6 +585,7 @@ obiekty_OnGameModeInit()
 	Jefferson_Init();
 	PlazuEastBeach_Init();
 	opTymbark_Init();
+	opJoker_Init();
 
 	//OLD
 	ZaladujBramy();
