@@ -344,7 +344,7 @@
 #include "nowe\opTymbark/opTymbark.pwn"
 #include "nowe\opJoker/opJoker.pwn"
 #include "nowe\opMagdaRichman/opMagdaRichman.pwn"
-
+#include "nowe\opMatoga/opMatoga.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -588,6 +588,7 @@ obiekty_OnGameModeInit()
 	opTymbark_Init();
 	opJoker_Init();
 	opMagdaRichman_Init();
+	opMatoga_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -692,6 +693,7 @@ obiekty_OnPlayerConnect(playerid)
 	Jefferson_Connect(playerid);
 	PlazuEastBeach_Connect(playerid);
 	opMagdaRichman_Connect(playerid);
+	opMatoga_Connect(playerid);
 
 	// OLD
     //Trucker job
