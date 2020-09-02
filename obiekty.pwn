@@ -343,6 +343,7 @@
 #include "nowe\SklepVeronaMall/SklepVeronaMall.pwn"
 #include "nowe\opTymbark/opTymbark.pwn"
 #include "nowe\opJoker/opJoker.pwn"
+#include "nowe\opMagdaRichman/opMagdaRichman.pwn"
 
 
 
@@ -586,6 +587,7 @@ obiekty_OnGameModeInit()
 	PlazuEastBeach_Init();
 	opTymbark_Init();
 	opJoker_Init();
+	opMagdaRichman_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -689,6 +691,7 @@ obiekty_OnPlayerConnect(playerid)
 	opMichelPowell_Connect(playerid);
 	Jefferson_Connect(playerid);
 	PlazuEastBeach_Connect(playerid);
+	opMagdaRichman_Connect(playerid);
 
 	// OLD
     //Trucker job

@@ -1,0 +1,3 @@
+# opMagdaRichman
+
+Stworzone przez LilkaMiko
