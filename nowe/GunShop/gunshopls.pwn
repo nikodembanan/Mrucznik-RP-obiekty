@@ -63,6 +63,16 @@ gunshopls_OnPlayerConnect(playerid)
 static StworzObiekty()
 {
 	//Pierwsze pietro
+	tmpobjid = CreateDynamicObject(19437, 1825.276367, -1157.002197, 62.200275, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
+	tmpobjid = CreateDynamicObject(19387, 1820.583862, -1155.884155, 62.250190, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
+	tmpobjid = CreateDynamicObject(19437, 1824.405517, -1156.832031, 62.200275, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
+	tmpobjid = CreateDynamicObject(19437, 1822.845458, -1157.015380, 62.200275, 0.000000, 0.000000, 102.899948, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
+	tmpobjid = CreateDynamicObject(19437, 1821.302490, -1157.364746, 62.200275, 0.000000, 0.000000, 102.899948, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
 	tmpobjid = CreateDynamicObject(1472, 147.344711, -1916.464355, 2.979641, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 145.671936, -1916.457397, 3.313436, 0.000000, 90.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
@@ -903,6 +913,12 @@ static StworzObiekty()
 	DodajBrame(gateob,
 		1826.214843, -1172.952148, 61.830322, 360.000000, 1800.000000, 1530.000000,
 		1826.2148430,-1172.9121090,61.8303220,360.0000000,1800.0000000,1440.0000000,
+		2.0, 2.5, BRAMA_UPR_TYPE_FAMILY, 23);
+	//Brama nr 3
+	gateob = CreateDynamicObject(3089, 1820.534545, -1155.156616, 61.830322, 360.000000, 720.000000, 630.000000, 5, 0, -1, 300.00, 300.00);
+	DodajBrame(gateob,
+		1820.534545, -1155.156616, 61.830322, 360.000000, 720.000000, 630.000000,
+		1820.534545, -1155.156616, 61.830322, 360.000000, 720.000000, 720.000000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FAMILY, 23);
 	
 	//Piêtro 2
