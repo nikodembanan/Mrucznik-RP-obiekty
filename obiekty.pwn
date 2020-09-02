@@ -336,7 +336,13 @@
 #include "nowe\opMichelPowell/opMichelPowell.pwn"
 #include "nowe\Jefferson/Jefferson.pwn"
 #include "nowe\PlazuEastBeach/PlazuEastBeach.pwn"
+
+//*****************************************************
+//Aktualizacja 2.7.13
+//*****************************************************
 #include "nowe\SklepVeronaMall/SklepVeronaMall.pwn"
+#include "nowe\opTymbark/opTymbark.pwn"
+
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -577,6 +583,7 @@ obiekty_OnGameModeInit()
 	opMichelPowell_Init();
 	Jefferson_Init();
 	PlazuEastBeach_Init();
+	opTymbark_Init();
 
 	//OLD
 	ZaladujBramy();
