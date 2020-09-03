@@ -30,6 +30,7 @@ gunshopls_Init()
 
 gunshopls_OnPlayerConnect(playerid)
 {
+<<<<<<< HEAD
 	RemoveBuildingForPlayer(playerid, 1617, 1792.010, 149.099, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1617, 1789.500, 149.030, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1265, 1788.060, 148.449, 23.296, 0.250);
@@ -46,6 +47,24 @@ gunshopls_OnPlayerConnect(playerid)
 	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 146.430, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1215, 1789.489, 142.839, 23.609, 0.250);
 	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 114.589, 26.695, 0.250);
+=======
+	RemoveBuildingForPlayer(playerid, 1617, 1792.010,149.099, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1789.500,149.030, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1265, 1788.060,148.449, 23.296, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1786.209,148.300, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1264, 1784.410,148.390, 23.414, 0.250);
+	RemoveBuildingForPlayer(playerid, 1265, 1830.469,141.939, 23.296, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1830.619,143.819, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1830.569,147.380, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1830.569,113.930, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1264, 1829.829,112.390, 23.414, 0.250);
+	RemoveBuildingForPlayer(playerid, 1265, 1830.839,112.209, 23.304, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1800.449,148.300, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1831.439,140.599, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1831.439,146.430, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1215, 1789.489,142.839, 23.609, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1831.439,114.589, 26.695, 0.250);
+>>>>>>> b072d4c91d4ca1b95e3194caa6d61d68df978556
 }
 
 //-----------------<[ Funkcje ]>---------------------------
@@ -1065,13 +1084,13 @@ static StworzObiekty()
 
 	//Pietro 1
 	//Brama nr 1
-	gateob = CreateDynamicObject(3089,1823.6351310, 162.1014400,61.8303220,360.0000000,720.0000000,900.0000000, 5, 0, -1,, 300.00, 300.00);
+	gateob = CreateDynamicObject(3089,1823.6351310, 162.1014400,61.8303220,360.0000000,720.0000000,900.0000000, 5, 0, -1, 300.00, 300.00);
 	DodajBrame(gateob,
 		1823.6351310, 162.1014400,61.8303220,360.0000000,720.0000000,900.0000000,
 		1823.6051020, 162.1014400,61.8303220,360.0000000,720.0000000,630.0000000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FAMILY, 23);
 	//Brama nr 2
-	gateob = CreateDynamicObject(3089, 1826.214843, 172.952148, 61.830322, 360.000000, 1800.000000, 1530.000000, 5, 0, -1,, 300.00, 300.00);
+	gateob = CreateDynamicObject(3089, 1826.214843, 172.952148, 61.830322, 360.000000, 1800.000000, 1530.000000, 5, 0, -1, 300.00, 300.00);
 	DodajBrame(gateob,
 		1826.214843, 172.952148, 61.830322, 360.000000, 1800.000000, 1530.000000,
 		1826.2148430, 172.9121090,61.8303220,360.0000000, 1800.0000000,1440.0000000,
@@ -1085,25 +1104,25 @@ static StworzObiekty()
 	
 	//Piêtro 2
 	//Brama nr 1
-	gateob = CreateDynamicObject(3089, 1806.083984, 212.211425, 64.064689, 0.000000, 0.000000, 1800.000000, 5, 0, -1,, 300.00, 300.00);
+	gateob = CreateDynamicObject(3089, 1806.083984, 212.211425, 64.064689, 0.000000, 0.000000, 1800.000000, 5, 0, -1, 300.00, 300.00);
 	DodajBrame(gateob,
 		1806.083984, 212.211425, 64.064689, 0.000000, 0.000000, 1800.000000,
 		1806.053833, 212.221435, 64.064689, 0.000000, 0.000000, 1530.000000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FAMILY, 23);
 	//Brama nr 2
-	gateob = CreateDynamicObject(3089, 1801.159667, 212.301513, 64.064689, 0.000000, 0.000000, 900.000000, 5, 0, -1,, 300.00, 300.00);
+	gateob = CreateDynamicObject(3089, 1801.159667, 212.301513, 64.064689, 0.000000, 0.000000, 900.000000, 5, 0, -1, 300.00, 300.00);
 	DodajBrame(gateob,
 		1801.159667, 212.301513, 64.064689, 0.000000, 0.000000, 900.000000,
 		1801.139648, 212.301513, 64.064689, 0.000000, 0.000000, 810.000000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FAMILY, 23);
 	//Brama nr 3
-	gateob = CreateDynamicObject(3089, 1799.599365, 219.521972, 64.064689, 0.000000, 0.000000, 720.000000, 5, 0, -1,, 300.00, 300.00);
+	gateob = CreateDynamicObject(3089, 1799.599365, 219.521972, 64.064689, 0.000000, 0.000000, 720.000000, 5, 0, -1, 300.00, 300.00);
 	DodajBrame(gateob,
 		1799.599365, 219.521972, 64.064689, 0.000000, 0.000000, 720.000000,
 		1799.599365, 219.501953, 64.064689, 0.000000, 0.000000, 630.000000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FAMILY, 23);
 	//Brama nr 4
-	tmpobjid = CreateDynamicObject(19433, 1814.458496, 219.460815, 64.686622, 0.000000, 0.000000, 90.000000, 5, 0, -1,, 300.00, 300.00); // sciana close
+	tmpobjid = CreateDynamicObject(19433, 1814.458496, 219.460815, 64.686622, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); // sciana close
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	DodajBrame(tmpobjid,
 		1814.458496, 219.460815, 64.686622, 0.000000, 0.000000, 90.000000,
@@ -1112,17 +1131,17 @@ static StworzObiekty()
 		
 		
 
- 	DodajWejscie(1791.7051, 163.7308,23.8281, 1815.6812, 172.1915,61.5103, 0, 5, 0, "Gunshop Los Santos", "Wyjœcie", 20);
+ 	DodajWejscie(1791.7051, 163.7308,23.8281, 1815.6812, 172.1915,61.5103, 0, 5, 0, 0, "Gunshop Los Santos", "Wyjœcie", 20);
 
- 	DodajWejscie(1823.3037, 151.8473,61.5903, 1792.7225, 215.9043,64.1387, 0, 5, 0, "Winda", "Winda", 20);
+ 	DodajWejscie(1823.3037, 151.8473,61.5903, 1792.7225, 215.9043,64.1387, 0, 5, 0, 0, "Winda", "Winda", 20);
 	return 1;
 }
 
 static StworzObiektyExterior()
 {
-	tmpobjid = CreateDynamicObject(19463, 1783.610595, -1,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1,, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19463, 1783.610595,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
-	tmpobjid = CreateDynamicObject(19463, 1773.978759, -1,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1,, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19463, 1773.978759,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
 	tmpobjid = CreateDynamicObject(19463, 1773.978759, 119.625000, 28.289871, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
