@@ -30,24 +30,6 @@ gunshopls_Init()
 
 gunshopls_OnPlayerConnect(playerid)
 {
-<<<<<<< HEAD
-	RemoveBuildingForPlayer(playerid, 1617, 1792.010, 149.099, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1789.500, 149.030, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1265, 1788.060, 148.449, 23.296, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1786.209, 148.300, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1264, 1784.410, 148.390, 23.414, 0.250);
-	RemoveBuildingForPlayer(playerid, 1265, 1830.469, 141.939, 23.296, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1830.619, 143.819, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1830.569, 147.380, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1830.569, 113.930, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1264, 1829.829, 112.390, 23.414, 0.250);
-	RemoveBuildingForPlayer(playerid, 1265, 1830.839, 112.209, 23.304, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1800.449, 148.300, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 140.599, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 146.430, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1215, 1789.489, 142.839, 23.609, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 114.589, 26.695, 0.250);
-=======
 	RemoveBuildingForPlayer(playerid, 1617, 1792.010,149.099, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1617, 1789.500,149.030, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1265, 1788.060,148.449, 23.296, 0.250);
@@ -64,7 +46,6 @@ gunshopls_OnPlayerConnect(playerid)
 	RemoveBuildingForPlayer(playerid, 1617, 1831.439,146.430, 26.695, 0.250);
 	RemoveBuildingForPlayer(playerid, 1215, 1789.489,142.839, 23.609, 0.250);
 	RemoveBuildingForPlayer(playerid, 1617, 1831.439,114.589, 26.695, 0.250);
->>>>>>> b072d4c91d4ca1b95e3194caa6d61d68df978556
 }
 
 //-----------------<[ Funkcje ]>---------------------------
@@ -1131,9 +1112,9 @@ static StworzObiekty()
 		
 		
 
- 	DodajWejscie(1791.7051, 163.7308,23.8281, 1815.6812, 172.1915,61.5103, 0, 5, 0, 0, "Gunshop Los Santos", "Wyjœcie", 20);
+ 	DodajWejscie(1791.7051, 163.7308,23.8281, 1815.6812, 172.1915,61.5103, 0, 0, 5, 0, "Gunshop Los Santos", "Wyjœcie", 20);
 
- 	DodajWejscie(1823.3037, 151.8473,61.5903, 1792.7225, 215.9043,64.1387, 0, 5, 0, 0, "Winda", "Winda", 20);
+ 	DodajWejscie(1823.3037, 151.8473,61.5903, 1792.7225, 215.9043,64.1387, 0, 0, 5, 0, "Winda", "Winda", 20);
 	return 1;
 }
 
