@@ -30,22 +30,22 @@ gunshopls_Init()
 
 gunshopls_OnPlayerConnect(playerid)
 {
-	RemoveBuildingForPlayer(playerid, 1617, 1792.010, 5, 0, -1,149.099, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1789.500, 5, 0, -1,149.030, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1265, 1788.060, 5, 0, -1,148.449, 23.296, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1786.209, 5, 0, -1,148.300, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1264, 1784.410, 5, 0, -1,148.390, 23.414, 0.250);
-	RemoveBuildingForPlayer(playerid, 1265, 1830.469, 5, 0, -1,141.939, 23.296, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1830.619, 5, 0, -1,143.819, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1830.569, 5, 0, -1,147.380, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1830.569, 5, 0, -1,113.930, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1264, 1829.829, 5, 0, -1,112.390, 23.414, 0.250);
-	RemoveBuildingForPlayer(playerid, 1265, 1830.839, 5, 0, -1,112.209, 23.304, 0.250);
-	RemoveBuildingForPlayer(playerid, 1227, 1800.449, 5, 0, -1,148.300, 23.679, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 5, 0, -1,140.599, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 5, 0, -1,146.430, 26.695, 0.250);
-	RemoveBuildingForPlayer(playerid, 1215, 1789.489, 5, 0, -1,142.839, 23.609, 0.250);
-	RemoveBuildingForPlayer(playerid, 1617, 1831.439, 5, 0, -1,114.589, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1792.010,149.099, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1789.500,149.030, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1265, 1788.060,148.449, 23.296, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1786.209,148.300, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1264, 1784.410,148.390, 23.414, 0.250);
+	RemoveBuildingForPlayer(playerid, 1265, 1830.469,141.939, 23.296, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1830.619,143.819, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1830.569,147.380, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1830.569,113.930, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1264, 1829.829,112.390, 23.414, 0.250);
+	RemoveBuildingForPlayer(playerid, 1265, 1830.839,112.209, 23.304, 0.250);
+	RemoveBuildingForPlayer(playerid, 1227, 1800.449,148.300, 23.679, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1831.439,140.599, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1831.439,146.430, 26.695, 0.250);
+	RemoveBuildingForPlayer(playerid, 1215, 1789.489,142.839, 23.609, 0.250);
+	RemoveBuildingForPlayer(playerid, 1617, 1831.439,114.589, 26.695, 0.250);
 }
 
 //-----------------<[ Funkcje ]>---------------------------
@@ -1120,9 +1120,9 @@ static StworzObiekty()
 
 static StworzObiektyExterior()
 {
-	tmpobjid = CreateDynamicObject(19463, 1783.610595, -1,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19463, 1783.610595,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
-	tmpobjid = CreateDynamicObject(19463, 1773.978759, -1,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19463, 1773.978759,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
 	tmpobjid = CreateDynamicObject(19463, 1773.978759, 119.625000, 28.289871, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
