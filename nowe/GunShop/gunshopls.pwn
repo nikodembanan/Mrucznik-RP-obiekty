@@ -447,6 +447,8 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
 	tmpobjid = CreateDynamicObject(19437, 1820.581787, -1161.466552, 62.240268, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0x00000000);
+	tmpobjid = CreateDynamicObject(1728, 1825.586181, -1157.858764, 60.510314, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "sampblack", 0x00000000);
 	tmpobjid = CreateDynamicObject(19929, 132.902557, -1911.630859, 0.929804, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19923, 132.302398, -1908.019165, 0.929804, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19937, 132.735641, -1909.468017, 0.929804, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
