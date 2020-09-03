@@ -1114,15 +1114,15 @@ static StworzObiekty()
 
  	DodajWejscie(1791.7051, 163.7308,23.8281, 1815.6812, 172.1915,61.5103, 0, 0, 5, 0, "Gunshop Los Santos", "Wyjœcie", 20);
 
- 	DodajWejscie(1823.3037, 151.8473,61.5903, 1792.7225, 215.9043,64.1387, 5, 0, 5, 0, "Winda", "Winda", 20);
+ 	DodajWejscie(1823.3037, 151.8473,61.5903, 1792.7225, 215.9043,64.1387, 0, 0, 5, 0, "Winda", "Winda", 20);
 	return 1;
 }
 
 static StworzObiektyExterior()
 {
-	tmpobjid = CreateDynamicObject(19463, 1783.610595,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19463, 1783.610595,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
-	tmpobjid = CreateDynamicObject(19463, 1773.978759,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19463, 1773.978759,119.625000, 24.799829, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
 	tmpobjid = CreateDynamicObject(19463, 1773.978759, 119.625000, 28.289871, 0.000000, 0.000000, 90.000000, 0, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6056, "venice_law", "law_yellow6", 0x00000000);
