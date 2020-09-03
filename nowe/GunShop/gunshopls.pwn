@@ -432,7 +432,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{800000} UZI - 250.000$\n Spas12 - 300.000$\n Snajperka - 300.000$", 130, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
 	tmpobjid = CreateDynamicObject(19482, 1810.946899, -1168.005249, 60.690265, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{800000}  C4 - 400.000$", 130, "Calibri", 20, 0, 0x00000000, 0x00000000, 2);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{800000} C4 - 400.000$", 130, "Calibri", 20, 0, 0x00000000, 0x00000000, 2);
 	tmpobjid = CreateDynamicObject(19482, 1810.916992, -1165.169677, 60.510314, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	SetDynamicObjectMaterialText(tmpobjid, 0, "{800000} Miotacz ognia - 800.000$", 130, "Calibri", 20, 0, 0x00000000, 0x00000000, 0);
