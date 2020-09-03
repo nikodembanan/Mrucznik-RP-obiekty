@@ -553,4 +553,18 @@ SklepVeronaMall_Init()
 	tmpobjid = CreateDynamicObject(3785, 1185.326660, -1438.082031, 32.519493, 90.000000, 360.000000, 540.000000, 1, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(18608, 1166.268066, -1442.847167, 35.959281, 0.000000, 0.000000, 0.000000, 1, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(18608, 1176.015991, -1442.847167, 35.959281, 0.000000, 0.000000, 0.000000, 1, 0, -1, 300.00, 300.00); 
+
+	//exterior
+	tmpobjid = CreateDynamicObject(19366, 1163.211059, -1426.963623, 23.565895, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 1675, "wshxrefhse", "resimexwin4_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19366, 1163.211059, -1430.164550, 23.565895, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 1675, "wshxrefhse", "resimexwin4_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19366, 1163.216918, -1443.245239, 23.565895, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 1675, "wshxrefhse", "resimexwin4_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19366, 1163.216918, -1440.033203, 23.565895, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 1675, "wshxrefhse", "resimexwin4_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19366, 1163.216918, -1435.770629, 23.565895, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6922, "vgnretail6", "marinawindow2_256", 0x00000000);
+	tmpobjid = CreateDynamicObject(19366, 1163.216918, -1432.589965, 23.565895, 0.000000, 0.000000, 0.000000, 0, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 6922, "vgnretail6", "marinawindow2_256", 0x00000000);
 }
