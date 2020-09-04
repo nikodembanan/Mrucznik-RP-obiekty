@@ -143,7 +143,6 @@ opMatoga_Connect(playerid)
 	RemoveBuildingForPlayer(playerid, 1408, 2426.179, 51.812, 26.000, 0.250);
 	RemoveBuildingForPlayer(playerid, 1408, 2429.050, 54.664, 26.328, 0.250);
 	RemoveBuildingForPlayer(playerid, 781, 2405.060, 57.539, 26.117, 0.250);
-	RemoveBuildingForPlayer(playerid, 13119, 2863.149, -96.132, 18.554, 0.250);
 	RemoveBuildingForPlayer(playerid, 13309, 2863.149, -96.132, 18.554, 0.250);
 	RemoveBuildingForPlayer(playerid, 3407, 2416.060, 52.164, 25.531, 0.250);
 }
