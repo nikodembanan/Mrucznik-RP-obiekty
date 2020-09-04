@@ -63,7 +63,10 @@ gunshopls_OnPlayerConnect(playerid)
 static StworzObiekty()
 {
 	//Pierwsze pietro
-
+	tmpobjid = CreateDynamicObject(1569, 1828.593994, -1154.698486, 60.510314, 0.000000, 0.000000, 360.000000, 5, 0, -1, 300.00, 300.00);
+	tmpobjid = CreateDynamicObject(11710, 1829.333984, -1154.808471, 63.270305, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00);
+	tmpobjid = CreateDynamicObject(1569, 1828.593994, -1154.738525, 60.510314, 0.000000, 0.000000, 360.000000, 5, 0, -1, 300.00, 300.00);
+	SetDynamicObjectMaterial(tmpobjid, 0, 5449, "chicanotr1_lae", "eb_firesc1_LAe2", 0x00000000);
 	tmpobjid = CreateDynamicObject(1472, 147.344711, -1916.464355, 2.979640, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 145.671936, -1916.457397, 3.313436, 0.000000, 90.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
@@ -1107,6 +1110,7 @@ static StworzObiekty()
 		
 
  	DodajWejscie(1791.7051, -1163.7308,23.8281, 1815.6812, -1172.1915,61.5103, 0, 0, 5, 0, "Gunshop Los Santos", "Wyjœcie", 20);
+	DodajWejscie(1796.3704,-1148.2028,23.7948, 1829.1586,-1155.1650,61.5103, 0, 0, 5, 0, "Wejœcie na zaplecze", "Wyjœcie", 20);
 
  	DodajWejscie(1823.3461, -1151.8895, 61.5903, 1792.7225, -1215.9043, 64.1387, 5, 0, 5, 0, "Winda", "Winda", 20);
 	return 1;
