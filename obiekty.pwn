@@ -696,6 +696,7 @@ obiekty_OnPlayerConnect(playerid)
 	PlazuEastBeach_Connect(playerid);
 	opMagdaRichman_Connect(playerid);
 	opMatoga_Connect(playerid);
+	NowaBazaNG_Connect(playerid);
 
 	// OLD
     //Trucker job

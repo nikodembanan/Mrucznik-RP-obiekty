@@ -1437,7 +1437,28 @@ NowaBazaNG_Init()
 		2715.933105, -2460.626708, 16.304416, 0.000000, 0.000000, 540.000000,
 		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 3); 	
 
-	DodajWejscie(2730.2942,-2451.3738,17.5937, 2733.7532,-2449.5081,13.8045, 0, 0, 2, 0, "Baza NG", "Wyjœcie", 20);
-	 	 	
+	DodajWejscie(2730.2942,-2451.3738,17.5937,
+	2733.7532,-2449.5081,13.8045,
+	0, 0,
+	2, 0,
+	"Baza NG", "Wyjœcie");
+	 	
 }
 
+NowaBazaNG_Connect(playerid) 
+
+{
+	RemoveBuildingForPlayer(playerid, 3707, 2716.229, -2452.590, 20.203, 0.250);
+	RemoveBuildingForPlayer(playerid, 3708, 2716.229, -2452.590, 20.203, 0.250);
+	RemoveBuildingForPlayer(playerid, 3626, 2746.409, -2453.479, 14.078, 0.250);
+	RemoveBuildingForPlayer(playerid, 3770, 2746.409, -2453.479, 14.078, 0.250);
+	RemoveBuildingForPlayer(playerid, 3577, 2744.570, -2436.189, 13.343, 0.250);
+	RemoveBuildingForPlayer(playerid, 3577, 2744.570, -2427.320, 13.351, 0.250);
+	RemoveBuildingForPlayer(playerid, 1635, 2704.370, -2487.870, 20.562, 0.250);
+	RemoveBuildingForPlayer(playerid, 1306, 2742.270, -2481.520, 19.843, 0.250);
+	RemoveBuildingForPlayer(playerid, 3578, 2747.010, -2480.239, 13.171, 0.250);
+	RemoveBuildingForPlayer(playerid, 5326, 2661.520, -2465.139, 20.109, 0.250);
+	RemoveBuildingForPlayer(playerid, 1306, 2742.270, -2416.520, 19.843, 0.250);
+	RemoveBuildingForPlayer(playerid, 1226, 2696.020, -2474.860, 16.414, 0.250);
+	RemoveBuildingForPlayer(playerid, 1226, 2696.020, -2446.629, 16.414, 0.250);
+}
