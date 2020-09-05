@@ -1,0 +1,3 @@
+# NowaBazaNG
+
+Stworzone przez Colt

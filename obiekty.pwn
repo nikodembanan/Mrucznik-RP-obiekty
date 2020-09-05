@@ -345,6 +345,7 @@
 #include "nowe\opJoker/opJoker.pwn"
 #include "nowe\opMagdaRichman/opMagdaRichman.pwn"
 #include "nowe\opMatoga/opMatoga.pwn"
+#include "nowe\NowaBazaNG/NowaBazaNG.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -589,6 +590,7 @@ obiekty_OnGameModeInit()
 	opJoker_Init();
 	opMagdaRichman_Init();
 	opMatoga_Init();
+	NowaBazaNG_Init();
 
 	//OLD
 	ZaladujBramy();
