@@ -822,10 +822,10 @@ NowaBazaNG_Init()
 	SetDynamicObjectMaterial(tmpobjid, 0, 12853, "cunte_gas01", "starspangban1_256", 0x00000000);
 	tmpobjid = CreateDynamicObject(19483, 2720.709228, -2460.201660, 15.064391, 0.000000, 0.000000, 90.000000, 2, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000}WYBIERZ S?U?B? DLA OJCZYZNY!", 130, "Ariel", 17, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000}WYBIERZ SLUZBE DLA OJCZYZNY!", 130, "Ariel", 17, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(19483, 2721.119628, -2460.181640, 14.024388, 0.000000, 0.000000, 90.000000, 2, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_church_grass_alt", 0x00000000);
-	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000}Czo?o w pocie, jaja w b?ocie, nie ma to jak by? w piechocie!", 120, "Ariel", 19, 1, 0x00000000, 0x00000000, 1);
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000}Czolo w pocie, jaja w blocie, nie ma to jak byc w piechocie!", 120, "Ariel", 19, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(19483, 2708.255859, -2460.261230, 14.544388, 0.000000, 0.000000, 90.000000, 2, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19173, "samppictures", "samppicture2", 0x00000000);
 	tmpobjid = CreateDynamicObject(19483, 2733.954833, -2438.425048, 14.544388, 0.000000, 0.000000, 270.000000, 2, 0, -1, 300.00, 300.00); 
@@ -1408,17 +1408,7 @@ NowaBazaNG_Init()
 	DodajBrame(gateob,
 		2739.544189, -2438.217285, 14.044365, 0.000000, 0.000000, 0.000000,
 		2737.952636, -2438.217285, 14.044365, 0.000000, 0.000000, 0.000000,
-	 	2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 3); 
-	gateob = CreateDynamicObject(19859, 2731.635253, -2450.877441, 14.030860, 0.000000, 0.000000, 90.000000, 2, 0, -1, 300.00, 300.00);
-	DodajBrame(gateob,
-		2731.635253, -2450.877441, 14.030860, 0.000000, 0.000000, 90.000000,
-		2731.635253, -2450.877441, 14.030860, 0.000000, 0.000000, 360.000000,
-	 	2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 3); 
-	gateob = CreateDynamicObject(19859, 2731.634277, -2447.884521, 14.030860, 0.000000, 0.000000, 270.000000, 2, 0, -1, 300.00, 300.00);
-	DodajBrame(gateob,
-		2731.634277, -2447.884521, 14.030860, 0.000000, 0.000000, 270.000000,
-		2731.634277, -2447.884521, 14.030860, 0.000000, 0.000000, 360.000000,
-		2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 3); 	  	
+	 	2.0, 2.5, BRAMA_UPR_TYPE_FRACTION, 3);  	
 	tmpobjid = CreateDynamicObject(19437, 2702.430908, -2444.040527, 18.044424, 0.000000, 0.000000, 90.000000, 2, 0, -1, 300.00, 300.00);
 	SetDynamicObjectMaterial(tmpobjid, 0, 18018, "genintintbarb", "GB_midbar07", 0x00000000);
 	DodajBrame(tmpobjid,
@@ -1442,7 +1432,6 @@ NowaBazaNG_Init()
 	0, 0,
 	2, 0,
 	"Baza NG", "Wyjœcie");
-	 	
 }
 
 NowaBazaNG_Connect(playerid) 
