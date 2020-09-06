@@ -697,6 +697,7 @@ obiekty_OnPlayerConnect(playerid)
 	opMagdaRichman_Connect(playerid);
 	opMatoga_Connect(playerid);
 	NowaBazaNG_Connect(playerid);
+	JettyLounge_Connect(playerid);
 
 	// OLD
     //Trucker job
