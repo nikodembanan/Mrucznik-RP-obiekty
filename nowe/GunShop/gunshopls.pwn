@@ -720,26 +720,26 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(1886, 1825.779052, -1161.652709, 64.067497, 18.100004, 0.000000, -111.899932, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(1886, 1820.210449, -1155.128295, 63.927394, 17.100000, 0.000000, -15.700001, 5, 0, -1, 300.00, 300.00); 
 	//Drugie piêtro
-	tmpobjid = CreateDynamicObject(19381, 1799.704956, -1215.883422, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1799.704956, -1226.366088, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1809.334960, -1215.883422, 66.408760, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1809.334960, -1226.366088, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1799.704956, -1205.383422, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1809.334960, -1205.383422, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1818.964965, -1215.883422, 66.408760, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1818.964965, -1226.366088, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1799.704956, -1236.866088, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19381, 1809.334960, -1236.866088, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
-	SetDynamicObjectMaterial(tmpobjid, 0, 4829, "airport_las", "fancy_slab128", 0x00000000);
+	tmpobjid = CreateDynamicObject(19433, 1794.859741, -1214.127075, 66.936691, 90.000000, 180.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1808.949340, -1214.258911, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19433, 1794.859741, -1217.578369, 66.936691, 90.000000, 180.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1818.581542, -1214.258911, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1819.812744, -1224.746459, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1808.949340, -1203.775634, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1799.310913, -1203.775634, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1799.310913, -1214.275024, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1800.551879, -1224.775024, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1800.551879, -1235.277709, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
 	tmpobjid = CreateDynamicObject(1814, 1808.825927, -1225.102539, 62.994693, 0.000007, 0.000000, -90.000061, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 14652, "ab_trukstpa", "CJ_WOOD6", 0x00000000);
 	tmpobjid = CreateDynamicObject(1827, 1797.279907, -1209.760009, 62.964683, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
@@ -804,7 +804,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19450, 1809.343872, -1207.391357, 64.684669, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
-	tmpobjid = CreateDynamicObject(19450, 1813.142211, -1212.261718, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19450, 1813.262329, -1212.261718, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19450, 1804.579223, -1201.978515, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
@@ -872,11 +872,13 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
 	tmpobjid = CreateDynamicObject(2315, 1810.187133, -1214.691894, 62.994697, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 18901, "matclothes", "skullyblk", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1810.187744, -1224.755737, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
 	tmpobjid = CreateDynamicObject(19388, 1806.845336, -1212.091674, 64.684692, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
 	tmpobjid = CreateDynamicObject(19450, 1806.840820, -1224.312377, 64.684669, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6947, "vgnmall", "vgncarwash2_128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19450, 1813.142456, -1212.091552, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19450, 1813.262573, -1212.091552, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0x00000000);
 	tmpobjid = CreateDynamicObject(19450, 1794.030151, -1212.081542, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19787, "samplcdtvs1", "samplcdtv1screen", 0x00000000);
@@ -894,7 +896,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 14668, "711c", "bwtilebroth", 0x00000000);
 	tmpobjid = CreateDynamicObject(19450, 1821.462158, -1214.387084, 64.684669, 0.000000, 0.000000, 360.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19962, "samproadsigns", "greenbackgroundsign", 0x00000000);
-	tmpobjid = CreateDynamicObject(19450, 1822.766845, -1212.261718, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19450, 1822.886962, -1212.261718, 64.684669, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(11682, 1814.681762, -1212.869750, 63.046691, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 19523, "sampicons", "reeedgrad32", 0x00000000);
@@ -915,7 +917,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 1821.415893, -1224.791137, 64.706626, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "concretenewb256128", 0x00000000);
-	tmpobjid = CreateDynamicObject(19450, 1815.668457, -1223.972167, 61.314701, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19450, 1815.668457, -1224.042236, 61.314701, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10398, "countryclub_sfs", "hc_roofslates", 0x00000000);
 	tmpobjid = CreateDynamicObject(19786, 1821.465942, -1214.360717, 65.258460, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
@@ -927,7 +929,7 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 1814.958129, -1221.081542, 64.706611, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
-	tmpobjid = CreateDynamicObject(19433, 1813.844482, -1220.223266, 64.536628, 0.000000, 0.000000, 0.300016, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19433, 1813.844482, -1220.223266, 64.576637, 0.000000, 0.000000, 0.300016, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
 	tmpobjid = CreateDynamicObject(19433, 1814.463378, -1221.091552, 64.706626, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
 	SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
@@ -949,6 +951,12 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(tmpobjid, 1, 14668, "711c", "bwtilebroth", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 2, 18996, "mattextures", "sampblack", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 3, 14668, "711c", "bwtilebroth", 0x00000000);
+	tmpobjid = CreateDynamicObject(19381, 1810.187744, -1235.234375, 66.408752, 0.000000, 90.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "whiteforletters", 0x00000000);
+	tmpobjid = CreateDynamicObject(19464, 1805.029174, -1219.437744, 64.895622, 0.700023, 0.000000, -89.999938, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{000010} AmmuNation Los Santos", 130, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
+	tmpobjid = CreateDynamicObject(19464, 1805.019409, -1219.437744, 64.875495, 0.700023, 0.000000, -89.999938, 5, 0, -1, 300.00, 300.00); 
+	SetDynamicObjectMaterialText(tmpobjid, 0, "{000000}AmmuNation Los Santos", 130, "Ariel", 40, 1, 0x00000000, 0x00000000, 1);
 	tmpobjid = CreateDynamicObject(2134, 1820.968017, -1228.359863, 62.964698, 0.000000, 0.000000, -90.099975, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(18755, 1792.865356, -1215.932495, 64.938735, 0.000000, 0.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2202, 1795.449829, -1203.917846, 62.994693, 0.000000, 0.000000, 90.000000, 5, 0, -1, 300.00, 300.00); 
@@ -1027,7 +1035,6 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(1723, 1809.890991, -1213.131835, 62.994697, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(1724, 1813.183837, -1214.199707, 62.994693, 0.000000, 0.000000, 270.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(949, 1812.959106, -1213.335693, 63.694690, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
-	tmpobjid = CreateDynamicObject(19450, 1794.829467, -1214.333374, 67.854629, 0.000000, 360.000000, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2134, 1817.252075, -1228.088745, 66.519058, 0.000000, 179.899993, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2134, 1820.253662, -1228.088745, 66.513748, 0.000000, 179.899993, 180.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2134, 1819.253417, -1228.088745, 66.515502, 0.000000, 179.899993, 180.000000, 5, 0, -1, 300.00, 300.00); 
@@ -1057,6 +1064,19 @@ static StworzObiekty()
 	tmpobjid = CreateDynamicObject(11713, 1808.213989, -1220.222167, 64.546699, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(2690, 1808.290527, -1220.226928, 64.536689, 0.000000, 0.000000, 90.500022, 5, 0, -1, 300.00, 300.00); 
 	tmpobjid = CreateDynamicObject(19786, 1807.078125, -1225.656250, 65.396659, 0.000000, 0.000000, 90.300079, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19172, 1797.288940, -1219.308227, 64.746681, 0.000000, 0.000000, 179.899826, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(18075, 1801.078491, -1228.852905, 66.356742, 0.000000, 0.000000, 0.599998, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19305, 1801.416381, -1219.388427, 64.536682, 0.000000, 0.000000, -178.900009, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19305, 1807.809814, -1212.274414, 64.508148, 0.000000, 0.400000, 0.199990, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(18075, 1803.268066, -1215.786132, 66.326683, 0.000000, 0.000000, -89.400001, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19305, 1799.388549, -1212.273803, 64.566894, 0.000000, 0.400000, 0.199990, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(18075, 1814.323852, -1222.666015, 66.346702, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(2072, 1820.475830, -1218.412841, 64.126617, 0.000000, 0.000000, 35.000038, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(2072, 1820.614135, -1212.819946, 64.126617, 0.000000, 0.000000, 132.900070, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(14749, 1800.392578, -1202.681762, 65.323127, 0.399999, -179.500167, 90.199958, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19281, 1805.901855, -1216.666992, 66.696754, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(2108, 1795.155639, -1211.660034, 63.036685, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
+	tmpobjid = CreateDynamicObject(19173, 1803.490356, -1212.360107, 64.806686, 0.000000, 0.000000, 0.000000, 5, 0, -1, 300.00, 300.00); 
 
 	 
 
