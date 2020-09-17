@@ -347,6 +347,7 @@
 #include "nowe\opMatoga/opMatoga.pwn"
 #include "nowe\NowaBazaNG/NowaBazaNG.pwn"
 #include "nowe\opLilkaJefferson/opLilkaJefferson.pwn"
+#include "nowe\opEloy/opEloy.pwn"
 
 
 //-----------------<[ Funkcje: ]>-------------------
@@ -593,6 +594,7 @@ obiekty_OnGameModeInit()
 	opMatoga_Init();
 	NowaBazaNG_Init();
 	opLilkaJefferson_Init();
+	opEloy_Init();
 
 	//OLD
 	ZaladujBramy();
@@ -701,6 +703,7 @@ obiekty_OnPlayerConnect(playerid)
 	NowaBazaNG_Connect(playerid);
 	JettyLounge_Connect(playerid);
 	opLilkaJefferson_Connect(playerid);
+	opEloy_Connect(playerid);
 
 	// OLD
     //Trucker job
