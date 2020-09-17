@@ -704,6 +704,7 @@ obiekty_OnPlayerConnect(playerid)
 	JettyLounge_Connect(playerid);
 	opLilkaJefferson_Connect(playerid);
 	opEloy_Connect(playerid);
+	TOWER_Active(playerid);
 
 	// OLD
     //Trucker job

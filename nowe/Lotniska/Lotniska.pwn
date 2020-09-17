@@ -482,7 +482,7 @@ INT_AirTowerLS_Init(playerid)
 {
     INT_AirTowerLS_Exit(playerid);
     INT_AirTower_RadarInit(playerid);
-    TOWER_ActivePlayers++;
+    TOWER_Active(playerid);
 
     RemoveBuildingForPlayer(playerid, 4832, 1610.7969, -2285.8359, 52.7500, 0.25);
     RemoveBuildingForPlayer(playerid, 4948, 1610.7969, -2285.8359, 52.7500, 0.25);
