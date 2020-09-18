@@ -1167,7 +1167,6 @@ JettyLounge_Connect(playerid)
   RemoveBuildingForPlayer(playerid, 17018, -565.765, -489.140, 29.710, 0.250);
   RemoveBuildingForPlayer(playerid, 3593, 2261.770, -1441.099, 23.500, 0.250);
   RemoveBuildingForPlayer(playerid, 3593, 2265.080, -1424.479, 23.500, 0.250);
-  RemoveBuildingForPlayer(playerid, 5428, 2252.000, -1434.140, 23.257, 0.250);
   RemoveBuildingForPlayer(playerid, 5649, 2252.000, -1434.140, 23.257, 0.250);
   RemoveBuildingForPlayer(playerid, 1529, 730.445, -1482.010, 2.250, 0.250);
   RemoveBuildingForPlayer(playerid, 6193, 717.195, -1490.979, 15.757, 0.250);
