@@ -771,6 +771,11 @@ static StworzObiekty()
 	SetDynamicObjectMaterial(gateob, 0, 12862, "sw_block03", "sw_wall03", 0xFFFFFFFF);
 	gateob = CreateDynamicObject(19455, 644.86450, -495.23181, 20.67270,   180.00000, 0.00000, 270.00000);
 	SetDynamicObjectMaterial(gateob, 0, 12862, "sw_block03", "sw_wall03", 0xFFFFFFFF);
+	gateob = CreateDynamicObject(8948, 644.815673, -495.190368, 17.230268, 0.000000, 0.299996, 270.000000, 0, 0, -1, 300.00, 300.00);
+	DodajBrame(gateob,
+		644.815673, -495.190368, 17.230268, 0.000000, 0.299996, 270.000000,
+		644.815673, -496.947784, 18.639366, 0.000000, 98.000000, 270.000000,
+		2.0, 10.0, BRAMA_UPR_TYPE_FAMILY, 15);
 
 	//bramka LS-LV
 	CreateDynamicObject(9623, 1700.67847, 415.62292, 32.45000,   -0.70000, 0.00000, 160.88310);
