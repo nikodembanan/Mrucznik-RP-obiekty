@@ -60,7 +60,7 @@ opLuizPuccinii_Init()
 	DodajBrame(gateob,
 		1670.016357, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000,
 		1674.420043, -2096.419433, 13.956889, 0.000000, 0.000000, 0.000000,
-		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 12);
+		2.0, 10.0, BRAMA_UPR_TYPE_HOUSEOWNER, 14);
 	tmpobjid = CreateDynamicObject(2909, 1698.934936, -2103.001220, 12.546875, 0.000000, 0.000000, 90.000000, -1, -1, -1, 300.00, 300.00); // zam
 	SetDynamicObjectMaterial(tmpobjid, 0, 6060, "shops2_law", "newall8-1blue", 0x00000000);
 	SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0x00000000);
