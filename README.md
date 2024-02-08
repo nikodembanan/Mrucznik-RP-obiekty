@@ -12,6 +12,7 @@ W g³ównym folderze znajdziesz kilka podstawowych plików/folderów. Poni¿ej znajdu
 * W pliku locale znajdziesz definie PLOCAL, które mo¿esz wykorzystaæ w kodzie.
 * w pliku ikony znajdziesz wszelkie ikonki, które s¹ dodane na mape (nie powi¹zuj¹c siê z ¿adnym innym systemem) 
 * W pliku pickupy znajdziesz wszelkie pickupy, które s¹ dodane na mapê (nie powi¹zuj¹c siê z ¿adnym innym systemem) 
+* W pliku colandreas_removebuildings znajdziesz funkcje "CA_RemoveBuilding" z pluginu ColAndreas, które s¹ odpowiednikiem "RemoveBuildingForPlayer". 
 
 ## Nazewnictwo
 Nazewnictwo, które powinniœmy stosowaæ do zmiennych jest przedstawione przy obiekty_zmienne. Nie zaleca siê odbiegania od tych norm i tworzenia miliona zmiennych. Przyk³ad poprawnie stworzonych obiektów na exampleObjects.
@@ -28,7 +29,8 @@ Aby poprawnie wgraæ obiekty na nasz serwer postêpuj zgodnie z poni¿szymi krokami
 5. Dodaj do pliku Nowe_Obiekty.pwn linijkê odpowiadaj¹c¹ za wczytanie twojego pliku .pwn, mo¿esz to zrobiæ u¿ywaj¹c "#include œcie¿ka/aaa.pwn". Nastêpnie umiejœæ linijkê wywo³uj¹c¹ Init i Connect (wywo³uj¹ siê one w 2 ró¿nych miejscach Gamemode). 
 * Dodajemy Init - poniewa¿ wykonuje siê on przy wczytaniu naszego Gamemode.
 * Dodajemy Connect - poniewa¿ wykonuje siê on przy ka¿dym zalogowaniu gracza na playerid
-* Upewnij siê, ¿e w ¿adnym z plików nie pozostawi³eœ b³êdnego kodowania (UTF-8 ETC), domyœlnie powinno to byæ (ANSI/WINDOWS 1250) 
+* Upewnij siê, ¿e w ¿adnym z plików nie pozostawi³eœ b³êdnego kodowania (UTF-8 ETC), domyœlnie powinno to byæ (ANSI/WINDOWS 1250)
+7. Je¿eli usuwa³eœ coœ wykorzystuj¹c "RemoveBuildingForPlayer", dodaj odpowiadaj¹c¹ mu funkcjê "CA_RemoveBuilding" z ColAndreas (https://github.com/Pottus/ColAndreas/wiki/Functions#ca_removebuilding) do pliku "colandreas_removebuildings.pwn".
 6. SprawdŸ wszystko za pomoc¹ specjalistycznego gamemode'a zamieszczonego w folderze "skrypt" 
 
 * UWAGA! Przy edycji jednego pliku, b¹dŸ dodaniu jednego interioru/exterioru od razu wrzucaj to na git'a stosuj¹c "git commit", jako opis ustawiaj to, co zmieni³eœ. Pozwoli nam to zaoszczêdziæ czasu przy Review. 
